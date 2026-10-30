@@ -2,15 +2,29 @@ name: refresh-playlists
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "icn_runner.py"
+      - "config.json"
   schedule:
     - cron: "15 4 * * *"          # daily at 04:15 UTC
     - cron: "0 10 * * 1,4"        # extra: Tue & Fri midday
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-playlists
+  cancel-in-progress: true
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -20,10 +34,18 @@ jobs:
         run: |
           git config user.name  "gh-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlist/ manifest.json
+          # IMPORTANT: ICNPLAY.m3u (root) is the file players load via raw URL —
+          # it MUST be committed too, not just playlist/ and manifest.json.
+          git add playlist/ manifest.json ICNPLAY.m3u
           if git diff --cached --quiet; then
             echo "No changes, nothing to commit."
           else
             git commit -m "auto: refresh playlists $(date -u +%Y-%m-%d)"
             git push
           fi
+      - name: Verify published playlist is reachable
+        run: |
+          sleep 5
+          curl -sS -m 30 -o /tmp/icn.m3u -w "HTTP %{http_code}\n" \
+            "https://raw.githubusercontent.com/alwi25/Icnplay-runner/main/ICNPLAY.m3u"
+          echo "EXTINF count: $(grep -c '#EXTINF' /tmp/icn.m3u)"

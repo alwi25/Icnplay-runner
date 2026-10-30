@@ -117,6 +117,13 @@ def build_master(cfg, srcs):
         f.write("\n".join(blocks) + "\n")
     print(f"[+] master playlist : {os.path.relpath(master, HERE)}  ({n_total} channels, flat)")
 
+    # Also write the root-level ICNPLAY.m3u — this is the file published on
+    # GitHub and the one players consume via raw.githubusercontent.com.
+    root_master = os.path.join(HERE, "ICNPLAY.m3u")
+    with open(root_master, "w") as f:
+        f.write("\n".join(blocks) + "\n")
+    print(f"[+] player playlist : {os.path.relpath(root_master, HERE)}  ({n_total} channels, flat)")
+
 
 def _inject_group(extinf, grp):
     if "group-title=" in extinf:
