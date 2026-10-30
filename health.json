@@ -15,8 +15,8 @@
   "groups": {
     "\ud83d\udd2d CCTV": {
       "total": 160,
-      "live": 107,
-      "dead": 23
+      "live": 104,
+      "dead": 26
     },
     "Sports": {
       "total": 105,
@@ -50,7 +50,7 @@
     },
     "INDONESIA": {
       "total": 43,
-      "live": 22,
+      "live": 23,
       "dead": 3
     },
     "China": {
@@ -200,8 +200,8 @@
     },
     "\ud83d\udd34AF SPORT": {
       "total": 15,
-      "live": 15,
-      "dead": 0
+      "live": 4,
+      "dead": 2
     },
     "Knowledge and Documentary": {
       "total": 14,
@@ -588,9 +588,11 @@
       "state": "DRM",
       "code": "403",
       "attempts": 1,
-      "headers": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "Referer": "https://www.visionplus.id/"
+      },
       "props": [
-        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
         "#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9"
       ]
@@ -1156,9 +1158,11 @@
       "code": "403",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36"
       },
       "props": [
+        "#KODIPROP:inputstreamaddon=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
         "#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=004"
       ]
@@ -1171,7 +1175,7 @@
       "code": "403",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+        "User-Agent": "lgadrm.mpdplayer/v1;(Linux; Android 16; id; tfjGCdW)"
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
@@ -1423,7 +1427,7 @@
       ]
     },
     {
-      "name": "DENS Show Bizz",
+      "name": "Superyacht TV",
       "group": "Gaya Hidup",
       "url": "https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/QU5UVg/dash/REVOUyBTaG93Qml6/manifest.mpd",
       "state": "DRM",
@@ -1575,12 +1579,11 @@
       "state": "DRM",
       "code": "403",
       "attempts": 1,
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-      },
+      "headers": {},
       "props": [
-        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=122"
+        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9"
       ]
     },
     {
@@ -1878,8 +1881,8 @@
       "code": "403",
       "attempts": 1,
       "headers": {
-        "User-Agent": "android-R+",
-        "Referer": "https://www.rctiplus.com/"
+        "User-Agent": "Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1",
+        "Referer": "https://kuruk1.xn--okq6e.shop/000/"
       },
       "props": []
     },
@@ -2561,21 +2564,38 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "Referer": "http://www.dens.tv/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
       },
-      "props": []
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=114"
+      ]
     },
     {
-      "name": "TVRI SPORT",
+      "name": "Soccer Channel",
       "group": "Sports",
-      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h19/index.m3u8?app_type=web&userid=lite&chname=TVRI_Sport",
-      "state": "LIVE",
-      "code": "200",
+      "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+      "state": "DRM",
+      "code": "403",
       "attempts": 1,
       "headers": {
-        "Referer": "http://www.dens.tv/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=115"
+      ]
+    },
+    {
+      "name": "Prima Sport 1",
+      "group": "Sports",
+      "url": "https://iron1.xn--x2rw19a.space/puk1/usergenrx0cir27aq.m3u8",
+      "state": "AUTH",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://iron1.xn--x2rw19a.space/000/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
       },
       "props": []
     },
@@ -2587,8 +2607,20 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "Referer": "http://www.dens.tv/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+        "User-Agent": "VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+      },
+      "props": []
+    },
+    {
+      "name": "DGS 1",
+      "group": "CADANGAN EVENT",
+      "url": "https://kuruk1.xn--okq6e.shop/kuk1/usergendx419snx12kdgwqrnd.m3u8",
+      "state": "AUTH",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1",
+        "Referer": "https://kuruk1.xn--okq6e.shop/000/"
       },
       "props": []
     },
@@ -2609,11 +2641,13 @@
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {
-        "Referer": "http://www.dens.tv/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
-      },
-      "props": []
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      ]
     },
     {
       "name": "Love Nature",
@@ -2674,7 +2708,7 @@
     {
       "name": "PREMIER SPORTS 3",
       "group": "Sports",
-      "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -2682,7 +2716,7 @@
       "props": [
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
+        "#KODIPROP:inputstream.adaptive.license_key=e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
       ]
     },
     {
@@ -3365,11 +3399,11 @@
       "props": []
     },
     {
-      "name": "Anhui TV",
-      "group": "China",
-      "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/39a34211e80145678ce1616b52368f99/index.mpd",
-      "state": "AUTH",
-      "code": "403",
+      "name": "GS MY SHOP",
+      "group": "SOUTH KOREA",
+      "url": "https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -3430,11 +3464,11 @@
       "props": []
     },
     {
-      "name": "CELESTIAL MOVIES",
-      "group": "China",
-      "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/fd25e662b7154c60a94f7c061573ba2d/index.mpd",
-      "state": "AUTH",
-      "code": "403",
+      "name": "EBS+1",
+      "group": "SOUTH KOREA",
+      "url": "https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -3507,11 +3541,27 @@
     {
       "name": "EBS KIDS",
       "group": "SOUTH KOREA",
-      "url": "https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8",
+      "url": "https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "https://tv.garden/"
+      },
+      "props": []
+    },
+    {
+      "name": "CCTV 4",
+      "group": "China",
+      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "Referer": "http://www.dens.tv/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+      },
       "props": []
     },
     {
@@ -3550,7 +3600,17 @@
     {
       "name": "GONGYOUNG HOME SHOPPING",
       "group": "SOUTH KOREA",
-      "url": "https://etv.publichs.com/live5.stream/playlist.m3u8",
+      "url": "http://1.222.207.80:1935/live/cjbtv/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "EBS KIDS",
+      "group": "SOUTH KOREA",
+      "url": "https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -3969,11 +4029,11 @@
       "props": []
     },
     {
-      "name": "Oktolidays",
-      "group": "SINGAPURA",
-      "url": "https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.mpd",
-      "state": "DEAD",
-      "code": "404",
+      "name": "DLTV 7",
+      "group": "THAILAND",
+      "url": "https://cdn-live.dltv.ac.th/dltv07.m3u8",
+      "state": "LIVE",
+      "code": "200",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -4309,16 +4369,26 @@
       ]
     },
     {
-      "name": "TNN16",
+      "name": "Oktolidays",
+      "group": "SINGAPURA",
+      "url": "https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.mpd",
+      "state": "DEAD",
+      "code": "404",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "NationTV",
       "group": "THAILAND",
-      "url": "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/16/16.mpd",
+      "url": "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/22/22.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
       "headers": {},
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=9ebedc957e934d2b9023e4e60b97af73:7bcb4363df74457bbafedec1a864e6b6"
+        "#KODIPROP:inputstream.adaptive.license_key=88b44b9be186449ca5322053d975aa4c:b95b471541994278a1960fd4f85a7ee2"
       ]
     },
     {
@@ -4428,11 +4498,78 @@
       ]
     },
     {
-      "name": "VISION PRIME V+",
+      "name": "Food Network",
+      "group": "THAILAND",
+      "url": "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/205/205.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=d4b9d55410d24905920e57664a047116:d821110f280f4545ae0227d5784af199"
+      ]
+    },
+    {
+      "name": "CARTOONITO",
+      "group": "THAILAND",
+      "url": "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/302/302.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=ad2371259d34404cb89d54a4dc88dcd3:1ba155e345c4456ba891cbee9b3e1c4c"
+      ]
+    },
+    {
+      "name": "NICKELODEON",
+      "group": "THAILAND",
+      "url": "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/303/303.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=9130a6448a74430794d355b48b56a64c:c2f4d3288cdb43cf81e519ceb414dd6f"
+      ]
+    },
+    {
+      "name": "STUDIO UNIVERSAL",
       "group": "Entertainment & LifeStyle",
-      "url": "https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd",
-      "state": "AUTH",
-      "code": "403",
+      "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=b4a7b3289eff493d8700becf2e2a1157:bfbcfcb8137dd565a7f4b5ce7800c1f0"
+      ]
+    },
+    {
+      "name": "Dens Food Channel",
+      "group": "Entertainment & LifeStyle",
+      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "Referer": "http://www.dens.tv/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+      },
+      "props": []
+    },
+    {
+      "name": "\u6d59\u6c5f\u6c11\u751f",
+      "group": "China",
+      "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8",
+      "state": "LIVE",
+      "code": "200",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -4491,13 +4628,16 @@
       "props": []
     },
     {
-      "name": "ABC AUSTRALIA",
+      "name": "Dens Life & Style",
       "group": "Entertainment & LifeStyle",
-      "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8",
+      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {},
+      "headers": {
+        "Referer": "http://www.dens.tv/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+      },
       "props": []
     },
     {
@@ -4585,10 +4725,10 @@
       ]
     },
     {
-      "name": "CINEEDGE HD V+",
+      "name": "IMC V+",
       "group": "Premium Movies",
-      "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd",
-      "state": "DRM",
+      "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/65432a4c12ca4a52abf473a0e41d7c7e/index.mpd",
+      "state": "AUTH",
       "code": "403",
       "attempts": 1,
       "headers": {
@@ -4715,6 +4855,34 @@
       "name": "Dens Food Channel",
       "group": "Entertainment & LifeStyle",
       "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "Referer": "http://www.dens.tv/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+      },
+      "props": []
+    },
+    {
+      "name": "CINEEDGE HD V+",
+      "group": "Premium Movies",
+      "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=c7b3852d9c84418f942923e41c31e633:ddb99755e0bebd98c92c7eab974bf161"
+      ]
+    },
+    {
+      "name": "MyCinema",
+      "group": "Premium Movies",
+      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -4882,11 +5050,132 @@
       "props": []
     },
     {
-      "name": "TV 10 HD",
-      "group": "RELIGI",
-      "url": "https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/playlist.m3u8",
+      "name": "LIFE",
+      "group": "Christian Channels",
+      "url": "https://d2xx73ro32cip.cloudfront.net/out/v1/a61250017f23459692bf28a6841cf087/index.mpd",
+      "state": "AUTH",
+      "code": "403",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Jawa Pos TV",
+      "group": "INDONESIA",
+      "url": "https://cdnbal1.indihometv.com/atm/DASH/jawapos/jawapos-avc1_2500000=7-3277707030000000.mpd",
+      "state": "FLAKY",
+      "code": "ConnectionRefusedError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "IDX",
+      "group": "INDONESIA",
+      "url": "https://cdnbal1.indihometv.com/atm/DASH/idx/idx-avc1_2500000=7-3277707030000000.mpd",
+      "state": "FLAKY",
+      "code": "ConnectionRefusedError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "SINPO TV",
+      "group": "INDONESIA",
+      "url": "https://cdnbal1.indihometv.com/atm/DASH/sinpotv/sinpotv-avc1_2500000=7-3277707030000000.mpd",
+      "state": "FLAKY",
+      "code": "ConnectionRefusedError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "KOMPAS TV (2)",
+      "group": "INDONESIA",
+      "url": "https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/manifest.mpd",
+      "state": "FLAKY",
+      "code": "ConnectionRefusedError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "CNN INDONESIA",
+      "group": "INDONESIA",
+      "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
+      "state": "FLAKY",
+      "code": "RemoteDisconnected (x3)",
+      "attempts": 3,
+      "headers": {
+        "Referer": "https://www.cnnindonesia.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+      },
+      "props": []
+    },
+    {
+      "name": "Nasional Tv",
+      "group": "TV LOKAL",
+      "url": "https://tv.nasionaltv.com/ntvlive/index.m3u8",
+      "state": "DEAD",
+      "code": "DNS",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1"
+      },
+      "props": []
+    },
+    {
+      "name": "TBN Asia",
+      "group": "Christian Channels",
+      "url": "https://atemecdnbalancer-voe.sysln.id/live/eds/TBNAsia/mediampd/TBNAsia.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=ad871d41c5ce48e68d387a52a0d30066:0fd2a3a055367f7f4ac2920b5d027edc"
+      ]
+    },
+    {
+      "name": "Hanacaraka TV",
+      "group": "TV LOKAL",
+      "url": "https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd",
       "state": "LIVE",
       "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=0de1f882d278465abdba73a8b4cb2bda:7061f5e1115d6ef504726c3faa8bf146"
+      ]
+    },
+    {
+      "name": "Reformed21",
+      "group": "Christian Channels",
+      "url": "https://atemeshield1-voe.sysln.id/live/eds/Reformed21HD/mediampd/Reformed21HD.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=d412681b35e04498a2f9c4abdf327902:0da82dde987976fa3b3bc14943ef2fae"
+      ]
+    },
+    {
+      "name": "TVMU HD",
+      "group": "RELIGI",
+      "url": "https://e.siar.us/live/tvmu.m3u8",
+      "state": "DEAD",
+      "code": "404",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -5171,7 +5460,82 @@
     {
       "name": "TATV",
       "group": "TV LOKAL",
-      "url": "https://tatv.siar.us/tatv/live.sdp/playlist.m3u8",
+      "url": "https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Banjar TV",
+      "group": "TV LOKAL",
+      "url": "https://banjartv.siar.us/banjartv/live/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "BETV",
+      "group": "TV LOKAL",
+      "url": "https://flv.intechmedia.net/live/ch58.m3u8",
+      "state": "DEAD",
+      "code": "404",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3"
+      },
+      "props": []
+    },
+    {
+      "name": "CNBC",
+      "group": "INDONESIA",
+      "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8",
+      "state": "FLAKY",
+      "code": "RemoteDisconnected (x3)",
+      "attempts": 3,
+      "headers": {
+        "Referer": "https://www.cnbcindonesia.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+      },
+      "props": []
+    },
+    {
+      "name": "Prima TV",
+      "group": "TV LOKAL",
+      "url": "https://primatv.siar.us/primatv/live/playlist.m3u8",
+      "state": "DEAD",
+      "code": "404",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Dhamma TV",
+      "group": "TV LOKAL",
+      "url": "https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Banten TV",
+      "group": "TV LOKAL",
+      "url": "https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Kilisuci TV Kediri",
+      "group": "TV LOKAL",
+      "url": "https://5bf7b725107e5.streamlock.net:443/kstv/kstv/playlist.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -5271,15 +5635,23 @@
       "props": []
     },
     {
-      "name": "BETV",
+      "name": "Bali TV V+",
       "group": "TV LOKAL",
-      "url": "https://flv.intechmedia.net/live/ch58.m3u8",
-      "state": "DEAD",
-      "code": "404",
+      "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd",
+      "state": "AUTH",
+      "code": "403",
       "attempts": 1,
-      "headers": {
-        "User-Agent": "YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3"
-      },
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "RCTV",
+      "group": "TV LOKAL",
+      "url": "https://v10.siar.us/rctv/live/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
       "props": []
     },
     {
@@ -5910,9 +6282,29 @@
       "props": []
     },
     {
-      "name": "TVRI Sulawesi Utara",
+      "name": "TVRI NTT",
       "group": "TVRI Daerah",
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8",
+      "url": "https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "TVRI Kalimantan Tengah",
+      "group": "TVRI Daerah",
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "TVRI Sumatera Selatan",
+      "group": "TVRI Daerah",
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -6172,6 +6564,76 @@
       "props": []
     },
     {
+      "name": "NOW 70s",
+      "group": "Music",
+      "url": "https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "RELOAD MUSIC",
+      "group": "Music",
+      "url": "http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Imelda FM",
+      "group": "RADIO",
+      "url": "https://server.radioimeldafm.co.id:8030/imeldafm",
+      "state": "LIVE?",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "SPIRIT TV",
+      "group": "Music",
+      "url": "https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "NOW 80s",
+      "group": "Music",
+      "url": "https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Persib Radio",
+      "group": "RADIO",
+      "url": "https://s3.vinhostmedia.com:10945/;stream",
+      "state": "DEAD",
+      "code": "DNS",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Rodja",
+      "group": "RADIO",
+      "url": "https://radioislamindonesia.com/rodja.mp3?_=2",
+      "state": "LIVE?",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
       "name": "Gajahmada FM",
       "group": "RADIO",
       "url": "https://server.radioimeldafm.co.id:8040/gajahmadafm",
@@ -6302,9 +6764,9 @@
       "props": []
     },
     {
-      "name": "Hard Rock FM Bali",
+      "name": "i-Radio Makasar",
       "group": "RADIO",
-      "url": "http://stream.radiojar.com/9k28wsbu5k8uv",
+      "url": "https://stream.radiojar.com/seqmzfeu5k8uv",
       "state": "LIVE?",
       "code": "200",
       "attempts": 1,
@@ -7052,15 +7514,8 @@
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
-      },
-      "props": [
-        "#KODIPROP:inputstreamaddon=inputstream.adaptive",
-        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
-        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=8836fb04d62dc64c9f8a39ef8640d5eb:d4f05ce56c5231b7cdf53455bea58621"
-      ]
+      "headers": {},
+      "props": []
     },
     {
       "name": "Trans TV",
@@ -7148,11 +7603,11 @@
       "props": []
     },
     {
-      "name": "TRING SPORT 1",
-      "group": "\ud83d\udd34PREMIUM SPORT",
-      "url": "http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=317&extension=ts&play_token=PtkoPnY9aM",
-      "state": "AUTH",
-      "code": "407",
+      "name": "Pro 4 RRI Ambon",
+      "group": "RADIO",
+      "url": "https://stream-node2.rri.co.id/streaming/15/9315/rriambonpro4.mp3",
+      "state": "LIVE?",
+      "code": "200",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -7538,7 +7993,7 @@
     {
       "name": "SPOR TV 7",
       "group": "\ud83d\udd34PREMIUM SPORT",
-      "url": "http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959364&extension=ts&play_token=7zjNDQV97a",
+      "url": "http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959341&extension=ts&play_token=3PARzZHqYn",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -8036,9 +8491,19 @@
       ]
     },
     {
-      "name": "MNC TV (Vision+)",
+      "name": "BEIN 9 sd",
+      "group": "\ud83d\udd34AF SPORT",
+      "url": "http://albastargolden.net/live/63EV73W6WL4R1XU/RoRSlXpt26/551300.ts",
+      "state": "AUTH",
+      "code": "401",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "MNC TV World (Vision+)",
       "group": "Indonesia Channels",
-      "url": "https://live.kontoltv.my.id/play/mnctvvision.mpd",
+      "url": "https://live.kontoltv.my.id/play/mnctvworldvision.mpd",
       "state": "DRM",
       "code": "403",
       "attempts": 1,
@@ -8048,7 +8513,7 @@
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/mnctvvision",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/mnctvworldvision",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -8068,13 +8533,12 @@
     {
       "name": "RCTI (Vision+)",
       "group": "Indonesia Channels",
-      "url": "https://live.kontoltv.my.id/play/rctivision.mpd",
-      "state": "DRM",
-      "code": "403",
+      "url": "https://live.kontoltv.my.id/play/transtvdetik.m3u8",
+      "state": "LIVE?",
+      "code": "200",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Referer": "https://www.visionplus.id/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
@@ -8154,7 +8618,7 @@
       ]
     },
     {
-      "name": "Global TV (Vision+)",
+      "name": "MNC TV (Vision+)",
       "group": "Indonesia Channels",
       "url": "https://live.kontoltv.my.id/play/globaltvvision.mpd",
       "state": "LIVE",
@@ -8166,7 +8630,7 @@
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/globaltvvision",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/mnctvvision",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -8613,9 +9077,69 @@
       "props": []
     },
     {
-      "name": "MetroTV (DensTV)",
+      "name": "CNN Indonesia (ChannelFeed)",
       "group": "Indonesia Channels",
-      "url": "https://live.kontoltv.my.id/play/metrotvdenstv.m3u8",
+      "url": "https://live.kontoltv.my.id/play/cnnindonesiachannelfeed.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "https://video.detik.com/"
+      },
+      "props": [
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=hls"
+      ]
+    },
+    {
+      "name": "SindoNews (Vision+)",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/sindonewsvision.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/sindonewsvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "CCTV FOOTBALL",
+      "group": "\ud83d\udd34PREMIUM SPORT",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "SCTV (Vision+)",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/sctvvision.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/sctvvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "MDTV (DensTV)",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/mdtvdenstv.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -8635,10 +9159,23 @@
       "code": "403",
       "attempts": 1,
       "headers": {
+        "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+        "Referer": "http://dens.tv"
+      },
+      "props": []
+    },
+    {
+      "name": "Indosiar (Vision+)",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/indosiarvision.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Referer": "https://www.visionplus.id/"
       },
       "props": [
-        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
         "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/studiouniversalvision",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
@@ -8698,13 +9235,39 @@
       "code": "403",
       "attempts": 1,
       "headers": {
-        "Referer": "https://www.visionplus.id/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
       },
       "props": [
-        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
-        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/hitsmoviesvision",
-        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=hls",
+        "#KODIPROP:contentlookup=false"
+      ]
+    },
+    {
+      "name": "TVRI",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/tvri.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      },
+      "props": []
+    },
+    {
+      "name": "DAAI TV (DensTV)",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/daaitvdenstv.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://www.dens.tv/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"
       ]
     },
     {
@@ -8781,9 +9344,8 @@
         "Referer": "https://www.visionplus.id/"
       },
       "props": [
-        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
-        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/galaxypremiumvision",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -8844,17 +9406,14 @@
     {
       "name": "ORIGINALS (Vision+)",
       "group": "Premium Movies",
-      "url": "https://live.kontoltv.my.id/play/originalsvision.mpd",
-      "state": "DRM",
-      "code": "403",
+      "url": "https://live.kontoltv.my.id/play/moviesnowhd.mpd",
+      "state": "LIVE",
+      "code": "200",
       "attempts": 1,
-      "headers": {
-        "Referer": "https://www.visionplus.id/"
-      },
+      "headers": {},
       "props": [
-        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
-        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/originalsvision",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -8890,7 +9449,7 @@
     {
       "name": "Uniquest (Vision+)",
       "group": "Premium Movies",
-      "url": "https://live.kontoltv.my.id/play/uniquestvision.mpd",
+      "url": "https://live.kontoltv.my.id/play/cineedgevision.mpd",
       "state": "DRM",
       "code": "403",
       "attempts": 1,
@@ -8900,7 +9459,66 @@
       "props": [
         "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/uniquestvision",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/cineedgevision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Celestial Movies (Vision+)",
+      "group": "Premium Movies",
+      "url": "https://live.kontoltv.my.id/play/celestialmoviesvision.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/celestialmoviesvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "RTV (Channel Feed))",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/rtvchannelfeed.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "TVN (Transcorp)",
+      "group": "Korean Channels",
+      "url": "https://live.kontoltv.my.id/play/tvntranscorp.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9",
+        "#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Arirang (Vision+)",
+      "group": "Korean Channels",
+      "url": "https://live.kontoltv.my.id/play/arirangvision.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/arirangvision",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -8980,19 +9598,83 @@
       ]
     },
     {
-      "name": "TVN (Vision+)",
-      "group": "Korean Channels",
-      "url": "https://live.kontoltv.my.id/play/tvnvision.mpd",
+      "name": "Miramax Film",
+      "group": "Premium Movies",
+      "url": "https://live.kontoltv.my.id/play/miramaxfilm.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
+        "#KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive",
+        "#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=5e08a6933238d3fb585c00a7d95e896c:2d55d1208eaeabcc57e3b7b92c4e9f09"
+      ]
+    },
+    {
+      "name": "My Cinema Europe (DensTV)",
+      "group": "Premium Movies",
+      "url": "https://live.kontoltv.my.id/play/mycinemaeuropedenstv.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://www.dens.tv/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"
+      ]
+    },
+    {
+      "name": "&PICTURES HD",
+      "group": "Premium Movies",
+      "url": "https://live.kontoltv.my.id/play/pictureshd.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
+        "#KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive",
+        "#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=de8045e9f0fb4d03845dcc4a8bd7712a:6807bd09bda34ada83152908192af6d6"
+      ]
+    },
+    {
+      "name": "CGTN DOCUMENTARY (Vision+)",
+      "group": "Knowledge and Documentary",
+      "url": "https://live.kontoltv.my.id/play/cgtndocumentaryvision.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/cgtndocumentaryvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Global Trekker (Vision+)",
+      "group": "Knowledge and Documentary",
+      "url": "https://live.kontoltv.my.id/play/globaltrekkervision.mpd",
       "state": "DRM",
       "code": "403",
       "attempts": 1,
       "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Referer": "https://www.visionplus.id/"
       },
       "props": [
-        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tvnvision",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/globaltrekkervision",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -9095,31 +9777,7 @@
       "code": "200",
       "attempts": 1,
       "headers": {},
-      "props": [
-        "#KODIPROP:inputstream=inputstream.adaptive",
-        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
-        "#KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive",
-        "#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=5e08a6933238d3fb585c00a7d95e896c:2d55d1208eaeabcc57e3b7b92c4e9f09"
-      ]
-    },
-    {
-      "name": "Arirang (Vision+)",
-      "group": "Korean Channels",
-      "url": "https://live.kontoltv.my.id/play/arirangvision.mpd",
-      "state": "DRM",
-      "code": "403",
-      "attempts": 1,
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Referer": "https://www.visionplus.id/"
-      },
-      "props": [
-        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/arirangvision",
-        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
-      ]
+      "props": []
     },
     {
       "name": "TvN movies HD (Vision+)",
@@ -9317,13 +9975,15 @@
       ]
     },
     {
-      "name": "BBC Treasures",
-      "group": "Knowledge and Documentary",
-      "url": "https://live.kontoltv.my.id/play/bbctreasures.mpd",
-      "state": "AUTH",
-      "code": "591",
+      "name": "KBS WORLD",
+      "group": "Korean Channels",
+      "url": "https://live.kontoltv.my.id/play/kbsworldhd.m3u8",
+      "state": "LIVE",
+      "code": "200",
       "attempts": 1,
-      "headers": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"
+      },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
         "#KODIPROP:inputstream.adaptive.license_key=f94bae425abea0ccacec08b2e72b7d07:8eea02108392c61aa79663bc064fc600",
@@ -9551,9 +10211,9 @@
       ]
     },
     {
-      "name": "ABC Australia (Vision+)",
+      "name": "Lifetime (Vision+)",
       "group": "Entertainment & LifeStyle",
-      "url": "https://live.kontoltv.my.id/play/abcaustraliavision.mpd",
+      "url": "https://live.kontoltv.my.id/play/lifetimevision.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -9563,7 +10223,7 @@
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/abcaustraliavision",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/lifetimevision",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -9712,7 +10372,10 @@
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {},
+      "headers": {
+        "Referer": "https://www.dens.tv/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"
+      },
       "props": [
         "#KODIPROP:inputstream=inputstream.adaptive",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
@@ -10020,6 +10683,67 @@
       ]
     },
     {
+      "name": "Nickelodeon Junior (Vision+)",
+      "group": "Kids Channel",
+      "url": "https://live.kontoltv.my.id/play/nickelodeonjuniorvision.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/nickelodeonjuniorvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "CelebritiesTV (Vision+)",
+      "group": "Indonesian Entertainment & Movies",
+      "url": "https://live.kontoltv.my.id/play/celebritiestvvision.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1",
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/celebritiestvvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Mentari TV (Vision+)",
+      "group": "Kids Channel",
+      "url": "https://live.kontoltv.my.id/play/mentaritvvision.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/mentaritvvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "CHINA TRAVEL",
+      "group": "Entertainment & LifeStyle",
+      "url": "https://live.kontoltv.my.id/play/chinatravel.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
       "name": "ZooMoo (Vision+)",
       "group": "Kids Channel",
       "url": "https://live.kontoltv.my.id/play/zoomoovision.mpd",
@@ -10039,18 +10763,18 @@
     {
       "name": "Disney Channel",
       "group": "Kids Channel",
-      "url": "https://live.kontoltv.my.id/play/h4stm2i.mpd",
+      "url": "https://live.kontoltv.my.id/play/kidstvvision.mpd",
       "state": "DRM",
       "code": "403",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
       },
       "props": [
-        "#KODIPROP:inputstream=inputstream.adaptive",
-        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
-        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4"
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/kidstvvision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
     {
@@ -10165,6 +10889,23 @@
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
         "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/beinsports1vision",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Disney Channel",
+      "group": "Kids Channel",
+      "url": "https://live.kontoltv.my.id/play/h4stm2i.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4"
       ]
     },
     {
@@ -10741,6 +11482,99 @@
       ]
     },
     {
+      "name": "NHK World Japan (Channel Feed)",
+      "group": "News",
+      "url": "https://live.kontoltv.my.id/play/nhkworldjapanchannelfeed.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "BOX HITS",
+      "group": "\ud83d\udd34PREMIUM MOVIE",
+      "url": "https://livebytsctbu.vtvprime.vn/mean/BOXHIT/manifest.mpd",
+      "state": "FLAKY",
+      "code": "SSLCertVerificationError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Channel U",
+      "group": "Mediacorp Singapore",
+      "url": "https://live.kontoltv.my.id/play/channelu.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": [
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "BOX MOVIE",
+      "group": "\ud83d\udd34PREMIUM MOVIE",
+      "url": "https://livebytsctbu.vtvprime.vn/mean/BM1/manifest.mpd",
+      "state": "FLAKY",
+      "code": "SSLCertVerificationError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Reformed21 (Vision+)",
+      "group": "Christian Channels",
+      "url": "https://live.kontoltv.my.id/play/reformed21vision.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/reformed21vision",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "EUROSPORT 2",
+      "group": "Sports",
+      "url": "https://live.kontoltv.my.id/play/eurosport2.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1"
+      },
+      "props": [
+        "#KODIPROP:inputstreamaddon=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      ]
+    },
+    {
+      "name": "EWTN",
+      "group": "Christian Channels",
+      "url": "https://live.kontoltv.my.id/play/ewtn.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/ewtn",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
       "name": "TRT World (Vision+)",
       "group": "News",
       "url": "https://live.kontoltv.my.id/play/trtworldvision.mpd",
@@ -11053,7 +11887,31 @@
       "code": "200",
       "attempts": 1,
       "headers": {},
+      "props": []
+    },
+    {
+      "name": "SNAP",
+      "group": "Malaysia",
+      "url": "https://live.kontoltv.my.id/play/snap.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "TV 3",
+      "group": "Malaysia",
+      "url": "https://live.kontoltv.my.id/play/tv3.mpd",
+      "state": "DEAD",
+      "code": "DNS",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36"
+      },
       "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key={\"3bc3f0e518aed92e80a98118e5bc2c10\": \"5fce364fbc4499856597b19a96f44648\"}",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -11082,7 +11940,23 @@
     {
       "name": "TV6",
       "group": "Malaysia",
-      "url": "https://live.kontoltv.my.id/play/tv6.m3u8",
+      "url": "https://live.kontoltv.my.id/play/8tv.mpd",
+      "state": "DEAD",
+      "code": "DNS",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key={\"0cb7980e9d1d8957f9a293ed96342410\": \"11da1ad368d0cacffe4824b6b35e22b7\"}",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "FITRAH",
+      "group": "Malaysia",
+      "url": "https://live.kontoltv.my.id/play/fitrah.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -11561,14 +12435,14 @@
     {
       "name": "2. ABC TV (WA)",
       "group": "Australia",
-      "url": "https://live.kontoltv.my.id/play/2abctvwa.mpd",
+      "url": "https://live.kontoltv.my.id/play/22abckids400am730pmaest.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
       "headers": {},
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=7e669169adbc4069b9df666cb5d63a17:35a62e565513d53e4f4b1a630b971178",
+        "#KODIPROP:inputstream.adaptive.license_key=b70a4c3a102b47ec832d11da8a024161:8bd84110abda56e41511c16feaa2de69",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -11694,14 +12568,14 @@
     {
       "name": "22. ABC Family (7.30pm-4.00am AEST)",
       "group": "Australia",
-      "url": "https://live.kontoltv.my.id/play/22abcfamily730pm400amaest.mpd",
+      "url": "https://live.kontoltv.my.id/play/2abctvtas.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
       "headers": {},
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=561611703c4b4749973a73e7bb1d0af2:f90bd049ac3734d46fe66f89f02f1f0f",
+        "#KODIPROP:inputstream.adaptive.license_key=199ae600fca949c2af406f77d67162e5:c0d9c413cc62b6b1bf1330ce8cbbba9e",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -11920,16 +12794,38 @@
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Referer": "https://www.visionplus.id/"
-      },
-      "props": [
-        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tv9nu",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/{{DRM_ID}}",
-        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
-      ]
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Trax FM Jakarta",
+      "group": "Internet Radio",
+      "url": "https://live.kontoltv.my.id/play/traxfmjakarta.ts",
+      "state": "DEAD",
+      "code": "404",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Hard Rock FM Bandung",
+      "group": "Internet Radio",
+      "url": "https://live.kontoltv.my.id/play/hardrockfmbandung.ts",
+      "state": "AUTH",
+      "code": "503",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "i-Radio Jogja",
+      "group": "Internet Radio",
+      "url": "https://live.kontoltv.my.id/play/iradiojogja.ts",
+      "state": "LIVE?",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
     },
     {
       "name": "i-Radio Banjarmasin",
@@ -12033,9 +12929,7 @@
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0"
-      },
+      "headers": {},
       "props": [
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
@@ -12079,7 +12973,7 @@
     {
       "name": "Warner TV",
       "group": "VN \ud83c\uddfb\ud83c\uddf3",
-      "url": "https://live.kontoltv.my.id/play/warnertv_3.mpd",
+      "url": "https://live.kontoltv.my.id/play/cartoonito.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -12089,7 +12983,7 @@
       "props": [
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key={\"keys\":[{\"kty\":\"oct\",\"k\":\"NPGQjP4uBe4GAEbUDxSuyQ\",\"kid\":\"CG0JpAv/OgCqbdTbr5wTsg\"}],\"type\":\"temporary\"}"
+        "#KODIPROP:inputstream.adaptive.license_key=b1f0d759e914369db388b3b0dc815971:5678d317e17007a88a9b9539e4526512"
       ]
     },
     {
@@ -12109,9 +13003,9 @@
       ]
     },
     {
-      "name": "Dreamworks",
+      "name": "Warner TV",
       "group": "VN \ud83c\uddfb\ud83c\uddf3",
-      "url": "https://live.kontoltv.my.id/play/dreamworks.mpd",
+      "url": "https://live.kontoltv.my.id/play/warnertv_3.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -12121,8 +13015,7 @@
       "props": [
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=67dae20527c63dadaaae609aa91577cb:59328f621d56767bc5ff9404a8940683",
-        "#KODIPROP:inputstream.adaptive.license_key={\"keys\":[{\"kty\":\"oct\",\"k\":\"WTKPYh1WdnvF/5QEqJQGgw\",\"kid\":\"Z9riBSfGPa2qrmCaqRV3yw\"}],\"type\":\"temporary\"}"
+        "#KODIPROP:inputstream.adaptive.license_key={\"keys\":[{\"kty\":\"oct\",\"k\":\"NPGQjP4uBe4GAEbUDxSuyQ\",\"kid\":\"CG0JpAv/OgCqbdTbr5wTsg\"}],\"type\":\"temporary\"}"
       ]
     },
     {
@@ -12251,9 +13144,9 @@
       ]
     },
     {
-      "name": "Travel Living Channel",
+      "name": "Discovery",
       "group": "VN \ud83c\uddfb\ud83c\uddf3",
-      "url": "https://live.kontoltv.my.id/play/travellivingchannel.mpd",
+      "url": "https://live.kontoltv.my.id/play/discovery.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -12263,7 +13156,7 @@
       "props": [
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d"
+        "#KODIPROP:inputstream.adaptive.license_key=eb4160ea553a321d899553e4e796fec2:bea5a07157e0c4d17b11ab399517f952"
       ]
     },
     {
@@ -12325,6 +13218,22 @@
       "props": [
         "#KODIPROP:inputstream=inputstream.adaptive",
         "#KODIPROP:inputstream.adaptive.manifest_type=hls"
+      ]
+    },
+    {
+      "name": "CNN",
+      "group": "VN \ud83c\uddfb\ud83c\uddf3",
+      "url": "https://live.kontoltv.my.id/play/cnn.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=714cc8ed05a03abb9ac61bd4bbd1d8a0:1acf58ff8d4cd87c2d3c12d22248efb1"
       ]
     },
     {
@@ -12416,8 +13325,7 @@
       "code": "403",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
-        "Referer": "https://www.visionplus.id/"
+        "User-Agent": "Mozilla/5.0 (Window NT 10.0; Win64; x64)"
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
@@ -12859,7 +13767,22 @@
     {
       "name": "Metro TV | Metro TV Vidio 1",
       "group": "TV NASIONAL",
-      "url": "https://live2.kontoltv.my.id/play/metrotvmetrotvvidio1.mpd",
+      "url": "https://live2.kontoltv.my.id/play/metrotvmetrotvvidio2.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://m.vidio.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Moji | Moji Vidio",
+      "group": "TV NASIONAL",
+      "url": "https://live2.kontoltv.my.id/play/mojimojividio.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -12868,7 +13791,7 @@
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/metrotvmetrotvvidio1",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/mojimojividio",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -12962,7 +13885,7 @@
       "attempts": 1,
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-        "Referer": "https://embed.rctiplus.com/live/rcti/sindonews"
+        "Referer": "https://embed.rctiplus.com/live/inews/sindonews"
       },
       "props": []
     },
@@ -13059,7 +13982,10 @@
       "code": "200",
       "attempts": 1,
       "headers": {},
-      "props": []
+      "props": [
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=hls"
+      ]
     },
     {
       "name": "MNCTV | MNCTV R+ 2",
@@ -13476,8 +14402,8 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
-        "Referer": "https://www.visionplus.id/"
+        "Referer": "https://m.vidio.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
@@ -13652,13 +14578,12 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0"
+        "User-Agent": "(function(_0x268463,_0x4ce089){function _0x5835c9(_0x1c78aa,_0x37165e,_0x297530,_0xe6df6){return _0x3ae3(_0x37165e-0x1b2,_0x1c78aa)"
       },
       "props": [
-        "#KODIPROP:inputstreamaddon=inputstream.adaptive",
-        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
+        "#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281"
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
     {
@@ -13791,18 +14716,17 @@
       ]
     },
     {
-      "name": "TNT Sports 3",
-      "group": "GP & LALIGA & UCL",
-      "url": "https://live2.kontoltv.my.id/play/tntsport.mpd",
+      "name": "Monomax 29",
+      "group": "PREMIER LEAGUE",
+      "url": "https://live2.kontoltv.my.id/play/mono29.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {},
+      "headers": {
+        "User-Agent": "ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1"
+      },
       "props": [
-        "#KODIPROP:inputstream=inputstream.adaptive",
-        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
-        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-        "#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
     {
@@ -13846,11 +14770,11 @@
       ]
     },
     {
-      "name": "TNT Sports 4",
-      "group": "GP & LALIGA & UCL",
-      "url": "https://live2.kontoltv.my.id/play/tntsport_2.mpd",
-      "state": "LIVE",
-      "code": "200",
+      "name": "Super Sports 4",
+      "group": "PREMIER LEAGUE",
+      "url": "https://live2.kontoltv.my.id/play/supersports4.ts",
+      "state": "AUTH",
+      "code": "429",
       "attempts": 1,
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
@@ -13952,16 +14876,13 @@
       "props": []
     },
     {
-      "name": "Sky Sports Main Event",
+      "name": "Alwan Sport 2",
       "group": "PREMIER LEAGUE",
-      "url": "https://live2.kontoltv.my.id/play/skysportsmainevent.m3u8",
+      "url": "https://live2.kontoltv.my.id/play/alwansport2.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
-      "headers": {
-        "Referer": "https://aesport.tv/",
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-      },
+      "headers": {},
       "props": []
     },
     {
@@ -14002,6 +14923,18 @@
       "code": "401",
       "attempts": 1,
       "headers": {},
+      "props": []
+    },
+    {
+      "name": "iNews (R+)",
+      "group": "Indonesia Channels",
+      "url": "https://live.kontoltv.my.id/play/inewsr.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+      },
       "props": []
     },
     {
@@ -14189,7 +15122,70 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "Referer": "https://www.sporcafe6.xyz/"
+        "Referer": "https://aesport.tv/",
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+      },
+      "props": []
+    },
+    {
+      "name": "Super Sports 5",
+      "group": "PREMIER LEAGUE",
+      "url": "https://live2.kontoltv.my.id/play/supersports5.ts",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Sportstars 4",
+      "group": "FOOTBALL",
+      "url": "https://live2.kontoltv.my.id/play/sportstars4.mpd",
+      "state": "DRM",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "Referer": "https://www.visionplus.id/"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/sportstars4",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Alwan Sport 5",
+      "group": "FOOTBALL",
+      "url": "https://live2.kontoltv.my.id/play/alwansport5.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "beIN Sports Xtra ES",
+      "group": "FOOTBALL",
+      "url": "https://live2.kontoltv.my.id/play/beinsportsxtraes.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "TiviMate/4.7.0"
+      },
+      "props": []
+    },
+    {
+      "name": "Prima Sport 2",
+      "group": "FOOTBALL",
+      "url": "https://live2.kontoltv.my.id/play/primasport2.m3u8",
+      "state": "AUTH",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://iron1.xn--x2rw19a.space/000/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
       },
       "props": []
     },
@@ -14358,7 +15354,7 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "Referer": "https://iron1.xn--x2rw19a.space/000/",
+        "Referer": "https://pulse1.xn--x2rv05jjkg.shop/000/",
         "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
       },
       "props": []
@@ -14589,16 +15585,21 @@
       "props": []
     },
     {
-      "name": "Fight Network",
-      "group": "EXTREME SPORTS",
-      "url": "https://live2.kontoltv.my.id/play/fightnetwork.m3u8",
+      "name": "Sport2",
+      "group": "FOOTBALL",
+      "url": "https://live2.kontoltv.my.id/play/sport2.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
       },
-      "props": []
+      "props": [
+        "#KODIPROP:inputstreamaddon=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      ]
     },
     {
       "name": "Sky Sports Mix",
@@ -14637,7 +15638,92 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+      },
+      "props": []
+    },
+    {
+      "name": "F1 TV",
+      "group": "SPORTS",
+      "url": "https://live2.kontoltv.my.id/play/f1tv.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=505616380de706936e493fdd1c25d0b6:5b313f49c63c682236eab3357400e216",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Sky Sports Mix",
+      "group": "SPORTS",
+      "url": "https://live2.kontoltv.my.id/play/skysportsmix.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://aesport.tv/",
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+      },
+      "props": []
+    },
+    {
+      "name": "TSN 1",
+      "group": "SPORTS",
+      "url": "https://live2.kontoltv.my.id/play/tsn1.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0"
+      },
+      "props": [
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
+      ]
+    },
+    {
+      "name": "Sky Sports News",
+      "group": "SPORTS",
+      "url": "https://live2.kontoltv.my.id/play/skysportsnews.ts",
+      "state": "DEAD",
+      "code": "DNS",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Sport1",
+      "group": "FOOTBALL",
+      "url": "https://live2.kontoltv.my.id/play/sport1.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstreamaddon=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=dash",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      ]
+    },
+    {
+      "name": "Prima Sport 3",
+      "group": "FOOTBALL",
+      "url": "https://live2.kontoltv.my.id/play/primasport3.m3u8",
+      "state": "AUTH",
+      "code": "403",
+      "attempts": 1,
+      "headers": {
+        "Referer": "https://iron1.xn--x2rw19a.space/000/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
       },
       "props": []
     },
@@ -14726,6 +15812,53 @@
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
       },
+      "props": []
+    },
+    {
+      "name": "ESPN 3 HD",
+      "group": "\ud83d\udd34AF SPORT",
+      "url": "http://asxc.pro:80/live/887429/DNFgcu/71909.ts",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 2,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "MMA TV",
+      "group": "EXTREME SPORTS",
+      "url": "https://live2.kontoltv.my.id/play/mmatv.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "One Fight",
+      "group": "EXTREME SPORTS",
+      "url": "https://live2.kontoltv.my.id/play/onefight.mpd",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+      },
+      "props": [
+        "#KODIPROP:inputstream=inputstream.adaptive",
+        "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
+        "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+        "#KODIPROP:inputstream.adaptive.license_key=308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d"
+      ]
+    },
+    {
+      "name": "UFC",
+      "group": "EXTREME SPORTS",
+      "url": "https://live2.kontoltv.my.id/play/ufc.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
       "props": []
     },
     {
@@ -15188,9 +16321,9 @@
       ]
     },
     {
-      "name": "TRT World",
+      "name": "France 24",
       "group": "KNOW & NEWS",
-      "url": "https://live2.kontoltv.my.id/play/trtworld.mpd",
+      "url": "https://live2.kontoltv.my.id/play/france24.mpd",
       "state": "DRM",
       "code": "403",
       "attempts": 1,
@@ -15200,7 +16333,7 @@
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/trtworld",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/france24",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -15268,11 +16401,23 @@
       ]
     },
     {
-      "name": "Muslim Tv",
-      "group": "RELIGI",
-      "url": "https://live2.kontoltv.my.id/play/muslimtv.mpd",
+      "name": "BN Channel | BN Channel Dens TV",
+      "group": "TV NASIONAL",
+      "url": "https://live2.kontoltv.my.id/play/bnchannelbnchanneldenstv.m3u8",
       "state": "LIVE",
       "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      },
+      "props": []
+    },
+    {
+      "name": "Reformed 21",
+      "group": "RELIGI",
+      "url": "https://live2.kontoltv.my.id/play/reformed21.mpd",
+      "state": "DRM",
+      "code": "403",
       "attempts": 1,
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
@@ -16209,10 +17354,7 @@
       "state": "DRM",
       "code": "403",
       "attempts": 1,
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
-        "Referer": "https://www.visionplus.id/"
-      },
+      "headers": {},
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
         "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/tv5monde",
@@ -16310,7 +17452,7 @@
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/uniques",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/jiangsutv",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -16366,9 +17508,9 @@
       ]
     },
     {
-      "name": "Vision Prime",
+      "name": "Hanacaraka Tv",
       "group": "MOVIE & ENT",
-      "url": "https://live2.kontoltv.my.id/play/visionprime.mpd",
+      "url": "https://live2.kontoltv.my.id/play/hanacarakatv.mpd",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -16378,7 +17520,7 @@
       },
       "props": [
         "#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha",
-        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/visionprime",
+        "#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/hanacarakatv",
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd"
       ]
     },
@@ -16518,8 +17660,8 @@
       "code": "200",
       "attempts": 1,
       "headers": {
-        "User-Agent": "android-R+",
-        "Referer": "https://www.rctiplus.com/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "Referer": "https://www.visionplus.id/"
       },
       "props": []
     },
@@ -17306,9 +18448,60 @@
       "props": []
     },
     {
-      "name": "CCTV-4",
+      "name": "Bola | FIFA+ 6",
+      "group": "\u26bd Olahraga",
+      "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+      },
+      "props": []
+    },
+    {
+      "name": "CGTN Documentary",
       "group": "\ud83d\udd13 Dens TV",
-      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8?app_type=web&userid=lite&chname=CCTV-4",
+      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8?app_type=web&userid=lite&chname=CGTN_Documentary",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "http://www.dens.tv/"
+      },
+      "props": []
+    },
+    {
+      "name": "DW-TV",
+      "group": "\ud83d\udd13 Dens TV",
+      "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h213/index.m3u8?app_type=web&userid=lite&chname=DW-TV",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "http://www.dens.tv/"
+      },
+      "props": []
+    },
+    {
+      "name": "TBN",
+      "group": "\ud83d\udd13 Dens TV",
+      "url": "https://op-flashcon-digdayahd-1.dens.tv/s/s39/index.m3u8?app_type=web&userid=lite&chname=TBN",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "http://www.dens.tv/"
+      },
+      "props": []
+    },
+    {
+      "name": "Stingray Classica",
+      "group": "\ud83d\udd13 Dens TV",
+      "url": "https://op-flashcon-digdayaxenkoda.dens.tv/f7d2390e-69f6-4919-b467-579df454df94/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -17493,9 +18686,9 @@
       "props": []
     },
     {
-      "name": "Pantai Kukup",
+      "name": "Pertigaan Bunder",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/53fa897a-dc59-435b-841b-ce544d559a20/index.m3u8",
+      "url": "https://stream.gunungkidulkab.go.id:8888/cdb69448-349b-460e-ac6c-545199e93599/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -17779,6 +18972,16 @@
       "props": []
     },
     {
+      "name": "Pancuran FIX",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://stream.gunungkidulkab.go.id:8888/e875884e-745b-4870-a9d6-bc8783dd43a5/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
       "name": "Gor Siyono",
       "group": "\ud83d\udd2d CCTV",
       "url": "https://stream.gunungkidulkab.go.id:8888/186ad348-fa92-4011-a296-4dfeae227a13/index.m3u8",
@@ -17919,19 +19122,9 @@
       "props": []
     },
     {
-      "name": "Simpang 3 Amigo",
+      "name": "SD Pucung",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/bf8e74bf-ab2e-4eda-8a59-f06a31f028e5/index.m3u8",
-      "state": "LIVE",
-      "code": "200",
-      "attempts": 1,
-      "headers": {},
-      "props": []
-    },
-    {
-      "name": "Simpang 4 RSUD FIX",
-      "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/2b304ee7-49a4-4283-a64d-538de7fb6ad1/index.m3u8",
+      "url": "https://stream.gunungkidulkab.go.id:8888/407a2a57-0202-4303-8314-114e635549c2/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -17949,9 +19142,9 @@
       "props": []
     },
     {
-      "name": "S3 Ngawen Utara",
+      "name": "Simpang 4 RSUD FIX",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/c410af7a-2790-4b8a-be66-d57e6a656e3c/index.m3u8",
+      "url": "https://stream.gunungkidulkab.go.id:8888/2b304ee7-49a4-4283-a64d-538de7fb6ad1/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -17999,9 +19192,19 @@
       "props": []
     },
     {
-      "name": "S4 Selang Timur",
+      "name": "S4 Selang Barat",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/35d50759-f2c6-4f2b-a11e-7a94a6bcaa7c/index.m3u8",
+      "url": "https://stream.gunungkidulkab.go.id:8888/6e214a3b-bc51-47c2-be71-3079b4155595/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "S4 Ngalang Barat",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://stream.gunungkidulkab.go.id:8888/ae3ead60-bed5-4f71-8613-bd4161d51aaf/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -18011,7 +19214,7 @@
     {
       "name": "BPP Semanu Timur",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/bc790186-e5cc-4552-80e2-b715305ee997/index.m3u8",
+      "url": "https://stream.gunungkidulkab.go.id:8888/618a774c-186e-4ab2-9d9c-e4f59d09ab66/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -18089,11 +19292,11 @@
       "props": []
     },
     {
-      "name": "Lapangan Pemda Barat",
+      "name": "S4 Gading Timur",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/618a774c-186e-4ab2-9d9c-e4f59d09ab66/index.m3u8",
-      "state": "LIVE",
-      "code": "200",
+      "url": "https://stream.gunungkidulkab.go.id:8888/44fc679b-735d-44bc-a1f7-7db53ca30fac/index.m3u8",
+      "state": "DEAD",
+      "code": "404",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -18129,11 +19332,11 @@
       "props": []
     },
     {
-      "name": "S3 Gading Selatan",
+      "name": "Pantai Wediombo Jalan",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/c5bea4c6-a2e4-4c9d-b731-ea5a1b5bd39c/index.m3u8",
-      "state": "LIVE",
-      "code": "200",
+      "url": "https://stream.gunungkidulkab.go.id:8888/bf8bcf05-6d72-4109-b965-148422128c93/index.m3u8",
+      "state": "DEAD",
+      "code": "404",
       "attempts": 1,
       "headers": {},
       "props": []
@@ -18265,7 +19468,37 @@
     {
       "name": "S3 DPRD",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/a4c43c14-cd50-4621-8f85-94086283e461/index.m3u8",
+      "url": "https://stream.gunungkidulkab.go.id:8888/33edb24d-088c-4f49-ac90-f90a73a995ab/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Kapanewon Rongkop Barat",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://stream.gunungkidulkab.go.id:8888/b344fc06-e8e9-40b2-ad80-d996918ec595/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Penghitungan Kendaraan",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://stream.gunungkidulkab.go.id:8888/bdf1ba90-6e30-4d59-b36d-468dda946658/index.m3u8",
+      "state": "DEAD",
+      "code": "404",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Kalurahan Jetis",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://stream.gunungkidulkab.go.id:8888/6d5acbc9-33cf-4d3a-8671-a26933f1868d/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -18283,9 +19516,9 @@
       "props": []
     },
     {
-      "name": "Bunderan Kodim",
+      "name": "Parkiran Embung Nglanggeran",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://stream.gunungkidulkab.go.id:8888/e91760d5-95b8-4907-a49d-f46885390291/index.m3u8",
+      "url": "https://stream.gunungkidulkab.go.id:8888/0386d0d8-c1a6-429a-9996-def5e2079644/index.m3u8",
       "state": "LIVE",
       "code": "200",
       "attempts": 1,
@@ -18303,7 +19536,7 @@
       "props": []
     },
     {
-      "name": "S3 Petoyan 1",
+      "name": "Bunderan Siyono PTZ",
       "group": "\ud83d\udd2d CCTV",
       "url": "https://stream.gunungkidulkab.go.id:8888/d7c5ae4e-2c50-4fc3-a57d-84950313fe6f/index.m3u8",
       "state": "DEAD",
@@ -18639,6 +19872,16 @@
       "props": []
     },
     {
+      "name": "Bunderan PLN PTZ",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://stream.gunungkidulkab.go.id:8888/de774241-aaec-4937-a43a-ab59b7525dd0/index.m3u8",
+      "state": "LIVE",
+      "code": "200",
+      "attempts": 1,
+      "headers": {},
+      "props": []
+    },
+    {
       "name": "DIY 0 KM Malioboro",
       "group": "\ud83d\udd2d CCTV",
       "url": "http://cctvjss.jogjakota.go.id/malioboro/NolKm_Utara.stream/chunklist_w1499541048.m3u8",
@@ -18934,7 +20177,7 @@
     {
       "name": "Parangtritis DIY",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewPantaiParangTritis.stream/chunklist_w1470497340.m3u8",
+      "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewStasiunTugu.stream/chunklist_w1303369035.m3u8",
       "state": "FLAKY",
       "code": "SSLCertVerificationError (x3)",
       "attempts": 3,
@@ -18972,9 +20215,9 @@
       "props": []
     },
     {
-      "name": "Mangunan DIY",
+      "name": "Nglanggeran DIY",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewMangunan.stream/chunklist_w1363447093.m3u8",
+      "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewNglanggeran.stream/chunklist_w172440882.m3u8",
       "state": "FLAKY",
       "code": "SSLCertVerificationError (x3)",
       "attempts": 3,
@@ -18982,9 +20225,9 @@
       "props": []
     },
     {
-      "name": "Nglanggeran DIY",
+      "name": "Parangtritis DIY",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewNglanggeran.stream/chunklist_w172440882.m3u8",
+      "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewPantaiParangTritis.stream/chunklist_w1470497340.m3u8",
       "state": "FLAKY",
       "code": "SSLCertVerificationError (x3)",
       "attempts": 3,
@@ -19357,7 +20600,17 @@
     {
       "name": "Bantul Paseban",
       "group": "\ud83d\udd2d CCTV",
-      "url": "https://mam.jogjaprov.go.id:1937/cctv-bantul/PerempatanPaseban.stream/chunklist_w610422978.m3u8",
+      "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewMangunan.stream/chunklist_w1363447093.m3u8",
+      "state": "FLAKY",
+      "code": "SSLCertVerificationError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Depan BPK",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://mam.jogjaprov.go.id:1937/atcs-kota/BPK.stream/chunklist_w842307275.m3u8",
       "state": "FLAKY",
       "code": "SSLCertVerificationError (x3)",
       "attempts": 3,
@@ -19378,6 +20631,16 @@
       "name": "Bantul Parangtritis",
       "group": "\ud83d\udd2d CCTV",
       "url": "https://mam.jogjaprov.go.id:1937/cctv-public/ViewParangtritis.stream/chunklist_w1308167377.m3u8",
+      "state": "FLAKY",
+      "code": "SSLCertVerificationError (x3)",
+      "attempts": 3,
+      "headers": {},
+      "props": []
+    },
+    {
+      "name": "Bantul Paseban",
+      "group": "\ud83d\udd2d CCTV",
+      "url": "https://mam.jogjaprov.go.id:1937/cctv-bantul/PerempatanPaseban.stream/chunklist_w610422978.m3u8",
       "state": "FLAKY",
       "code": "SSLCertVerificationError (x3)",
       "attempts": 3,
@@ -19477,16 +20740,6 @@
       "props": []
     },
     {
-      "name": "KISI FM Bogor",
-      "group": "Internet Radio",
-      "url": "https://live.kontoltv.my.id/play/kisifmbogor.ts",
-      "state": "FLAKY",
-      "code": "TimeoutError (x3)",
-      "attempts": 3,
-      "headers": {},
-      "props": []
-    },
-    {
       "name": "ABC Australia",
       "group": "VN \ud83c\uddfb\ud83c\uddf3",
       "url": "https://live.kontoltv.my.id/play/abcaustralia_2.mpd",
@@ -19503,9 +20756,9 @@
       ]
     },
     {
-      "name": "Ziggo Sport 1",
+      "name": "Ziggo Sport 2",
       "group": "GP & LALIGA & UCL",
-      "url": "https://live2.kontoltv.my.id/play/ziggosport1.ts",
+      "url": "https://live2.kontoltv.my.id/play/ziggosport2.ts",
       "state": "FLAKY",
       "code": "TimeoutError (x3)",
       "attempts": 3,
