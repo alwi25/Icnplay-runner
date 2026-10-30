@@ -1,50 +1,56 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="ARIRANG" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0cqd-JrliSDG0kvFFKk8IDV7UBJDgP9KDjg&s" group-title="Entertainment",ARIRANG
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#EXTINF:-1 tvg-name="Dens Food Channel" tvg-logo="https://picture.dens.tv/wp/img/whatson_v2/1280x720/Logo%20DFC.png" group-title="Entertainment",Dens Food Channel
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8
-#EXTINF:-1 tvg-name="Dens Life & Style" tvg-logo="http://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg" group-title="Entertainment",Dens Life & Style
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8
-#EXTINF:-1 tvg-id="130" tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Entertainment",Dance TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-origin=https://www.dens.tv
-https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
-#EXTINF:-1 tvg-name="RTBF TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AZPzU4bZSWTAeWg87EAgNqIZr7UICZFr6a_2VBd1yw&s" group-title="Entertainment",RTBF TV
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8
-#EXTINF:-1 tvg-id="Dens ShowBiz" tvg-name="Dens ShowBiz (DensTV)" tvg-logo="https://e7.pngegg.com/pngimages/893/782/png-clipart-competitive-dance-competition-award-talent-show-award-love-television.png" group-title="Entertainment",Dens ShowBiz (DensTV)
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
-https://live.kontoltv.my.id/play/densshowbizdenstv.m3u8
 #EXTINF:-1 tvg-id="AFN (HD).sg" tvg-name="Asian Food Network" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/f9/Asian_Food_Network_%282019-.n.v.%29.png" group-title="Entertainment",Asian Food Network
 https://live.kontoltv.my.id/play/asianfoodnetwork.m3u8
+#EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-name="Channel U (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="Entertainment",Channel U (720p)
+https://cdn.qd.je/163189/chu
+#EXTINF:-1 tvg-name="ARIRANG" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0cqd-JrliSDG0kvFFKk8IDV7UBJDgP9KDjg&s" group-title="Entertainment",ARIRANG
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
+#EXTINF:-1 tvg-id="china-travel" tvg-name="CHINA TRAVEL" tvg-logo="https://a.jsrdn.com/hls/23232/china-travel/poster_20251105_004701.jpg" group-title="Entertainment",CHINA TRAVEL
+https://live.kontoltv.my.id/play/chinatravel.m3u8
+#EXTINF:-1 tvg-name="NEW KFOOD" group-title="Entertainment",NEW KFOOD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://live.kontoltv.my.id/play/newkfood.m3u8
+#EXTINF:-1 tvg-name="ABC AUSTRALIA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcd3GsIkKpllr-1eZlRKQvmX78Nw88nI6Bsw&s" group-title="Entertainment",ABC AUSTRALIA
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
+#EXTINF:-1 tvg-name="TV5 Monde Style" tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2015/03/14121037/TV5_Style_HD.jpg" group-title="Entertainment",TV5 Monde Style
+https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
 #EXTINF:-1 tvg-id="128" tvg-name="Stingray Classica" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423611_tvchannels_v1.jpg" group-title="Entertainment",Stingray Classica
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica
+#EXTINF:-1 tvg-id="130" tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Entertainment",Dance TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
 #EXTINF:-1 tvg-id="143" tvg-name="Qwest TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1763699104_tvchannels_v1.jpg" group-title="Entertainment",Qwest TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV
-#EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-name="Channel U (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="Entertainment",Channel U (720p)
-https://cdn.qd.je/163189/chu
-#EXTINF:-1 tvg-name="ABC AUSTRALIA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcd3GsIkKpllr-1eZlRKQvmX78Nw88nI6Bsw&s" group-title="Entertainment",ABC AUSTRALIA
-https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
-#EXTINF:-1 tvg-name="TV5 Monde Style" tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2015/03/14121037/TV5_Style_HD.jpg" group-title="Entertainment",TV5 Monde Style
-https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
-#EXTINF:-1 tvg-id="china-travel" tvg-name="CHINA TRAVEL" tvg-logo="https://a.jsrdn.com/hls/23232/china-travel/poster_20251105_004701.jpg" group-title="Entertainment",CHINA TRAVEL
-https://live.kontoltv.my.id/play/chinatravel.m3u8
+#EXTINF:-1 tvg-name="Dens Life & Style (DensTV)" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg" group-title="Entertainment",Dens Life & Style (DensTV)
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
+https://live.kontoltv.my.id/play/denslifestyledenstv.m3u8
+#EXTINF:-1 tvg-id="Dens Food Channel" tvg-name="Dens Food Channel (DensTV)" tvg-logo="https://picture.dens.tv/wp/img/whatson_v2/1280x720/Logo%20DFC.png" group-title="Entertainment",Dens Food Channel (DensTV)
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
+https://live.kontoltv.my.id/play/densfoodchanneldenstv.m3u8
+#EXTINF:-1 tvg-name="RTBF TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AZPzU4bZSWTAeWg87EAgNqIZr7UICZFr6a_2VBd1yw&s" group-title="Entertainment",RTBF TV
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8
+#EXTINF:-1 tvg-name="Dens ShowBiz" tvg-logo="https://e7.pngegg.com/pngimages/893/782/png-clipart-competitive-dance-competition-award-talent-show-award-love-television.png" group-title="Entertainment",Dens ShowBiz
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8
 #EXTINF:-1 tvg-id="72" tvg-name="Ent" tvg-logo="https://www.visionplus.id/images/repository/632/632-LOGO-m.png" group-title="Entertainment",Ent
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -54,58 +60,36 @@ https://live.kontoltv.my.id/play/chinatravel.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=72
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=72
-#EXTINF:-1 tvg-name="NEW KFOOD" group-title="Entertainment",NEW KFOOD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-https://live.kontoltv.my.id/play/newkfood.m3u8
 #EXTINF:-1 tvg-id="8TV.my@SD" tvg-name="8TV" tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="Entertainment",8TV
 http://cdn6.163189.xyz/163189/8tv
-#EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-name="meWATCH LIVE 1 (1080p)" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="Entertainment",meWATCH LIVE 1 (1080p)
-https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
-#EXTINF:-1 tvg-name="STUDIO UNIVERSAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUEtzBNhMSkB3HMIsWhMBjLz3Mj0xmAQzlIA&s" group-title="Entertainment",STUDIO UNIVERSAL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b4a7b3289eff493d8700becf2e2a1157:bfbcfcb8137dd565a7f4b5ce7800c1f0
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
+#EXTINF:-1 tvg-id="ROCKEntertainment.sg@SD" tvg-name="Rock Entertainment (Vision+)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Rock_Entertainment.png" group-title="Entertainment",Rock Entertainment (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/rockentertainmentvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/rockentertainmentvision.mpd
 #EXTINF:-1 tvg-name="FOOD TRAVEL V+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq8LJnwEAaskUNDQwjI6TTw-P7-gjvJ9JyHw&s" group-title="Entertainment",FOOD TRAVEL V+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c263b43be6b94fb682b1d701e0aaf847:83491ecbe2968e91ed563ce2c41428dc
 https://d2gr3zenqo3tg4.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
-#EXTINF:-1 tvg-id="LifetimeAsia.us@SD" tvg-name="Lifetime (Vision+)" tvg-logo="https://1000logos.net/wp-content/uploads/2025/07/Lifetime-Logo.png" group-title="Entertainment",Lifetime (Vision+)
+#EXTINF:-1 tvg-id="TV5MondeAsia.fr@SD" tvg-name="TV5 Monde (Vision+)" tvg-logo="https://w7.pngwing.com/pngs/573/795/png-transparent-france-tv5monde-television-channel-streaming-media-france-television-blue-text.png" group-title="Entertainment",TV5 Monde (Vision+)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/lifetimevision
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tv5mondevision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/lifetimevision.mpd
-#EXTINF:-1 tvg-name="BBC LIFESTYLE" tvg-logo="https://mimipipi22.github.io/logo/lifestyle/bbclifestyle.jpg" group-title="Entertainment",BBC LIFESTYLE
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=58b949986ed13294bc01b0f330abc527:23e8c5f2fe202906ac2d6554d9527299
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live.kontoltv.my.id/play/bbclifestyle.mpd
-#EXTINF:-1 tvg-id="87" tvg-name="Vision Prime" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_1.png" group-title="Entertainment",Vision Prime
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-origin=https://www.visionplus.id
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=87
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=87
+https://live.kontoltv.my.id/play/tv5mondevision.mpd
 #EXTINF:-1 tvg-id="TRAVEL_AND_ADVENTURE" tvg-name="Travel and Adventure" group-title="Entertainment",Travel and Adventure
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=3d4056f8f4078c5f5a5cfb283dd6cddc:c590b5ad9d3a6eac5cc27507ce34089e
 https://live.kontoltv.my.id/play/travelandadventure.mpd
-#EXTINF:-1 tvg-id="TLCSoutheastAsia.sg@SD" tvg-name="TLC HD" tvg-logo="https://www.clipartmax.com/png/middle/474-4741241_tlc-logo-transparent-tlc-png.png" group-title="Entertainment",TLC HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/tlchd.mpd
+#EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-name="meWATCH LIVE 1 (1080p)" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="Entertainment",meWATCH LIVE 1 (1080p)
+https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-name="Home Crasher" group-title="Entertainment",Home Crasher
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -118,3 +102,24 @@ https://live.kontoltv.my.id/play/homecrasher.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=9a149d8edbd85136248129dd3bbabc5f:45b4f449b8583890ad0b5a50694b16a3
 https://live.kontoltv.my.id/play/tastemade.mpd
+#EXTINF:-1 tvg-id="TLCSoutheastAsia.sg@SD" tvg-name="TLC HD" tvg-logo="https://www.clipartmax.com/png/middle/474-4741241_tlc-logo-transparent-tlc-png.png" group-title="Entertainment",TLC HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/tlchd.mpd
+#EXTINF:-1 tvg-id="87" tvg-name="Vision Prime" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_1.png" group-title="Entertainment",Vision Prime
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-origin=https://www.visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=87
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=87
+#EXTINF:-1 tvg-name="BBC LIFESTYLE" tvg-logo="https://mimipipi22.github.io/logo/lifestyle/bbclifestyle.jpg" group-title="Entertainment",BBC LIFESTYLE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=58b949986ed13294bc01b0f330abc527:23e8c5f2fe202906ac2d6554d9527299
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://live.kontoltv.my.id/play/bbclifestyle.mpd

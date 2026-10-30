@@ -6,11 +6,11 @@ http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809428.m3u8
 #KODIPROP:inputstream.adaptive.license_key=3b89ee4ebea44296a1bba97a447c0eeb:c85e224f241097798b91b93a310b0dd8
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/24abcnews.mpd
-#EXTINF:-1 tvg-id="mjh-abc-vic" tvg-name="2. ABC TV (VIC)" tvg-logo="example.png" group-title="Australia",2. ABC TV (VIC)
+#EXTINF:-1 tvg-id="mjh-abc-tas" tvg-name="2. ABC TV (TAS)" tvg-logo="example.png" group-title="Australia",2. ABC TV (TAS)
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bcb0411f749244fabf883425561e0742:7bcd60ef15e93dfc2940cc8f1eba68a9
+#KODIPROP:inputstream.adaptive.license_key=199ae600fca949c2af406f77d67162e5:c0d9c413cc62b6b1bf1330ce8cbbba9e
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/2abctvvic.mpd
+https://live.kontoltv.my.id/play/2abctvtas.mpd
 #EXTINF:-1 tvg-id="mjh-abc-kids" tvg-name="22. ABC Kids (4.00am-7.30pm AEST)" tvg-logo="example.png" group-title="Australia",22. ABC Kids (4.00am-7.30pm AEST)
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=b70a4c3a102b47ec832d11da8a024161:8bd84110abda56e41511c16feaa2de69

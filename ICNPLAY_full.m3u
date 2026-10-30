@@ -514,8 +514,6 @@ https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32
 https://live2.kontoltv.my.id/play/jtv.m3u8
 #EXTINF:-1 tvg-id="JTV.id@Kediri" tvg-name="JTV Kediri (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Indonesia",JTV Kediri (1080p) [Not 24/7]
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="JTV.id@Madura" tvg-name="JTV Madura (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Indonesia",JTV Madura (480p) [Not 24/7]
-http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Kompas TV" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/f0771c7b-d473-4fa4-ad0f-cdffd4bc0ac5.jpg" group-title="Indonesia",Kompas TV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1420,6 +1418,9 @@ http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Madiun" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Madiun
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="JTV Madura (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Madura (480p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Malang" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Malang
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8
@@ -4412,6 +4413,8 @@ http://38.65.175.84:8000/play/a0an/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 https://live.kontoltv.my.id/play/h4stm2i.mpd
+#EXTINF:-1 tvg-id="Disney.Channel.branden" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Kids",Disney Channel
+http://212.5.144.156/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel (Bulgaria) (576i)" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="Kids",Disney Channel (Bulgaria) (576i)
 http://87.120.179.187:8000/play/a010
 #EXTINF:-1 tvg-id="DisneyChannel.cz@SD" tvg-name="Disney Channel (Czech Republic)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel (Czech Republic)
@@ -5142,6 +5145,8 @@ https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlis
 http://92.114.85.72:8000/play/a08p
 #EXTINF:-1 tvg-id="TNTKidsTV.ba@SD" tvg-name="TNT Kids TV (288p)" tvg-logo="https://i.imgur.com/irTDbpn.png" group-title="Kids",TNT Kids TV (288p)
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
+#EXTINF:-1 tvg-name="Tom & Jerry" tvg-logo="https://pngimg.com/uploads/tom_and_jerry/tom_and_jerry_PNG42.png" group-title="Kids",Tom & Jerry
+http://pira.diamonds:80/play/OG0HGQlp5eMcXY5hodyppmUx1TRYzulW_E7IhrSJdr4WonlMdl_jlSDVO0q_FIv7Rs8eID-J8z9lbIyIjNPLWQ
 #EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-name="Tom And Jerry (720p)" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" group-title="Kids",Tom And Jerry (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-id="Tooku.ru@SD" tvg-name="Tooku (1080p)" tvg-logo="https://tooku.ru/wp-content/uploads/2024/11/tooku-kanal-logo.png" group-title="Kids",Tooku (1080p)
@@ -6246,8 +6251,6 @@ https://live.kontoltv.my.id/play/usamtv.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-name="ZOOM TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmuyjtVph0Ep3V-k2MVdUGfVKPw1u4pl1yRKGSzq3LQ&s=10" group-title="Music",ZOOM TV
 https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
-#EXTINF:-1 tvg-name="Шансон ТВ" group-title="Music",Шансон ТВ
-https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="------" tvg-name="101 Jak FM" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Radio",101 Jak FM
 https://wz.mari.co.id:1936/web_jakfm/jakfm/chunklist_w1610616570.m3u8
 #EXTINF:-1 tvg-id="------" tvg-name="AL IMAN" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Radio",AL IMAN
@@ -8407,6 +8410,9 @@ https://cuwf8jayq1.tenbytecdn.com/live/tv2/playlist.m3u8?md5=A6xt4QGoFw-kZy-yBt6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/tv3.mpd
+#EXTINF:-1 tvg-name="TV 3" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/106_144.png" group-title="Malaysia",TV 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+http://iptv12k.com:35461/m260807962950028/111111/13645
 #EXTINF:-1 tvg-id="Okey" tvg-name="TV Okey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Okey_RTM.png" group-title="Malaysia",TV Okey
 https://cuwf8jayq1.tenbytecdn.com/live/tvokey/abr/tvokey_1080p/chunks.m3u8?md5=vSHmoPyovEsJyxo9uXgjfg&expires=1791226922
 #EXTINF:-1 tvg-name="TV1 HD" tvg-logo="https://raw.githubusercontent.com/Iqbalbala/CHANNEL/refs/heads/main/tv1my.png" group-title="Malaysia",TV1 HD
