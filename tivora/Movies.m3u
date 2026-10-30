@@ -1,28 +1,23 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="CHC ACTION MOVIES" tvg-logo="https://i.imgur.com/AuiVcyh.png" group-title="Movies",CHC ACTION MOVIES
+http://69.30.245.50/live/chcdz.m3u8
+#EXTINF:-1 tvg-name="CHC HOME THEATER" tvg-logo="https://i.imgur.com/AwBldBE.png" group-title="Movies",CHC HOME THEATER
+http://69.30.245.50/live/chcjt.m3u8
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bgp-3NYBwNCd0IS8N7Whxt0EokHXdo43IOecT4xohw&s=10" group-title="Movies",HBO 4
+http://141.94.193.53/HBO_HD/index.m3u8
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bgp-3NYBwNCd0IS8N7Whxt0EokHXdo43IOecT4xohw&s=10" group-title="Movies",HBO 3
+http://185.227.34.179:8080/hbo-3-hd/index.m3u8
+#EXTINF:-1 tvg-name="STAR MOVIES" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Movies",STAR MOVIES
+http://tv.cloudcdn.me/live.ts?channelId=198&uid=12643&deviceMac=00:1A:79:03:13:DE
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bgp-3NYBwNCd0IS8N7Whxt0EokHXdo43IOecT4xohw&s=10" group-title="Movies",HBO 2
+http://185.227.34.179:8080/hbo-2-hd/index.m3u8
+#EXTINF:-1 tvg-name="STAR MOVIES SELECT" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT/images/LOGO_HD/image.png" group-title="Movies",STAR MOVIES SELECT
+http://tv.cloudcdn.me/live.ts?channelId=199&uid=12643&deviceMac=00:1A:79:03:13:DE
 #EXTINF:-1 tvg-id="92" tvg-name="My Cinema Europe HD" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687502977_tvchannels_v1.jpg" group-title="Movies",My Cinema Europe HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8?app_type=web&userid=lite&chname=My_Cinema_Europe_HD
-#EXTINF:-1 tvg-id="HITS.sg@SD" tvg-name="Hits" tvg-logo="https://www.hitstv.com/assets/hits.png" group-title="Movies",Hits
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-origin=https://www.visionplus.id
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=77
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=77
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bgp-3NYBwNCd0IS8N7Whxt0EokHXdo43IOecT4xohw&s=10" group-title="Movies",HBO 2
-http://185.227.34.179:8080/hbo-2-hd/index.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bgp-3NYBwNCd0IS8N7Whxt0EokHXdo43IOecT4xohw&s=10" group-title="Movies",HBO 3
-http://185.227.34.179:8080/hbo-3-hd/index.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bgp-3NYBwNCd0IS8N7Whxt0EokHXdo43IOecT4xohw&s=10" group-title="Movies",HBO 4
-http://141.94.193.53/HBO_HD/index.m3u8
-#EXTINF:-1 tvg-name="STAR MOVIES" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Movies",STAR MOVIES
-http://tv.cloudcdn.me/live.ts?channelId=198&uid=12643&deviceMac=00:1A:79:03:13:DE
-#EXTINF:-1 tvg-name="STAR MOVIES SELECT" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT/images/LOGO_HD/image.png" group-title="Movies",STAR MOVIES SELECT
-http://tv.cloudcdn.me/live.ts?channelId=199&uid=12643&deviceMac=00:1A:79:03:13:DE
 #EXTINF:-1 tvg-id="ZeeBioskop.id@SD" tvg-name="Zee Bioskop" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png" group-title="Movies",Zee Bioskop
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -32,27 +27,56 @@ http://tv.cloudcdn.me/live.ts?channelId=199&uid=12643&deviceMac=00:1A:79:03:13:D
 #KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=47
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=47
-#EXTINF:-1 tvg-name="CHC ACTION MOVIES" tvg-logo="https://i.imgur.com/AuiVcyh.png" group-title="Movies",CHC ACTION MOVIES
-http://69.30.245.50/live/chcdz.m3u8
-#EXTINF:-1 tvg-name="CHC HOME THEATER" tvg-logo="https://i.imgur.com/AwBldBE.png" group-title="Movies",CHC HOME THEATER
-http://69.30.245.50/live/chcjt.m3u8
-#EXTINF:-1 tvg-name="MN+" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/leazcc.jpeg" group-title="Movies",MN+
-https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
+#EXTINF:-1 tvg-id="HITS.sg@SD" tvg-name="Hits" tvg-logo="https://www.hitstv.com/assets/hits.png" group-title="Movies",Hits
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-origin=https://www.visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=77
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=77
+#EXTINF:-1 tvg-name="Miramax Film" tvg-logo="https://art.pixilart.com/afe9e5311aad7d6.png" group-title="Movies",Miramax Film
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/jkep4tcfuk/out/v1/13282695f8bb45ae9912e9321bba21b8/cenc.mpd
+#EXTINF:-1 tvg-id="KIX.hk@SD" tvg-name="KIX" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/21/KIX_HD.png/revision/latest?cb=20220216043203&path-prefix=vi" group-title="Movies",KIX
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=75&type=drm&token=KITKATTV
+https://d2tjypxxy769fn.cloudfront.net/out/v1/7a50d44c0a154dd29880c3728fb49a56/index.mpd
+#EXTINF:-1 tvg-id="CinemachiXtra.uk@SD" tvg-name="Uniquest" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_6.png" group-title="Movies",Uniquest
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=38&type=drm&token=apistech
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
+#EXTINF:-1 tvg-name="Thrill" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_thrill.png" group-title="Movies",Thrill
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=41&type=drm&token=KITKATTV
+https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/index.mpd
+#EXTINF:-1 tvg-id="ROCKEntertainment.sg@SD" tvg-name="Rock Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Rock_Entertainment.png" group-title="Movies",Rock Entertainment
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=92&type=drm&token=KITKATTV
+https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/index.mpd
+#EXTINF:-1 tvg-id="AXNAsia.sg@Indonesia" tvg-name="AXN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="Movies",AXN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=79&type=drm&token=KITKATTV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
 #EXTINF:-1 tvg-name="ROMEDY NOW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Romedy_Now_logo.png/512px-Romedy_Now_logo.png" group-title="Movies",ROMEDY NOW
 https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
 #EXTINF:-1 tvg-name="MNX HD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/vunjev.jpeg" group-title="Movies",MNX HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
-#EXTINF:-1 tvg-id="CelestialClassicMovies.id@SD" tvg-name="Celestial Classic Movies" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b8/CCM_new_Logo.png/revision/latest?cb=20190603053700" group-title="Movies",Celestial Classic Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=45&type=drm&token=KITKATTV
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
-#EXTINF:-1 tvg-id="&TV HD" tvg-name="&TV HD" tvg-logo="https://i.ibb.co.com/Kj5gRmgZ/andtv.png" group-title="Movies",&TV HD
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/index.mpd
+#EXTINF:-1 tvg-name="MN+" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/leazcc.jpeg" group-title="Movies",MN+
+https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
 #EXTINF:-1 tvg-id="&Pictures HD" tvg-name="&PICTURES HD" tvg-logo="https://i.ibb.co.com/0cCnnT4/andpictures.png" group-title="Movies",&PICTURES HD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
-#EXTINF:-1 tvg-name="Miramax Film" tvg-logo="https://art.pixilart.com/afe9e5311aad7d6.png" group-title="Movies",Miramax Film
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/jkep4tcfuk/out/v1/13282695f8bb45ae9912e9321bba21b8/cenc.mpd
+#EXTINF:-1 tvg-id="&TV HD" tvg-name="&TV HD" tvg-logo="https://i.ibb.co.com/Kj5gRmgZ/andtv.png" group-title="Movies",&TV HD
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/index.mpd

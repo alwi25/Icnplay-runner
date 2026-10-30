@@ -1,93 +1,68 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Alwafa Tarim TV (Am Media) (720p)" group-title="Lokal",Alwafa Tarim TV (Am Media) (720p)
+#EXTINF:-1 tvg-name="Surau TV" tvg-logo="https://i.imgur.com/CKoxcWL.png" group-title="Lokal",Surau TV
 #EXTVLCOPT:http-user-agent=android-R+
-https://ammedia.siar.us/ammedia/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Salira TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-https://live.salira.tv/p/3870/hybrid/play.m3u8
-#EXTINF:-1 tvg-name="Salira TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira TV (720p)
+https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8
+#EXTINF:-1 tvg-name="Ashiil TV (480p)" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal",Ashiil TV (480p)
 #EXTVLCOPT:http-user-agent=android-R+
-https://live.salira.tv:3870/stream/play.m3u8
+https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
 #EXTINF:-1 tvg-name="Groovia Kanal (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1657983/media/e1b4737ec68d96b27f713c034543d472.png" group-title="Lokal",Groovia Kanal (576p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8
-#EXTINF:-1 tvg-name="Jambi TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/Jambi_TV.png" group-title="Lokal",Jambi TV
+#EXTINF:-1 tvg-name="E International Asia (480p)" group-title="Lokal",E International Asia (480p)
 #EXTVLCOPT:http-user-agent=android-R+
-https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8
-#EXTINF:-1 tvg-name="Padang TV" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="PONTV" tvg-logo="https://i.imgur.com/P5erWzm.png" group-title="Lokal",PONTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Balikpapan TV (720p)" tvg-logo="https://i.imgur.com/P3whqna.png" group-title="Lokal",Balikpapan TV (720p)
+https://vodcdn.bamboo-cloud.com/livehls/69a123b780c99d28cc0f0016/master.m3u8
+#EXTINF:-1 tvg-name="E International Europe (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1659328/media/1058391c8059a0d092426e145d55951b.png" group-title="Lokal",E International Europe (576p)
 #EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8
+https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp120.510.450:6060.m3u8
+#EXTINF:-1 tvg-name="E International Asia (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1659328/media/1058391c8059a0d092426e145d55951b.png" group-title="Lokal",E International Asia (576p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8
+#EXTINF:-1 tvg-name="Alwafa Tarim TV (Am Media) (720p)" group-title="Lokal",Alwafa Tarim TV (Am Media) (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://ammedia.siar.us/ammedia/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Suara Surabaya Visual Radio (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f8/Suara_Surabaya.svg" group-title="Lokal",Suara Surabaya Visual Radio (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.suarasurabaya.net/
+https://ssfm.siar.us/ssfm/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Jawa Pos TV Jakarta (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jawa_Pos_TV_2024.svg/960px-Jawa_Pos_TV_2024.svg.png" group-title="Lokal",Jawa Pos TV Jakarta (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="STV (720p) [Not 24/7]" tvg-logo="https://i.ibb.co/C3fdPYGs/Alcarrizo.jpg" group-title="Lokal",STV (720p) [Not 24/7]
+#EXTINF:-1 tvg-name="PONTV" tvg-logo="https://i.imgur.com/P5erWzm.png" group-title="Lokal",PONTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Batam TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Lokal",Batam TV (480p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8
+http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Padang TV" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Riau TV" tvg-logo="https://i.imgur.com/1g8FtJi.png" group-title="Lokal",Riau TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Balikpapan TV (720p)" tvg-logo="https://i.imgur.com/P3whqna.png" group-title="Lokal",Balikpapan TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV (720p)" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Madiun" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Madiun
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Batam TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Lokal",Batam TV (480p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Lokal",Fajar TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Riau TV" tvg-logo="https://i.imgur.com/1g8FtJi.png" group-title="Lokal",Riau TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Jek TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/wh75d1f.png" group-title="Lokal",Jek TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=http://jektv.co.id/livestreaming/
-http://27.124.81.245:1935/jektv/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Kawanua TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_kawanua_tv.png" group-title="Lokal",Kawanua TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Malang" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Malang
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Lokal",Fajar TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Kawanua TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_kawanua_tv.png" group-title="Lokal",Kawanua TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="STV (720p) [Not 24/7]" tvg-logo="https://i.ibb.co/C3fdPYGs/Alcarrizo.jpg" group-title="Lokal",STV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="TATV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/1f0EC7t.png" group-title="Lokal",TATV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
 https://v2.siar.us/tatv/live.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="DMI TV (576i)" tvg-logo="https://static.promediateknologi.id/promedia/network/1167/desktop/images/logo.png" group-title="Lokal",DMI TV (576i)
-#EXTVLCOPT:http-user-agent=android-R+
-https://tvstreamcast.com/tawaftv.m3u8
-#EXTINF:-1 tvg-name="Madu TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/cKpgbgW.png" group-title="Lokal",Madu TV (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://madu.tv/live-streaming/
-https://re1.siar.us/madutv/hd720/playlist.m3u8
-#EXTINF:-1 tvg-name="Rodja TV (720p)" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:-1 tvg-name="Stara TV Bandung (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Bandung (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://bandung.staratv.id/
-https://bandung.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="Stara TV Jakarta (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Jakarta (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://jakarta.staratv.id/
-https://jakarta.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="Stara TV Parahyangan (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Parahyangan (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://parahyangan.staratv.id/
-https://parahyangan.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="RRI Net (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RRI_NET_2023.svg/960px-RRI_NET_2023.svg.png" group-title="Lokal",RRI Net (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
-#EXTINF:-1 tvg-name="Ficom Channel (720p)" tvg-logo="https://i.imgur.com/KMEf0Cc.png" group-title="Lokal",Ficom Channel (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://v3.siar.us/ficomchannel/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Nusantara TV (1080p)" tvg-logo="https://i.imgur.com/viun5hj.png" group-title="Lokal",Nusantara TV (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 #EXTINF:-1 tvg-name="RCTV (720p) [Not 24/7]" group-title="Lokal",RCTV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.radarcirebon.tv/livestreaming/
@@ -95,150 +70,175 @@ https://v10.siar.us/rctv/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Duta TV (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="Lokal",Duta TV (360p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
 https://dutatv.siar.us/dutatv/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Stara TV Malang (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Malang (1080p)
+#EXTINF:-1 tvg-name="Nusantara TV (1080p)" tvg-logo="https://i.imgur.com/viun5hj.png" group-title="Lokal",Nusantara TV (1080p)
 #EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://malang.staratv.id/
-https://malang.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="Sangaji TV (720p)" tvg-logo="https://i.imgur.com/4rTNT8F.png" group-title="Lokal",Sangaji TV (720p)
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Sriwijaya TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya TV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://sangajitv.co.id/
-https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
-#EXTINF:-1 tvg-name="Radar Tasikmalaya TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar Tasikmalaya TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Tabalong (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/2YhDH98.png" group-title="Lokal",TV Tabalong (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
-#EXTINF:-1 tvg-name="Banten TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/tbtF40p.png" group-title="Lokal",Banten TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
-#EXTINF:-1 tvg-name="TV9 Nusantara (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png" group-title="Lokal",TV9 Nusantara (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
-#EXTINF:-1 tvg-name="BRTV (720p)" tvg-logo="https://i.imgur.com/PcTDZ8e.png" group-title="Lokal",BRTV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Caruban TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" group-title="Lokal",Caruban TV (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://stream.carubantv.id
-https://stream.carubantv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="Lingkar TV" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="Lokal",Lingkar TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://lingkartv.my.id/hls/lingkartv.m3u8
-#EXTINF:-1 tvg-name="Radar Lampung TV (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/4/42/Logo_RadarTV_Lampung.png" group-title="Lokal",Radar Lampung TV (480p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://radartvnews.com/live-streaming/
-https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-name="Suara Surabaya Visual Radio (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f8/Suara_Surabaya.svg" group-title="Lokal",Suara Surabaya Visual Radio (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.suarasurabaya.net/
-https://ssfm.siar.us/ssfm/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Stara TV Cianjur (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Cianjur (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://cianjur.staratv.id/
-https://cianjur.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="Rinjani TV" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal",Rinjani TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://rinjanitv.cloud/hls/tvkabel.m3u8
-#EXTINF:-1 tvg-name="PKTV (480p)" tvg-logo="https://i.imgur.com/mldv8Sf.png" group-title="Lokal",PKTV (480p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://pktvkaltim.com/acara/live-content/?noamp=mobile
-https://streaming.id18.tunnel.my.id/hls/stream.m3u8
-#EXTINF:-1 tvg-name="Kilisuci TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/e4/Kilisuci_TV_NEW_LOGO_2016.png" group-title="Lokal",Kilisuci TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8
-#EXTINF:-1 tvg-name="Bandung TV (360p)" tvg-logo="https://i.postimg.cc/JzqSzcj9/200px-Logo-bdg-tv-2016.png" group-title="Lokal",Bandung TV (360p)
-#EXTVLCOPT:http-user-agent=android-R+
-http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
-#EXTINF:-1 tvg-name="Bungo TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/OrCrtDA.png" group-title="Lokal",Bungo TV (480p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
-#EXTINF:-1 tvg-name="Ashiil TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal",Ashiil TV (480p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://ashiil.tv/
-https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8
-#EXTINF:-1 tvg-name="MQTV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/d8dQo6E.png" group-title="Lokal",MQTV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Dhoho TV (720p)" tvg-logo="https://i.imgur.com/4Khyyfh.png" group-title="Lokal",Dhoho TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Ashiil TV (480p)" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal",Ashiil TV (480p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
-#EXTINF:-1 tvg-name="Dhamma TV (720p) [Not 24/7]" tvg-logo="https://dhammaweb.tv/wp-content/uploads/2018/08/cropped-dhammatv-3.png" group-title="Lokal",Dhamma TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
-#EXTINF:-1 tvg-name="Surau TV" tvg-logo="https://i.imgur.com/CKoxcWL.png" group-title="Lokal",Surau TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8
-#EXTINF:-1 tvg-name="Banyumas TV (720p) [Not 24/7]" group-title="Lokal",Banyumas TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
-#EXTINF:-1 tvg-name="The Indonesia Channel (1080p)" tvg-logo="https://i.imgur.com/jAAPgpV.png" group-title="Lokal",The Indonesia Channel (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
-#EXTINF:-1 tvg-name="Stara TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://stream.staratv.id/
-https://stream.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="I Am Channel (576p)" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Lokal",I Am Channel (576p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://iamchannel.org/
-https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
-#EXTINF:-1 tvg-name="Efarina TV (720p)" tvg-logo="https://i.imgur.com/iYTimXh.png" group-title="Lokal",Efarina TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://live.efarinatv.net/
-https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
-#EXTINF:-1 tvg-name="Jogja Istimewa TV (720p)" tvg-logo="https://i.imgur.com/VEqQfTu.png" group-title="Lokal",Jogja Istimewa TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
-#EXTINF:-1 tvg-name="E International Europe (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1659328/media/1058391c8059a0d092426e145d55951b.png" group-title="Lokal",E International Europe (576p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp120.510.450:6060.m3u8
-#EXTINF:-1 tvg-name="Ahsan TV" tvg-logo="https://i.imgur.com/dZdUbYd.png" group-title="Lokal",Ahsan TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8
-#EXTINF:-1 tvg-name="Rajawali TV" group-title="Lokal",Rajawali TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
-#EXTINF:-1 tvg-name="E International Asia (480p)" group-title="Lokal",E International Asia (480p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://vodcdn.bamboo-cloud.com/livehls/69a123b780c99d28cc0f0016/master.m3u8
-#EXTINF:-1 tvg-name="Nabawi TV (720p)" tvg-logo="https://i.imgur.com/O8WONFB.png" group-title="Lokal",Nabawi TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-http://202.150.161.117:8000/play/NabawiTV
-#EXTINF:-1 tvg-name="MBG TV (1080p)" tvg-logo="https://i.imgur.com/t7GsFJN.jpeg" group-title="Lokal",MBG TV (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
+#EXTVLCOPT:http-referrer=sriwijayatv.tv
+https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 tvg-name="AKTV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/DUY5WXf.png" group-title="Lokal",AKTV (1080p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://aktvuhfdigital.tv/Livestream/aktv
 https://akativi.siar.us/live/akativi.m3u8
+#EXTINF:-1 tvg-name="Ficom Channel (720p)" tvg-logo="https://i.imgur.com/KMEf0Cc.png" group-title="Lokal",Ficom Channel (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://v3.siar.us/ficomchannel/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Puja TV Aceh (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/0TqABCL.png" group-title="Lokal",Puja TV Aceh (1080p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.pujatvaceh.com/
+https://pujatv.siar.us/live/pujatv.m3u8
+#EXTINF:-1 tvg-name="Jek TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/wh75d1f.png" group-title="Lokal",Jek TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=http://jektv.co.id/livestreaming/
+http://27.124.81.245:1935/jektv/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Madu TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/cKpgbgW.png" group-title="Lokal",Madu TV (1080p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://madu.tv/live-streaming/
+https://re1.siar.us/madutv/hd720/playlist.m3u8
+#EXTINF:-1 tvg-name="Sampit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/8cFJa8G.png" group-title="Lokal",Sampit TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://sampit-tv.siar.us/live/sampit-tv.m3u8
+#EXTINF:-1 tvg-name="MGSTV (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/MYU7dsZ.png" group-title="Lokal",MGSTV (360p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://mgstv.co.id/live-streaming/
+https://mgstv.siar.us/live/mgstv.m3u8
+#EXTINF:-1 tvg-name="Radar Tasikmalaya TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar Tasikmalaya TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Radar Lampung TV (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/4/42/Logo_RadarTV_Lampung.png" group-title="Lokal",Radar Lampung TV (480p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://radartvnews.com/live-streaming/
+https://www.streaming.radartv.co.id/hls/test.m3u8
+#EXTINF:-1 tvg-name="Dhoho TV (720p)" tvg-logo="https://i.imgur.com/4Khyyfh.png" group-title="Lokal",Dhoho TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Stara TV Parahyangan (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Parahyangan (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://parahyangan.staratv.id/
+https://parahyangan.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Efarina TV (720p)" tvg-logo="https://i.imgur.com/iYTimXh.png" group-title="Lokal",Efarina TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://live.efarinatv.net/
+https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
+#EXTINF:-1 tvg-name="Rodja TV (720p)" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://rodjatv.com/rodjatv/live.m3u8
+#EXTINF:-1 tvg-name="Caruban TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" group-title="Lokal",Caruban TV (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://stream.carubantv.id
+https://stream.carubantv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Bandung TV (360p)" tvg-logo="https://i.postimg.cc/JzqSzcj9/200px-Logo-bdg-tv-2016.png" group-title="Lokal",Bandung TV (360p)
+#EXTVLCOPT:http-user-agent=android-R+
+http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
+#EXTINF:-1 tvg-name="Salira TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://live.salira.tv:3870/stream/play.m3u8
+#EXTINF:-1 tvg-name="Salira TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://live.salira.tv/p/3870/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="Rinjani TV" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal",Rinjani TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://rinjanitv.cloud/hls/tvkabel.m3u8
+#EXTINF:-1 tvg-name="RRI Net (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RRI_NET_2023.svg/960px-RRI_NET_2023.svg.png" group-title="Lokal",RRI Net (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
+#EXTINF:-1 tvg-name="Stara TV Jakarta (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Jakarta (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://jakarta.staratv.id/
+https://jakarta.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Stara TV Cianjur (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Cianjur (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://cianjur.staratv.id/
+https://cianjur.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Stara TV Bandung (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Bandung (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://bandung.staratv.id/
+https://bandung.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="PKTV (480p)" tvg-logo="https://i.imgur.com/mldv8Sf.png" group-title="Lokal",PKTV (480p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://pktvkaltim.com/acara/live-content/?noamp=mobile
+https://streaming.id18.tunnel.my.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Jogja Istimewa TV (720p)" tvg-logo="https://i.imgur.com/VEqQfTu.png" group-title="Lokal",Jogja Istimewa TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
+#EXTINF:-1 tvg-name="Sangaji TV (720p)" tvg-logo="https://i.imgur.com/4rTNT8F.png" group-title="Lokal",Sangaji TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://sangajitv.co.id/
+https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
+#EXTINF:-1 tvg-name="Jambi TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/Jambi_TV.png" group-title="Lokal",Jambi TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8
+#EXTINF:-1 tvg-name="DMI TV (576i)" tvg-logo="https://static.promediateknologi.id/promedia/network/1167/desktop/images/logo.png" group-title="Lokal",DMI TV (576i)
+#EXTVLCOPT:http-user-agent=android-R+
+https://tvstreamcast.com/tawaftv.m3u8
+#EXTINF:-1 tvg-name="Stara TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://stream.staratv.id/
+https://stream.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="The Indonesia Channel (1080p)" tvg-logo="https://i.imgur.com/jAAPgpV.png" group-title="Lokal",The Indonesia Channel (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
+#EXTINF:-1 tvg-name="Banjar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/TA76a10.png" group-title="Lokal",Banjar TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://banjartv.siar.us/banjartv/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Dhamma TV (720p) [Not 24/7]" tvg-logo="https://dhammaweb.tv/wp-content/uploads/2018/08/cropped-dhammatv-3.png" group-title="Lokal",Dhamma TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
+#EXTINF:-1 tvg-name="Stara TV Malang (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Malang (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://malang.staratv.id/
+https://malang.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="MBG TV (1080p)" tvg-logo="https://i.imgur.com/t7GsFJN.jpeg" group-title="Lokal",MBG TV (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Lingkar TV" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="Lokal",Lingkar TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://lingkartv.my.id/hls/lingkartv.m3u8
+#EXTINF:-1 tvg-name="MQTV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/d8dQo6E.png" group-title="Lokal",MQTV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Banten TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/tbtF40p.png" group-title="Lokal",Banten TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
+#EXTINF:-1 tvg-name="Banyumas TV (720p) [Not 24/7]" group-title="Lokal",Banyumas TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
+#EXTINF:-1 tvg-name="Ashiil TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal",Ashiil TV (480p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://ashiil.tv/
+https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Tabalong (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/2YhDH98.png" group-title="Lokal",TV Tabalong (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
+#EXTINF:-1 tvg-name="Kilisuci TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/e4/Kilisuci_TV_NEW_LOGO_2016.png" group-title="Lokal",Kilisuci TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8
+#EXTINF:-1 tvg-name="Ahsan TV" tvg-logo="https://i.imgur.com/dZdUbYd.png" group-title="Lokal",Ahsan TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8
+#EXTINF:-1 tvg-name="I Am Channel (576p)" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Lokal",I Am Channel (576p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://iamchannel.org/
+https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
+#EXTINF:-1 tvg-name="TV9 Nusantara (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png" group-title="Lokal",TV9 Nusantara (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
+#EXTINF:-1 tvg-name="Bungo TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/OrCrtDA.png" group-title="Lokal",Bungo TV (480p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
+#EXTINF:-1 tvg-name="Nabawi TV (720p)" tvg-logo="https://i.imgur.com/O8WONFB.png" group-title="Lokal",Nabawi TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+http://202.150.161.117:8000/play/NabawiTV
+#EXTINF:-1 tvg-name="BRTV (720p)" tvg-logo="https://i.imgur.com/PcTDZ8e.png" group-title="Lokal",BRTV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Rajawali TV" group-title="Lokal",Rajawali TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 #EXTINF:-1 tvg-name="Jogja TV (720p) [Not 24/7]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/40/Jogjatvnew.png" group-title="Lokal",Jogja TV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
 https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTINF:-1 tvg-name="Madani TV (720p)" tvg-logo="https://i.imgur.com/8aonQ0v.png" group-title="Lokal",Madani TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Banjar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/TA76a10.png" group-title="Lokal",Banjar TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://banjartv.siar.us/banjartv/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Puja TV Aceh (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/0TqABCL.png" group-title="Lokal",Puja TV Aceh (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.pujatvaceh.com/
-https://pujatv.siar.us/live/pujatv.m3u8
-#EXTINF:-1 tvg-name="MGSTV (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/MYU7dsZ.png" group-title="Lokal",MGSTV (360p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://mgstv.co.id/live-streaming/
-https://mgstv.siar.us/live/mgstv.m3u8
-#EXTINF:-1 tvg-name="Sriwijaya TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=sriwijayatv.tv
-https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
-#EXTINF:-1 tvg-name="Sampit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/8cFJa8G.png" group-title="Lokal",Sampit TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://sampit-tv.siar.us/live/sampit-tv.m3u8
-#EXTINF:-1 tvg-name="E International Asia (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1659328/media/1058391c8059a0d092426e145d55951b.png" group-title="Lokal",E International Asia (576p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8
