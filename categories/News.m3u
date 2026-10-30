@@ -1,28 +1,38 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="BTV.id@SD" tvg-name="BTV (Indonesia) (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png" group-title="News",BTV (Indonesia) (1080p)
-https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
+#EXTINF:-1 tvg-id="BBC Earth HD" tvg-name="BBC EARTH (FEED)" tvg-logo="https://iili.io/JmoCwfS.png" group-title="News",BBC EARTH (FEED)
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+#EXTINF:-1 tvg-id="iNews.id@SD" tvg-name="iNews (R+)" tvg-logo="https://thumbor.prod.vidiocdn.com/BmeGg2IWkB_FAVPDviCk8gP8qcw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png" group-title="News",iNews (R+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://live.kontoltv.my.id/play/inewsr.m3u8
+#EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-name="Berita RTM [Geo-blocked]" tvg-logo="https://i.imgur.com/1Xzxsgl.png" group-title="News",Berita RTM [Geo-blocked]
+#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 #EXTINF:-1 tvg-id="CNA.sg@SD" tvg-name="CNA (Singapore) (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/awIDugE.png" group-title="News",CNA (Singapore) (1080p) [Geo-blocked]
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 tvg-id="BTV.id@SD" tvg-name="BTV (Indonesia) (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png" group-title="News",BTV (Indonesia) (1080p)
+https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
+#EXTINF:-1 tvg-id="Kompas.TV.id" tvg-name="Kompas TV | Kompas TV Dens TV" tvg-logo="https://www.visionplus.id/images/repository/590/590-LOGO-m.png" group-title="News",Kompas TV | Kompas TV Dens TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+https://live2.kontoltv.my.id/play/kompastvkompastvdenstv.m3u8
 #EXTINF:-1 tvg-name="tvOne" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS9GE4fjMIst8JYbkpr40OcAnRmfa565rG_XwoyhZfzFFbKD4JweqGvStQ&s=10" group-title="News",tvOne
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8
-#EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-name="Berita RTM [Geo-blocked]" tvg-logo="https://i.imgur.com/1Xzxsgl.png" group-title="News",Berita RTM [Geo-blocked]
-#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
-https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+#EXTINF:-1 tvg-name="Metro TV" tvg-logo="https://images.indihometv.com/logo_metrotv_ver1.png" group-title="News",Metro TV
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
 #EXTINF:-1 tvg-name="Kompas TV" tvg-logo="https://images.indihometv.com/logo_kompastv_big.png" group-title="News",Kompas TV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
-#EXTINF:-1 tvg-name="Metro TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/LogoMetroTVsince2010.svg/250px-LogoMetroTVsince2010.svg.png" group-title="News",Metro TV
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV | Metro TV Dens TV" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="News",Metro TV | Metro TV Dens TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://live2.kontoltv.my.id/play/metrotvmetrotvdenstv.m3u8
+#EXTINF:-1 tvg-name="Berita Satu News World" tvg-logo="https://www.lyngsat.com/logo/tv/bb/berita-satu-news-channel-id.png" group-title="News",Berita Satu News World
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
-#EXTINF:-1 tvg-id="iNews.id@SD" tvg-name="iNews (R+)" tvg-logo="https://thumbor.prod.vidiocdn.com/BmeGg2IWkB_FAVPDviCk8gP8qcw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png" group-title="News",iNews (R+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://live.kontoltv.my.id/play/inewsr.m3u8
-#EXTINF:-1 tvg-id="BBC Earth HD" tvg-name="BBC EARTH (FEED)" tvg-logo="https://iili.io/JmoCwfS.png" group-title="News",BBC EARTH (FEED)
-https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 #EXTINF:-1 tvg-id="BTV.id@SD" tvg-name="Berita Satu (DensTV)" tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="News",Berita Satu (DensTV)
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
@@ -30,13 +40,6 @@ https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEar
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 #EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
 https://live.kontoltv.my.id/play/beritasatudenstv.m3u8
-#EXTINF:-1 tvg-id="Kompas.TV.id" tvg-name="Kompas TV | Kompas TV Dens TV" tvg-logo="https://www.visionplus.id/images/repository/590/590-LOGO-m.png" group-title="News",Kompas TV | Kompas TV Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
-https://live2.kontoltv.my.id/play/kompastvkompastvdenstv.m3u8
-#EXTINF:-1 tvg-name="Berita Satu News World" tvg-logo="https://www.lyngsat.com/logo/tv/bb/berita-satu-news-channel-id.png" group-title="News",Berita Satu News World
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 #EXTINF:-1 tvg-id="iNews.id" tvg-name="iNews | Inews R+ 2" tvg-logo="https://www.visionplus.id/images/repository/792/513792-LOGO-m.png" group-title="News",iNews | Inews R+ 2
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -45,88 +48,93 @@ https://live2.kontoltv.my.id/play/inewsinewsr2.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://embed.rctiplus.com/live/inews/sindonews
 https://live2.kontoltv.my.id/play/inewsinewsr1.m3u8
-#EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV | Metro TV Dens TV" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="News",Metro TV | Metro TV Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/metrotvmetrotvdenstv.m3u8
 #EXTINF:-1 tvg-id="iNews.id" tvg-name="iNews | Inews Youtube" tvg-logo="https://www.visionplus.id/images/repository/792/513792-LOGO-m.png" group-title="News",iNews | Inews Youtube
 https://live2.kontoltv.my.id/play/inewsinewsyoutube.ts
 #EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV | Metro TV Youtube" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="News",Metro TV | Metro TV Youtube
 https://live2.kontoltv.my.id/play/metrotvmetrotvyoutube.ts
 #EXTINF:-1 tvg-id="Kompas.TV.id" tvg-name="Kompas TV | Kompas TV Youtube" tvg-logo="https://www.visionplus.id/images/repository/590/590-LOGO-m.png" group-title="News",Kompas TV | Kompas TV Youtube
 https://live2.kontoltv.my.id/play/kompastvkompastvyoutube.ts
-#EXTINF:-1 tvg-id="BBC World News - [Channel 332].id" tvg-name="BBC World V+" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_332.jpg" group-title="News",BBC World V+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0e7c10b448444c53904de46d1a30f427:d638c2cb75ff93d38b5ec8b6f5098dea
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/7d38a4525dfa42b08a94c22c173061da/index.mpd
-#EXTINF:-1 tvg-id="MNCNews.id" tvg-name="SindoNews" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlAtPGRHW6gEgAZMn916nIPyS0yqblsFZqg&s" group-title="News",SindoNews
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=005
-https://d43tg978oium5.cloudfront.net/out/v1/8c2df39f9b2842fbb997b89378841ad9/index.mpd
 #EXTINF:-1 tvg-id="CNA" tvg-name="Channel News Asia" tvg-logo="https://cms.cignal.tv/Upload/Images/CNA%20LOGO%20-horizontal%20-%20on%20light%20background.png" group-title="News",Channel News Asia
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/channelnewsasia.mpd
-#EXTINF:-1 tvg-id="mjh-abc-news" tvg-name="24. ABC News" tvg-logo="example.png" group-title="News",24. ABC News
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=3b89ee4ebea44296a1bba97a447c0eeb:c85e224f241097798b91b93a310b0dd8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/24abcnews.mpd
-#EXTINF:-1 tvg-id="130" tvg-name="BBC World News" tvg-logo="https://www.visionplus.id/images/repository/672/493672-LOGO-m.png" group-title="News",BBC World News
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/bbcworldnews
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/bbcworldnews.mpd
-#EXTINF:-1 tvg-id="cnn" tvg-name="CNN" tvg-logo="https://freem3u.xyz/static/images/global/cnn.png" group-title="News",CNN
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=714cc8ed05a03abb9ac61bd4bbd1d8a0:1acf58ff8d4cd87c2d3c12d22248efb1
-https://live.kontoltv.my.id/play/cnn.mpd
-#EXTINF:-1 tvg-name="BBC LIFESTYLE" tvg-logo="https://mimipipi22.github.io/logo/lifestyle/bbclifestyle.jpg" group-title="News",BBC LIFESTYLE
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=58b949986ed13294bc01b0f330abc527:23e8c5f2fe202906ac2d6554d9527299
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live.kontoltv.my.id/play/bbclifestyle.mpd
-#EXTINF:-1 tvg-id="iNews.id" tvg-name="iNews | Inews Vision+" tvg-logo="https://www.visionplus.id/images/repository/792/513792-LOGO-m.png" group-title="News",iNews | Inews Vision+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/inewsinewsvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/inewsinewsvision.mpd
-#EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV | Metro TV Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="News",Metro TV | Metro TV Vidio 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/metrotvmetrotvvidio1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/metrotvmetrotvvidio1.mpd
-#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC World (Vision+)" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_332.jpg" group-title="News",BBC World (Vision+)
+#EXTINF:-1 tvg-id="CNBC Asia" tvg-name="CNBC Asia (Vision+)" tvg-logo="https://www.mncvision.id/userfiles/image/channel/cnbc.png" group-title="News",CNBC Asia (Vision+)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/bbcworldvision
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/cnbcasiavision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/bbcworldvision.mpd
+https://live.kontoltv.my.id/play/cnbcasiavision.mpd
+#EXTINF:-1 tvg-id="SindoNewsTV.id@SD" tvg-name="SindoNews (Vision+)" tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="News",SindoNews (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/sindonewsvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/sindonewsvision.mpd
 #EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV | Metro TV Vidio 2" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="News",Metro TV | Metro TV Vidio 2
 #EXTVLCOPT:http-referrer=https://m.vidio.com/
 #EXTVLCOPT:http-origin=https://m.vidio.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live2.kontoltv.my.id/play/metrotvmetrotvvidio2.mpd
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV | Metro TV Vision+" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="News",Metro TV | Metro TV Vision+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/metrotvmetrotvvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2.kontoltv.my.id/play/metrotvmetrotvvision.mpd
+#EXTINF:-1 tvg-id="Euronews" tvg-name="Euronews (Vision+)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/EuroNews.svg/2560px-EuroNews.svg.png" group-title="News",Euronews (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/euronewsvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/euronewsvision.mpd
+#EXTINF:-1 tvg-name="BBC First" tvg-logo="https://tse3.mm.bing.net/th/id/OIP._2P17CH7utW-IubLX2u_YgAAAA?pid=Api&P=0&h=220" group-title="News",BBC First
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7dc3abc5027b234af5af237d9ba1fb16:2542140d96078c87eca2a2b2fd7529aa
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/bbcfirst.mpd
+#EXTINF:-1 tvg-id="132" tvg-name="Fox News" tvg-logo="https://www.visionplus.id/images/repository/662/662-LOGO-m.png" group-title="News",Fox News
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/foxnews
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2.kontoltv.my.id/play/foxnews.mpd
+#EXTINF:-1 tvg-id="mjh-abc-news" tvg-name="24. ABC News" tvg-logo="example.png" group-title="News",24. ABC News
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=3b89ee4ebea44296a1bba97a447c0eeb:c85e224f241097798b91b93a310b0dd8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/24abcnews.mpd
 #EXTINF:-1 tvg-id="bloomberg" tvg-name="Bloomberg" tvg-logo="https://freem3u.xyz/static/images/global/bloomberg.png" group-title="News",Bloomberg
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1071393f8fc237f3a9a28028142110f7:7a0f8c3c72e0ffff811d534c929c57c2
 https://live.kontoltv.my.id/play/bloomberg.mpd
-#EXTINF:-1 tvg-name="BBC First" tvg-logo="https://tse3.mm.bing.net/th/id/OIP._2P17CH7utW-IubLX2u_YgAAAA?pid=Api&P=0&h=220" group-title="News",BBC First
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7dc3abc5027b234af5af237d9ba1fb16:2542140d96078c87eca2a2b2fd7529aa
+#EXTINF:-1 tvg-id="bbcnews" tvg-name="BBC World News" tvg-logo="https://freem3u.xyz/static/images/global/bbc-news.png" group-title="News",BBC World News
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/bbcfirst.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c7ba46086dda345a929e29bf155e459c:d374b8f39904bf572689ea347ae86591
+https://live.kontoltv.my.id/play/bbcworldnews.mpd
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV | Metro TV Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="News",Metro TV | Metro TV Vidio 1
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/metrotvmetrotvvidio1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2.kontoltv.my.id/play/metrotvmetrotvvidio1.mpd
+#EXTINF:-1 tvg-id="cnn" tvg-name="CNN" tvg-logo="https://freem3u.xyz/static/images/global/cnn.png" group-title="News",CNN
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=714cc8ed05a03abb9ac61bd4bbd1d8a0:1acf58ff8d4cd87c2d3c12d22248efb1
+https://live.kontoltv.my.id/play/cnn.mpd
+#EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" tvg-logo="https://freem3u.xyz/static/images/global/bbc-lifestyle.png" group-title="News",BBC Lifestyle
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=58b949986ed13294bc01b0f330abc527:23e8c5f2fe202906ac2d6554d9527299
+https://live.kontoltv.my.id/play/bbclifestyle_2.mpd

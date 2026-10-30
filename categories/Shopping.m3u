@@ -5,17 +5,17 @@
 https://stream3.shopch.jp/httporiginlivech1/ch1.stream_1280p/chunklist.m3u8
 #EXTINF:-1 tvg-id="HyundaiHomeShoppingPlusShop.kr" tvg-name="HYUNDAI HOME SHOPPING PLUS" tvg-logo="https://i.imgur.com/DoNOuZE.png" group-title="Shopping",HYUNDAI HOME SHOPPING PLUS
 https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="GSMyShop.kr" tvg-name="GS MY SHOP" tvg-logo="https://i.imgur.com/ETPQwui.png" group-title="Shopping",GS MY SHOP
+https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="GongyoungHomeShopping.kr" tvg-name="GONGYOUNG HOME SHOPPING" tvg-logo="https://i.imgur.com/YL3rpd7.png" group-title="Shopping",GONGYOUNG HOME SHOPPING
 https://etv.publichs.com/live5.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="GSShop.kr" tvg-name="GS SHOP" tvg-logo="https://i.imgur.com/F7QDbEy.png" group-title="Shopping",GS SHOP
-https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="HomeShopping.kr" tvg-name="HOME SHOPPING" tvg-logo="https://i.imgur.com/IcexRXG.png" group-title="Shopping",HOME SHOPPING
+https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
 #EXTINF:-1 tvg-name="shinsegae shopping tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVp2_GZ1MmuMNpSTC_DXOkhJuRZ6JDqgkYw&s" group-title="Shopping",shinsegae shopping tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv.garden/
 https://liveout.catenoid.net/live-02-shinsegaetvshopping/shinsegaetvshopping_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="HyundaiHomeShopping.kr" tvg-name="HYUNDAI HOME SHOPPING" tvg-logo="https://i.imgur.com/NJpECmq.png" group-title="Shopping",HYUNDAI HOME SHOPPING
 https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8
-#EXTINF:-1 tvg-id="HomeShopping.kr" tvg-name="HOME SHOPPING" tvg-logo="https://i.imgur.com/IcexRXG.png" group-title="Shopping",HOME SHOPPING
-https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
-#EXTINF:-1 tvg-id="GSMyShop.kr" tvg-name="GS MY SHOP" tvg-logo="https://i.imgur.com/ETPQwui.png" group-title="Shopping",GS MY SHOP
-https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="GSShop.kr" tvg-name="GS SHOP" tvg-logo="https://i.imgur.com/F7QDbEy.png" group-title="Shopping",GS SHOP
+https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8

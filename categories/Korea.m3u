@@ -1,12 +1,10 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CJ OnStyle Plus" tvg-logo="https://www.kedglobal.com/data/ked/image/2024/09/26/ked202409260040.jpg" group-title="Korea",CJ OnStyle Plus
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://tv.garden/
-https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8
-#EXTINF:-1 tvg-name="EBS+1" tvg-logo="https://i.ibb.co/nwywk5M/79K98aG.png" group-title="Korea",EBS+1
-https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-name="EBS+2" tvg-logo="https://i.ibb.co/tJLpsDs/U5lEc22.png" group-title="Korea",EBS+2
-https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 tvg-id="GCN.kr" tvg-name="GCN" tvg-logo="https://i.imgur.com/yzwtMOC.png" group-title="Korea",GCN
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="EBS 2" tvg-logo="https://i.imgur.com/YyHdbsh.png" group-title="Korea",EBS 2
+https://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 tvg-name="EBS 1" tvg-logo="https://i.imgur.com/mbQlIZN.png" group-title="Korea",EBS 1
+https://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1 tvg-name="CJ OnStyle" tvg-logo="https://www.kedglobal.com/data/ked/image/2024/09/26/ked202409260040.jpg" group-title="Korea",CJ OnStyle
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv.garden/
@@ -15,16 +13,10 @@ https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="EBS EN" tvg-logo="https://i.imgur.com/WzatxMZ.jpeg" group-title="Korea",EBS EN
 https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="GCN.kr" tvg-name="GCN" tvg-logo="https://i.imgur.com/yzwtMOC.png" group-title="Korea",GCN
-http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="oninfotv" tvg-name="ON Info TV" tvg-logo="https://i.imgur.com/jp57P0v.png" group-title="Korea",ON Info TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/oninfotv.m3u8
-#EXTINF:-1 tvg-id="SBS" tvg-name="SBS" tvg-logo="https://iili.io/JmoiJMN.png" group-title="Korea",SBS
-http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
-#EXTINF:-1 tvg-id="oncine" tvg-name="ON Cine" tvg-logo="https://i.imgur.com/6f9ngwY.png" group-title="Korea",ON Cine
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/oncine.m3u8
+#EXTINF:-1 tvg-name="CJ OnStyle Plus" tvg-logo="https://www.kedglobal.com/data/ked/image/2024/09/26/ked202409260040.jpg" group-title="Korea",CJ OnStyle Plus
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://tv.garden/
+https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8
 #EXTINF:-1 tvg-id="KBS.World.id" tvg-name="KBS WORLD" tvg-logo="https://mimipipi22.github.io/logo/international/kbsworld.jpg" group-title="Korea",KBS WORLD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -34,10 +26,9 @@ https://live.kontoltv.my.id/play/kbsworldhd.m3u8
 #EXTINF:-1 tvg-id="onechannel" tvg-name="ON E Channel" tvg-logo="https://i.imgur.com/87JEXEQ.png" group-title="Korea",ON E Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
 https://live.kontoltv.my.id/play/onechannel.m3u8
-#EXTINF:-1 tvg-id="tvN.id" tvg-name="TVN" tvg-logo="https://www.visionplus.id/images/repository/103/458103-LOGO-m.png" group-title="Korea",TVN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/tvn
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/tvn.mpd
+#EXTINF:-1 tvg-id="oncine" tvg-name="ON Cine" tvg-logo="https://i.imgur.com/6f9ngwY.png" group-title="Korea",ON Cine
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/oncine.m3u8
+#EXTINF:-1 tvg-id="oninfotv" tvg-name="ON Info TV" tvg-logo="https://i.imgur.com/jp57P0v.png" group-title="Korea",ON Info TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/oninfotv.m3u8

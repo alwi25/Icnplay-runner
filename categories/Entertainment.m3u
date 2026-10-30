@@ -1,9 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="128" tvg-name="Stingray Classica" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423611_tvchannels_v1.jpg" group-title="Entertainment",Stingray Classica
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-origin=https://www.dens.tv
-https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica
 #EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-name="Channel U (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="Entertainment",Channel U (720p)
 https://cdn.qd.je/163189/chu
 #EXTINF:-1 tvg-id="143" tvg-name="Qwest TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1763699104_tvchannels_v1.jpg" group-title="Entertainment",Qwest TV
@@ -11,6 +6,11 @@ https://cdn.qd.je/163189/chu
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV
+#EXTINF:-1 tvg-id="128" tvg-name="Stingray Classica" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423611_tvchannels_v1.jpg" group-title="Entertainment",Stingray Classica
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica
 #EXTINF:-1 tvg-id="130" tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Entertainment",Dance TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -27,13 +27,20 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8?app_type=web&userid=l
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=72
 #EXTINF:-1 tvg-id="8TV.my@SD" tvg-name="8TV" tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="Entertainment",8TV
 http://cdn6.163189.xyz/163189/8tv
-#EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-name="meWATCH LIVE 1 (1080p)" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="Entertainment",meWATCH LIVE 1 (1080p)
-https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-id="mjh-abc-me" tvg-name="23. ABC Entertains" tvg-logo="example.png" group-title="Entertainment",23. ABC Entertains
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1ffe9e9a5e6648e884d741b536d34e72:86dead7608ebf2d8028416add9b8769b
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/23abcentertains.mpd
+#EXTINF:-1 tvg-id="ROCKEntertainment.sg@SD" tvg-name="Rock Entertainment (Vision+)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Rock_Entertainment.png" group-title="Entertainment",Rock Entertainment (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/rockentertainmentvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/rockentertainmentvision.mpd
+#EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-name="meWATCH LIVE 1 (1080p)" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="Entertainment",meWATCH LIVE 1 (1080p)
+https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-id="87" tvg-name="Vision Prime" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_1.png" group-title="Entertainment",Vision Prime
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
