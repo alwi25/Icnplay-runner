@@ -1,0 +1,5 @@
+# iCN Play playlist runner
+# No third-party deps — runs on Python stdlib only.
+# If you add tools later (e.g. yt-dlp to pull specific streams), pin them here.
+#
+# (intentionally empty: `python3 icn_runner.py` needs only the standard library)

@@ -1,0 +1,13 @@
+{
+  "app": "com.icnplay.id (iCN Play v1.1 build 17)",
+  "server_endpoint": "https://my.idetimur.id/icnplay",
+  "app_user_agent": "iCNPL4Y",
+  "default_ua": "Tivimate/1.3.2.4 (Linux; Android 14; Raspberry Pi 5 Build/UP1A.231005.007)",
+  "kunci": "Panca86",
+  "decoded_from": {
+    "xor_key_ascii": "1CNPL4Y_CNL86",
+    "xor_key_bytes": [49, 67, 78, 80, 76, 52, 89, 95, 67, 78, 76, 56, 54],
+    "server_ciphertext": "WTc6ID8OdnAuN2JRUlQ3Jz05Rnc2J2ElW1hBLy8p",
+    "ua_ciphertext": "WAAAAAAAAA=="
+  }
+}
