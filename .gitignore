@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .env
+merged/_probe.m3u
+merged/health.json

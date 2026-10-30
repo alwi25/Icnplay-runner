@@ -31,13 +31,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Fetch all sources (falls back to the committed copy when a host is
-      # down), rebuild the flat playlists, then probe every channel and drop
-      # ONLY the hard-dead ones (404/410/DNS). DRM/AUTH/FLAKY are kept on
-      # purpose: the player performs the clearkey handshake, so a bare 403
-      # from urllib must never delete a working channel.
-      - name: Refresh + auto-check streams
+      # Refresh the iCN source into its own copy, then merge it with the
+      # tivora playlist and the curated iptv-org lists, de-duplicate, probe
+      # every channel, drop the dead ones and rebuild tidy category files.
+      - name: Refresh iCN source
         run: python3 icn_runner.py --check --workers 48 --retries 2
+
+      - name: Merge all sources into the published playlists
+        run: python3 merge_build.py --publish
 
       - name: Health summary
         if: always()
@@ -66,8 +67,9 @@ jobs:
           # ICNPLAY_full.m3u  = unfiltered fallback (every channel)
           # ICNPLAY_fast.m3u  = only fast/live channels (<=3s), HLS first
           # kids.m3u          = channel anak saja, HLS dulu lalu DASH
-          git add playlist/ manifest.json health.json \
-                  ICNPLAY.m3u ICNPLAY_full.m3u ICNPLAY_fast.m3u kids.m3u
+          git add playlist/ manifest.json health.json ICNPLAY.m3u \
+                  ICNPLAY_full.m3u ICNPLAY_fast.m3u kids.m3u \
+                  DRM_Clearkey.m3u categories/
           if git diff --cached --quiet; then
             echo "No changes."
           else

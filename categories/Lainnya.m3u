@@ -1,0 +1,222 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
+https://tg0j1gr4ugmtwgczdqcbqgr5dgmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel2/playlist.m3u8?wsSecret=981259c4ef0420a5e6149495c06e382d&wsABSTime=1793319624&wsSession=b93dcef1517110ac9cffefbe-179327644853302&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1168312122851561605
+#EXTINF:-1 tvg-name="NHK WORL JAPAN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUuAlkE08b3RI79ZRo0e4oe0nZm3NxnuYOIw&s" group-title="Lainnya",NHK WORL JAPAN
+https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
+#EXTINF:-1 tvg-name="Live Streaming 1" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745228970_tvchannels_v1.jpg" group-title="Lainnya",Live Streaming 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h123/live.m3u8?app_type=web&userid=lite&chname=Live_Streaming_1
+#EXTINF:-1 tvg-name="FREEDOM" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503445_tvchannels_v1.jpg" group-title="Lainnya",FREEDOM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h101/index.m3u8?app_type=web&userid=lite&chname=FREEDOM
+#EXTINF:-1 tvg-name="DensPlay" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501248_tvchannels_v1.jpg" group-title="Lainnya",DensPlay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h246/index.m3u8?app_type=web&userid=lite&chname=DensPlay
+#EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Lainnya",Dance TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayaxenkoda.dens.tv/f6d75069-1137-446f-9062-2f010e794b6c/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
+#EXTINF:-1 tvg-name="Cafe TV24" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOb4HwKh7QRNeOgcM4k8Xs1xOiRzgLcrqGw&s" group-title="Lainnya",Cafe TV24
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://tv.garden/
+https://srvx1.selftv.video/cafe/live/playlist.m3u8
+#EXTINF:-1 tvg-id="onviedramas" tvg-name="ON Vie DRAMAS" tvg-logo="https://i.imgur.com/n7QICK7.png" group-title="Lainnya",ON Vie DRAMAS
+https://live.kontoltv.my.id/play/onviedramas.m3u8
+#EXTINF:-1 tvg-id="ontrending" tvg-name="ON Trending TV" tvg-logo="https://i.imgur.com/hHYzxmS.png" group-title="Lainnya",ON Trending TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/ontrendingtv.m3u8
+#EXTINF:-1 tvg-name="Catholic TV" tvg-logo="https://e7.pngegg.com/pngimages/243/547/png-clipart-catholictv-television-religious-broadcasting-logo-brand-woodlawn-cemetery-tampa-catholictv-television.png" group-title="Lainnya",Catholic TV
+https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/playlist_4.m3u8
+#EXTINF:-1 tvg-id="onstyle" tvg-name="ON Style TV" tvg-logo="https://i.imgur.com/6LQ0Z1O.png" group-title="Lainnya",ON Style TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onstyletv.m3u8
+#EXTINF:-1 tvg-id="onbibi" tvg-name="ON BiBi" tvg-logo="https://i.imgur.com/YFmPo7l.png" group-title="Lainnya",ON BiBi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onbibi.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX TROPICAL BEACH 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX TROPICAL BEACH 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809412.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX VIETNAM 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX VIETNAM 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809424.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX SNOW WINTER 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX SNOW WINTER 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809415.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX FLOWER 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FLOWER 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809417.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX MOROCCO 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX MOROCCO 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809431.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX FOREST 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FOREST 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809416.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX ICELAND 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX ICELAND 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809430.m3u8
+#EXTINF:-1 tvg-id="onviegiaitri" tvg-name="ON Vie Giải Trí" tvg-logo="https://i.imgur.com/7GSKm46.png" group-title="Lainnya",ON Vie Giải Trí
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onviegiitr.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX EUROPE TOWNS 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX EUROPE TOWNS 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809422.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX STARDUST 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX STARDUST 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809414.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX SWITZERLAND 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX SWITZERLAND 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809426.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX NATURE RELAXATION 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX NATURE RELAXATION 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809419.m3u8
+#EXTINF:-1 tvg-id="onvfamily" tvg-name="ON VFamily" tvg-logo="https://i.imgur.com/R82M53x.png" group-title="Lainnya",ON VFamily
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://live.kontoltv.my.id/play/onvfamily.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX ITALY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX ITALY 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809427.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX EARTH NATURE 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX EARTH NATURE 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809418.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX INSPIRATIONAL MOTIVATIONAL 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX INSPIRATIONAL MOTIVATIONAL 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809421.m3u8
+#EXTINF:-1 tvg-id="ono2tv" tvg-name="ON O2TV" tvg-logo="https://i.imgur.com/nqwVkmM.png" group-title="Lainnya",ON O2TV
+https://live.kontoltv.my.id/play/ono2tv.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX THE OCEAN 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX THE OCEAN 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809413.m3u8
+#EXTINF:-1 tvg-id="onlife" tvg-name="On Life" tvg-logo="https://i.ibb.co/QXk7C6G/On-life.jpg" group-title="Lainnya",On Life
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onlife.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX AUSTRALIA 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX AUSTRALIA 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809428.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX TURKEY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX TURKEY 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809425.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX FOREST AMERICAN 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FOREST AMERICAN 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809423.m3u8
+#EXTINF:-1 tvg-name="四平新闻综合" group-title="Lainnya",四平新闻综合
+https://stream2.jlntv.cn/sptv/sd/live.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX MORNING RELAXING 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX MORNING RELAXING 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809420.m3u8
+#EXTINF:-1 tvg-id="tvbvn" tvg-name="TVB VIỆT NAM" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/TVB%20Vietnam%20Banner_Side.jpg" group-title="Lainnya",TVB VIỆT NAM
+https://live.kontoltv.my.id/play/tvbvitnam.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX NORWAY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX NORWAY 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809429.m3u8
+#EXTINF:-1 tvg-name="flix" tvg-logo="https://raw.githubusercontent.com/zokerpunk/logo/main/movie/flix.jpeg" group-title="Lainnya",flix
+#EXTGRP:🔴PREMIUM MOVIE
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+##KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=79698301a95740009531b1d53e3ad5fe:7240a4a29a54e6089b108fbcb95cb265
+http://013tv.com:8080/F33848/cbd9779b/165095
+#EXTINF:-1 tvg-name="xinjiang tv 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOAL2W3kq9G1iRRMWvgMZZh1NAxRt65nDrQ&s" group-title="Lainnya",xinjiang tv 3
+https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8
+#EXTINF:-1 tvg-name="PPV 2" tvg-logo="https://iili.io/KfT7PJ2.jpg" group-title="Lainnya",PPV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-referrer=hhttps://pulse1.sanseny001.shop/000/
+https://pulse1.sanseny001.shop/puki2/usergendxpk2s6utg0l.m3u8
+#EXTINF:-1 tvg-name="001 TRAKTIR KOPI" tvg-logo="https://iili.io/KxLFPLJ.md.png" group-title="Lainnya",001 TRAKTIR KOPI
+https://drive.google.com/uc?export=download&id=1GXT2ntc4zPZPQtiotFTTvhkwrdHVrQMy&usp
+#EXTINF:-1 tvg-name="03:00 WIB Sheffield United vs Wrexham" tvg-logo="https://shorter.me/UXCX0" group-title="Lainnya",03:00 WIB Sheffield United vs Wrexham
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 tvg-name="TVMu" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_TVMU_2025_03_17_15_03_28.png" group-title="Lainnya",TVMu
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tvmu
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/{{DRM_ID}}
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/tvmu.mpd
+#EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="https://freem3u.xyz/static/images/global/hbo.png" group-title="Lainnya",HBO
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=09ddfe3d63863cafaeb79d0546b098ab:3de0f38dcf014827dfd5bec38743c6a2
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"PeDzjc8BSCff1b7Dh0PGog","kid":"Cd3+PWOGPK+ut50FRrCYqw"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/hbo.mpd
+#EXTINF:-1 tvg-id="dmax" tvg-name="Dmax" tvg-logo="https://freem3u.xyz/static/images/global/dmax.png" group-title="Lainnya",Dmax
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=53b26f904ae03a20b56477cfb9c5dca2:0c64ccfb978e7390bd33344075492aec
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"DGTM+5eOc5C9MzRAdUkq7A","kid":"U7JvkErgOiC1ZHfPucXcog"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/dmax.mpd
+#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery" tvg-logo="https://freem3u.xyz/static/images/global/discovery-channel.png" group-title="Lainnya",Discovery
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb4160ea553a321d899553e4e796fec2:bea5a07157e0c4d17b11ab399517f952
+https://live.kontoltv.my.id/play/discovery.mpd
+#EXTINF:-1 tvg-name="03:00 WIB Villarreal vs Espanyol" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s" group-title="Lainnya",03:00 WIB Villarreal vs Espanyol
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+#EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://s7774.cdn.mytvnet.vn/vimages/6b/ba/a3/36/60/0a/6ba36-pwarnerhd-channel-unkn.png" group-title="Lainnya",Warner TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"NPGQjP4uBe4GAEbUDxSuyQ","kid":"CG0JpAv/OgCqbdTbr5wTsg"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/warnertv_3.mpd
+#EXTINF:-1 tvg-id="axn" tvg-name="AXN" tvg-logo="https://freem3u.xyz/static/images/global/axn.png" group-title="Lainnya",AXN
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9d29f87efdec3c9fab368f724a62ad0e:6f1c09c035eab36323d60d1454db3d20
+https://live.kontoltv.my.id/play/axn.mpd
+#EXTINF:-1 tvg-id="animal-planet" tvg-name="Animal-planet" tvg-logo="https://freem3u.xyz/static/images/global/animal-planet.png" group-title="Lainnya",Animal-planet
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875
+https://live.kontoltv.my.id/play/animalplanet.mpd
+#EXTINF:-1 tvg-name="01:00 WIB Le Havre vs PSG" tvg-logo="https://iili.io/FDOiPI4.jpg" group-title="Lainnya",01:00 WIB Le Havre vs PSG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
+#EXTINF:-1 tvg-id="discoveryasia" tvg-name="Discovery Asia" tvg-logo="https://freem3u.xyz/static/images/global/discovery-asia.png" group-title="Lainnya",Discovery Asia
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=934907b134be3963a6263a453846924c:788e2835fb98568aed2f47bbdc091515
+https://live.kontoltv.my.id/play/discoveryasia.mpd
+#EXTINF:-1 tvg-id="Mono29.th" tvg-name="Monomax 29" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/monomax.png" group-title="Lainnya",Monomax 29
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2.kontoltv.my.id/play/mono29.mpd
+#EXTINF:-1 tvg-id="Canale 5 HD.it" tvg-name="Canale 5" tvg-logo="https://iili.io/d93woZP.png" group-title="Lainnya",Canale 5
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
+#EXTINF:-1 tvg-name="16:00 WIB Brisbane Roar vs Auckland" tvg-logo="https://shorter.me/K67vG" group-title="Lainnya",16:00 WIB Brisbane Roar vs Auckland
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+#EXTINF:-1 tvg-id="mjh-abc-act" tvg-name="2. ABC TV (ACT)" tvg-logo="example.png" group-title="Lainnya",2. ABC TV (ACT)
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=83b7c942bf0c4a2d80a299426da2d764:5b1dd642b5a6317e00335eda59dfb07e
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/2abctvact.mpd
+#EXTINF:-1 tvg-id="mjh-abc-tv-plus" tvg-name="22. ABC Family (7.30pm-4.00am AEST)" tvg-logo="example.png" group-title="Lainnya",22. ABC Family (7.30pm-4.00am AEST)
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=561611703c4b4749973a73e7bb1d0af2:f90bd049ac3734d46fe66f89f02f1f0f
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/22abcfamily730pm400amaest.mpd
+#EXTINF:-1 tvg-id="dreamworks" tvg-name="Dreamworks" tvg-logo="https://freem3u.xyz/static/images/global/dreamworks.png" group-title="Lainnya",Dreamworks
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=67dae20527c63dadaaae609aa91577cb:59328f621d56767bc5ff9404a8940683
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"WTKPYh1WdnvF/5QEqJQGgw","kid":"Z9riBSfGPa2qrmCaqRV3yw"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/dreamworks.mpd
+#EXTINF:-1 tvg-id="Italia 1 HD.it" tvg-name="Italia 1" tvg-logo="https://iili.io/d93wOtS.png" group-title="Lainnya",Italia 1
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd

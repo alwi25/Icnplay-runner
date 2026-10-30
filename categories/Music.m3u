@@ -1,0 +1,86 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="STARA TV | Jakarta | Ga 24 Jam" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxWiCQH1XxBTjUG4heG7WILvKlinmPmrS5BBqahQt5A&s=10" group-title="Music",STARA TV | Jakarta | Ga 24 Jam
+https://jakarta.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="FreshDance" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/FreshDance.png" group-title="Music",FreshDance
+https://wahyu1ptv.pages.dev/FreshDance.m3u8
+#EXTINF:-1 tvg-name="STARATV | Parahyangan" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxWiCQH1XxBTjUG4heG7WILvKlinmPmrS5BBqahQt5A&s=10" group-title="Music",STARATV | Parahyangan
+#EXTVLCOPT:http-referrer=https://parahyangan.staratv.id/
+https://parahyangan.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="STARA TV | Bandung" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxWiCQH1XxBTjUG4heG7WILvKlinmPmrS5BBqahQt5A&s=10" group-title="Music",STARA TV | Bandung
+https://bandung.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="STARA TV | Malang" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxWiCQH1XxBTjUG4heG7WILvKlinmPmrS5BBqahQt5A&s=10" group-title="Music",STARA TV | Malang
+https://malang.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="STARA TV | Majalengka" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxWiCQH1XxBTjUG4heG7WILvKlinmPmrS5BBqahQt5A&s=10" group-title="Music",STARA TV | Majalengka
+https://stream.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="IMTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWF5iy7pz8qWStADdt3lRs1bQb465KYE7Yg&s" group-title="Music",IMTV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
+#EXTINF:-1 tvg-name="STARA TV | Cianjur" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxWiCQH1XxBTjUG4heG7WILvKlinmPmrS5BBqahQt5A&s=10" group-title="Music",STARA TV | Cianjur
+https://cianjur.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="IbizaTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Ibiza.png" group-title="Music",IbizaTV
+https://wahyu1ptv.pages.dev/Ibiza.m3u8
+#EXTINF:-1 tvg-name="BAHANA RADIO MUSIC" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/9/95/LogoBahanaFMJKT.png/250px-LogoBahanaFMJKT.png" group-title="Music",BAHANA RADIO MUSIC
+https://5bf7b725107e5.streamlock.net/bahanaradio/bahanaradio/playlist.m3u8
+#EXTINF:-1 tvg-name="MetalTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/MetalTV.png" group-title="Music",MetalTV
+https://wahyu1ptv.pages.dev/MetalTV.m3u8
+#EXTINF:-1 tvg-id="CarubanTV.id@HD" tvg-name="Caruban TV | Cirebon" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NB2I0GjBiqquZZRh4klYml0vEkdKnKQBOftBQ_FgBQ&s" group-title="Music",Caruban TV | Cirebon
+#EXTVLCOPT:http-referrer=https://stream.carubantv.id
+https://stream.carubantv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="K-ContentsVoyage" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/K-ContentsVoyage.png" group-title="Music",K-ContentsVoyage
+https://wahyu1ptv.pages.dev/K-ContentsVoyage.m3u8
+#EXTINF:-1 tvg-name="STARATV | bojonegoro" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxWiCQH1XxBTjUG4heG7WILvKlinmPmrS5BBqahQt5A&s=10" group-title="Music",STARATV | bojonegoro
+#EXTVLCOPT:http-referrer=https://bojonegoro.staratv.id/
+https://bojonegoro.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-id="one.music.de" tvg-name="1mus" tvg-logo="http://www.tvboxgroup.com/iptv/logo/DE/DE106Pro7.png" group-title="Music",1mus
+#KODIPROP:inputstream.adaptive.stream_headers=referer=http://hz1.teleport.cc/HD.html//&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+http://hz1.teleport.cc/HLS/HD.m3u8
+#EXTINF:-1 tvg-name="RELOAD MUSIC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQicUPRq5NTdA-qyBs8bPYWVqBgemzUKWjgmw&s" group-title="Music",RELOAD MUSIC
+http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
+#EXTINF:-1 tvg-name="EIM" group-title="Music",EIM
+http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
+#EXTINF:-1 tvg-name="PERSIANA MUSIC" group-title="Music",PERSIANA MUSIC
+https://musichls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="PERSIANA SONNATI" group-title="Music",PERSIANA SONNATI
+https://sonhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="4KURD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmiF-IbIaYBxs61lWH885m8CPJAXpujoh8K6PDbVn5kw&s" group-title="Music",4KURD
+https://4kuhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="ZOOM TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmuyjtVph0Ep3V-k2MVdUGfVKPw1u4pl1yRKGSzq3LQ&s=10" group-title="Music",ZOOM TV
+https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 tvg-id="Trace Urban" tvg-name="Trace Urban" tvg-logo="https://cdn4.mbahnunungonline.net/img/eR3W6Vt.png?v=1.0.0.1" group-title="Music",Trace Urban
+https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="NOW 80s" tvg-logo="https://github.com/And73Smi/IPTV-M3U/blob/main/logo/NOW_80s.png?raw=true" group-title="Music",NOW 80s
+https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="NOW 70s" tvg-logo="https://github.com/And73Smi/IPTV-M3U/blob/main/logo/NOW_70s.png?raw=true" group-title="Music",NOW 70s
+https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="YRF Music HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCIkm2nIJw9C43IcSBUici5QZMpApbgDzIB7qCntb-sA&s=10" group-title="Music",YRF Music HD
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="StingrayTodaysKPop.ca" tvg-name="Stingray Today's K-POP" tvg-logo="https://i.imgur.com/mMbntB5.png" group-title="Music",Stingray Today's K-POP
+https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-name="NOW ROCK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkxd5VOoKxpTTH9g4Be60ZLNXZdYVfh2A2MA&s" group-title="Music",NOW ROCK
+https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="MUSICA" tvg-logo="https://i.postimg.cc/SQTLjRnj/ezgif-4e840dec9df68523.png" group-title="Music",MUSICA
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
+#EXTVLCOPT:http-referrer=https://www.vidio.com/
+#EXTVLCOPT:http-origin=https://www.vidio.com
+https://live.kontoltv.my.id/play/musica.m3u8
+#EXTINF:-1 tvg-name="MBC  M [k-pop]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9y2FGZQhoDXzFJqWh39Cv2n22dxbLSyGBgQcmBAwHRC3uecQYydXLLmg&s=10" group-title="Music",MBC  M [k-pop]
+https://newidco-newkid-1-eu.plex.wurl.tv/3000.m3u8
+#EXTINF:-1 tvg-name="24H K-POP TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7NcEh8p4tABtq9Vc5824eoIy3IFsmuX4Y9A&s" group-title="Music",24H K-POP TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://live.24hrkpop.com/hls/3/stream.m3u8
+#EXTINF:-1 tvg-name="SPIRIT TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDgISmgY9Nx1XWHO567adwvD0rbZWE-mOYw&s" group-title="Music",SPIRIT TV
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
+#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-name="511 NEW KPOP" tvg-logo="https://dki01q1l7yn3y.cloudfront.net/thumbnails-platform-prod/assets/cs::content::channels/0-2048/617-LG-Logo-PNG-100x100_v6.png" group-title="Music",511 NEW KPOP
+https://909b88a1a7814326b58f45aa4514efdc.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-ca_NewKPop/playlist.m3u8
+#EXTINF:-1 tvg-name="K-PopByCjENM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfqubKdWWl4Bzgb2GuSz5RX26aU9uc2HlQ15EF79bFw&s=10" group-title="Music",K-PopByCjENM
+https://d3kmrn2mstrnk5.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7ppcp3lxg7oer/57f79b7c-3aac-40e3-a424-779160572f92/0.m3u8
+#EXTINF:-1 tvg-id="onmusic" tvg-name="ON Music" tvg-logo="https://i.imgur.com/45BXPY3.png" group-title="Music",ON Music
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onmusic.m3u8
+#EXTINF:-1 tvg-id="Music TV" tvg-name="Musik TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Music_TV_%282020%29.png" group-title="Music",Musik TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/musiktv
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/musiktv.mpd

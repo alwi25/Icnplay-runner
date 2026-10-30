@@ -1,0 +1,49 @@
+{
+  "generated": "2026-10-30 08:01:44",
+  "raw": 3311,
+  "unique_url": 2157,
+  "alive": 1799,
+  "final": 1727,
+  "drm_clearkey": 6,
+  "counts": {
+    "DRM": 275,
+    "AUTH": 237,
+    "LIVE": 1941,
+    "LIVE?": 19,
+    "FLAKY": 234,
+    "DEAD": 90
+  },
+  "categories": {
+    "Indonesia": 118,
+    "Lokal": 120,
+    "Sports": 502,
+    "Kids": 309,
+    "Movies": 71,
+    "Music": 35,
+    "Radio": 60,
+    "Muslim": 140,
+    "News": 28,
+    "Knowledge & Lifestyle": 42,
+    "Entertainment": 27,
+    "Shopping": 1,
+    "CCTV": 110,
+    "Malaysia": 28,
+    "Singapore": 6,
+    "Korea": 30,
+    "Thailand": 40,
+    "Lainnya": 60
+  },
+  "kinds": {
+    "hls": 1184,
+    "ts": 68,
+    "other": 40,
+    "dash": 264,
+    "audio": 171
+  },
+  "by_source": {
+    "icn": 1712,
+    "org-id": 3,
+    "tivora": 11,
+    "org-kids": 1
+  }
+}
