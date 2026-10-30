@@ -1,6 +1,6 @@
 {
   "app": "com.icnplay.id (iCN Play v1.1 build 17)",
-  "generated": "2026-10-30 06:55:10",
+  "generated": "2026-10-30 06:52:46",
   "server_endpoint": "https://my.idetimur.id/icnplay",
   "app_user_agent": "iCNPL4Y",
   "kunci": "Panca86",
@@ -67,15 +67,15 @@
     3
   ],
   "health": {
-    "LIVE": 922,
-    "DRM": 219,
-    "AUTH": 105,
-    "LIVE?": 96,
-    "DEAD": 63,
-    "FLAKY": 117
+    "DRM": 267,
+    "LIVE": 881,
+    "AUTH": 106,
+    "LIVE?": 81,
+    "DEAD": 69,
+    "FLAKY": 118
   },
   "variants": {
-    "fast": 1009,
-    "kids": 33
+    "fast": 954,
+    "kids": 36
   }
 }

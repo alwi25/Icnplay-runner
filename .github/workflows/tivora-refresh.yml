@@ -1,0 +1,82 @@
+name: tivora-refresh
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tivora_build.py"
+      - "health_check.py"
+  schedule:
+    - cron: "40 */6 * * *"        # staggered 25 min after the main refresh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tivora-refresh
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Pull aspaltvpasti.top/tivora/get.php, de-duplicate, probe every
+      # channel, drop dead/DRM-403 entries, tidy the categories and rewrite
+      # each playlist sorted fastest-first with HLS ahead of DASH.
+      - name: Build tivora playlists
+        run: python3 tivora_build.py --workers 48 --retries 2
+
+      - name: Summary
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, os
+          p = "tivora/manifest.json"
+          if not os.path.exists(p):
+              print("manifest tidak ada — build gagal")
+              raise SystemExit(0)
+          d = json.load(open(p))
+          print(f"parsed   : {d['parsed']}")
+          print(f"alive    : {d['alive']}")
+          for k, v in sorted(d.get("counts", {}).items(), key=lambda x: -x[1]):
+              print(f"  {k:7} {v}")
+          print("\nkategori:")
+          for k, v in sorted(d.get("categories", {}).items(), key=lambda x: -x[1]):
+              print(f"  {v:4}  {k}")
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name  "gh-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tivora/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "auto: tivora refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Verify published playlists (API, not CDN)
+        run: |
+          for f in MASTER.m3u Sports.m3u Indonesia.m3u Kids.m3u Murattal_30_Juz.m3u; do
+            code=$(curl -sS -m 30 -H "Accept: application/vnd.github.raw" \
+              -o /tmp/t.m3u -w "%{http_code}" \
+              "https://api.github.com/repos/${{ github.repository }}/contents/tivora/$f?ref=main")
+            ext=$(grep -c '#EXTINF' /tmp/t.m3u 2>/dev/null || echo 0)
+            url=$(grep -c '^http' /tmp/t.m3u 2>/dev/null || echo 0)
+            echo "$f: HTTP $code | EXTINF=$ext | urls=$url"
+            if [ "$code" != "200" ] || [ "$ext" != "$url" ]; then
+              echo "GAGAL: $f tidak valid"
+              exit 1
+            fi
+          done

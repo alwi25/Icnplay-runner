@@ -81,12 +81,25 @@ def parse_m3u(path):
 # --------------------------------------------------------------------------- #
 # manifest validation
 # --------------------------------------------------------------------------- #
-def looks_like_manifest(body):
-    """True only for a genuine streaming manifest, not an HTML error page."""
+VALID_CT = (
+    "mpegurl", "dash+xml", "mp2t", "video/", "audio/", "octet-stream", "x-flv",
+)
+
+
+def looks_like_manifest(body, content_type=""):
+    """True for anything a player can actually open: HLS/DASH manifest, MPEG-TS,
+    or a raw audio/video stream. Explicitly rejects HTML error pages.
+
+    Content-Type matters: Murattal/radio entries serve `audio/mpeg` with no
+    manifest markers, and rejecting them would silently drop ~110 channels.
+    """
+    ct = (content_type or "").lower()
     head = body[:400].lstrip()
     low = head.lower()
     if "<!doctype html" in low or "<html" in low[:200]:
         return False                       # error/landing page, not a stream
+    if any(t in ct for t in VALID_CT):
+        return True
     if "#extm3u" in low or "#ext-x-" in low:
         return True                        # HLS
     if "<mpd" in low or (low.startswith("<?xml") and "mpd" in low[:600]):
@@ -103,14 +116,19 @@ def looks_like_manifest(body):
 # --------------------------------------------------------------------------- #
 # single probe (with retries for flaky outcomes)
 # --------------------------------------------------------------------------- #
-def _kind_of(body):
-    """Coarse stream type: hls / dash / ts / other (used to prefer HLS)."""
+def _kind_of(body, content_type=""):
+    """Coarse stream type: hls / dash / ts / audio / other (HLS sorts first)."""
     head = body[:400].lstrip().lower()
     if "#extm3u" in head or "#ext-x" in head:
         return "hls"
     if "<mpd" in head:
         return "dash"
     if body[:1] == "\x47":
+        return "ts"
+    ct = (content_type or "").lower()
+    if ct.startswith("audio/"):
+        return "audio"
+    if "mp2t" in ct:
         return "ts"
     return "other"
 
@@ -123,8 +141,9 @@ def _attempt(url, hdr):
             raw = r.read(READ_BYTES)
             body = raw.decode("utf-8", "replace")
             ms = int((time.time() - t0) * 1000)
-            state = "LIVE" if looks_like_manifest(body) else "LIVE?"
-            return state, r.status, ms, _kind_of(body)
+            ct = r.headers.get("Content-Type", "")
+            state = "LIVE" if looks_like_manifest(body, ct) else "LIVE?"
+            return state, r.status, ms, _kind_of(body, ct)
     except urllib.error.HTTPError as e:
         ms = int((time.time() - t0) * 1000)
         if e.code in (401, 403):

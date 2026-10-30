@@ -81,6 +81,32 @@ yang hidup — itulah jeda panjangnya. `kids.m3u` cuma memuat yang hidup, dan
 **HLS ditaruh lebih dulu** karena langsung main di semua player tanpa
 `inputstream.adaptive`.
 
+## Tivora (sumber kedua) — `tivora/`
+Dibangun dari `https://aspaltvpasti.top/tivora/get.php` oleh `tivora_build.py`:
+dedupe (URL + nama), probe semua, buang mati/DRM-403, kategori dirapikan,
+urut tercepat dengan HLS di depan.
+
+| File | Isi |
+|---|---|
+| `tivora/MASTER.m3u` | **481 channel hidup**, semua kategori |
+| `tivora/Indonesia.m3u` | 34 |
+| `tivora/Sports.m3u` | 122 |
+| `tivora/Murattal_30_Juz.m3u` | 114 (audio MP3) |
+| `tivora/Lokal.m3u` | 74 |
+| `tivora/Music.m3u` | 23 |
+| `tivora/Knowledge_Lifestyle.m3u` | 22 |
+| `tivora/Malaysia.m3u` | 21 |
+| `tivora/Kids.m3u` + `tivora/kids.m3u` | 18 |
+| `tivora/Movies.m3u` | 17 |
+| `tivora/Muslim.m3u` | 16 |
+| `tivora/Entertainment.m3u` | 11 |
+| `tivora/Fight.m3u` | 8 |
+| `tivora/DRM_Clearkey.m3u` | 16 (butuh Kodi/OTT + inputstream.adaptive) |
+
+Dari 750 entri: 42 URL ganda + 19 nama ganda dibuang → 689 unik → **481 hidup**.
+Kategori mentah yang berantakan (`SPORTS 2`, `LOKAL` vs `Lokal`, `ENTERTAIMENT`)
+sudah dinormalkan.
+
 ## Cara load di player
 | Player | Cara pakai |
 |---|---|

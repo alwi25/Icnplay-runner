@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="76" tvg-name="#EXTINF:-1 tvg-id=76 tvg-name=NHK World Premium tvg-logo=https://www.visionplus.id/images/repository/636/636-LOGO-m.png group-title=ENTERTAIMENT" tvg-logo="https://www.visionplus.id/images/repository/636/636-LOGO-m.png" group-title="Lainnya",#EXTINF:-1 tvg-id=76 tvg-name=NHK World Premium tvg-logo=https://www.visionplus.id/images/repository/636/636-LOGO-m.png group-title=ENTERTAIMENT
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-origin=https://www.visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=76
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=76
