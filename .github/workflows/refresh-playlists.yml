@@ -37,12 +37,18 @@ jobs:
       # tivora playlist and the curated iptv-org lists, de-duplicate, probe
       # every channel, drop the dead ones and rebuild tidy category files.
       - name: Refresh iCN source
+        env:
+          # Isi PROXY_URLS di Settings > Secrets kalau mau probe lewat proxy.
+          # Format: http://user:pass@host:port,http://user:pass@host2:port2
+          PROXY_URLS: ${{ secrets.PROXY_URLS }}
         run: python3 icn_runner.py --check --workers 48 --retries 2
 
       - name: Refresh tivora source
         run: python3 tivora_build.py --workers 48 --retries 2
 
       - name: Merge all sources into the published playlists
+        env:
+          PROXY_URLS: ${{ secrets.PROXY_URLS }}
         run: python3 merge_build.py --publish
 
       # MAXstream: stream-nya butuh akun + IP Indonesia (API 403 dari luar),

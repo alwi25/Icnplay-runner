@@ -28,6 +28,7 @@ Usage:
 """
 import argparse
 import concurrent.futures as cf
+import os
 import json
 import socket
 import time
@@ -36,6 +37,13 @@ import urllib.request
 
 # NOTE: both refresh workflows share concurrency group "playlist-write" so
 # they never push to main at the same time (that race used to fail the job).
+# Proxy opsional: diisi lewat env PROXY_URLS (dipisah koma), mis.
+#   PROXY_URLS="http://user:pass@1.2.3.4:3129,http://user:pass@5.6.7.8:3129"
+# Dipakai HANYA sebagai percobaan ulang untuk channel yang gagal (AUTH/FLAKY),
+# jadi probe normal tetap langsung. Kredensial tidak pernah ditulis ke repo.
+PROXIES = [u.strip() for u in os.environ.get("PROXY_URLS", "").split(",") if u.strip()]
+_proxy_i = 0
+
 UA_DEFAULT = "Tivimate/1.3.2.4 (Linux; Android 14; Raspberry Pi 5 Build/UP1A.231005.007)"
 TIMEOUT = 12
 WORKERS = 32
@@ -135,11 +143,19 @@ def _kind_of(body, content_type=""):
     return "other"
 
 
-def _attempt(url, hdr):
+def _open(req, proxy=None):
+    if proxy:
+        op = urllib.request.build_opener(
+            urllib.request.ProxyHandler({"http": proxy, "https": proxy}))
+        return op.open(req, timeout=TIMEOUT)
+    return urllib.request.urlopen(req, timeout=TIMEOUT)
+
+
+def _attempt(url, hdr, proxy=None):
     t0 = time.time()
     try:
         req = urllib.request.Request(url, headers=hdr)
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+        with _open(req, proxy) as r:
             raw = r.read(READ_BYTES)
             body = raw.decode("utf-8", "replace")
             ms = int((time.time() - t0) * 1000)
@@ -174,6 +190,7 @@ def probe(entry, retries=RETRIES):
     hdr.setdefault("User-Agent", UA_DEFAULT)
     has_license = any("license_key" in p for p in entry.get("props", []))
 
+    proxy_used = False
     state, code, ms, kind = _attempt(url, hdr)
     tries = 1
     while state == "FLAKY" and tries <= retries:
@@ -183,6 +200,21 @@ def probe(entry, retries=RETRIES):
             ms = ms2
         state, code, kind = state2, code2, kind2 or kind
         tries += 1
+
+    # Percobaan lewat proxy untuk hasil yang "gagal karena jaringan/geo".
+    global _proxy_i
+    if state in ("DRM/AUTH", "FLAKY") and PROXIES and not proxy_used:
+        for _ in range(min(len(PROXIES), 2)):
+            px = PROXIES[_proxy_i % len(PROXIES)]
+            _proxy_i += 1
+            st2, code2, ms2, kind2 = _attempt(url, hdr, px)
+            if st2 in ("LIVE", "LIVE?"):
+                state, code, ms, kind = st2, f"{code2}(proxy)", ms2, kind2 or kind
+                break
+            if st2 == "DRM/AUTH" and has_license:
+                state, code, ms, kind = "DRM", f"{code2}(proxy)", ms2, kind2 or kind
+                break
+            code, ms = f"{code}(proxy-fail)", ms
 
     if state == "DRM/AUTH":
         state = "DRM" if has_license else "AUTH"
