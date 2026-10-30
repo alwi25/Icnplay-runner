@@ -103,31 +103,48 @@ def looks_like_manifest(body):
 # --------------------------------------------------------------------------- #
 # single probe (with retries for flaky outcomes)
 # --------------------------------------------------------------------------- #
+def _kind_of(body):
+    """Coarse stream type: hls / dash / ts / other (used to prefer HLS)."""
+    head = body[:400].lstrip().lower()
+    if "#extm3u" in head or "#ext-x" in head:
+        return "hls"
+    if "<mpd" in head:
+        return "dash"
+    if body[:1] == "\x47":
+        return "ts"
+    return "other"
+
+
 def _attempt(url, hdr):
+    t0 = time.time()
     try:
         req = urllib.request.Request(url, headers=hdr)
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             raw = r.read(READ_BYTES)
             body = raw.decode("utf-8", "replace")
-            return ("LIVE" if looks_like_manifest(body) else "LIVE?"), r.status
+            ms = int((time.time() - t0) * 1000)
+            state = "LIVE" if looks_like_manifest(body) else "LIVE?"
+            return state, r.status, ms, _kind_of(body)
     except urllib.error.HTTPError as e:
+        ms = int((time.time() - t0) * 1000)
         if e.code in (401, 403):
-            return "DRM/AUTH", e.code
+            return "DRM/AUTH", e.code, ms, ""
         if e.code in (404, 410):
-            return "DEAD", e.code
+            return "DEAD", e.code, ms, ""
         if e.code in (400, 405, 406, 451):
-            return "DEAD", e.code
-        return "AUTH", e.code
+            return "DEAD", e.code, ms, ""
+        return "AUTH", e.code, ms, ""
     except urllib.error.URLError as e:
         reason = str(getattr(e, "reason", e))
+        ms = int((time.time() - t0) * 1000)
         if "Name or service not known" in reason or "nodename" in reason \
                 or "Name does not resolve" in reason:
-            return "DEAD", "DNS"
-        return "FLAKY", type(getattr(e, "reason", e)).__name__
+            return "DEAD", "DNS", ms, ""
+        return "FLAKY", type(getattr(e, "reason", e)).__name__, ms, ""
     except (socket.timeout, TimeoutError):
-        return "FLAKY", "timeout"
+        return "FLAKY", "timeout", int((time.time() - t0) * 1000), ""
     except Exception as e:                                  # noqa: BLE001
-        return "FLAKY", type(e).__name__
+        return "FLAKY", type(e).__name__, int((time.time() - t0) * 1000), ""
 
 
 def probe(entry, retries=RETRIES):
@@ -136,18 +153,21 @@ def probe(entry, retries=RETRIES):
     hdr.setdefault("User-Agent", UA_DEFAULT)
     has_license = any("license_key" in p for p in entry.get("props", []))
 
-    state, code = _attempt(url, hdr)
+    state, code, ms, kind = _attempt(url, hdr)
     tries = 1
     while state == "FLAKY" and tries <= retries:
         time.sleep(min(2 ** tries, 5))
-        state, code = _attempt(url, hdr)
+        state2, code2, ms2, kind2 = _attempt(url, hdr)
+        if ms2 < ms:
+            ms = ms2
+        state, code, kind = state2, code2, kind2 or kind
         tries += 1
 
     if state == "DRM/AUTH":
         state = "DRM" if has_license else "AUTH"
     if state == "FLAKY" and tries > 1:
         code = f"{code} (x{tries})"
-    return state, code, url, tries
+    return state, code, url, tries, ms, kind
 
 
 # --------------------------------------------------------------------------- #
@@ -165,10 +185,10 @@ def run(path, json_out=None, workers=WORKERS, retries=RETRIES, quiet=False):
         done = 0
         for fut in cf.as_completed(futs):
             e = futs[fut]
-            state, code, url, tries = fut.result()
+            state, code, url, tries, ms, kind = fut.result()
             results.append({"name": e["name"], "group": e.get("group", ""),
                             "url": url, "state": state, "code": str(code),
-                            "attempts": tries,
+                            "attempts": tries, "ms": ms, "kind": kind,
                             "headers": e["headers"], "props": e["props"]})
             done += 1
             if not quiet and done % 200 == 0:

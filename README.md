@@ -65,6 +65,22 @@ menghapus ratusan channel sehat.
 4. **CI verifikasi** lewat GitHub API (bukan raw URL yang kena cache CDN) dan
    memastikan `EXTINF == jumlah URL`.
 
+## Playlist varian (pilih sesuai kebutuhan)
+| File | Isi | Kapan dipakai |
+|---|---|---|
+| `ICNPLAY.m3u` | semua channel sehat (LIVE/LIVE?/DRM/AUTH/FLAKY) | default, player lengkap (Kodi/OTT) |
+| **`kids.m3u`** | **hanya channel anak yang benar-benar hidup** (36 ch), HLS dulu lalu DASH, urut tercepat | kalau channel Kids terasa lama |
+| `ICNPLAY_fast.m3u` | hanya yang live & TTFB <= 3 dtk (950+ ch), HLS dulu | player yang lambat menggantung |
+| `ICNPLAY_full.m3u` | semua tanpa filter (1522 ch) | arsip / pilih manual |
+
+### Kenapa channel Kids dulu terasa "lama sekali"
+Dari pengukuran nyata: 66 entri Kids, **hanya 36 yang hidup**; sisanya 403
+(Transvision/Vision+ butuh header khusus) atau URLError (IndiHome geo-block).
+Player mencoba entri rusak itu satu per satu (retry + timeout) sebelum sampai ke
+yang hidup — itulah jeda panjangnya. `kids.m3u` cuma memuat yang hidup, dan
+**HLS ditaruh lebih dulu** karena langsung main di semua player tanpa
+`inputstream.adaptive`.
+
 ## Cara load di player
 | Player | Cara pakai |
 |---|---|

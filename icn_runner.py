@@ -260,6 +260,89 @@ def apply_health_check(cfg, drop_dead=True, workers=None, retries=None, max_drop
     return counts
 
 
+KIDS_RE = re.compile(
+    r"kids|anak|child|junior|boomerang|cartoon|nick|disney|baby|zoomoo|cbeebies|moonbug|mentari",
+    re.I)
+
+
+def _split_blocks(lines):
+    """Split an M3U into [ (extinf_line, [meta...], url) ] channel blocks."""
+    blocks, cur = [], None
+    for line in lines:
+        if line.startswith("#EXTINF"):
+            if cur:
+                blocks.append(cur)
+            cur = [line, [], None]
+        elif cur is not None:
+            if line.startswith(("http://", "https://")):
+                cur[2] = line
+            elif line.startswith("#"):
+                cur[1].append(line)
+    if cur:
+        blocks.append(cur)
+    return [b for b in blocks if b[2]]
+
+
+def _is_kids(extinf):
+    return bool(KIDS_RE.search(extinf))
+
+
+def write_variants(report):
+    """Emit curated playlists sorted by measured latency (fastest first).
+
+    kids.m3u          -> channel anak yang benar-benar hidup, urut tercepat.
+                         Ini yang dipakai kalau player terasa "lama sekali":
+                         32/66 channel anak adalah DRM/403 yang membuat player
+                         retry & timeout sebelum jatuh ke channel berikutnya.
+    ICNPLAY_fast.m3u  -> semua channel LIVE/LIVE? saja, urut TTFB.
+    """
+    if not isinstance(report, dict):
+        return None
+    res = {r["url"]: r for r in report.get("results", [])}
+    src = os.path.join(HERE, "ICNPLAY.m3u")
+    if not os.path.exists(src):
+        return None
+    blocks = _split_blocks(open(src, errors="replace").read().splitlines())
+
+    def emit(name, pred, title, max_ms=None):
+        picked, skipped_slow = [], 0
+        for extinf, meta, url in blocks:
+            r = res.get(url)
+            if not r or r["state"] not in ("LIVE", "LIVE?"):
+                continue
+            if not pred(extinf, r):
+                continue
+            ms = r.get("ms") or 999999
+            if max_ms is not None and ms > max_ms:
+                skipped_slow += 1
+                continue
+            name_kind = (r.get("kind") or "other").lower()
+            # HLS/TS dahulu (didukung semua player), DASH belakangan.
+            rank = 0 if name_kind in ("hls", "ts") else (1 if name_kind == "other" else 2)
+            picked.append((rank, ms, extinf, meta, url))
+        picked.sort(key=lambda t: (t[0], t[1]))
+        out = ["#EXTM3U"]
+        for rank, ms, extinf, meta, url in picked:
+            out.append(extinf)
+            out.extend(meta)
+            out.append(url)
+        path = os.path.join(HERE, name)
+        with open(path, "w") as f:
+            f.write("\n".join(out) + "\n")
+        worst = picked[-1][1] if picked else 0
+        med = sorted(x[1] for x in picked)[len(picked) // 2] if picked else 0
+        cap = f", buang {skipped_slow} >{max_ms}ms" if max_ms else ""
+        print(f"[+] {name:16}: {len(picked):4} channel {title} "
+              f"(median {med} ms, terburuk {worst} ms{cap})")
+        return len(picked)
+
+    # Ambang batas: channel >3 dtk di playlist "fast" membuat player terasa
+    # menggantung (retry/timeout). Channel anak >2.5 dtk sama.
+    n_fast = emit("ICNPLAY_fast.m3u", lambda e, r: True, "live, urut tercepat", max_ms=3000)
+    n_kids = emit("kids.m3u", lambda e, r: _is_kids(e), "anak, urut tercepat", max_ms=2500)
+    return {"fast": n_fast, "kids": n_kids}
+
+
 def build_manifest(cfg, srcs, probe):
     man = {
         "app": cfg.get("app", "com.icnplay.id"),
@@ -356,6 +439,12 @@ def main():
         print("\n[*] running health check (drop DEAD only)...")
         counts = apply_health_check(cfg, **hckw)
         man["health"] = counts
+        try:
+            import health_check as _hc
+            rep = json.load(open(os.path.join(HERE, "health.json")))
+            man["variants"] = write_variants(rep)
+        except Exception as e:                              # noqa: BLE001
+            print(f"[!] variant playlists dilewati: {e}")
         with open(os.path.join(HERE, "manifest.json"), "w") as f:
             json.dump(man, f, indent=2)
     print("\n=== READY ===")

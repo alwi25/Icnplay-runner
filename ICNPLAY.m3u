@@ -2173,10 +2173,14 @@ http://albastargolden.net/live/63EV73W6WL4R1XU/RoRSlXpt26/551298.ts
 http://albastargolden.net/live/63EV73W6WL4R1XU/RoRSlXpt26/551299.ts
 #EXTINF:-1 group-title="🔴AF SPORT" tvg-logo="https://i.imgur.com/CWpV1Il.png",BEIN 9 sd
 http://albastargolden.net/live/63EV73W6WL4R1XU/RoRSlXpt26/551300.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CkoAvYH.png" group-title="🔴AF SPORT",ESPN SD
+http://asxc.pro:80/live/887429/DNFgcu/71913.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZAHnoPh.png" group-title="🔴AF SPORT",ESPN 2 HD
 http://asxc.pro:80/live/887429/DNFgcu/71922.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/VCPTlBD.png" group-title="🔴AF SPORT",ESPN 3 HD
 http://asxc.pro:80/live/887429/DNFgcu/71909.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ErWFVO3.png" group-title="🔴AF SPORT",ESPN 4 HD
+http://asxc.pro:80/live/887429/DNFgcu/71960.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Zz2VFpL.png" group-title="🔴AF SPORT",ESPN 5 HD
 http://asxc.pro:80/live/887429/DNFgcu/71955.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yOgmmCy.png" group-title="🔴AF SPORT",ESPN 6 HD

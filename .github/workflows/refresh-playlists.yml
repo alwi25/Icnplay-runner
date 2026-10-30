@@ -62,9 +62,12 @@ jobs:
         run: |
           git config user.name  "gh-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # ICNPLAY.m3u      = health-checked playlist used by players
-          # ICNPLAY_full.m3u = unfiltered fallback (every channel)
-          git add playlist/ manifest.json health.json ICNPLAY.m3u ICNPLAY_full.m3u
+          # ICNPLAY.m3u       = health-checked playlist used by players
+          # ICNPLAY_full.m3u  = unfiltered fallback (every channel)
+          # ICNPLAY_fast.m3u  = only fast/live channels (<=3s), HLS first
+          # kids.m3u          = channel anak saja, HLS dulu lalu DASH
+          git add playlist/ manifest.json health.json \
+                  ICNPLAY.m3u ICNPLAY_full.m3u ICNPLAY_fast.m3u kids.m3u
           if git diff --cached --quiet; then
             echo "No changes, nothing to commit."
           else
