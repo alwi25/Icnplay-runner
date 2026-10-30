@@ -83,6 +83,7 @@ def build_master(cfg, srcs):
     # #EXTINF and the stream URL.
     seen = set()
     n_total = 0
+    n_orphan = 0
     blocks = ["#EXTM3U"]
     for s in srcs:
         fpath = s.get("_file")
@@ -100,22 +101,30 @@ def build_master(cfg, srcs):
                 j = i + 1
                 while j < nL:
                     nxt = L[j].strip()
+                    if nxt.startswith("#EXTINF"):
+                        # next channel starts before we found a URL ->
+                        # this EXTINF is an ORPHAN (no stream URL). Stop here.
+                        break
                     if re.match(r"https?://", nxt, re.I):
                         url = nxt
                         break
-                    elif nxt.startswith("#") and nxt != line:
+                    elif nxt.startswith("#"):
                         extra_meta.append(nxt)
                     j += 1
+                # Emit only real channels (with a URL). Orphans are dropped —
+                # LIVE-TV2 ships ~111 header-only entries that break players.
                 if url and url not in seen:
                     seen.add(url)
                     blocks.append(_inject_group(line, grp))
                     blocks.extend(extra_meta)
                     blocks.append(url)
                     n_total += 1
+                elif not url:
+                    n_orphan += 1
             i += 1
     with open(master, "w") as f:
         f.write("\n".join(blocks) + "\n")
-    print(f"[+] master playlist : {os.path.relpath(master, HERE)}  ({n_total} channels, flat)")
+    print(f"[+] master playlist : {os.path.relpath(master, HERE)}  ({n_total} channels, flat, {n_orphan} orphan dropped)")
 
     # Also write the root-level ICNPLAY.m3u — this is the file published on
     # GitHub and the one players consume via raw.githubusercontent.com.
