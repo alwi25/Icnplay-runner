@@ -34,6 +34,8 @@ import time
 import urllib.error
 import urllib.request
 
+# NOTE: both refresh workflows share concurrency group "playlist-write" so
+# they never push to main at the same time (that race used to fail the job).
 UA_DEFAULT = "Tivimate/1.3.2.4 (Linux; Android 14; Raspberry Pi 5 Build/UP1A.231005.007)"
 TIMEOUT = 12
 WORKERS = 32
