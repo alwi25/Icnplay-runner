@@ -137,6 +137,55 @@ Hasil: 3.311 entri mentah → 2.157 URL unik → **1.727 channel hidup**, 19 kat
 File kategori ada di `categories/*.m3u`; master di `ICNPLAY.m3u`;
 tanpa filter di `ICNPLAY_full.m3u`; `DRM_Clearkey.m3u` untuk Kodi.
 
+## MAXstream relay (`maxstream_relay.py`)
+MAXstream diblokir dari IP luar Indonesia (`api.maxstream.tv` → 403 Cloudflare,
+preprod hanya membuka `/home` → 401). Jadi relay harus jalan **di jaringan
+IndiHome kamu**, bukan di server luar.
+
+**Tanpa dependency** — cukup Python 3.
+
+### Langkah
+1. Simpan `maxstream_relay.py` di PC yang terhubung Wi-Fi IndiHome.
+2. Uji dulu tanpa akun (stream tes publik):
+   ```bash
+   python3 maxstream_relay.py --serve --demo
+   ```
+   Buka `http://IP-PC:8888/playlist.m3u` di TiviMate/VLC. Kalau muncul 2 channel
+   demo dan bisa diputar, jaringan + server sudah benar.
+3. Login akun IndiHome kamu:
+   ```bash
+   python3 maxstream_relay.py --login 122xxxxxxxx
+   ```
+   OTP masuk ke HP/email kamu → masukkan → token disimpan (`maxstream_token.json`).
+4. Jalankan relay:
+   ```bash
+   python3 maxstream_relay.py --serve
+   ```
+   Tambahkan `http://IP-PC:8888/playlist.m3u` di player.
+
+### Kalau bentuk API berbeda
+```bash
+python3 maxstream_relay.py --discover
+```
+Perintah itu mencetak status + potongan respons tiap kandidat endpoint
+(`/channel/list`, `/auth/ih-number/get-account`, `/auth/otp/request`, dst).
+Kirim hasilnya ke bot — endpoint yang benar akan dipasang di `P_CHANNELS`/`P_ENTRY`.
+
+### Cara ambil token manual (alternatif)
+Kalau login OTP tidak jalan, ambil token dari app yang sudah login:
+```bash
+python3 maxstream_relay.py --token eyJhbGciOi...
+```
+
+### Endpoint relay
+| Path | Fungsi |
+|---|---|
+| `/playlist.m3u` | playlist semua channel |
+| `/` | daftar channel (HTML) |
+| `/mpd/<id>` | playlist 1 channel (+ `#KODIPROP` license) |
+| `/license/<id>` | proxy license Widevine |
+| `/info/<id>` | debug: URL stream + license |
+
 ## Cara load di player
 | Player | Cara pakai |
 |---|---|
