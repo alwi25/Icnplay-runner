@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: tivora-refresh
+  group: playlist-write        # shared: both workflows write to main
   cancel-in-progress: false
 
 jobs:
@@ -63,7 +63,11 @@ jobs:
             echo "No changes."
           else
             git commit -m "auto: tivora refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            for i in 1 2 3 4 5; do
+              if git push; then echo "pushed"; break; fi
+              echo "push ditolak (remote maju), rebase lalu coba lagi ($i)"
+              git pull --rebase --autostash origin main || true
+            done
           fi
 
       - name: Verify published playlists (API, not CDN)

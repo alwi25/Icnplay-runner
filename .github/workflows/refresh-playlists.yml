@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-playlists
+  group: playlist-write        # shared: both workflows write to main
   cancel-in-progress: false
 
 jobs:
@@ -69,10 +69,14 @@ jobs:
           git add playlist/ manifest.json health.json \
                   ICNPLAY.m3u ICNPLAY_full.m3u ICNPLAY_fast.m3u kids.m3u
           if git diff --cached --quiet; then
-            echo "No changes, nothing to commit."
+            echo "No changes."
           else
             git commit -m "auto: refresh + health $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            for i in 1 2 3 4 5; do
+              if git push; then echo "pushed"; break; fi
+              echo "push ditolak (remote maju), rebase lalu coba lagi ($i)"
+              git pull --rebase --autostash origin main || true
+            done
           fi
 
       - name: Verify published playlist (API, not CDN cache)
