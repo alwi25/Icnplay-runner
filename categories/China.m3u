@@ -1,14 +1,14 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="NTD 新唐人大陸台" tvg-logo="https://i.imgur.com/YHrLDix.png" group-title="China",NTD 新唐人大陸台
-http://cnhls.ntdtv.com/cn/live800/playlist.m3u8
 #EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV+ 2" tvg-logo="https://i.imgur.com/e41oLuC.png" group-title="China",CCTV+ 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="NTD 新唐人大陸台" tvg-logo="https://i.imgur.com/YHrLDix.png" group-title="China",NTD 新唐人大陸台
+http://cnhls.ntdtv.com/cn/live800/playlist.m3u8
+#EXTINF:-1 tvg-name="CCTV+" tvg-logo="https://i.imgur.com/MFuJPM7.png" group-title="China",CCTV+
+http://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/chunklist_w1018196661_b1000000.m3u8
 #EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV+ 1" tvg-logo="https://i.imgur.com/mctD9Pn.png" group-title="China",CCTV+ 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="CCTV+" tvg-logo="https://i.imgur.com/MFuJPM7.png" group-title="China",CCTV+
-http://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/chunklist_w1018196661_b1000000.m3u8
 #EXTINF:-1 tvg-id="CCTV-4" tvg-name="CCTV 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/38/Cctv_4_america.png/revision/latest/scale-to-width-down/250?cb=20200119091533" group-title="China",CCTV 4
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
@@ -17,17 +17,3 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8
 https://stream2.jlntv.cn/sptv/sd/live.m3u8
 #EXTINF:-1 tvg-name="xinjiang tv 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOAL2W3kq9G1iRRMWvgMZZh1NAxRt65nDrQ&s" group-title="China",xinjiang tv 3
 https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8
-#EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-name="Anhui TV (Vision+)" tvg-logo="https://www.visionplus.id/images/repository/681/681-LOGO-m.png" group-title="China",Anhui TV (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/anhuitvvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/anhuitvvision.mpd
-#EXTINF:-1 tvg-id="HunanTV.cn@SD" tvg-name="Hunan TV (Vision+)" tvg-logo="https://www.visionplus.id/images/repository/853/853-LOGO-m.png" group-title="China",Hunan TV (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/hunantvvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/hunantvvision.mpd
