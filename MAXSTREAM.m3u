@@ -45,9 +45,8 @@ https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h208/index.m3u8?app_type=web&userid=lite&chname=Channel_Jowo
 #EXTINF:-1 tvg-id="0_930nfsqj" tvg-name="Kompas TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_930nfsqj/banner_hdpi.webp" group-title="Lokal",Kompas TV
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+http://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 #EXTINF:-1 tvg-id="0_ss6ehuur" tvg-name="Al Jazeera" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_ss6ehuur/banner_hdpi.webp" group-title="Indonesia",Al Jazeera
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
@@ -60,72 +59,79 @@ https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/ch
 http://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 #EXTINF:-1 tvg-id="0_3x6829f7" tvg-name="Cartoonito" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_3x6829f7/banner_hdpi.webp" group-title="Kids",Cartoonito
 https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDY3MzQzMjExMiJ9.WACYETOZxZYmZHRpxwRrATxVZQBdSoeaWdfhtLKx1kI/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="0_anqaquwl" tvg-name="Galaxy" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_anqaquwl/banner_hdpi.webp" group-title="Movies",Galaxy
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="0_nt2t5yrg" tvg-name="Euronews" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_nt2t5yrg/banner_hdpi.webp" group-title="Indonesia",Euronews
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/galaxypremium
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/euronewsvision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/galaxypremium.mpd
-#EXTINF:-1 tvg-id="0_menqjsva" tvg-name="Galaxy Premium" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_menqjsva/banner_hdpi.webp" group-title="Movies",Galaxy Premium
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/galaxypremium
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/galaxypremium.mpd
+https://live.kontoltv.my.id/play/euronewsvision.mpd
 #EXTINF:-1 tvg-id="0_fn0qos3d" tvg-name="Inews" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_fn0qos3d/banner_hdpi.webp" group-title="Lokal",Inews
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://live.kontoltv.my.id/play/inewsr.m3u8
 #EXTINF:-1 tvg-id="0_rkv5gee2" tvg-name="JAK TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_rkv5gee2/banner_hdpi.webp" group-title="Lokal",JAK TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
 #EXTINF:-1 tvg-id="0_keojjla6" tvg-name="MDTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_keojjla6/banner_hdpi.webp" group-title="Lokal",MDTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
 #EXTINF:-1 tvg-id="0_2jt2oz81" tvg-name="Metro TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_2jt2oz81/banner_hdpi.webp" group-title="Lokal",Metro TV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
+#EXTINF:-1 tvg-id="0_3k1552mp" tvg-name="MNC TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_3k1552mp/banner_hdpi.webp" group-title="Lokal",MNC TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/mnctvworldvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/mnctvworldvision.mpd
 #EXTINF:-1 tvg-id="0_0pf1skv6" tvg-name="Moonbug" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_0pf1skv6/banner_hdpi.webp" group-title="Kids",Moonbug
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="0_voqn75wc" tvg-name="MQTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_voqn75wc/banner_hdpi.webp" group-title="Indonesia",MQTV
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+https://wahyu1ptv.pages.dev/MQTV-HD.m3u8
 #EXTINF:-1 tvg-id="0_2sdk0nou" tvg-name="Nickelodeon" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_2sdk0nou/banner_hdpi.webp" group-title="Kids",Nickelodeon
-http://tvsen7.aynascope.net/nicklodean/index.m3u8
+http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="0_pz6xuyqn" tvg-name="Nick Junior" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_pz6xuyqn/banner_hdpi.webp" group-title="Kids",Nick Junior
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=641c3f0e676d49d18c2082e093380e69:e06f3a2e327643249c3831ab199c4015
 https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/304/304.mpd
 #EXTINF:-1 tvg-id="0_mubcipck" tvg-name="SPOTV 2" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_mubcipck/banner_hdpi.webp" group-title="Sports",SPOTV 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime1
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=120
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
 #EXTINF:-1 tvg-id="0_uakgnhip" tvg-name="Trans TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_uakgnhip/banner_hdpi.webp" group-title="Lokal",Trans TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-user-agent=VideoPlayer/4.3.0-WITH_ADS
 https://live.cnnindonesia.com/transtv/smil:transtv/chunklist_w2685575259_b744100_sleng.m3u8
 #EXTINF:-1 tvg-id="0_6y33rxed" tvg-name="TV5 MONDE" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_6y33rxed/banner_hdpi.webp" group-title="Indonesia",TV5 MONDE
-https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
-#EXTINF:-1 tvg-id="0_jhb1o6kj" tvg-name="Studio Universal" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_jhb1o6kj/banner_hdpi.webp" group-title="Movies",Studio Universal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/studiouniversal
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tv5mondevision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/studiouniversal.mpd
+https://live.kontoltv.my.id/play/tv5mondevision.mpd
 #EXTINF:-1 tvg-id="0_cms3x58k" tvg-name="The Indonesia Channel" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_cms3x58k/banner_hdpi.webp" group-title="Indonesia",The Indonesia Channel
 #EXTVLCOPT:http-user-agent=android-R+
 https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
-#EXTINF:-1 tvg-id="0_h4cdmhi1" tvg-name="DreamWorks" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_h4cdmhi1/banner_hdpi.webp" group-title="Kids",DreamWorks
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#EXTINF:-1 tvg-id="0_af2rxjmy" tvg-name="CNBC Asia" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_af2rxjmy/banner_hdpi.webp" group-title="Indonesia",CNBC Asia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/cnbcasiavision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=67dae20527c63dadaaae609aa91577cb:59328f621d56767bc5ff9404a8940683
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"WTKPYh1WdnvF/5QEqJQGgw","kid":"Z9riBSfGPa2qrmCaqRV3yw"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/dreamworks.mpd
+https://live.kontoltv.my.id/play/cnbcasiavision.mpd
+#EXTINF:-1 tvg-id="0_h4cdmhi1" tvg-name="DreamWorks" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_h4cdmhi1/banner_hdpi.webp" group-title="Kids",DreamWorks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/dreamworkshdvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/dreamworkshdvision.mpd
 #EXTINF:-1 tvg-id="0_do3tuwa9" tvg-name="CNBC Indonesia" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_do3tuwa9/banner_hdpi.webp" group-title="Lokal",CNBC Indonesia
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -133,7 +139,7 @@ https://live.kontoltv.my.id/play/dreamworks.mpd
 #EXTVLCOPT:http-referrer=https://video.detik.com/
 https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
 #EXTINF:-1 tvg-id="0_iu9ah7cu" tvg-name="TVRI World" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_iu9ah7cu/banner_hdpi.webp" group-title="Lokal",TVRI World
-https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+https://live.kontoltv.my.id/play/tvriworld.m3u8
 #EXTINF:-1 tvg-id="0_meap4fi2" tvg-name="Warner TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_meap4fi2/banner_hdpi.webp" group-title="Indonesia",Warner TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -171,13 +177,13 @@ http://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&amp;jmnuser
 #EXTINF:-1 tvg-id="0_9km1pl2v" tvg-name="Rodja TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_9km1pl2v/banner_hdpi.webp" group-title="Indonesia",Rodja TV
 #EXTVLCOPT:http-user-agent=android-R+
 https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:-1 tvg-id="0_1gshn4os" tvg-name="Rock Action" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_1gshn4os/banner_hdpi.webp" group-title="Indonesia",Rock Action
+#EXTINF:-1 tvg-id="0_a98kaoda" tvg-name="Rock Entertainment" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_a98kaoda/banner_hdpi.webp" group-title="Indonesia",Rock Entertainment
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/rockaction
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/rockentertainment
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/rockaction.mpd
+https://live2.kontoltv.my.id/play/rockentertainment.mpd
 #EXTINF:-1 tvg-id="0_nwsd3m5r" tvg-name="RCTI" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_nwsd3m5r/banner_hdpi.webp" group-title="Lokal",RCTI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -186,6 +192,13 @@ https://beetv.my.id/jabingan/rcti.m3u8?id=1
 https://live.kontoltv.my.id/play/nhkworldjapanchannelfeed.m3u8
 #EXTINF:-1 tvg-id="0_qesewoxv" tvg-name="JTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_qesewoxv/banner_hdpi.webp" group-title="Lokal",JTV
 https://live2.kontoltv.my.id/play/jtv.m3u8
+#EXTINF:-1 tvg-id="0_blvd5qf0" tvg-name="IMC" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_blvd5qf0/banner_hdpi.webp" group-title="Movies",IMC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/imc
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2.kontoltv.my.id/play/imc.mpd
 #EXTINF:-1 tvg-id="0_rfc1zphz" tvg-name="IDX Channel" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_rfc1zphz/banner_hdpi.webp" group-title="Lokal",IDX Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -209,18 +222,22 @@ http://013tv.com:8080/F33848/cbd9779b/306483
 #EXTINF:-1 tvg-id="0_k7eh4erk" tvg-name="HBO Hits" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_k7eh4erk/banner_hdpi.webp" group-title="Movies",HBO Hits
 http://013tv.com:8080/F33848/cbd9779b/306486
 #EXTINF:-1 tvg-id="0_qqui53si" tvg-name="HBO Family" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_qqui53si/banner_hdpi.webp" group-title="Movies",HBO Family
-http://013tv.com:8080/F33848/cbd9779b/197972
-#EXTINF:-1 tvg-id="0_xgdr0qbd" tvg-name="HBO" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_xgdr0qbd/banner_hdpi.webp" group-title="Movies",HBO
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=09ddfe3d63863cafaeb79d0546b098ab:3de0f38dcf014827dfd5bec38743c6a2
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"PeDzjc8BSCff1b7Dh0PGog","kid":"Cd3+PWOGPK+ut50FRrCYqw"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/hbo.mpd
+#KODIPROP:inputstream.adaptive.license_key=07b138f30ad3441ca5a2f476e550af25:826ee4deef4b45cfafd5f79a591b15c6
+https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/106/106.mpd
+#EXTINF:-1 tvg-id="0_xgdr0qbd" tvg-name="HBO" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_xgdr0qbd/banner_hdpi.webp" group-title="Movies",HBO
+http://013tv.com:8080/F33848/cbd9779b/306484
 #EXTINF:-1 tvg-id="0_p7vlqu2a" tvg-name="GTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_p7vlqu2a/banner_hdpi.webp" group-title="Lokal",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/jabingan/rcti.m3u8?id=3
+#EXTINF:-1 tvg-id="0_chy9zuqn" tvg-name="Fight Sports" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_chy9zuqn/banner_hdpi.webp" group-title="Sports",Fight Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/fightsports
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2.kontoltv.my.id/play/fightsports.mpd
 #EXTINF:-1 tvg-id="0_brgzui5c" tvg-name="Fashion TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_brgzui5c/banner_hdpi.webp" group-title="Indonesia",Fashion TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -232,8 +249,12 @@ https://live.kontoltv.my.id/play/fashiontv.mpd
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h213/index.m3u8?app_type=web&userid=lite&chname=DW-TV
 #EXTINF:-1 tvg-id="0_muy891nb" tvg-name="DMI TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_muy891nb/banner_hdpi.webp" group-title="Indonesia",DMI TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://tvstreamcast.com/tawaftv.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/dmitv
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2.kontoltv.my.id/play/dmitv.mpd
 #EXTINF:-1 tvg-id="0_nhmzmt8u" tvg-name="Discovery Asia" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_nhmzmt8u/banner_hdpi.webp" group-title="Indonesia",Discovery Asia
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -241,7 +262,8 @@ https://tvstreamcast.com/tawaftv.m3u8
 #KODIPROP:inputstream.adaptive.license_key=934907b134be3963a6263a453846924c:788e2835fb98568aed2f47bbdc091515
 https://live.kontoltv.my.id/play/discoveryasia.mpd
 #EXTINF:-1 tvg-id="0_wfgm77pv" tvg-name="DAAI TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_wfgm77pv/banner_hdpi.webp" group-title="Lokal",DAAI TV
-https://live.kontoltv.my.id/play/daaitvchannelfeed.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://live2.kontoltv.my.id/play/daaitv.m3u8
 #EXTINF:-1 tvg-id="0_cavdcfwq" tvg-name="CNN Indonesia" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_cavdcfwq/banner_hdpi.webp" group-title="Lokal",CNN Indonesia
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -249,9 +271,19 @@ https://live.kontoltv.my.id/play/daaitvchannelfeed.m3u8
 #EXTVLCOPT:http-referrer=https://video.detik.com/
 https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
 #EXTINF:-1 tvg-id="0_xi5ysa4r" tvg-name="Channel News Asia" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_xi5ysa4r/banner_hdpi.webp" group-title="Indonesia",Channel News Asia
-https://tglmp03.akamaized.net/out/v1/43856347987b4da3890360b0d18b5dc5/manifest.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/channelnewsasiavision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/channelnewsasiavision.mpd
 #EXTINF:-1 tvg-id="0_7vx2webw" tvg-name="Cinemax" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_7vx2webw/banner_hdpi.webp" group-title="Movies",Cinemax
-http://013tv.com:8080/F33848/cbd9779b/197964
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=acb4c23471063327adc732e283c0847f:e9868f5f473d0fd8699ede48d531c2b0
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"6YaPX0c9D9hpnt5I1THCsA","kid":"rLTCNHEGMyetxzLig8CEfw"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/cinemax.mpd
 #EXTINF:-1 tvg-id="0_ypi11pce" tvg-name="CGTN Documentary" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_ypi11pce/banner_hdpi.webp" group-title="Indonesia",CGTN Documentary
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -261,30 +293,22 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8?app_type=web&userid=lit
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8?app_type=web&userid=lite&chname=CCTV-4
 #EXTINF:-1 tvg-id="0_1lrqq4s0" tvg-name="Cartoon Network" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_1lrqq4s0/banner_hdpi.webp" group-title="Kids",Cartoon Network
-https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
+http://212.5.144.156:8080/cartoon/index.m3u8
 #EXTINF:-1 tvg-id="0_gv023ysj" tvg-name="BTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_gv023ysj/banner_hdpi.webp" group-title="Lokal",BTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://op-flashcon-digdayahd-1.dens.tv/h/h313/S2/mnf.m3u8?app_type=web&userid=lite&chname=BTV
 #EXTINF:-1 tvg-id="0_14pjqs63" tvg-name="BBC News" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_14pjqs63/banner_hdpi.webp" group-title="Indonesia",BBC News
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/bbcworldnews
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/bbcworldnews.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c7ba46086dda345a929e29bf155e459c:d374b8f39904bf572689ea347ae86591
+https://live.kontoltv.my.id/play/bbcworldnews.mpd
 #EXTINF:-1 tvg-id="0_oyquzepi" tvg-name="Animal Planet" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_oyquzepi/banner_hdpi.webp" group-title="Indonesia",Animal Planet
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ap.smil/manifest.mpd
-#EXTINF:-1 tvg-id="0_bhma6pov" tvg-name="Al Quran Al Kareem" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_bhma6pov/banner_hdpi.webp" group-title="Indonesia",Al Quran Al Kareem
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/alquranalkareem
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/alquranalkareem.mpd
 #EXTINF:-1 tvg-id="0_7csp48nr" tvg-name="CGTN" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_7csp48nr/banner_hdpi.jpg" group-title="Indonesia",CGTN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
