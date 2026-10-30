@@ -1,14 +1,10 @@
 name: tivora-refresh
 
+# Jadwal otomatis dipindah ke refresh-playlists.yml (satu alur: iCN -> tivora
+# -> merge) supaya tidak rebutan concurrency group dan tidak saling cancel.
+# Workflow ini tinggal untuk build tivora manual saja.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "tivora_build.py"
-      - "health_check.py"
-  schedule:
-    - cron: "40 */6 * * *"        # staggered 25 min after the main refresh
 
 permissions:
   contents: write

@@ -38,6 +38,9 @@ jobs:
       - name: Refresh iCN source
         run: python3 icn_runner.py --check --workers 48 --retries 2
 
+      - name: Refresh tivora source
+        run: python3 tivora_build.py --workers 48 --retries 2
+
       - name: Merge all sources into the published playlists
         run: python3 merge_build.py --publish
 
@@ -70,7 +73,7 @@ jobs:
           # kids.m3u          = channel anak saja, HLS dulu lalu DASH
           git add playlist/ manifest.json health.json ICNPLAY.m3u \
                   ICNPLAY_full.m3u ICNPLAY_fast.m3u kids.m3u \
-                  DRM_Clearkey.m3u categories/ icn/
+                  DRM_Clearkey.m3u categories/ icn/ tivora/
           if git diff --cached --quiet; then
             echo "No changes."
           else
