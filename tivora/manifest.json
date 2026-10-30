@@ -1,36 +1,36 @@
 {
   "source": "https://aspaltvpasti.top/tivora/get.php",
-  "generated": "2026-10-30 18:07:43",
+  "generated": "2026-10-30 22:31:36",
   "parsed": 689,
-  "alive": 485,
+  "alive": 487,
   "counts": {
-    "DEAD": 116,
     "DRM": 49,
-    "LIVE": 478,
+    "DEAD": 115,
     "AUTH": 23,
-    "LIVE?": 7,
-    "FLAKY": 16
+    "LIVE": 476,
+    "LIVE?": 11,
+    "FLAKY": 15
   },
   "categories": {
-    "Lokal": 61,
-    "Fight": 9,
-    "Sports": 128,
-    "Knowledge & Lifestyle": 24,
+    "Lokal": 62,
     "Movies": 21,
     "Muslim": 15,
+    "Sports": 129,
+    "Fight": 9,
+    "Knowledge & Lifestyle": 24,
     "Kids": 19,
     "Music": 22,
     "Malaysia": 22,
-    "Entertainment": 10,
     "Indonesia": 39,
+    "Entertainment": 10,
     "Lainnya": 1,
     "Murattal 30 Juz": 114
   },
   "kinds": {
-    "hls": 224,
+    "hls": 221,
     "ts": 15,
     "audio": 114,
-    "other": 9,
+    "other": 14,
     "dash": 123
   }
 }
