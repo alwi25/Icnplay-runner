@@ -161,6 +161,58 @@ def probe_streams(srcs, sample=1):
     return [ok, len(urls)]
 
 
+def filter_blocks(blocks, drop_urls):
+    """Remove channel blocks whose stream URL is in drop_urls.
+    A block = #EXTINF + optional meta (#EXTVLCOPT/#KODIPROP) + url."""
+    out, cur = [], []
+    removed = 0
+    for line in blocks:
+        if line.startswith("#EXTINF"):
+            if cur:
+                url = next((l for l in cur if l.startswith("http")), None)
+                if url and url in drop_urls:
+                    removed += 1
+                else:
+                    out.extend(cur)
+            cur = [line]
+        elif cur:
+            cur.append(line)
+        else:
+            out.append(line)
+    if cur:
+        url = next((l for l in cur if l.startswith("http")), None)
+        if url and url in drop_urls:
+            removed += 1
+        else:
+            out.extend(cur)
+    return out, removed
+
+
+def apply_health_check(cfg, drop_dead=True):
+    """Probe ICNPLAY.m3u and rewrite it (+ MASTER) without DEAD channels."""
+    import health_check
+    root = os.path.join(HERE, "ICNPLAY.m3u")
+    if not os.path.exists(root):
+        print("[!] health check skipped: ICNPLAY.m3u not found")
+        return None
+    results, counts = health_check.run(root, os.path.join(HERE, "health.json"))
+    if not drop_dead:
+        return counts
+    dead = health_check.classify(results)
+    if not dead:
+        print("[+] health check: no DEAD channels, nothing dropped")
+        return counts
+    for target in (root, os.path.join(PL_DIR, "MASTER.m3u")):
+        if not os.path.exists(target):
+            continue
+        blocks = open(target, errors="replace").read().splitlines()
+        kept, removed = filter_blocks(blocks, dead)
+        with open(target, "w") as f:
+            f.write("\n".join(kept) + "\n")
+        print(f"[+] {os.path.basename(target)}: dropped {removed} DEAD, kept {len(kept)} lines")
+    return counts
+
+
 def build_manifest(cfg, srcs, probe):
     man = {
         "app": cfg.get("app", "com.icnplay.id"),
@@ -207,12 +259,21 @@ def main():
     ap = argparse.ArgumentParser(description="iCN Play playlist runner")
     ap.add_argument("--no-probe", action="store_true")
     ap.add_argument("--list-only", action="store_true")
+    ap.add_argument("--check", action="store_true",
+                    help="probe every channel, drop DEAD ones, write health.json")
+    ap.add_argument("--check-only", action="store_true",
+                    help="only run the health check on the existing ICNPLAY.m3u")
     ap.add_argument("--apk", help="APK path to re-verify constants against")
     a = ap.parse_args()
 
     cfg = load_cfg()
     if a.apk:
         verify_against_apk(a.apk, cfg)
+
+    if a.check_only:
+        counts = apply_health_check(cfg)
+        print(f"[+] health counts: {counts}")
+        return
 
     os.makedirs(PL_DIR, exist_ok=True)
     srcs = fetch_sources(cfg)
@@ -233,6 +294,12 @@ def main():
         probe = probe_streams(srcs)
     man = build_manifest(cfg, srcs, probe)
     build_master(cfg, srcs)
+    if a.check:
+        print("\n[*] running health check (drop DEAD only)...")
+        counts = apply_health_check(cfg)
+        man["health"] = counts
+        with open(os.path.join(HERE, "manifest.json"), "w") as f:
+            json.dump(man, f, indent=2)
     print("\n=== READY ===")
     print(f"Total channels: {man['total_channels']}")
     print("Use playlist/MASTER.m3u in VLC / OTT Navigator / Tivimate.")

@@ -20,9 +20,27 @@ icnplay-runner/
 ## Cara menjalankan (lokal / server)
 ```bash
 python3 icn_runner.py            # fetch + download + build MASTER flat
-python3 icn_runner.py --no-probe # tanpa probe stream (lebih cepat)
+python3 icn_runner.py --check    # + auto-check stream, buang yang DEAD
+python3 icn_runner.py --check-only # cek ulang ICNPLAY.m3u yang ada saja
+python3 icn_runner.py --no-probe # tanpa probe cepat (lebih cepat)
 python3 icn_runner.py --list-only # hanya cetak daftar source hidup
+python3 health_check.py ICNPLAY.m3u --json health.json   # laporan saja
 ```
+
+## Auto-check stream (health_check.py)
+Probe tiap channel dengan header `#EXTVLCOPT` yang dipakai player, klasifikasi:
+
+| Status | Arti | Aksi |
+|---|---|---|
+| `LIVE` / `LIVE?` | HTTP 200 + body manifest (m3u8/MPD/TS) | disimpan |
+| `DRM` | 401/403 **tapi** ada `license_key` clearkey | **disimpan** (player bisa putar) |
+| `AUTH` | 401/403 tanpa license | disimpan, ditandai |
+| `FLAKY` | reset/TLS/timeout | disimpan (host bisa pulih) |
+| `DEAD` | 404/410/DNS | **dibuang** |
+
+Hanya `DEAD` yang dibuang — channel DRM tidak dipangkas hanya karena probe
+urllib kosong dapat 403 (player mengirim handshake clearkey dan tetap jalan).
+Laporan lengkap tersimpan di `health.json` (per channel + status).
 
 ## Cara load di player (raw URL MASTER.m3u)
 Setelah repo di-push & **public**, raw URL-nya:

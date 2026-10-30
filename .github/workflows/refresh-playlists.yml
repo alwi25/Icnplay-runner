@@ -7,6 +7,7 @@ on:
     paths:
       - "icn_runner.py"
       - "config.json"
+      - "health_check.py"
   schedule:
     - cron: "15 4 * * *"          # daily at 04:15 UTC
     - cron: "0 10 * * 1,4"        # extra: Tue & Fri midday
@@ -21,6 +22,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,24 +30,46 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run runner (skip stream probe in CI)
-        run: python3 icn_runner.py --no-probe
-      - name: Commit updated playlists + manifest
+
+      # Fetch all 6 sources, rebuild the flat master, then auto-check every
+      # channel and drop ONLY the hard-dead ones (404/DNS/timeout).
+      # DRM/AUTH/FLAKY channels are kept: the player sends the clearkey
+      # handshake and plays them fine, so dropping them on a bare probe
+      # would destroy working channels.
+      - name: Refresh + auto-check streams
+        run: python3 icn_runner.py --check
+
+      - name: Show health summary
+        if: always()
+        run: |
+          if [ -f health.json ]; then
+            python3 - <<'PY'
+          import json
+          d = json.load(open("health.json"))
+          print("total:", d.get("total"))
+          for k, v in sorted(d.get("counts", {}).items(), key=lambda x: -x[1]):
+              print(f"  {k:7} {v}")
+          PY
+          fi
+
+      - name: Commit updated playlists + manifest + health
         run: |
           git config user.name  "gh-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # IMPORTANT: ICNPLAY.m3u (root) is the file players load via raw URL —
-          # it MUST be committed too, not just playlist/ and manifest.json.
-          git add playlist/ manifest.json ICNPLAY.m3u
+          # IMPORTANT: ICNPLAY.m3u (root) is the file players load via raw URL.
+          # health.json records the probe result so the drop is auditable.
+          git add playlist/ manifest.json ICNPLAY.m3u health.json
           if git diff --cached --quiet; then
             echo "No changes, nothing to commit."
           else
-            git commit -m "auto: refresh playlists $(date -u +%Y-%m-%d)"
+            git commit -m "auto: refresh + health check $(date -u +%Y-%m-%d)"
             git push
           fi
+
       - name: Verify published playlist is reachable
         run: |
-          sleep 5
+          sleep 8
           curl -sS -m 30 -o /tmp/icn.m3u -w "HTTP %{http_code}\n" \
             "https://raw.githubusercontent.com/alwi25/Icnplay-runner/main/ICNPLAY.m3u"
           echo "EXTINF count: $(grep -c '#EXTINF' /tmp/icn.m3u)"
+          echo "stream urls : $(grep -c '^http' /tmp/icn.m3u)"
