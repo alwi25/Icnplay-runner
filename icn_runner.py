@@ -171,12 +171,18 @@ def build_master(cfg, srcs):
 
 
 def _inject_group(extinf, grp):
-    if "group-title=" in extinf:
-        return extinf
-    m = re.match(r"^(#EXTINF:[^\s,]+)", extinf)
-    if m:
-        return m.group(1) + ' group-title="' + grp + '"' + extinf[len(m.group(1)):]
-    return extinf
+    """Rebuild the #EXTINF line so a comma inside an attribute cannot corrupt
+    the channel name (use the LAST comma: the name is everything after it)."""
+    name = extinf.rsplit(",", 1)[-1].strip() if "," in extinf else ""
+    name = re.sub(r'["\r\n]+', "", name)
+    head = extinf.rsplit(",", 1)[0] if "," in extinf else extinf
+    if "group-title=" in head:
+        head = re.sub(r'group-title="[^"]*"', f'group-title="{grp}"', head, count=1)
+    else:
+        m = re.match(r"^(#EXTINF:[^\s,]+)", head)
+        if m:
+            head = m.group(1) + f' group-title="{grp}"' + head[len(m.group(1)):]
+    return head + "," + name
 
 
 def probe_streams(srcs, sample=1):

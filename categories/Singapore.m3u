@@ -1,21 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="CNA" tvg-name="Channel News Asia" tvg-logo="https://cms.cignal.tv/Upload/Images/CNA%20LOGO%20-horizontal%20-%20on%20light%20background.png" group-title="Singapore",Channel News Asia
+#EXTINF:-1 tvg-id="hbosignatureasia.sg" tvg-name="HBO Signature Taiwan" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/HBO.png" group-title="Singapore",HBO Signature Taiwan
+https://live2.kontoltv.my.id/play/hbosignaturetaiwan.m3u8
+#EXTINF:-1 tvg-id="hbofamilyasia.sg" tvg-name="HBO Family Taiwan" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/HBO.png" group-title="Singapore",HBO Family Taiwan
+https://live2.kontoltv.my.id/play/hbofamilytaiwan.m3u8
+#EXTINF:-1 tvg-id="hbofamilyasia.sg" tvg-name="HBO family" tvg-logo="https://dl.dropbox.com/scl/fi/huvb654fboyfnebvnzghn/hbo_family.png?rlkey=sr0deor1pxp0bxgm3x6wve1cz&dl=0" group-title="Singapore",HBO family
+http://013tv.com:8080/F33848/cbd9779b/197972
+#EXTINF:-1 tvg-id="hboasia.sg" tvg-name="HBO" tvg-logo="https://dl.dropbox.com/scl/fi/11cogq3f6ewil4xavwnh3/hbo.png?rlkey=2qd8p4fzhaxy4mnk9vkn5v41c&dl=0" group-title="Singapore",HBO
+http://013tv.com:8080/F33848/cbd9779b/306484
+#EXTINF:-1 tvg-id="hbohitsasia.sg" tvg-name="HBO Hits" tvg-logo="https://dl.dropbox.com/scl/fi/n7pewdemieoz3zbs39tbx/hbohits.png?rlkey=e748k2slpje7h5xy2q9pos5a3&dl=0" group-title="Singapore",HBO Hits
+http://013tv.com:8080/F33848/cbd9779b/306486
+#EXTINF:-1 tvg-id="hbosignatureasia.sg" tvg-name="HBO Signature" tvg-logo="https://dl.dropbox.com/scl/fi/rpfe8l6bizfcn3hkvkow6/hbo-signature.png?rlkey=dano4jnm0214i6163flo4akb6&dl=0" group-title="Singapore",HBO Signature
+http://013tv.com:8080/F33848/cbd9779b/306483
+#EXTINF:-1 tvg-id="AnimaxAsia.sg@SD" tvg-name="Animax (Vision+)" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_animax.png" group-title="Singapore",Animax (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/animaxvision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/channelnewsasia.mpd
-#EXTINF:-1 tvg-id="Ch 8" tvg-name="Channel 8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mediacorp_Channel_8_2023.svg/960px-Mediacorp_Channel_8_2023.svg.png" group-title="Singapore",Channel 8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/channel8.mpd
-#EXTINF:-1 tvg-id="Suria" tvg-name="Suria" tvg-logo="https://poster.starhubgo.com/Linear_channels2/104_1920x1080_HTV.png" group-title="Singapore",Suria
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/suria.mpd
-#EXTINF:-1 tvg-id="Vasantham" tvg-name="Vasantham" tvg-logo="https://poster.starhubgo.com/Linear_channels2/105_1920x1080_HTV.png" group-title="Singapore",Vasantham
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/vasantham.mpd
-#EXTINF:-1 tvg-name="M Live 2" group-title="Singapore",M Live 2
+https://live.kontoltv.my.id/play/animaxvision.mpd
+#EXTINF:-1 tvg-id="TLCSoutheastAsia.sg@SD" tvg-name="TLC HD" tvg-logo="https://www.clipartmax.com/png/middle/474-4741241_tlc-logo-transparent-tlc-png.png" group-title="Singapore",TLC HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
-https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
-#EXTINF:-1 tvg-id="Ch U" tvg-name="Channel U" tvg-logo="https://poster.starhubgo.com/Linear_channels2/107_1920x1080_HTV.png" group-title="Singapore",Channel U
+#KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/channelu.mpd
+https://live.kontoltv.my.id/play/tlchd.mpd

@@ -2,18 +2,6 @@
 #EXTINF:-1 tvg-name="LIVE MADINAH" tvg-logo="https://makkahlive.net/posters/madinah.jpg" group-title="Muslim",LIVE MADINAH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://flv.intechmedia.net/live/ch13.m3u8
-#EXTINF:-1 tvg-name="AshillTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/AshiilTV.png" group-title="Muslim",AshillTV
-https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
-#EXTINF:-1 tvg-name="TV9 HD" group-title="Muslim",TV9 HD
-https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
-#EXTINF:-1 tvg-name="WesalTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Wesal_TV.png" group-title="Muslim",WesalTV
-https://wahyu1ptv.pages.dev/WesalTV-HD.m3u8
-#EXTINF:-1 tvg-name="RodjaTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Rodja_TV.png" group-title="Muslim",RodjaTV
-https://wahyu1ptv.pages.dev/RodjaTV-HD.m3u8
-#EXTINF:-1 tvg-name="SurauTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SurauTV.png" group-title="Muslim",SurauTV
-https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8
-#EXTINF:-1 tvg-name="MQTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/MqTv.png" group-title="Muslim",MQTV
-https://wahyu1ptv.pages.dev/MQTV-HD.m3u8
 #EXTINF:-1 tvg-id="AngelTV.in@Indonesia" tvg-name="Angel TV Indonesia (720p)" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Muslim",Angel TV Indonesia (720p)
 https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
 #EXTINF:-1 tvg-name="Sharjah Quran.sa" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbXHVOi4AdBTYQZnO7XAfjde7vXvPHSudXjzXmojvrA6UatfYRdtt4ExR3twE7idWopAFlLfp5xw4CuOcbYw0mwhzhLMQrPwgyCeYjniNr25iNjr-mTRj_mPdODOmWGGMxhZy3jXN70DZB-AfeJ2_CTQDm-ejmy32QMCQPg3uVGlMxVFulJd1ABBsDFnw/s1600/9l9A9cD.png?v=1.0.0.1" group-title="Muslim",Sharjah Quran.sa
@@ -32,16 +20,15 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8?app_type=web&userid=lit
 #EXTINF:-1 tvg-name="Tawaf TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwBOvbsJWvJoMMG2Skj87fBDlLqfpOokbIsW2uEPjKsgg0_qm-rxizRBs3KneTmQ-ERnPI6easxJVimwxsJJ9I7aetkL737e9dC33Uv7UHrlA__sF-NABWWOKy_KkPUtVo9Y7qkcssBJB80lMjlFue8UyJkZHmqTj_ZA8cjBJnZQfnVjvHfjmkf4aa4_E/s1600/cgO5MbX.png?v=1.1.1.1" group-title="Muslim",Tawaf TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/98c2047e0b19dc0e9f979d37a4252f900ff2f9cd/0c9fd875599b836.m3u8
-#EXTINF:-1 tvg-id="Tv9.Nu.id" tvg-name="TV9 NU" tvg-logo="https://www.visionplus.id/images/repository/601/601-LOGO-m.png" group-title="Muslim",TV9 NU
-https://live2.kontoltv.my.id/play/tv9nu.m3u8
-#EXTINF:-1 tvg-name="TV 10 HD" group-title="Muslim",TV 10 HD
-https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV9 Nusantara" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoNkxlv35JmlMEzpz9dO96GW4JhpSih7w0M5VtE4v6oJ-k1FHNRprQG2KrQtFopsv7-1GqA9q5YO6KBOZrZv0phqgoXeU3QAWesHOQ6zU0OvSGuayc284LQtwwb0t2VnhyuTj-plic-7ansWhp0-Aw9942enEffc66DrI-cjvXZePVXyEgNzDrr7ogy5aH/s1600/Rla7xMR.png?v=1.0.0.1" group-title="Muslim",TV9 Nusantara
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/warningfm/kano/main/live/m3u8/id/ca07a749e91966b.m3u8
 #EXTINF:-1 tvg-name="Bahrain Quran" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1L4ekBkm_spd6kWexdSY9XDDVepDwrFFf7facBvZjOhBJwGVw7ym6oFhOGIPfRSetCdQi_fe3ym49nv-21UGyQiRmzbJcxLuyspid9pGwIN___gRd2M-jGXdbdq5AgA9AHGQ3v8rZ_9tWNpEr4hxGHkONyNQNax6IN_wOGYRhOWb9T_fS2wY70zIIGl0/s1600/GZjb6pg.png?v=1.0.0.1" group-title="Muslim",Bahrain Quran
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/77db1a648b6f5527215b4566b3e2ff857668f7a4/df36e66d66f4156.m3u8
+#EXTINF:-1 tvg-name="MQTV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcn3s68zByVqmSoxERoGCEen9l3_m47_5IAk3I5Ynf7RvSwWrSvISas38Y3prb7NiSrGVF6eYaQE9Qz9YiYPwGb99CacIoHw2GKFQcpDXipP954znXXXjBagoO0XoShe5_LVQAZw8yG5DCUz-D11TVye5UBNVgnTJCmlwCm4cMBPNfQygLEUrQgu-4pkRE/s1600/Xemwmoo.png?v=1.0.0.1" group-title="Muslim",MQTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/bee477ab862965d0c4c8217e84d0dcb3919353f5/55b1da7f755ebf7.m3u8
 #EXTINF:-1 tvg-name="AL-BURUJ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BURUJ
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/85.mp3
 #EXTINF:-1 tvg-name="AL-INSHIQAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INSHIQAQ
@@ -299,12 +286,6 @@ https://live2.kontoltv.my.id/play/muslimtv.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/{{DRM_ID}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/alquranalkareem.mpd
-#EXTINF:-1 tvg-name="Ajwa TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/ajwatv.png" group-title="Muslim",Ajwa TV
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/ajwatv.mpd
 #EXTINF:-1 tvg-name="Makka TV" tvg-logo="https://www.makkahtv.com/wp-content/uploads/2019/08/MakkahTV.png" group-title="Muslim",Makka TV
 #EXTVLCOPT:http-referrer=https://m.vidio.com/
 #EXTVLCOPT:http-origin=https://m.vidio.com
