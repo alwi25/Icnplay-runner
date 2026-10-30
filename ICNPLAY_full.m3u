@@ -2,11 +2,6 @@
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD" tvg-name="AFBTV Kupang (1080p) [Not 24/7]" tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png" group-title="Indonesia",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
-#EXTINF:-1 tvg-name="Ajwa TV" tvg-logo="https://www.broadcastmagz.com/wp-content/uploads/2020/11/Screenshot_20201107-2223332.png" group-title="Indonesia",Ajwa TV
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-https://vidio123.mikrofast.web.id/vidio/7464/index.mpd
 #EXTINF:-1 tvg-id="AjwaTV.id@SD" tvg-name="Ajwa TV (1080p)" tvg-logo="https://i.imgur.com/JXjbUhB.png" group-title="Indonesia",Ajwa TV (1080p)
 http://ikitv.sqn.at:8000/play/a00j/index.m3u8
 #EXTINF:-1 tvg-name="Al-Bahjah TV (1080p)" tvg-logo="https://buyayahya.org/wp-content/uploads/2018/01/AL-BAHJAH-TV-OK-3-1024x1024.png" group-title="Indonesia",Al-Bahjah TV (1080p)
@@ -199,9 +194,6 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://video.detik.com/
 https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
-#EXTINF:-1 tvg-name="CNN Indonesia" tvg-logo="https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c685651d7bcc01651f0e4ce10098/b4f628f786104e68a12721f365af0238.jpg" group-title="Indonesia",CNN Indonesia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://video.detik.com/livecnn/smil:cnntv/chunklist_w2073324730_b384000_sleng.m3u8
 #EXTINF:-1 tvg-id="CNNIndonesia.id@SD" tvg-name="CNN Indonesia (ChannelFeed)" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png?v=10.15.2" group-title="Indonesia",CNN Indonesia (ChannelFeed)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -398,11 +390,6 @@ https://calistaiptv.my.id/indopart/play.mpd?id=205&type=dash
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="INDOSIAR HD" tvg-logo="https://thumbor.prod.vidiocdn.com/e-tiJFPZKI4QjhxAHzp_5foCkGE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg" group-title="Indonesia",INDOSIAR HD
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-https://vidio123.mikrofast.web.id/vidio/205/index.mpd
 #EXTINF:-1 tvg-id="Indosiar.id@HD" tvg-name="Indosiar HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png" group-title="Indonesia",Indosiar HD (1080p)
 http://202.150.172.59/Indosiar/index.m3u8
 #EXTINF:-1 tvg-name="INDOSIAR HD VD" tvg-logo="https://thumbor.prod.vidiocdn.com/e-tiJFPZKI4QjhxAHzp_5foCkGE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg" group-title="Indonesia",INDOSIAR HD VD
@@ -964,11 +951,6 @@ https://calistaiptv.my.id/indopart/play.mpd?id=204&type=dash
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 https://nextgenz.my.id/event/pidio/play.mpd?id=204&type=dash
-#EXTINF:-1 tvg-name="SCTV HD 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/sctv-id.png" group-title="Indonesia",SCTV HD 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-https://vidio123.mikrofast.web.id/vidio/204/index.mpd
 #EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV | SCTV Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/064/569064-LOGO-m.png" group-title="Indonesia",SCTV | SCTV Vidio 1
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -996,11 +978,6 @@ https://live.mana2.my/SelangorTv/index.m3u8?auth_key=1745177902-0210d7bbc2474987
 https://live.kontoltv.my.id/play/sinpotv.m3u8
 #EXTINF:-1 tvg-id="SinPoTV.id@HD" tvg-name="Sin Po TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/sinpotv.png" group-title="Indonesia",Sin Po TV
 https://live2.kontoltv.my.id/play/sinpotv.m3u8
-#EXTINF:-1 tvg-name="SIN PO TV 1" tvg-logo="https://images.indihometv.com/images/channels/imageCir_Sinpo-1800x1800_2025_11_06_13_04_13.jpg" group-title="Indonesia",SIN PO TV 1
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-https://vidio123.mikrofast.web.id/vidio/19046/index.mpd
 #EXTINF:-1 tvg-id="MNCNews.id" tvg-name="SindoNews" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlAtPGRHW6gEgAZMn916nIPyS0yqblsFZqg&s" group-title="Indonesia",SindoNews
 #EXTVLCOPT:http-referer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -1349,9 +1326,6 @@ http://op-group2-swiftservesd-1.dens.tv/s/s12/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h228/index.m3u8?app_type=web&userid=lite&chname=Elshinta_TV
-#EXTINF:-1 tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Lokal",Fajar TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Ficom Channel (720p)" tvg-logo="https://i.imgur.com/KMEf0Cc.png" group-title="Lokal",Ficom Channel (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://v3.siar.us/ficomchannel/live/playlist.m3u8
@@ -1517,9 +1491,6 @@ https://v10.siar.us/rctv/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Riau TV" tvg-logo="https://i.imgur.com/1g8FtJi.png" group-title="Lokal",Riau TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Rinjani TV" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal",Rinjani TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://rinjanitv.cloud/hls/tvkabel.m3u8
 #EXTINF:-1 tvg-name="Rodja TV (720p)" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://rodjatv.com/rodjatv/live.m3u8
@@ -2769,8 +2740,6 @@ http://213.91.179.28:8000/play/a0ar
 http://213.91.179.28:8000/play/a05n
 #EXTINF:-1 tvg-name="MAX STREAK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFWOnn_bnrKWBFSHhvTBXm7voZU6eIiuFojhzOmUAFrg&s=10" group-title="Sports",MAX STREAK
 https://cdnbal1.indihometv.com/atm/DASH/maxstreak/maxstreak-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-name="MBC" tvg-logo="https://jejumbc.com/main/images/news/jj1.jpg" group-title="Sports",MBC
-https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
 #EXTINF:-1 tvg-id="MEGOGOSport.ua@SD" tvg-name="MEGOGO Sport (1080p)" tvg-logo="https://i.imgur.com/5JmT4mW.png" group-title="Sports",MEGOGO Sport (1080p)
 http://5.188.159.128:8070/megogo_sport/index.m3u8
 #EXTINF:-1 tvg-id="MeridianoTV.ve@SD" tvg-name="Meridiano TV (576p)" tvg-logo="https://i.imgur.com/I6gsUqD.png" group-title="Sports",Meridiano TV (576p)
@@ -4416,6 +4385,8 @@ http://38.65.175.84:8000/play/a0an/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 https://live.kontoltv.my.id/play/h4stm2i.mpd
+#EXTINF:-1 tvg-id="Disney.Channel.branden" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Kids",Disney Channel
+http://212.5.144.156/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel (Bulgaria) (576i)" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="Kids",Disney Channel (Bulgaria) (576i)
 http://87.120.179.187:8000/play/a010
 #EXTINF:-1 tvg-id="DisneyChannel.cz@SD" tvg-name="Disney Channel (Czech Republic)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel (Czech Republic)
@@ -5146,6 +5117,8 @@ https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlis
 http://92.114.85.72:8000/play/a08p
 #EXTINF:-1 tvg-id="TNTKidsTV.ba@SD" tvg-name="TNT Kids TV (288p)" tvg-logo="https://i.imgur.com/irTDbpn.png" group-title="Kids",TNT Kids TV (288p)
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
+#EXTINF:-1 tvg-name="Tom & Jerry" tvg-logo="https://pngimg.com/uploads/tom_and_jerry/tom_and_jerry_PNG42.png" group-title="Kids",Tom & Jerry
+http://pira.diamonds:80/play/OG0HGQlp5eMcXY5hodyppmUx1TRYzulW_E7IhrSJdr4WonlMdl_jlSDVO0q_FIv7Rs8eID-J8z9lbIyIjNPLWQ
 #EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-name="Tom And Jerry (720p)" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" group-title="Kids",Tom And Jerry (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-id="Tooku.ru@SD" tvg-name="Tooku (1080p)" tvg-logo="https://tooku.ru/wp-content/uploads/2024/11/tooku-kanal-logo.png" group-title="Kids",Tooku (1080p)
@@ -6192,11 +6165,6 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/ind
 #EXTVLCOPT:http-referrer=https://www.vidio.com/
 #EXTVLCOPT:http-origin=https://www.vidio.com
 https://live.kontoltv.my.id/play/musica.m3u8
-#EXTINF:-1 tvg-name="MUSICA" tvg-logo="https://thumbor.prod.vidiocdn.com/I6siEUUN1ga4mYcu0Ysr9BlHeH4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7619/379f71.png" group-title="Music",MUSICA
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-https://vidio123.mikrofast.web.id/vidio/7619/index.mpd
 #EXTINF:-1 tvg-id="Music TV" tvg-name="Musik TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Music_TV_%282020%29.png" group-title="Music",Musik TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -6250,8 +6218,6 @@ https://live.kontoltv.my.id/play/usamtv.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-name="ZOOM TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmuyjtVph0Ep3V-k2MVdUGfVKPw1u4pl1yRKGSzq3LQ&s=10" group-title="Music",ZOOM TV
 https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
-#EXTINF:-1 tvg-name="Шансон ТВ" group-title="Music",Шансон ТВ
-https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="------" tvg-name="101 Jak FM" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Radio",101 Jak FM
 https://wz.mari.co.id:1936/web_jakfm/jakfm/chunklist_w1610616570.m3u8
 #EXTINF:-1 tvg-id="------" tvg-name="AL IMAN" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Radio",AL IMAN
@@ -6660,6 +6626,8 @@ https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/ra
 #EXTINF:-1 tvg-name="DUA SAUDARA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSys42bn-broK54h806GyvnJENEO0K5bHXikXCSubxi2w&s=10" group-title="Muslim",DUA SAUDARA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCYDSbtuzcNpO7Scca1Du4UQ
+#EXTINF:-1 tvg-id="FajarTV.id@SD" tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Muslim",Fajar TV (720p) [Not 24/7]
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="FATIMAH SHOLAWAT" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU4YfmSS0tzKpILbwNjH_yHBly5yzGugjAUWltYpYpPrYZzzGp8HEiAfZXL4d_Vx7SU4EcXK86Gm0CC9u_GQ-rkiUmMdjTS-bQARctN3Y7olqFWoi-9VdBOuX1KTauoMbSZV6IWGf-YxdZldmiOH7xu4LtGWYtpfQvwyxJ8CmV_7xRASEqhwMcQa32ZywR/s700/FATIMAH%20SHOLAWAT.png" group-title="Muslim",FATIMAH SHOLAWAT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCNBC6thzP9nlQjYPDBGTmQw
@@ -6678,9 +6646,6 @@ https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/11.mp3
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/14.mp3
 #EXTINF:-1 tvg-name="JOM NGAJI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sooka_Jom_Ngaji.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Muslim",JOM NGAJI
 https://827f31c3f2824c0c95c7a5190e96e284.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/951fbca46ac9b52422f8e3d6d4d6dab33623c3cc/FASTOO_CH6_JOMNGAJI/dash.mpd
-#EXTINF:-1 tvg-name="LIVE MADINAH" tvg-logo="https://makkahlive.net/posters/madinah.jpg" group-title="Muslim",LIVE MADINAH
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
-https://flv.intechmedia.net/live/ch13.m3u8
 #EXTINF:-1 tvg-name="LIVE MADINAH 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTajg7WlbiXuj2CvNtHRJNzOnsQ16MsVyd3A&s" group-title="Muslim",LIVE MADINAH 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group1-swiftservesd-1.dens.tv/s/s27/index.m3u8
@@ -6689,11 +6654,6 @@ http://op-group1-swiftservesd-1.dens.tv/s/s27/index.m3u8
 http://op-group1-swiftservesd-1.dens.tv/s/s28/index.m3u8
 #EXTINF:-1 tvg-name="LUQMAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",LUQMAN
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/31.mp3
-#EXTINF:-1 tvg-name="Makka TV" tvg-logo="https://www.makkahtv.com/wp-content/uploads/2019/08/MakkahTV.png" group-title="Muslim",Makka TV
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-https://vidio123.mikrofast.web.id/vidio/6852/index.mpd
 #EXTINF:-1 tvg-name="MARYAM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",MARYAM
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/19.mp3
 #EXTINF:-1 tvg-id="MGITV.id@SD" tvg-name="MGI TV (720p) [Geo-blocked]" tvg-logo="https://i.imgur.com/xrNtabe.png" group-title="Muslim",MGI TV (720p) [Geo-blocked]
@@ -7347,6 +7307,8 @@ https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qi23sqygqv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayaxenkoda.dens.tv/41a80ce3-5acf-4715-a6cf-4ab2b452288b/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV
+#EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-name="Rinjani TV" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Knowledge & Lifestyle",Rinjani TV
+https://rinjanitv.cloud/hls/tvkabel.m3u8
 #EXTINF:-1 tvg-id="RTDoc.ru" tvg-name="RT DOCUMENTARY" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCyw-KzJ9ZlXfik4e2z5h6rSfIMahcCiWg9Q&s" group-title="Knowledge & Lifestyle",RT DOCUMENTARY
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls

@@ -1,12 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="CNA" tvg-name="Channel News Asia" tvg-logo="https://cms.cignal.tv/Upload/Images/CNA%20LOGO%20-horizontal%20-%20on%20light%20background.png" group-title="Singapore",Channel News Asia
-https://tglmp03.akamaized.net/out/v1/43856347987b4da3890360b0d18b5dc5/manifest.mpd
-#EXTINF:-1 tvg-id="Ch 8" tvg-name="Channel 8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mediacorp_Channel_8_2023.svg/960px-Mediacorp_Channel_8_2023.svg.png" group-title="Singapore",Channel 8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/channel8.mpd
 #EXTINF:-1 tvg-id="Vasantham" tvg-name="Vasantham" tvg-logo="https://poster.starhubgo.com/Linear_channels2/105_1920x1080_HTV.png" group-title="Singapore",Vasantham
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/vasantham.mpd
+#EXTINF:-1 tvg-id="Ch 8" tvg-name="Channel 8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mediacorp_Channel_8_2023.svg/960px-Mediacorp_Channel_8_2023.svg.png" group-title="Singapore",Channel 8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/channel8.mpd
+#EXTINF:-1 tvg-id="Suria" tvg-name="Suria" tvg-logo="https://poster.starhubgo.com/Linear_channels2/104_1920x1080_HTV.png" group-title="Singapore",Suria
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/suria.mpd
+#EXTINF:-1 tvg-id="CNA" tvg-name="Channel News Asia" tvg-logo="https://cms.cignal.tv/Upload/Images/CNA%20LOGO%20-horizontal%20-%20on%20light%20background.png" group-title="Singapore",Channel News Asia
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/channelnewsasia.mpd
 #EXTINF:-1 tvg-id="Ch U" tvg-name="Channel U" tvg-logo="https://poster.starhubgo.com/Linear_channels2/107_1920x1080_HTV.png" group-title="Singapore",Channel U
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/channelu.mpd
@@ -15,6 +19,3 @@ https://live.kontoltv.my.id/play/channelu.mpd
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
-#EXTINF:-1 tvg-id="Suria" tvg-name="Suria" tvg-logo="https://poster.starhubgo.com/Linear_channels2/104_1920x1080_HTV.png" group-title="Singapore",Suria
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/suria.mpd

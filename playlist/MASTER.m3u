@@ -1564,8 +1564,6 @@ https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
 https://5bf7b725107e5.streamlock.net:443/kstv/kstv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnILX.png" group-title="TV LOKAL",RCTV
 https://v10.siar.us/rctv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="tvg-url="tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="TV LOKAL",LINGKAR TV
-https://lingkartv.my.id/hls/lingkartv.m3u8
 #EXTINF:-1 group-title="TV LOKAL" tvg-id="Bali TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium4.xml" tvg-logo="https://static.mncnow.id/images/channel/cda6a457/7e41_r32.jpg",Bali TV V+
 https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd
 #EXTINF:-1 group-title="TV LOKAL" tvg-logo="https://static.mncnow.id/images/channel/9e658daa/252e_r32.jpg",JTV
@@ -4451,16 +4449,26 @@ https://live2.kontoltv.my.id/play/motorvision.m3u8
 #EXTVLCOPT:http-referrer=https://aesport.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 https://live2.kontoltv.my.id/play/skysportsaction.m3u8
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Sky%20Sports.png",Sky Sports Cricket
+https://live2.kontoltv.my.id/play/skysportscricket.ts
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Sky%20Sports.png",Sky Sports F1
 #EXTVLCOPT:http-origin=https://aesport.tv
 #EXTVLCOPT:http-referrer=https://aesport.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 https://live2.kontoltv.my.id/play/skysportsf1.m3u8
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Sky%20Sports.png",Sky Sports Golf
+https://live2.kontoltv.my.id/play/skysportsgolf.ts
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Sky%20Sports.png",Sky Sports Mix
 #EXTVLCOPT:http-origin=https://aesport.tv
 #EXTVLCOPT:http-referrer=https://aesport.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 https://live2.kontoltv.my.id/play/skysportsmix.m3u8
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Sky%20Sports.png",Sky Sports News
+https://live2.kontoltv.my.id/play/skysportsnews.ts
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Sky%20Sports.png",Sky Sports Racing
+https://live2.kontoltv.my.id/play/skysportsracing.ts
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Sky%20Sports.png",Sky Sports Tennis
+https://live2.kontoltv.my.id/play/skysportstennis.ts
 #EXTINF:-1 tvg-name="TSN1" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Tsn.png" group-title="SPORTS",TSN 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
@@ -5394,8 +5402,6 @@ https://stream.gunungkidulkab.go.id:8888/097ef287-a064-4730-8b65-0fdfad75f327/in
 https://stream.gunungkidulkab.go.id:8888/cdb69448-349b-460e-ac6c-545199e93599/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Planjan - Fix
 https://stream.gunungkidulkab.go.id:8888/5858ca16-f730-49d1-a494-9d20a82b9b55/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SMP 1 Playen
-https://stream.gunungkidulkab.go.id:8888/c43d6c28-d03d-4aab-a589-7410b655908d/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SD Karangrejek 2
 https://stream.gunungkidulkab.go.id:8888/97561df3-c774-495a-b4d6-e5654108ac43/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Perempatan Patuk
@@ -5404,8 +5410,6 @@ https://stream.gunungkidulkab.go.id:8888/d237c46b-f15b-490c-869c-b5375df3a020/in
 https://stream.gunungkidulkab.go.id:8888/f156c1d9-9381-45f5-a20f-cd323fb3a639/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Ngingrong Mulo
 https://stream.gunungkidulkab.go.id:8888/bbc05db8-09ae-44d1-a049-3d22bd18962b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pertigaan Pasar Playen
-https://stream.gunungkidulkab.go.id:8888/3cdd4d3d-123f-4fdd-9600-5afce882d8e5/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Alun-alun Wonosari Fix
 https://stream.gunungkidulkab.go.id:8888/c066fe94-69d3-487b-990a-f0bdb24fa9e9/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan Siyono Fix
@@ -5448,12 +5452,10 @@ https://stream.gunungkidulkab.go.id:8888/f6314dd1-a8ea-40a9-8a97-e0f2f8dc4bdd/in
 https://stream.gunungkidulkab.go.id:8888/58328653-bae9-4e69-82d0-b83d500040b1/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan Siyono Barat
 https://stream.gunungkidulkab.go.id:8888/99b61615-0e73-4b44-b7d9-775301c11b94/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan Siyono Timur
+https://stream.gunungkidulkab.go.id:8888/365d3972-8e24-4b8e-a9bd-2db5cbcbfee8/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pemda Gunungkidul
 https://stream.gunungkidulkab.go.id:8888/d41813e2-fafb-42a4-a7b9-5e713c0e9606/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Nglipar Timur
-https://stream.gunungkidulkab.go.id:8888/5bb010f8-71fd-449c-99b2-294d35af77fd/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Nglipar Barat
-https://stream.gunungkidulkab.go.id:8888/31de9dc7-dfaa-4274-b353-49d350e5b8d8/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Simpang 4 RSUD FIX
 https://stream.gunungkidulkab.go.id:8888/2b304ee7-49a4-4283-a64d-538de7fb6ad1/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SD Trowono 3
@@ -5466,10 +5468,6 @@ https://stream.gunungkidulkab.go.id:8888/be5bc47a-f583-4873-9e51-4a9b49ad5cf6/in
 https://stream.gunungkidulkab.go.id:8888/f6878b5b-8100-449d-b4b5-ca48601a6256/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Baleharjo Timur
 https://stream.gunungkidulkab.go.id:8888/b7c060ba-33c8-4609-8713-4f6e5ff35ba8/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S3 Ngawen Utara
-https://stream.gunungkidulkab.go.id:8888/c410af7a-2790-4b8a-be66-d57e6a656e3c/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S3 Ngawen Timur
-https://stream.gunungkidulkab.go.id:8888/336476f5-2964-4c45-82d2-061b7fe984aa/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Semin Utara
 https://stream.gunungkidulkab.go.id:8888/25a25318-0831-41ca-a84e-cb725af7a912/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Semin Selatan
@@ -5498,16 +5496,10 @@ https://stream.gunungkidulkab.go.id:8888/d1f423b6-2276-4dcf-ae65-f966a870a9e4/in
 https://stream.gunungkidulkab.go.id:8888/3f008260-e48f-4dc2-bec4-93d7ec42dcb9/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Lapangan Pemda Barat
 https://stream.gunungkidulkab.go.id:8888/618a774c-186e-4ab2-9d9c-e4f59d09ab66/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Budegan Barat
-https://stream.gunungkidulkab.go.id:8888/d2bfd3f8-2969-47c1-a246-d5467a8e1efe/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S3 Gading Selatan
 https://stream.gunungkidulkab.go.id:8888/c5bea4c6-a2e4-4c9d-b731-ea5a1b5bd39c/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Gading Dome
 https://stream.gunungkidulkab.go.id:8888/af4d2a14-e0b3-43f4-ade8-d73465ef2258/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Gading Selatan
-https://stream.gunungkidulkab.go.id:8888/1f8dbee5-c3d8-40a6-a377-6c8b547cb90a/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Gading Utara
-https://stream.gunungkidulkab.go.id:8888/ee587917-0cca-403d-855f-d8cee27721da/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pintu Masuk Baron Barat 1
 https://stream.gunungkidulkab.go.id:8888/cb67a758-08c4-43b8-b5cc-23bc4b83829a/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Rongkop Timur
@@ -5524,8 +5516,6 @@ https://stream.gunungkidulkab.go.id:8888/e91760d5-95b8-4907-a49d-f46885390291/in
 https://stream.gunungkidulkab.go.id:8888/33edb24d-088c-4f49-ac90-f90a73a995ab/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Lapangan Kesatrian
 https://stream.gunungkidulkab.go.id:8888/1c2623b9-0382-4f33-b748-3941f4a96549/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pasar Wotgalih
-https://stream.gunungkidulkab.go.id:8888/d7bca391-48f3-48d5-9744-ddf548c21ca4/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Penghitungan Kendaraan
 https://stream.gunungkidulkab.go.id:8888/bdf1ba90-6e30-4d59-b36d-468dda946658/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S3 Petoyan 1
@@ -5558,8 +5548,6 @@ https://stream.gunungkidulkab.go.id:8888/00817fc1-25e9-469f-a5c5-c371bdd55f07/in
 https://stream.gunungkidulkab.go.id:8888/c02bf2b6-834c-4c9b-9be6-f2980d859bb8/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pantai Kukup PTZ
 https://stream.gunungkidulkab.go.id:8888/dfdcfa82-c168-4265-abc8-f786bb7f0313/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pertigaan Pasar Playen PTZ
-https://stream.gunungkidulkab.go.id:8888/14d99ef0-eb77-4450-9fc9-eb7545a9ac16/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Simpang 4 Pancuran PTZ
 https://stream.gunungkidulkab.go.id:8888/d0e1549c-170b-499e-8dee-4ec2fef57f4d/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan PLN PTZ
@@ -5568,8 +5556,6 @@ https://stream.gunungkidulkab.go.id:8888/de774241-aaec-4937-a43a-ab59b7525dd0/in
 https://stream.gunungkidulkab.go.id:8888/32588258-06cb-4628-987e-1f0748e6604e/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SMP 2 Patuk Timur
 https://stream.gunungkidulkab.go.id:8888/e903344a-4303-4dbb-954c-1ba2eac82c10/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SIMPANG 4 GADING
-https://stream.gunungkidulkab.go.id:8888/e08a568b-111c-43ce-88bc-503f4a3cc348/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Nglanggeran 1
 https://stream.gunungkidulkab.go.id:8888/dab5e1b1-dc22-4162-8523-ada6a19585d9/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Nglanggeran 2

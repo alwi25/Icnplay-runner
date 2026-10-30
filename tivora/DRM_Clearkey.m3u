@@ -4,22 +4,6 @@
 #KODIPROP:inputstream.adaptive.license_key=75508caa27239cd34ca45ee862f1bbf2:d38f9f2b690bad3fcc838013242cc5e4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://ac-003.live.p7s1video.net/4a37da02/t_003/dazn-rise-hd/cenc-default.mpd
-#EXTINF:-1 tvg-name="FUBO SPORTS 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8f/Fubo_Sports.png/revision/latest?cb=20250117221217" group-title="Sports",FUBO SPORTS 1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
-#EXTINF:-1 tvg-name="PREMIER SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png" group-title="Sports",PREMIER SPORTS
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b8b595299fdf41c1a3481fddeb0b55e4:cd2b4ad0eb286239a4a022e6ca5fd007
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="CINEMAX" tvg-name="Cinemax" tvg-logo="https://iili.io/Ju79znp.png" group-title="Movies",Cinemax
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q2luZW1heA/manifest.mpd
 #EXTINF:-1 tvg-id="0_s7gzj2we" tvg-name="CinemaWorld" tvg-logo="https://images.maxstream.tv/sites/default/files/entry/0_s7gzj2we/banner_xxxhdpi.webp" group-title="Movies",CinemaWorld
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
@@ -29,16 +13,11 @@ https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q2FydG9vbml0bw/manifest.mpd
-#EXTINF:-1 tvg-name="ONE SPORTS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bkhPvcg-6y8Opzg0ay_ow5Gq5Wt1TGl6UFBwiKw&s=0" group-title="Sports",ONE SPORTS HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesports_hd/default/index.mpd
-#EXTINF:-1 tvg-name="DAZN FAST" tvg-logo="https://i.imgur.com/Zw5degR.png" group-title="Sports",DAZN FAST
+#EXTINF:-1 tvg-id="CINEMAX" tvg-name="Cinemax" tvg-logo="https://iili.io/Ju79znp.png" group-title="Movies",Cinemax
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8bcec6b31cc9edcb6768ab26548e22c3:e3c5b07328894c33734a4de6ae55a87f
-https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd
+https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q2luZW1heA/manifest.mpd
 #EXTINF:-1 tvg-name="FUBO SPORTS 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8f/Fubo_Sports.png/revision/latest?cb=20250117221217" group-title="Sports",FUBO SPORTS 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -46,36 +25,57 @@ https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd
 #KODIPROP:inputstream.adaptive.license_key=3dcfbec0e7146928baa55210bf2cb62f:bc85f74f815d9be5ae1dd6defaa05135
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd
-#EXTINF:-1 tvg-name="FANCODE TV" tvg-logo="https://shorter.me/Xydc0" group-title="Sports",FANCODE TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-name="ONE SPORTS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bkhPvcg-6y8Opzg0ay_ow5Gq5Wt1TGl6UFBwiKw&s=0" group-title="Sports",ONE SPORTS HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesports_hd/default/index.mpd
+#EXTINF:-1 tvg-name="PREMIER SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png" group-title="Sports",PREMIER SPORTS
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b8b595299fdf41c1a3481fddeb0b55e4:cd2b4ad0eb286239a4a022e6ca5fd007
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mpd
+#EXTINF:-1 tvg-name="DAZN FAST" tvg-logo="https://i.imgur.com/Zw5degR.png" group-title="Sports",DAZN FAST
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5689304538fa9f3bb3da99c939a2ad4f:6907c88ed8ebdd35a2fa80b9684715e1
-https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd
+#KODIPROP:inputstream.adaptive.license_key=8bcec6b31cc9edcb6768ab26548e22c3:e3c5b07328894c33734a4de6ae55a87f
+https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd
+#EXTINF:-1 tvg-name="FUBO SPORTS 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8f/Fubo_Sports.png/revision/latest?cb=20250117221217" group-title="Sports",FUBO SPORTS 1
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
+#EXTINF:-1 tvg-name="CAZE TV 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFVJGATy70KVBZ0txjIVDSVXTQUCSykt_5A&s" group-title="Sports",CAZE TV 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9752ef72590ef441ffa3731e0486fbc0:db63ec7b9f11348b7cc6808a54c99457
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/epg9sw6owc/out/v1/e50aecefcb294fae85d6b343e0a6f1cc/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
 #EXTINF:-1 tvg-name="Soccer Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJRAbMifGeQVKUmLfuyLnDzA-VTEMyGKjAgBz618USDmlaNj2CFtHfUKQ&s=10" group-title="Sports",Soccer Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_key=4035323a7fe64767ab8f3345ed9b93be:67377b8d429603f8bf30c161bda269e5
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 http://195.178.110.110/foxsportspremium/index.m3u8
+#EXTINF:-1 tvg-name="FANCODE TV" tvg-logo="https://shorter.me/Xydc0" group-title="Sports",FANCODE TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5689304538fa9f3bb3da99c939a2ad4f:6907c88ed8ebdd35a2fa80b9684715e1
+https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd
+#EXTINF:-1 tvg-name="RTBF TIPIK 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Tipik_2025.svg/1280px-Tipik_2025.svg.png" group-title="Sports",RTBF TIPIK 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3c736e5c8f5a4d1a8eb8af1e63aa2005:d1729111efdfb7727ee3e6fcbc7586e1
+https://daiconnect.com/live/dash/rtbf/tipik-56dfkkh-0epa3m40q/.mpd
 #EXTINF:-1 tvg-id="TNT 3" tvg-name="TNT SPORTS 3 ((E14))" tvg-logo="https://i.ibb.co.com/Lzkztmpw/Tntsports3.png" group-title="Sports",TNT SPORTS 3 ((E14))
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=12413e2c2855cfc59ce0fe6b20cc71ca:08d55a8f5fc93a9375f9b0cb2e1739ca
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd
-#EXTINF:-1 tvg-name="RTBF TIPIK 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Tipik_2025.svg/1280px-Tipik_2025.svg.png" group-title="Sports",RTBF TIPIK 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3c736e5c8f5a4d1a8eb8af1e63aa2005:d1729111efdfb7727ee3e6fcbc7586e1
-https://daiconnect.com/live/dash/rtbf/tipik-56dfkkh-0epa3m40q/.mpd
-#EXTINF:-1 tvg-name="CAZE TV 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFVJGATy70KVBZ0txjIVDSVXTQUCSykt_5A&s" group-title="Sports",CAZE TV 3
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9752ef72590ef441ffa3731e0486fbc0:db63ec7b9f11348b7cc6808a54c99457
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/epg9sw6owc/out/v1/e50aecefcb294fae85d6b343e0a6f1cc/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
-#EXTINF:-1 tvg-name="Cooking TV" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/ded16232-f41b-418d-a666-c0c2a502e348.jpg" group-title="Knowledge & Lifestyle",Cooking TV
-#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508/dash/Q29va2luZyBUVg/manifest.mpd
 #EXTINF:-1 tvg-name="Gaming TV" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/dcbc4bc6-19c3-4719-9ee7-587aa3edffea.jpg" group-title="Knowledge & Lifestyle",Gaming TV
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508/dash/R2FtaW5nIFRW/manifest.mpd
+#EXTINF:-1 tvg-name="Cooking TV" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/ded16232-f41b-418d-a666-c0c2a502e348.jpg" group-title="Knowledge & Lifestyle",Cooking TV
+#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508/dash/Q29va2luZyBUVg/manifest.mpd
