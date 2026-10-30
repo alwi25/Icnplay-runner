@@ -9,6 +9,7 @@ on:
       - "config.json"
       - "health_check.py"
       - "merge_build.py"
+      - "maxstream_build.py"
   schedule:
     # Every 6 hours. GitHub may delay scheduled runs under platform load.
     - cron: "20 */6 * * *"
@@ -44,6 +45,12 @@ jobs:
       - name: Merge all sources into the published playlists
         run: python3 merge_build.py --publish
 
+      # MAXstream: stream-nya butuh akun + IP Indonesia (API 403 dari luar),
+      # jadi yang dibuat adalah daftar resmi 117 channel MAXstream yang
+      # dipetakan ke stream kita yang sudah terbukti jalan.
+      - name: Build MAXstream playlist
+        run: python3 maxstream_build.py --publish
+
       - name: Health summary
         if: always()
         run: |
@@ -73,7 +80,8 @@ jobs:
           # kids.m3u          = channel anak saja, HLS dulu lalu DASH
           git add playlist/ manifest.json health.json ICNPLAY.m3u \
                   ICNPLAY_full.m3u ICNPLAY_fast.m3u kids.m3u \
-                  DRM_Clearkey.m3u PREMIUM.m3u categories/ icn/ tivora/
+                  DRM_Clearkey.m3u PREMIUM.m3u MAXSTREAM.m3u \
+                  categories/ icn/ tivora/ maxstream/
           if git diff --cached --quiet; then
             echo "No changes."
           else

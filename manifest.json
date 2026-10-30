@@ -1,6 +1,6 @@
 {
   "app": "com.icnplay.id (iCN Play v1.1 build 17)",
-  "generated": "2026-10-30 09:13:09",
+  "generated": "2026-10-30 08:41:42",
   "server_endpoint": "https://my.idetimur.id/icnplay",
   "app_user_agent": "iCNPL4Y",
   "kunci": "Panca86",
@@ -63,19 +63,19 @@
   "total_channels": 1862,
   "stale_sources": [],
   "stream_probe": [
-    2,
+    3,
     3
   ],
   "health": {
-    "LIVE": 989,
-    "DRM": 219,
-    "LIVE?": 25,
-    "AUTH": 111,
-    "DEAD": 63,
-    "FLAKY": 117
+    "DRM": 267,
+    "AUTH": 107,
+    "LIVE": 959,
+    "DEAD": 66,
+    "LIVE?": 7,
+    "FLAKY": 118
   },
   "variants": {
-    "fast": 998,
-    "kids": 33
+    "fast": 952,
+    "kids": 36
   }
 }
