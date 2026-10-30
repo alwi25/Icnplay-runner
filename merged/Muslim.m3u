@@ -2,24 +2,20 @@
 #EXTINF:-1 tvg-name="LIVE MADINAH" tvg-logo="https://makkahlive.net/posters/madinah.jpg" group-title="Muslim",LIVE MADINAH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://flv.intechmedia.net/live/ch13.m3u8
+#EXTINF:-1 tvg-name="AshillTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/AshiilTV.png" group-title="Muslim",AshillTV
+https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
+#EXTINF:-1 tvg-name="TV9 HD" group-title="Muslim",TV9 HD
+https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
 #EXTINF:-1 tvg-name="WesalTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Wesal_TV.png" group-title="Muslim",WesalTV
 https://wahyu1ptv.pages.dev/WesalTV-HD.m3u8
 #EXTINF:-1 tvg-name="RodjaTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Rodja_TV.png" group-title="Muslim",RodjaTV
 https://wahyu1ptv.pages.dev/RodjaTV-HD.m3u8
-#EXTINF:-1 tvg-name="AshillTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/AshiilTV.png" group-title="Muslim",AshillTV
-https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
-#EXTINF:-1 tvg-name="MQTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/MqTv.png" group-title="Muslim",MQTV
-https://wahyu1ptv.pages.dev/MQTV-HD.m3u8
-#EXTINF:-1 tvg-name="TV9 HD" group-title="Muslim",TV9 HD
-https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
 #EXTINF:-1 tvg-name="SurauTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SurauTV.png" group-title="Muslim",SurauTV
 https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8
+#EXTINF:-1 tvg-name="MQTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/MqTv.png" group-title="Muslim",MQTV
+https://wahyu1ptv.pages.dev/MQTV-HD.m3u8
 #EXTINF:-1 tvg-id="AngelTV.in@Indonesia" tvg-name="Angel TV Indonesia (720p)" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Muslim",Angel TV Indonesia (720p)
 https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Quran TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504956_tvchannels_v1.jpg" group-title="Muslim",Quran TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8?app_type=web&userid=lite&chname=Quran_TV
 #EXTINF:-1 tvg-name="Sharjah Quran.sa" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbXHVOi4AdBTYQZnO7XAfjde7vXvPHSudXjzXmojvrA6UatfYRdtt4ExR3twE7idWopAFlLfp5xw4CuOcbYw0mwhzhLMQrPwgyCeYjniNr25iNjr-mTRj_mPdODOmWGGMxhZy3jXN70DZB-AfeJ2_CTQDm-ejmy32QMCQPg3uVGlMxVFulJd1ABBsDFnw/s1600/9l9A9cD.png?v=1.0.0.1" group-title="Muslim",Sharjah Quran.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/c11f68b3543e0174f14e4de43275e9a0b09a521e/df36e66d66f4155.m3u8
@@ -29,6 +25,13 @@ https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/ra
 #EXTINF:-1 tvg-name="AswajaTV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUSfuYiKJQecm6oG-t1wvGTKJGymZzH0yT1ZMR94TmQ158STHvoa7g-YRPdRSli5iA9Wl2UAf8cUrvVbW-AmZNu1T2-hZBOx9LOK8Ym1qKFFVQihkCnm3pNEC6oUOSDdI02T4PoYra-dU6JVPtThPHgmavSignQMnxe4NQmCuxUtv5FF8TqFSf-kmzWs2A/s1600/WlUjXgD.pn?v=1.0.0.1" group-title="Muslim",AswajaTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://warningfm.github.io/dailymotion/AswajaTV.m3u8
+#EXTINF:-1 tvg-name="Quran TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504956_tvchannels_v1.jpg" group-title="Muslim",Quran TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8?app_type=web&userid=lite&chname=Quran_TV
+#EXTINF:-1 tvg-name="Tawaf TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwBOvbsJWvJoMMG2Skj87fBDlLqfpOokbIsW2uEPjKsgg0_qm-rxizRBs3KneTmQ-ERnPI6easxJVimwxsJJ9I7aetkL737e9dC33Uv7UHrlA__sF-NABWWOKy_KkPUtVo9Y7qkcssBJB80lMjlFue8UyJkZHmqTj_ZA8cjBJnZQfnVjvHfjmkf4aa4_E/s1600/cgO5MbX.png?v=1.1.1.1" group-title="Muslim",Tawaf TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/98c2047e0b19dc0e9f979d37a4252f900ff2f9cd/0c9fd875599b836.m3u8
 #EXTINF:-1 tvg-id="Tv9.Nu.id" tvg-name="TV9 NU" tvg-logo="https://www.visionplus.id/images/repository/601/601-LOGO-m.png" group-title="Muslim",TV9 NU
 https://live2.kontoltv.my.id/play/tv9nu.m3u8
 #EXTINF:-1 tvg-name="TV 10 HD" group-title="Muslim",TV 10 HD
@@ -39,259 +42,255 @@ https://raw.githubusercontent.com/warningfm/kano/main/live/m3u8/id/ca07a749e9196
 #EXTINF:-1 tvg-name="Bahrain Quran" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1L4ekBkm_spd6kWexdSY9XDDVepDwrFFf7facBvZjOhBJwGVw7ym6oFhOGIPfRSetCdQi_fe3ym49nv-21UGyQiRmzbJcxLuyspid9pGwIN___gRd2M-jGXdbdq5AgA9AHGQ3v8rZ_9tWNpEr4hxGHkONyNQNax6IN_wOGYRhOWb9T_fS2wY70zIIGl0/s1600/GZjb6pg.png?v=1.0.0.1" group-title="Muslim",Bahrain Quran
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/77db1a648b6f5527215b4566b3e2ff857668f7a4/df36e66d66f4156.m3u8
-#EXTINF:-1 tvg-name="Tawaf TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwBOvbsJWvJoMMG2Skj87fBDlLqfpOokbIsW2uEPjKsgg0_qm-rxizRBs3KneTmQ-ERnPI6easxJVimwxsJJ9I7aetkL737e9dC33Uv7UHrlA__sF-NABWWOKy_KkPUtVo9Y7qkcssBJB80lMjlFue8UyJkZHmqTj_ZA8cjBJnZQfnVjvHfjmkf4aa4_E/s1600/cgO5MbX.png?v=1.1.1.1" group-title="Muslim",Tawaf TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/98c2047e0b19dc0e9f979d37a4252f900ff2f9cd/0c9fd875599b836.m3u8
-#EXTINF:-1 tvg-name="AZ-ZUMAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AZ-ZUMAR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/39.mp3
-#EXTINF:-1 tvg-name="AL-MASAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MASAD
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/111.mp3
-#EXTINF:-1 tvg-name="ASH-SHURAA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHURAA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/42.mp3
-#EXTINF:-1 tvg-name="ASH-SHARH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHARH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/94.mp3
-#EXTINF:-1 tvg-name="AL-HUJURAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HUJURAT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/49.mp3
-#EXTINF:-1 tvg-name="FATIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",FATIR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/35.mp3
-#EXTINF:-1 tvg-name="MUHAMMAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",MUHAMMAD
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/47.mp3
-#EXTINF:-1 tvg-name="AL-FAJR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FAJR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/89.mp3
-#EXTINF:-1 tvg-name="AT-TAKWIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAKWIR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/81.mp3
-#EXTINF:-1 tvg-name="AL-INSHIQAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INSHIQAQ
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/84.mp3
-#EXTINF:-1 tvg-name="AL-ANBYA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-ANBYA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/21.mp3
-#EXTINF:-1 tvg-name="AT-TARIQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TARIQ
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/86.mp3
-#EXTINF:-1 tvg-name="AT-TAKATHUR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAKATHUR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/102.mp3
-#EXTINF:-1 tvg-name="AL-IKHLAS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-IKHLAS
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/112.mp3
-#EXTINF:-1 tvg-name="AL-KAWTHAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-KAWTHAR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/108.mp3
-#EXTINF:-1 tvg-name="ASH-SHU'ARA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHU'ARA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/26.mp3
-#EXTINF:-1 tvg-name="AT-TAGHABUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAGHABUN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/64.mp3
-#EXTINF:-1 tvg-name="AT-TAHRIM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAHRIM
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/66.mp3
-#EXTINF:-1 tvg-name="AL-JUMU'AH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-JUMU'AH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/62.mp3
-#EXTINF:-1 tvg-name="SABA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",SABA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/34.mp3
-#EXTINF:-1 tvg-name="GHAFIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",GHAFIR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/40.mp3
-#EXTINF:-1 tvg-name="AL-AHQAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-AHQAF
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/46.mp3
-#EXTINF:-1 tvg-name="AL-KAFIRUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-KAFIRUN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/109.mp3
-#EXTINF:-1 tvg-name="AL-MUJADILA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUJADILA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/58.mp3
-#EXTINF:-1 tvg-name="AL-INFITAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INFITAR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/82.mp3
-#EXTINF:-1 tvg-name="AL-BAYYINAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BAYYINAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/98.mp3
-#EXTINF:-1 tvg-name="AL-A'LA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-A'LA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/87.mp3
-#EXTINF:-1 tvg-name="AS-SAFFAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AS-SAFFAT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/37.mp3
-#EXTINF:-1 tvg-name="ASH-SHAMS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHAMS
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/91.mp3
-#EXTINF:-1 tvg-name="AL-KAHF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-KAHF
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/18.mp3
-#EXTINF:-1 tvg-name="AD-DUHAA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AD-DUHAA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/93.mp3
-#EXTINF:-1 tvg-name="AL-FATH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FATH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/48.mp3
-#EXTINF:-1 tvg-name="AL-HAQQAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HAQQAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/69.mp3
-#EXTINF:-1 tvg-name="QURAYSH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",QURAYSH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/106.mp3
-#EXTINF:-1 tvg-name="AL-MA'ARIJ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MA'ARIJ
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/70.mp3
-#EXTINF:-1 tvg-name="AL-'ANKABUT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ANKABUT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/29.mp3
-#EXTINF:-1 tvg-name="AL-FURQON" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FURQON
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/25.mp3
-#EXTINF:-1 tvg-name="AL-HAJJ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HAJJ
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/22.mp3
-#EXTINF:-1 tvg-name="AL-FATIHAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FATIHAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/1.mp3
-#EXTINF:-1 tvg-name="AL-BAQARAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BAQARAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/2.mp3
-#EXTINF:-1 tvg-name="AD-DHUKAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AD-DHUKAN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/44.mp3
-#EXTINF:-1 tvg-name="AL-MULK" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MULK
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/67.mp3
-#EXTINF:-1 tvg-name="IBRAHIM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",IBRAHIM
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/14.mp3
-#EXTINF:-1 tvg-name="AL-JATHIYAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-JATHIYAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/45.mp3
-#EXTINF:-1 tvg-name="AL-INSAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INSAN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/76.mp3
-#EXTINF:-1 tvg-name="AL-HADID" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HADID
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/57.mp3
-#EXTINF:-1 tvg-name="AN-NAHL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAHL
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/16.mp3
-#EXTINF:-1 tvg-name="AZ-ZUKRUF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AZ-ZUKRUF
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/43.mp3
-#EXTINF:-1 tvg-name="HUD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",HUD
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/11.mp3
-#EXTINF:-1 tvg-name="AS-SAJDAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AS-SAJDAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/32.mp3
-#EXTINF:-1 tvg-name="AL-'ADIYAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ADIYAT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/100.mp3
-#EXTINF:-1 tvg-name="AN-NISSA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NISSA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/4.mp3
-#EXTINF:-1 tvg-name="AL-MU'MINUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MU'MINUN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/23.mp3
-#EXTINF:-1 tvg-name="AL-GHASIYAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-GHASIYAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/88.mp3
-#EXTINF:-1 tvg-name="AL-ANFAL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-ANFAL
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/8.mp3
 #EXTINF:-1 tvg-name="AL-BURUJ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BURUJ
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/85.mp3
-#EXTINF:-1 tvg-name="AL-JINN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-JINN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/72.mp3
-#EXTINF:-1 tvg-name="AT-TALAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TALAQ
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/65.mp3
-#EXTINF:-1 tvg-name="AL-FALAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FALAQ
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/113.mp3
-#EXTINF:-1 tvg-name="AL-MA'IDAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MA'IDAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/5.mp3
-#EXTINF:-1 tvg-name="AT-TIN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TIN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/95.mp3
-#EXTINF:-1 tvg-name="YA-SIN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",YA-SIN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/36.mp3
-#EXTINF:-1 tvg-name="'ABASA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",'ABASA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/80.mp3
-#EXTINF:-1 tvg-name="AL-FIL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FIL
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/105.mp3
-#EXTINF:-1 tvg-name="AN-NUR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NUR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/24.mp3
-#EXTINF:-1 tvg-name="YUNUS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",YUNUS
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/10.mp3
-#EXTINF:-1 tvg-name="SAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",SAD
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/38.mp3
-#EXTINF:-1 tvg-name="AL-MA'UN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MA'UN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/107.mp3
-#EXTINF:-1 tvg-name="AN-NASR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NASR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/110.mp3
-#EXTINF:-1 tvg-name="AL-AHZAB" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-AHZAB
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/33.mp3
-#EXTINF:-1 tvg-name="AL-QADR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QADR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/97.mp3
-#EXTINF:-1 tvg-name="AT-TAWBAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAWBAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/9.mp3
-#EXTINF:-1 tvg-name="LUQMAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",LUQMAN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/31.mp3
-#EXTINF:-1 tvg-name="NUH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",NUH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/71.mp3
-#EXTINF:-1 tvg-name="AL-IMRAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-IMRAN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/3.mp3
-#EXTINF:-1 tvg-name="AL-WAQI'AH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-WAQI'AH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/56.mp3
-#EXTINF:-1 tvg-name="AL-LAYL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-LAYL
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/92.mp3
-#EXTINF:-1 tvg-name="AR-RAHMAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AR-RAHMAN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/55.mp3
-#EXTINF:-1 tvg-name="MARYAM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",MARYAM
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/19.mp3
-#EXTINF:-1 tvg-name="AL-MUTAFFIFIN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUTAFFIFIN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/83.mp3
-#EXTINF:-1 tvg-name="AN-NAML" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAML
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/27.mp3
-#EXTINF:-1 tvg-name="FUSSILAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",FUSSILAT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/41.mp3
-#EXTINF:-1 tvg-name="AL-MUNAFIQUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUNAFIQUN
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/63.mp3
+#EXTINF:-1 tvg-name="AL-INSHIQAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INSHIQAQ
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/84.mp3
+#EXTINF:-1 tvg-name="AT-TARIQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TARIQ
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/86.mp3
+#EXTINF:-1 tvg-name="AT-TAGHABUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAGHABUN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/64.mp3
 #EXTINF:-1 tvg-name="AL-HIJR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HIJR
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/15.mp3
-#EXTINF:-1 tvg-name="AL-BALAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BALAD
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/90.mp3
-#EXTINF:-1 tvg-name="AL-QALAM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QALAM
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/68.mp3
-#EXTINF:-1 tvg-name="AN-NAS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAS
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/114.mp3
-#EXTINF:-1 tvg-name="AL-MURSALAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MURSALAT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/77.mp3
+#EXTINF:-1 tvg-name="AL-HADID" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HADID
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/57.mp3
+#EXTINF:-1 tvg-name="AS-SAJDAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AS-SAJDAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/32.mp3
+#EXTINF:-1 tvg-name="AL-MULK" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MULK
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/67.mp3
+#EXTINF:-1 tvg-name="AL-MUZZAMMIL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUZZAMMIL
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/73.mp3
+#EXTINF:-1 tvg-name="FUSSILAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",FUSSILAT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/41.mp3
+#EXTINF:-1 tvg-name="ADH-DHARIYAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ADH-DHARIYAT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/51.mp3
+#EXTINF:-1 tvg-name="AS-SAFFAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AS-SAFFAT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/37.mp3
+#EXTINF:-1 tvg-name="AL-HASHR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HASHR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/59.mp3
+#EXTINF:-1 tvg-name="AN-NUR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NUR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/24.mp3
+#EXTINF:-1 tvg-name="AL-KAWTHAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-KAWTHAR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/108.mp3
+#EXTINF:-1 tvg-name="AL-IMRAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-IMRAN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/3.mp3
+#EXTINF:-1 tvg-name="AL-QARI'AH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QARI'AH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/101.mp3
+#EXTINF:-1 tvg-name="AL-'ANKABUT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ANKABUT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/29.mp3
+#EXTINF:-1 tvg-name="AL-HUJURAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HUJURAT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/49.mp3
+#EXTINF:-1 tvg-name="YUNUS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",YUNUS
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/10.mp3
+#EXTINF:-1 tvg-name="AN-NAML" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAML
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/27.mp3
+#EXTINF:-1 tvg-name="AL-JINN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-JINN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/72.mp3
+#EXTINF:-1 tvg-name="NUH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",NUH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/71.mp3
+#EXTINF:-1 tvg-name="AD-DUHAA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AD-DUHAA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/93.mp3
+#EXTINF:-1 tvg-name="AR-RA'D" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AR-RA'D
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/13.mp3
+#EXTINF:-1 tvg-name="AL-ISRA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-ISRA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/17.mp3
+#EXTINF:-1 tvg-name="AL-JUMU'AH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-JUMU'AH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/62.mp3
+#EXTINF:-1 tvg-name="AT-TAHRIM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAHRIM
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/66.mp3
+#EXTINF:-1 tvg-name="ASH-SHARH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHARH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/94.mp3
+#EXTINF:-1 tvg-name="AT-TAWBAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAWBAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/9.mp3
+#EXTINF:-1 tvg-name="AL-LAYL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-LAYL
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/92.mp3
+#EXTINF:-1 tvg-name="FATIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",FATIR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/35.mp3
+#EXTINF:-1 tvg-name="AN-NAZI'AT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAZI'AT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/79.mp3
+#EXTINF:-1 tvg-name="AL-HAJJ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HAJJ
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/22.mp3
+#EXTINF:-1 tvg-name="AL-MUTAFFIFIN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUTAFFIFIN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/83.mp3
+#EXTINF:-1 tvg-name="LUQMAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",LUQMAN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/31.mp3
+#EXTINF:-1 tvg-name="AL-QIYAMAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QIYAMAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/75.mp3
+#EXTINF:-1 tvg-name="AN-NABA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NABA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/78.mp3
+#EXTINF:-1 tvg-name="QAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",QAF
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/50.mp3
+#EXTINF:-1 tvg-name="TAHA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",TAHA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/20.mp3
+#EXTINF:-1 tvg-name="ASH-SHAMS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHAMS
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/91.mp3
+#EXTINF:-1 tvg-name="AL-'ALAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ALAQ
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/96.mp3
+#EXTINF:-1 tvg-name="AL-AN'AM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-AN'AM
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/6.mp3
+#EXTINF:-1 tvg-name="AL-MUDDATHTHIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUDDATHTHIR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/74.mp3
+#EXTINF:-1 tvg-name="AL-BAYYINAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BAYYINAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/98.mp3
+#EXTINF:-1 tvg-name="SABA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",SABA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/34.mp3
+#EXTINF:-1 tvg-name="AL-MUMTAHANAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUMTAHANAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/60.mp3
+#EXTINF:-1 tvg-name="AL-WAQI'AH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-WAQI'AH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/56.mp3
+#EXTINF:-1 tvg-name="AL-MU'MINUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MU'MINUN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/23.mp3
+#EXTINF:-1 tvg-name="AT-TIN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TIN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/95.mp3
+#EXTINF:-1 tvg-name="AN-NAJM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAJM
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/53.mp3
+#EXTINF:-1 tvg-name="MARYAM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",MARYAM
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/19.mp3
+#EXTINF:-1 tvg-name="AL-MUJADILA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUJADILA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/58.mp3
+#EXTINF:-1 tvg-name="AZ-ZUMAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AZ-ZUMAR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/39.mp3
+#EXTINF:-1 tvg-name="AL-HUMAZAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HUMAZAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/104.mp3
+#EXTINF:-1 tvg-name="AN-NISSA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NISSA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/4.mp3
+#EXTINF:-1 tvg-name="HUD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",HUD
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/11.mp3
+#EXTINF:-1 tvg-name="ASH-SHURAA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHURAA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/42.mp3
 #EXTINF:-1 tvg-name="AL-QASAS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QASAS
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/28.mp3
 #EXTINF:-1 tvg-name="AR-RUM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AR-RUM
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/30.mp3
-#EXTINF:-1 tvg-name="AL-A'RAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-A'RAF
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/7.mp3
-#EXTINF:-1 tvg-name="AL-MUDDATHTHIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUDDATHTHIR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/74.mp3
-#EXTINF:-1 tvg-name="AN-NAJM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAJM
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/53.mp3
-#EXTINF:-1 tvg-name="TAHA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",TAHA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/20.mp3
-#EXTINF:-1 tvg-name="AL-HUMAZAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HUMAZAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/104.mp3
-#EXTINF:-1 tvg-name="AL-QAMAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QAMAR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/54.mp3
-#EXTINF:-1 tvg-name="YUSUF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",YUSUF
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/12.mp3
+#EXTINF:-1 tvg-name="AL-INSAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INSAN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/76.mp3
+#EXTINF:-1 tvg-name="AL-FATIHAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FATIHAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/1.mp3
+#EXTINF:-1 tvg-name="AL-KAHF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-KAHF
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/18.mp3
 #EXTINF:-1 tvg-name="AT-TUR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TUR
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/52.mp3
-#EXTINF:-1 tvg-name="AL-ISRA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-ISRA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/17.mp3
-#EXTINF:-1 tvg-name="AR-RA'D" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AR-RA'D
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/13.mp3
-#EXTINF:-1 tvg-name="AN-NABA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NABA
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/78.mp3
-#EXTINF:-1 tvg-name="AL-MUMTAHANAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUMTAHANAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/60.mp3
-#EXTINF:-1 tvg-name="ADH-DHARIYAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ADH-DHARIYAT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/51.mp3
-#EXTINF:-1 tvg-name="AS-SAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AS-SAF
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/61.mp3
-#EXTINF:-1 tvg-name="AL-QARI'AH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QARI'AH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/101.mp3
-#EXTINF:-1 tvg-name="AN-NAZI'AT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAZI'AT
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/79.mp3
-#EXTINF:-1 tvg-name="AL-MUZZAMMIL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUZZAMMIL
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/73.mp3
-#EXTINF:-1 tvg-name="AL-'ASHR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ASHR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/103.mp3
-#EXTINF:-1 tvg-name="AL-QIYAMAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QIYAMAH
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/75.mp3
-#EXTINF:-1 tvg-name="AL-'ALAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ALAQ
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/96.mp3
+#EXTINF:-1 tvg-name="AL-INFITAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INFITAR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/82.mp3
+#EXTINF:-1 tvg-name="AT-TAKWIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAKWIR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/81.mp3
+#EXTINF:-1 tvg-name="AR-RAHMAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AR-RAHMAN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/55.mp3
+#EXTINF:-1 tvg-name="YUSUF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",YUSUF
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/12.mp3
+#EXTINF:-1 tvg-name="AL-MA'IDAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MA'IDAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/5.mp3
+#EXTINF:-1 tvg-name="AZ-ZUKRUF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AZ-ZUKRUF
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/43.mp3
+#EXTINF:-1 tvg-name="AL-FIL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FIL
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/105.mp3
+#EXTINF:-1 tvg-name="AL-MA'ARIJ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MA'ARIJ
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/70.mp3
+#EXTINF:-1 tvg-name="AL-AHZAB" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-AHZAB
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/33.mp3
+#EXTINF:-1 tvg-name="AL-ANFAL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-ANFAL
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/8.mp3
+#EXTINF:-1 tvg-name="AL-QAMAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QAMAR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/54.mp3
+#EXTINF:-1 tvg-name="AL-FURQON" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FURQON
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/25.mp3
+#EXTINF:-1 tvg-name="AD-DHUKAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AD-DHUKAN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/44.mp3
+#EXTINF:-1 tvg-name="AL-MASAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MASAD
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/111.mp3
+#EXTINF:-1 tvg-name="AL-BAQARAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BAQARAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/2.mp3
+#EXTINF:-1 tvg-name="AL-MUNAFIQUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MUNAFIQUN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/63.mp3
+#EXTINF:-1 tvg-name="AL-BALAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-BALAD
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/90.mp3
+#EXTINF:-1 tvg-name="QURAYSH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",QURAYSH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/106.mp3
+#EXTINF:-1 tvg-name="AL-A'RAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-A'RAF
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/7.mp3
+#EXTINF:-1 tvg-name="GHAFIR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",GHAFIR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/40.mp3
+#EXTINF:-1 tvg-name="AL-IKHLAS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-IKHLAS
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/112.mp3
+#EXTINF:-1 tvg-name="ASH-SHU'ARA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",ASH-SHU'ARA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/26.mp3
+#EXTINF:-1 tvg-name="AL-QALAM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QALAM
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/68.mp3
 #EXTINF:-1 tvg-name="AZ-ZALZALAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AZ-ZALZALAH
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/99.mp3
-#EXTINF:-1 tvg-name="QAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",QAF
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/50.mp3
-#EXTINF:-1 tvg-name="AL-HASHR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HASHR
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/59.mp3
-#EXTINF:-1 tvg-name="AL-AN'AM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-AN'AM
-https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/6.mp3
-#EXTINF:-1 tvg-name="Holy Quran" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8LnZ9WO9sa1lBg2-_1HZvkVzisYkc2cYIVGWIS-EGIA&s=10" group-title="Muslim",Holy Quran
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UC_KYVOU2lpXpuSsQ5JI6xvg
-#EXTINF:-1 tvg-name="DUA SAUDARA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSys42bn-broK54h806GyvnJENEO0K5bHXikXCSubxi2w&s=10" group-title="Muslim",DUA SAUDARA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCYDSbtuzcNpO7Scca1Du4UQ
+#EXTINF:-1 tvg-name="AL-'ADIYAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ADIYAT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/100.mp3
+#EXTINF:-1 tvg-name="AN-NAHL" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAHL
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/16.mp3
+#EXTINF:-1 tvg-name="AS-SAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AS-SAF
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/61.mp3
+#EXTINF:-1 tvg-name="SAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",SAD
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/38.mp3
+#EXTINF:-1 tvg-name="AL-FATH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FATH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/48.mp3
+#EXTINF:-1 tvg-name="MUHAMMAD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",MUHAMMAD
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/47.mp3
+#EXTINF:-1 tvg-name="AL-FALAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FALAQ
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/113.mp3
+#EXTINF:-1 tvg-name="AL-KAFIRUN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-KAFIRUN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/109.mp3
+#EXTINF:-1 tvg-name="AT-TAKATHUR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TAKATHUR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/102.mp3
+#EXTINF:-1 tvg-name="AL-'ASHR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-'ASHR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/103.mp3
+#EXTINF:-1 tvg-name="AL-ANBYA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-ANBYA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/21.mp3
+#EXTINF:-1 tvg-name="AL-JATHIYAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-JATHIYAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/45.mp3
+#EXTINF:-1 tvg-name="AL-AHQAF" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-AHQAF
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/46.mp3
+#EXTINF:-1 tvg-name="AL-HAQQAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-HAQQAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/69.mp3
+#EXTINF:-1 tvg-name="AL-A'LA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-A'LA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/87.mp3
+#EXTINF:-1 tvg-name="AL-GHASIYAH" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-GHASIYAH
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/88.mp3
+#EXTINF:-1 tvg-name="AN-NASR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NASR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/110.mp3
+#EXTINF:-1 tvg-name="AL-MURSALAT" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MURSALAT
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/77.mp3
+#EXTINF:-1 tvg-name="YA-SIN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",YA-SIN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/36.mp3
+#EXTINF:-1 tvg-name="AL-FAJR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-FAJR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/89.mp3
+#EXTINF:-1 tvg-name="'ABASA" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",'ABASA
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/80.mp3
+#EXTINF:-1 tvg-name="AL-MA'UN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-MA'UN
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/107.mp3
+#EXTINF:-1 tvg-name="AT-TALAQ" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AT-TALAQ
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/65.mp3
+#EXTINF:-1 tvg-name="AN-NAS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AN-NAS
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/114.mp3
+#EXTINF:-1 tvg-name="IBRAHIM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",IBRAHIM
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/14.mp3
+#EXTINF:-1 tvg-name="AL-QADR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-QADR
+https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/97.mp3
 #EXTINF:-1 tvg-name="YUFID TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9e/Yufid.tv_2.png/revision/latest?cb=20180922130611" group-title="Muslim",YUFID TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCX-4mrOc5r691SzDhHtkOgw
+#EXTINF:-1 tvg-name="DUA SAUDARA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSys42bn-broK54h806GyvnJENEO0K5bHXikXCSubxi2w&s=10" group-title="Muslim",DUA SAUDARA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCYDSbtuzcNpO7Scca1Du4UQ
 #EXTINF:-1 tvg-name="FATIMAH SHOLAWAT" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU4YfmSS0tzKpILbwNjH_yHBly5yzGugjAUWltYpYpPrYZzzGp8HEiAfZXL4d_Vx7SU4EcXK86Gm0CC9u_GQ-rkiUmMdjTS-bQARctN3Y7olqFWoi-9VdBOuX1KTauoMbSZV6IWGf-YxdZldmiOH7xu4LtGWYtpfQvwyxJ8CmV_7xRASEqhwMcQa32ZywR/s700/FATIMAH%20SHOLAWAT.png" group-title="Muslim",FATIMAH SHOLAWAT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCNBC6thzP9nlQjYPDBGTmQw
+#EXTINF:-1 tvg-name="Holy Quran" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8LnZ9WO9sa1lBg2-_1HZvkVzisYkc2cYIVGWIS-EGIA&s=10" group-title="Muslim",Holy Quran
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UC_KYVOU2lpXpuSsQ5JI6xvg
 #EXTINF:-1 tvg-name="JOM NGAJI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sooka_Jom_Ngaji.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Muslim",JOM NGAJI
 https://827f31c3f2824c0c95c7a5190e96e284.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/951fbca46ac9b52422f8e3d6d4d6dab33623c3cc/FASTOO_CH6_JOMNGAJI/dash.mpd
-#EXTINF:-1 tvg-name="Muslim TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_92.png" group-title="Muslim",Muslim TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTINF:-1 tvg-id="137" tvg-name="Muslim Tv" tvg-logo="https://www.visionplus.id/images/repository/664/664-LOGO-m.png" group-title="Muslim",Muslim Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/muslimtv
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/{{DRM_ID}}
+#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/muslimtv
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/muslimtv.mpd
+https://live2.kontoltv.my.id/play/muslimtv.mpd
 #EXTINF:-1 tvg-name="Al Quran Al Kareem" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_ALQURANALKAREEM_(1)_2025_03_19_08_18_31.png" group-title="Muslim",Al Quran Al Kareem
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/

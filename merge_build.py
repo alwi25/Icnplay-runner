@@ -24,8 +24,8 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/136.0.
 # (nama, url, file lokal)  -- file lokal dipakai lebih dulu bila ada, supaya
 # CI tidak bergantung pada cache CDN raw.githubusercontent.com (max-age 300).
 SOURCES = [
-    ("icn",     "https://raw.githubusercontent.com/alwi25/Icnplay-runner/main/ICNPLAY.m3u",
-                os.path.join(HERE, "ICNPLAY.m3u")),
+    ("icn",     "https://raw.githubusercontent.com/alwi25/Icnplay-runner/main/icn/MASTER.m3u",
+                os.path.join(HERE, "icn", "MASTER.m3u")),
     ("tivora",  "https://raw.githubusercontent.com/alwi25/Icnplay-runner/main/tivora/MASTER.m3u",
                 os.path.join(HERE, "tivora", "MASTER.m3u")),
     ("org-id",  "https://iptv-org.github.io/iptv/countries/id.m3u"),
@@ -129,7 +129,7 @@ def parse(text, src):
             g = re.search(r'group-title="([^"]*)"', line)
             logo = re.search(r'tvg-logo="([^"]*)"', line)
             tvg = re.search(r'tvg-id="([^"]*)"', line)
-            nm = line.split(",", 1)[-1].strip()
+            nm = line.rsplit(",", 1)[-1].strip()
             cur = {"name": nm, "raw_group": (g.group(1) if g else "").strip(),
                    "logo": logo.group(1) if logo else "",
                    "tvgid": tvg.group(1) if tvg else "",

@@ -80,7 +80,7 @@ def parse(text):
             g = re.search(r'group-title="([^"]*)"', line)
             logo = re.search(r'tvg-logo="([^"]*)"', line)
             tvg = re.search(r'tvg-id="([^"]*)"', line)
-            cur = {"name": line.split(",", 1)[-1].strip(),
+            cur = {"name": line.rsplit(",", 1)[-1].strip(),
                    "group": (g.group(1) if g else "").strip(),
                    "extinf": line, "meta": [], "url": None,
                    "logo": logo.group(1) if logo else "",

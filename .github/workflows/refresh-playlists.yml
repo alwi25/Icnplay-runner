@@ -70,7 +70,7 @@ jobs:
           # kids.m3u          = channel anak saja, HLS dulu lalu DASH
           git add playlist/ manifest.json health.json ICNPLAY.m3u \
                   ICNPLAY_full.m3u ICNPLAY_fast.m3u kids.m3u \
-                  DRM_Clearkey.m3u categories/
+                  DRM_Clearkey.m3u categories/ icn/
           if git diff --cached --quiet; then
             echo "No changes."
           else

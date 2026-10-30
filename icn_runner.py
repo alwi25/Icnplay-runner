@@ -158,6 +158,17 @@ def build_master(cfg, srcs):
     print(f"[+] player playlist : {os.path.relpath(root_master, HERE)}  ({n_total} channels, flat)")
     print(f"[+] full playlist   : {os.path.relpath(root_full, HERE)}  ({n_total} channels, unfiltered)")
 
+    # icn/MASTER.m3u = sumber MURNI iCN untuk merge_build.py.
+    # Tanpa ini merge akan membaca ICNPLAY.m3u (output gabungan) -> self-reference.
+    icn_dir = os.path.join(HERE, "icn")
+    os.makedirs(icn_dir, exist_ok=True)
+    for name in ("MASTER.m3u", "FULL.m3u"):
+        pass
+    icn_master = os.path.join(icn_dir, "MASTER.m3u")
+    with open(icn_master, "w") as f:
+        f.write(payload)
+    print(f"[+] sumber icn      : {os.path.relpath(icn_master, HERE)}  ({n_total} channels)")
+
 
 def _inject_group(extinf, grp):
     if "group-title=" in extinf:
