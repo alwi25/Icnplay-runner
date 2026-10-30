@@ -1,165 +1,24 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="BN Channel" tvg-logo="https://dl.dropbox.com/scl/fi/mh9sgmzvwbqfic3tlbkci/Bnchanel.jpg?rlkey=8bn38qw1ohg6xy8wkajeu1ccv&dl=0" group-title="Lainnya",BN Channel
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
-#EXTINF:-1 tvg-name="NHK WORL JAPAN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUuAlkE08b3RI79ZRo0e4oe0nZm3NxnuYOIw&s" group-title="Lainnya",NHK WORL JAPAN
-https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
-#EXTINF:-1 tvg-name="AshillTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/AshiilTV.png" group-title="Lainnya",AshillTV
-https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
-#EXTINF:-1 tvg-name="MQTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/MqTv.png" group-title="Lainnya",MQTV
-https://wahyu1ptv.pages.dev/MQTV-HD.m3u8
-#EXTINF:-1 tvg-name="IbizaTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Ibiza.png" group-title="Lainnya",IbizaTV
-https://wahyu1ptv.pages.dev/Ibiza.m3u8
-#EXTINF:-1 tvg-name="SurauTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SurauTV.png" group-title="Lainnya",SurauTV
-https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8
-#EXTINF:-1 tvg-name="WesalTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Wesal_TV.png" group-title="Lainnya",WesalTV
-https://wahyu1ptv.pages.dev/WesalTV-HD.m3u8
-#EXTINF:-1 tvg-name="MetalTV" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/MetalTV.png" group-title="Lainnya",MetalTV
-https://wahyu1ptv.pages.dev/MetalTV.m3u8
-#EXTINF:-1 tvg-name="24H K-POP TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7NcEh8p4tABtq9Vc5824eoIy3IFsmuX4Y9A&s" group-title="Lainnya",24H K-POP TV
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://live.24hrkpop.com/hls/3/stream.m3u8
-#EXTINF:-1 tvg-name="FreshDance" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/FreshDance.png" group-title="Lainnya",FreshDance
-https://wahyu1ptv.pages.dev/FreshDance.m3u8
-#EXTINF:-1 tvg-name="K-ContentsVoyage" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/K-ContentsVoyage.png" group-title="Lainnya",K-ContentsVoyage
-https://wahyu1ptv.pages.dev/K-ContentsVoyage.m3u8
-#EXTINF:-1 tvg-name="Runtime Terror" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/runtime.png" group-title="Lainnya",Runtime Terror
-https://run-ruthr.otteravision.com/run/ruthr/ruthr_720.m3u8
-#EXTINF:-1 tvg-name="ESPN SD" tvg-logo="https://i.imgur.com/CkoAvYH.png" group-title="Lainnya",ESPN SD
-http://asxc.pro:80/live/887429/DNFgcu/71913.ts
-#EXTINF:-1 tvg-name="ESPN 4 HD" tvg-logo="https://i.imgur.com/ErWFVO3.png" group-title="Lainnya",ESPN 4 HD
-http://asxc.pro:80/live/887429/DNFgcu/71960.ts
-#EXTINF:-1 tvg-name="ESPN 5 HD" tvg-logo="https://i.imgur.com/Zz2VFpL.png" group-title="Lainnya",ESPN 5 HD
-http://asxc.pro:80/live/887429/DNFgcu/71955.ts
-#EXTINF:-1 tvg-name="Strongman Champions League 2" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/strongman.png" group-title="Lainnya",Strongman Champions League 2
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
-https://live2.kontoltv.my.id/play/strongmanchampionsleague2.m3u8
-#EXTINF:-1 tvg-name="ESPN 3 HD" tvg-logo="https://i.imgur.com/VCPTlBD.png" group-title="Lainnya",ESPN 3 HD
-http://asxc.pro:80/live/887429/DNFgcu/71909.ts
-#EXTINF:-1 tvg-name="Swerve Combat TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/SCombat.png" group-title="Lainnya",Swerve Combat TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://live2.kontoltv.my.id/play/swervecombattv.m3u8
-#EXTINF:-1 tvg-name="ESPN 2 HD" tvg-logo="https://i.imgur.com/ZAHnoPh.png" group-title="Lainnya",ESPN 2 HD
-http://asxc.pro:80/live/887429/DNFgcu/71922.ts
-#EXTINF:-1 tvg-name="American Ninja Warrior" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/americanNW.png" group-title="Lainnya",American Ninja Warrior
-https://live2.kontoltv.my.id/play/americanninjawarrior.m3u8
-#EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzkMzVFJH7okl6ZL2lAqYvFG6nyjcr3Kz5UQ&s" group-title="Lainnya",Red Bull TV
-#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="Nat Geo" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/natgeo.png" group-title="Lainnya",Nat Geo
-https://live2.kontoltv.my.id/play/natgeo.m3u8
-#EXTINF:-1 tvg-name="FITRAH" tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/FITRAH_CHANNEL.jpg" group-title="Lainnya",FITRAH
-https://d1sq2slp9afh7o.cloudfront.net/smil:fitrah/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-name="LEAD" tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/LEAD_CHANNEL.jpg" group-title="Lainnya",LEAD
-https://d1sq2slp9afh7o.cloudfront.net/smil:lead/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-name="APETITO" tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/APETITO_CHANNEL.jpg" group-title="Lainnya",APETITO
-https://d1sq2slp9afh7o.cloudfront.net/smil:apetito/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-name="ROLL" tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/ROLL_CHANNEL.jpg" group-title="Lainnya",ROLL
-https://d1sq2slp9afh7o.cloudfront.net/smil:roll/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-name="SNAP" tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/SNAP_CHANNEL.jpg" group-title="Lainnya",SNAP
-https://d1sq2slp9afh7o.cloudfront.net/smil:snap/chunklist_b2596000_slENG.m3u8
-#EXTINF:-1 tvg-name="WWE Superstars Central" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/wwesupers.png" group-title="Lainnya",WWE Superstars Central
-https://live2.kontoltv.my.id/play/wwesuperstarscentral.m3u8
-#EXTINF:-1 tvg-name="Voice Of America" tvg-logo="https://w7.pngwing.com/pngs/494/982/png-transparent-united-states-voice-of-america-internet-radio-voa-amharic-broadcasting-united-states-text-logo-united-states.png" group-title="Lainnya",Voice Of America
-https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist_1080.m3u8
-#EXTINF:-1 tvg-name="Redbull TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/redbulltv.png" group-title="Lainnya",Redbull TV
-https://live2.kontoltv.my.id/play/redbulltv.m3u8
-#EXTINF:-1 tvg-name="JR." tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/JR_CHANNEL.jpg" group-title="Lainnya",JR.
-https://live.kontoltv.my.id/play/jr.m3u8
-#EXTINF:-1 tvg-name="Earth Touch tv" tvg-logo="https://www.earthtouchnews.com/media/1954995/logo-big.png" group-title="Lainnya",Earth Touch tv
-https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="AURA" tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/AURA_CHANNEL.jpg" group-title="Lainnya",AURA
-https://live.kontoltv.my.id/play/aura.m3u8
-#EXTINF:-1 tvg-name="K-DRAMA+" tvg-logo="https://cdn88-accio.its-newid.net/channel/newid_008/lg_channels/img/channel_logo/default/channel_logo.png" group-title="Lainnya",K-DRAMA+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-https://live.kontoltv.my.id/play/kdrama.m3u8
-#EXTINF:-1 tvg-name="TV 10 HD" group-title="Lainnya",TV 10 HD
-https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/playlist.m3u8
-#EXTINF:-1 tvg-name="Catholic TV" tvg-logo="https://e7.pngegg.com/pngimages/243/547/png-clipart-catholictv-television-religious-broadcasting-logo-brand-woodlawn-cemetery-tampa-catholictv-television.png" group-title="Lainnya",Catholic TV
-https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/playlist_4.m3u8
-#EXTINF:-1 tvg-name="TNA Wrestling" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/TNAW.png" group-title="Lainnya",TNA Wrestling
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://live2.kontoltv.my.id/play/tnawrestling.m3u8
-#EXTINF:-1 tvg-name="Strongman Champions League 1" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/strongman.png" group-title="Lainnya",Strongman Champions League 1
-https://live2.kontoltv.my.id/play/strongmanchampionsleague1.m3u8
-#EXTINF:-1 tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/Iqbalbala/CHANNEL/refs/heads/main/tv6my.png" group-title="Lainnya",TV6
-https://live.kontoltv.my.id/play/tv6.m3u8
-#EXTINF:-1 tvg-name="PFL" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/PFL.png" group-title="Lainnya",PFL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://live2.kontoltv.my.id/play/pfl.m3u8
-#EXTINF:-1 tvg-name="UFA" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/UFA.png" group-title="Lainnya",UFA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://live2.kontoltv.my.id/play/ufa.m3u8
-#EXTINF:-1 tvg-name="FOX WEATHER" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpifIjMWpn3PXEAt0QdU0eu6lWiEUCW4CFUg&s" group-title="Lainnya",FOX WEATHER
-https://247wlive.foxweather.com/stream/index.m3u8
-#EXTINF:-1 tvg-name="FUBO NETWORK 1" tvg-logo="https://canvas-lb.tubitv.com/opts/Lz_AGLm13QancA==/0db3dce1-41f0-4900-8fcc-3983ab4d492d/CPwDEJ0COgUxLjEuOQ==" group-title="Lainnya",FUBO NETWORK 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://live.kontoltv.my.id/play/fubonetwork1.m3u8
-#EXTINF:-1 tvg-name="FUBO NETWORK 2" tvg-logo="https://canvas-lb.tubitv.com/opts/Lz_AGLm13QancA==/0db3dce1-41f0-4900-8fcc-3983ab4d492d/CPwDEJ0COgUxLjEuOQ==" group-title="Lainnya",FUBO NETWORK 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://live.kontoltv.my.id/play/fubonetwork2.m3u8
-#EXTINF:-1 tvg-name="ESPN 6 HD" tvg-logo="https://i.imgur.com/yOgmmCy.png" group-title="Lainnya",ESPN 6 HD
-http://hls1.sua.tv:80/live/espnextrafhd/s.m3u8
-#EXTINF:-1 tvg-name="Real Madrid TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5GaQcvncK3h-LvMI_qsjLiCjdfW4o7rNkYw&s" group-title="Lainnya",Real Madrid TV
-#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8?hdnea=exp=1653452799~acl=/*~hmac=6fa983776826e1224ab4c19996ce92f00a1ad234617b07fd8a398160d72c19e0
-#EXTINF:-1 tvg-id="ES:.TOP.Barça.es" tvg-name="Barça TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Barcatv.png" group-title="Lainnya",Barça TV
-https://live2.kontoltv.my.id/play/baratv.m3u8
-#EXTINF:-1 tvg-id="Moji" tvg-name="moji" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ce0PQeFODBCLQQhNy11k8FuVHZrrmm8Ehw&s" group-title="Lainnya",moji
+#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE 2" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
+https://tg0k6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel8/playlist.m3u8?wsSecret=7ac0c684fa8551bee7ac4f4c47b87a26&wsABSTime=1793392036&wsSession=6dd14f121b8de95ed02b3ec0-179334883821875&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1168024215084673054
+#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE 3" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
+https://tg0k0gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel9/playlist.m3u8?wsSecret=fdd04e3ec820b4317ce0deaa675a2223&wsABSTime=1793392085&wsSession=c8833e2307ac85f5b909cadb-179334888725444&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1177046549500337104
+#EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Lainnya",Dance TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8?app_type=web&userid=lite&chname=Moji
-#EXTINF:-1 tvg-name="MMA TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/mmatv.png" group-title="Lainnya",MMA TV
-https://live2.kontoltv.my.id/play/mmatv.m3u8
-#EXTINF:-1 tvg-name="Sleman Amplas" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Sleman Amplas
-http://103.71.191.168/8912/hls/live.stream.m3u8
-#EXTINF:-1 tvg-name="Sleman Pasar Tempel" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Sleman Pasar Tempel
-http://103.71.191.168/8887/hls/live.stream.m3u8
-#EXTINF:-1 tvg-name="Sleman RSUD Morangan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Sleman RSUD Morangan
-http://103.71.191.168/8889/hls/live.stream.m3u8
-#EXTINF:-1 tvg-name="Sleman Merapi via Bronggang" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Sleman Merapi via Bronggang
-http://103.71.191.168/8910/hls/live.stream.m3u8
-#EXTINF:-1 tvg-name="Sleman Pos Polisi Denggung" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Sleman Pos Polisi Denggung
-http://103.71.191.168/8880/hls/live.stream.m3u8
-#EXTINF:-1 tvg-name="TV1 HD" tvg-logo="https://raw.githubusercontent.com/Iqbalbala/CHANNEL/refs/heads/main/tv1my.png" group-title="Lainnya",TV1 HD
-https://live.kontoltv.my.id/play/tv1hd.m3u8
-#EXTINF:-1 tvg-name="TV5 Monde Style" tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2015/03/14121037/TV5_Style_HD.jpg" group-title="Lainnya",TV5 Monde Style
-https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
-#EXTINF:-1 tvg-name="NOW 80s" tvg-logo="https://github.com/And73Smi/IPTV-M3U/blob/main/logo/NOW_80s.png?raw=true" group-title="Lainnya",NOW 80s
-https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Cafe TV24" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOb4HwKh7QRNeOgcM4k8Xs1xOiRzgLcrqGw&s" group-title="Lainnya",Cafe TV24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://tv.garden/
-https://srvx1.selftv.video/cafe/live/playlist.m3u8
-#EXTINF:-1 tvg-name="AVA Family" tvg-logo="https://i.imgur.com/QwBGLzK.png" group-title="Lainnya",AVA Family
-https://familyhls.avatv.live/hls/stream.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-name="NOW 70s" tvg-logo="https://github.com/And73Smi/IPTV-M3U/blob/main/logo/NOW_70s.png?raw=true" group-title="Lainnya",NOW 70s
-https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Suara Surabaya FM" tvg-logo="http://p2k.unkris.ac.id/_sepakbola/_baca_image.php?td=12&kodegb=SSFM_Logo.png" group-title="Lainnya",Suara Surabaya FM
-https://ssfm.siar.us/ssfm/live/playlist.m3u8
-#EXTINF:-1 tvg-name="NOW ROCK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkxd5VOoKxpTTH9g4Be60ZLNXZdYVfh2A2MA&s" group-title="Lainnya",NOW ROCK
-https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="MDTV" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="Lainnya",MDTV
+https://op-flashcon-digdayaxenkoda.dens.tv/f6d75069-1137-446f-9062-2f010e794b6c/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
+#EXTINF:-1 tvg-name="FREEDOM" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503445_tvchannels_v1.jpg" group-title="Lainnya",FREEDOM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
-#EXTINF:-1 tvg-name="Dens Life & Style" tvg-logo="http://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg" group-title="Lainnya",Dens Life & Style
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8
-#EXTINF:-1 tvg-name="Dens Learning" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="Lainnya",Dens Learning
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h236/index.m3u8
-#EXTINF:-1 tvg-name="MEKKAH HD" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0024/3336/brand.gif?itok=qou1UWIb" group-title="Lainnya",MEKKAH HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8
-#EXTINF:-1 tvg-name="Russia Today" tvg-logo="https://images.squarespace-cdn.com/content/v1/5cf4dec937a44b00019d908f/1559574960556-C7EGQERUCYQJ92N7JRV1/Hi+res+Russia+Today+logo+2.jpg?format=2500w" group-title="Lainnya",Russia Today
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h226/index.m3u8?app_type=web&userid=lite&chname=Russia_Today_RT-
+https://op-flashcon-digdayahd-1.dens.tv/h/h101/index.m3u8?app_type=web&userid=lite&chname=FREEDOM
+#EXTINF:-1 tvg-name="15:30 WIB Malut United vs Bhayangkara" tvg-logo="https://shorter.me/_bDcr" group-title="Lainnya",15:30 WIB Malut United vs Bhayangkara
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel24.m3u8
 #EXTINF:-1 tvg-name="Live Streaming 1" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745228970_tvchannels_v1.jpg" group-title="Lainnya",Live Streaming 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -168,316 +27,46 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h123/live.m3u8?app_type=web&userid=lit
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h246/index.m3u8?app_type=web&userid=lite&chname=DensPlay
-#EXTINF:-1 tvg-name="RCTI" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="Lainnya",RCTI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=1
-#EXTINF:-1 tvg-name="Dhoho TV" tvg-logo="https://imgs.search.brave.com/2l424MY67Zj1YYcsreW8IV9oLfCYNI1X2XJdW8kMkd4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvaWQvdGh1bWIv/OC84Ni9EaG9ob1RW/LnBuZy8yMDBweC1E/aG9ob1RWLnBuZw" group-title="Lainnya",Dhoho TV
-https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="HGTVAsia.us@SD" tvg-name="HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Lainnya",HGTV
-https://live.kontoltv.my.id/play/hgtv.m3u8
-#EXTINF:-1 tvg-name="Oxygentv" tvg-logo="https://beetv.my.id/logo/vtv.png" group-title="Lainnya",Oxygentv
-#EXTVLCOPT:http-referrer=https://oxygentv.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
-https://cdn4-reg2.mm.oxygen.id:8080/hls/oxygentv-web/index.m3u8
-#EXTINF:-1 tvg-id="DutaTV" tvg-name="Duta TV" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="Lainnya",Duta TV
-https://dutatv.siar.us/dutatv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="TransTV" tvg-name="Trans TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSos5wXjL-QZ7iievuU7LoDI22gaf4kCd6FUSOTxf0KupjYixJmv2IP12M&s=10" group-title="Lainnya",Trans TV
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=VideoPlayer/4.3.0-WITH_ADS
-https://live.cnnindonesia.com/transtv/smil:transtv/chunklist_w2685575259_b744100_sleng.m3u8
-#EXTINF:-1 tvg-name="Madu TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/a/a8/Logo_Madu_TV_2021.png" group-title="Lainnya",Madu TV
-https://re1.siar.us/madutv/hd720/playlist.m3u8
-#EXTINF:-1 tvg-name="TATV" tvg-logo="https://iili.io/Jbtnakl.png" group-title="Lainnya",TATV
-https://tatv.siar.us/tatv/live.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="Dhoho TV- Kediri" tvg-logo="https://upload.wikimedia.org/wikipedia/id/8/86/DhohoTV.png" group-title="Lainnya",Dhoho TV- Kediri
-https://dhohotv.siar.us/dhohotv/live/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-name="TRANS 7" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTexTvPrfG8E3lo-tcCfBSOb50TDzjLUyVVFHeiAZC1vPFQPoRHlp7moVg&s=10" group-title="Lainnya",TRANS 7
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=VideoPlayer/4.3.0-WITH_ADS
-https://live.cnnindonesia.com/trans7/smil:trans7/chunklist_w2685575259_b744100_sleng.m3u8
-#EXTINF:-1 tvg-name="Banjar TV" tvg-logo="https://iili.io/JbtnNpV.png" group-title="Lainnya",Banjar TV
-https://banjartv.siar.us/banjartv/live/playlist.m3u8
-#EXTINF:-1 tvg-name="DIY Mentri Supeno" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY Mentri Supeno
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Lampu_Merah_JlMentriSupeno.stream/chunklist_w254075836.m3u8
-#EXTINF:-1 tvg-name="DIY 0 KM Gedung Agung Jogja" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY 0 KM Gedung Agung Jogja
-http://cctvjss.jogjakota.go.id/malioboro/NolKm_GdAgung.stream/chunklist_w114998319.m3u8
-#EXTINF:-1 tvg-name="DIY Wirobrajan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY Wirobrajan
-http://cctvjss.jogjakota.go.id/atcs/ATCS_wirobrajan.stream/chunklist_w2012965028.m3u8
-#EXTINF:-1 tvg-name="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png" group-title="Lainnya",VTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-https://live.kontoltv.my.id/play/vtv.m3u8
-#EXTINF:-1 tvg-name="DIY Jogokaryan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY Jogokaryan
-http://cctvjss.jogjakota.go.id/atcs/ATCS_jogokaryan.stream/chunklist_w2005928928.m3u8
-#EXTINF:-1 tvg-name="DIY RejoWinangun Jogja" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY RejoWinangun Jogja
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Simpang_Rejowinangun_View_Timur.stream/chunklist_w1478834277.m3u8
-#EXTINF:-1 tvg-name="DIY Warung Boto" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY Warung Boto
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Lampu_Merah_Gambiran2.stream/chunklist_w2125737874.m3u8
-#EXTINF:-1 tvg-name="DIY 0 KM Malioboro" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY 0 KM Malioboro
-http://cctvjss.jogjakota.go.id/malioboro/NolKm_Utara.stream/chunklist_w1499541048.m3u8
-#EXTINF:-1 tvg-name="Kapanewon Rongkop Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kapanewon Rongkop Timur
-https://stream.gunungkidulkab.go.id:8888/5bc413f9-0eae-4334-9b7b-e13bf155c8dd/index.m3u8
-#EXTINF:-1 tvg-name="Pantai Sepanjang PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pantai Sepanjang PTZ
-https://stream.gunungkidulkab.go.id:8888/194accd6-6fc8-4938-81c1-78206b1a0200/index.m3u8
-#EXTINF:-1 tvg-name="Pantai Sepanjang Fix" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pantai Sepanjang Fix
-https://stream.gunungkidulkab.go.id:8888/f443272b-2eee-4df1-a2bc-14474a336e29/index.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Jetis - PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Jetis - PTZ
-https://stream.gunungkidulkab.go.id:8888/61947637-427d-48ad-a59e-916edc063354/index.m3u8
-#EXTINF:-1 tvg-name="Kapanewon Semin Utara" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kapanewon Semin Utara
-https://stream.gunungkidulkab.go.id:8888/25a25318-0831-41ca-a84e-cb725af7a912/index.m3u8
-#EXTINF:-1 tvg-name="S4 Baleharjo Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Baleharjo Barat
-https://stream.gunungkidulkab.go.id:8888/f6878b5b-8100-449d-b4b5-ca48601a6256/index.m3u8
-#EXTINF:-1 tvg-name="Embung Nglanggeran PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Embung Nglanggeran PTZ
-https://stream.gunungkidulkab.go.id:8888/1bea2c47-343d-408e-adf5-ad5eaf6faeec/index.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Jetis" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Jetis
-https://stream.gunungkidulkab.go.id:8888/6d5acbc9-33cf-4d3a-8671-a26933f1868d/index.m3u8
-#EXTINF:-1 tvg-name="S4 Gading Dome" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Gading Dome
-https://stream.gunungkidulkab.go.id:8888/af4d2a14-e0b3-43f4-ade8-d73465ef2258/index.m3u8
-#EXTINF:-1 tvg-name="S3 Ngawen Utara" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S3 Ngawen Utara
-https://stream.gunungkidulkab.go.id:8888/c410af7a-2790-4b8a-be66-d57e6a656e3c/index.m3u8
-#EXTINF:-1 tvg-name="Kapanewon Semin Selatan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kapanewon Semin Selatan
-https://stream.gunungkidulkab.go.id:8888/b788631e-790a-4034-a021-d70223e93e56/index.m3u8
-#EXTINF:-1 tvg-name="JITV" tvg-logo="https://beetv.my.id/logo/jitv.png" group-title="Lainnya",JITV
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9.240610 (Linux;Android 10) ExoPlayerLib/2.18.1
-http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
-#EXTINF:-1 tvg-name="Parkiran Embung Nglanggeran" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Parkiran Embung Nglanggeran
-https://stream.gunungkidulkab.go.id:8888/0386d0d8-c1a6-429a-9996-def5e2079644/index.m3u8
-#EXTINF:-1 tvg-name="S3 Ngawen Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S3 Ngawen Timur
-https://stream.gunungkidulkab.go.id:8888/336476f5-2964-4c45-82d2-061b7fe984aa/index.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Planjan - PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Planjan - PTZ
-https://stream.gunungkidulkab.go.id:8888/d4ead1b7-f1ec-49be-8946-ee73987411d7/index.m3u8
-#EXTINF:-1 tvg-name="Bandung TV" tvg-logo="https://iili.io/Jbtnh2j.png" group-title="Lainnya",Bandung TV
-http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
-#EXTINF:-1 tvg-name="S4 Baleharjo Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Baleharjo Timur
-https://stream.gunungkidulkab.go.id:8888/b7c060ba-33c8-4609-8713-4f6e5ff35ba8/index.m3u8
-#EXTINF:-1 tvg-id="252" tvg-name="Dens Play" tvg-logo="https://www.visionplus.id/images/repository/088/115088-LOGO-m.png" group-title="Lainnya",Dens Play
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://live2.kontoltv.my.id/play/densplay.m3u8
-#EXTINF:-1 tvg-name="DIY Jokteng Wetan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY Jokteng Wetan
-http://cctvjss.jogjakota.go.id/atcs/ATCS_joktengwetan.stream/chunklist_w242294016.m3u8
-#EXTINF:-1 tvg-name="FREEDOM" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503445_tvchannels_v1.jpg" group-title="Lainnya",FREEDOM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h101/index.m3u8?app_type=web&userid=lite&chname=FREEDOM
-#EXTINF:-1 tvg-name="ASIAN BOX" tvg-logo="http://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_170_122" group-title="Lainnya",ASIAN BOX
-https://cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8
-#EXTINF:-1 tvg-id="National Geographic Channel HD" tvg-name="Outdoor Channel" tvg-logo="https://iili.io/JmoCZ5g.png" group-title="Lainnya",Outdoor Channel
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-name="DIY Sugeng Jeroni" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",DIY Sugeng Jeroni
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Lampu_Merah_SugengJeroni2.stream/chunklist_w842265048.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Nglanggeran 1" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Nglanggeran 1
-https://stream.gunungkidulkab.go.id:8888/dab5e1b1-dc22-4162-8523-ada6a19585d9/index.m3u8
-#EXTINF:-1 tvg-name="SIMPANG 4 GADING" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SIMPANG 4 GADING
-https://stream.gunungkidulkab.go.id:8888/e08a568b-111c-43ce-88bc-503f4a3cc348/index.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Nglanggeran 2" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Nglanggeran 2
-https://stream.gunungkidulkab.go.id:8888/a6091cbe-fbfc-401b-994b-258ba03b0387/index.m3u8
-#EXTINF:-1 tvg-name="Z!Thriller HD" tvg-logo="http://epg.one/img2/8782.png" group-title="Lainnya",Z!Thriller HD
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU/31693/index.m3u8
-#EXTINF:-1 tvg-name="15:30 WIB Malut United vs Bhayangkara" tvg-logo="https://shorter.me/_bDcr" group-title="Lainnya",15:30 WIB Malut United vs Bhayangkara
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
-#EXTINF:-1 tvg-name="SMP 2 Patuk Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SMP 2 Patuk Barat
-https://stream.gunungkidulkab.go.id:8888/32588258-06cb-4628-987e-1f0748e6604e/index.m3u8
-#EXTINF:-1 tvg-name="Bunderan Siyono PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Bunderan Siyono PTZ
-https://stream.gunungkidulkab.go.id:8888/c02bf2b6-834c-4c9b-9be6-f2980d859bb8/index.m3u8
-#EXTINF:-1 tvg-name="Pantai Kukup PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pantai Kukup PTZ
-https://stream.gunungkidulkab.go.id:8888/dfdcfa82-c168-4265-abc8-f786bb7f0313/index.m3u8
-#EXTINF:-1 tvg-name="SD Trowono 3" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SD Trowono 3
-https://stream.gunungkidulkab.go.id:8888/0416e020-1e28-4066-aa3f-5083cdb4cdc2/index.m3u8
-#EXTINF:-1 tvg-name="Simpang 4 Pancuran PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Simpang 4 Pancuran PTZ
-https://stream.gunungkidulkab.go.id:8888/d0e1549c-170b-499e-8dee-4ec2fef57f4d/index.m3u8
-#EXTINF:-1 tvg-name="Kapanewon Nglipar Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kapanewon Nglipar Timur
-https://stream.gunungkidulkab.go.id:8888/5bb010f8-71fd-449c-99b2-294d35af77fd/index.m3u8
-#EXTINF:-1 tvg-name="SMP 2 Patuk Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SMP 2 Patuk Timur
-https://stream.gunungkidulkab.go.id:8888/e903344a-4303-4dbb-954c-1ba2eac82c10/index.m3u8
-#EXTINF:-1 tvg-name="Bunderan PLN PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Bunderan PLN PTZ
-https://stream.gunungkidulkab.go.id:8888/de774241-aaec-4937-a43a-ab59b7525dd0/index.m3u8
-#EXTINF:-1 tvg-name="Pertigaan Pasar Playen PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pertigaan Pasar Playen PTZ
-https://stream.gunungkidulkab.go.id:8888/14d99ef0-eb77-4450-9fc9-eb7545a9ac16/index.m3u8
-#EXTINF:-1 tvg-name="Bunderan Siyono Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Bunderan Siyono Barat
-https://stream.gunungkidulkab.go.id:8888/99b61615-0e73-4b44-b7d9-775301c11b94/index.m3u8
-#EXTINF:-1 tvg-name="Z!Horror HD" tvg-logo="http://epg.one/img2/1116.png" group-title="Lainnya",Z!Horror HD
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU/14137/index.m3u8
-#EXTINF:-1 tvg-name="Dhamma TV" tvg-logo="https://iili.io/JbtnPvR.png" group-title="Lainnya",Dhamma TV
-https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
-#EXTINF:-1 tvg-name="S3 DPRD" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S3 DPRD
-https://stream.gunungkidulkab.go.id:8888/a4c43c14-cd50-4621-8f85-94086283e461/index.m3u8
-#EXTINF:-1 tvg-name="Alun-Alun Wonosari PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Alun-Alun Wonosari PTZ
-https://stream.gunungkidulkab.go.id:8888/cd59b3ca-9f14-4660-96a6-2e65442c52a2/index.m3u8
-#EXTINF:-1 tvg-name="Pintu Masuk Baron Barat 1" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pintu Masuk Baron Barat 1
-https://stream.gunungkidulkab.go.id:8888/cb67a758-08c4-43b8-b5cc-23bc4b83829a/index.m3u8
-#EXTINF:-1 tvg-name="Penghitungan Kendaraan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Penghitungan Kendaraan
-https://stream.gunungkidulkab.go.id:8888/bdf1ba90-6e30-4d59-b36d-468dda946658/index.m3u8
-#EXTINF:-1 tvg-name="Kodim Gunungkidul" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kodim Gunungkidul
-https://stream.gunungkidulkab.go.id:8888/33edb24d-088c-4f49-ac90-f90a73a995ab/index.m3u8
-#EXTINF:-1 tvg-name="Lapangan Kesatrian" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Lapangan Kesatrian
-https://stream.gunungkidulkab.go.id:8888/1c2623b9-0382-4f33-b748-3941f4a96549/index.m3u8
-#EXTINF:-1 tvg-name="四平新闻综合" group-title="Lainnya",四平新闻综合
-https://stream2.jlntv.cn/sptv/sd/live.m3u8
-#EXTINF:-1 tvg-name="Taman Kota" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Taman Kota
-https://stream.gunungkidulkab.go.id:8888/93b13543-ed56-48dc-a6b2-b73c3fc8f29a/index.m3u8
-#EXTINF:-1 tvg-name="S4 Gading Utara" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Gading Utara
-https://stream.gunungkidulkab.go.id:8888/ee587917-0cca-403d-855f-d8cee27721da/index.m3u8
-#EXTINF:-1 tvg-name="Tugu Selamat Datang Patuk 2" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Tugu Selamat Datang Patuk 2
-https://stream.gunungkidulkab.go.id:8888/58328653-bae9-4e69-82d0-b83d500040b1/index.m3u8
-#EXTINF:-1 tvg-name="TPR Pantai Baron 2" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",TPR Pantai Baron 2
-https://stream.gunungkidulkab.go.id:8888/9cca7e74-e0b0-49b1-9d62-effbb8589555/index.m3u8
-#EXTINF:-1 tvg-name="Pasar Wotgalih" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pasar Wotgalih
-https://stream.gunungkidulkab.go.id:8888/d7bca391-48f3-48d5-9744-ddf548c21ca4/index.m3u8
-#EXTINF:-1 tvg-name="S3 Petoyan 1" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S3 Petoyan 1
-https://stream.gunungkidulkab.go.id:8888/d7c5ae4e-2c50-4fc3-a57d-84950313fe6f/index.m3u8
-#EXTINF:-1 tvg-name="S3 Petoyan 2" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S3 Petoyan 2
-https://stream.gunungkidulkab.go.id:8888/9d1b9282-2953-4ef5-9d56-5593dc910093/index.m3u8
-#EXTINF:-1 tvg-name="Pertigaan Kemadang" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pertigaan Kemadang
-https://stream.gunungkidulkab.go.id:8888/72f5464f-8741-4449-9727-c75db9a1169f/index.m3u8
-#EXTINF:-1 tvg-name="Pemda Gunungkidul" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pemda Gunungkidul
-https://stream.gunungkidulkab.go.id:8888/d41813e2-fafb-42a4-a7b9-5e713c0e9606/index.m3u8
-#EXTINF:-1 tvg-name="TPR Pantai Baron 1" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",TPR Pantai Baron 1
-https://stream.gunungkidulkab.go.id:8888/9582f7dc-118c-4e4d-a676-65f8f145d13e/index.m3u8
-#EXTINF:-1 tvg-name="TPR Pantai Baron" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",TPR Pantai Baron
-https://stream.gunungkidulkab.go.id:8888/f6314dd1-a8ea-40a9-8a97-e0f2f8dc4bdd/index.m3u8
-#EXTINF:-1 tvg-name="S4 Tegalsari Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Tegalsari Barat
-https://stream.gunungkidulkab.go.id:8888/be5bc47a-f583-4873-9e51-4a9b49ad5cf6/index.m3u8
-#EXTINF:-1 tvg-name="Kapanewon Nglipar Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kapanewon Nglipar Barat
-https://stream.gunungkidulkab.go.id:8888/31de9dc7-dfaa-4274-b353-49d350e5b8d8/index.m3u8
-#EXTINF:-1 tvg-name="S4 Gading Selatan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Gading Selatan
-https://stream.gunungkidulkab.go.id:8888/1f8dbee5-c3d8-40a6-a377-6c8b547cb90a/index.m3u8
-#EXTINF:-1 tvg-name="Simpang 3 Amigo" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Simpang 3 Amigo
-https://stream.gunungkidulkab.go.id:8888/bf8e74bf-ab2e-4eda-8a59-f06a31f028e5/index.m3u8
-#EXTINF:-1 tvg-name="Kapanewon Rongkop Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kapanewon Rongkop Barat
-https://stream.gunungkidulkab.go.id:8888/b344fc06-e8e9-40b2-ad80-d996918ec595/index.m3u8
-#EXTINF:-1 tvg-name="Simpang 4 RSUD FIX" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Simpang 4 RSUD FIX
-https://stream.gunungkidulkab.go.id:8888/2b304ee7-49a4-4283-a64d-538de7fb6ad1/index.m3u8
-#EXTINF:-1 tvg-name="Pancuran FIX" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pancuran FIX
-https://stream.gunungkidulkab.go.id:8888/e875884e-745b-4870-a9d6-bc8783dd43a5/index.m3u8
-#EXTINF:-1 tvg-name="Bunderan Kodim" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Bunderan Kodim
-https://stream.gunungkidulkab.go.id:8888/e91760d5-95b8-4907-a49d-f46885390291/index.m3u8
-#EXTINF:-1 tvg-name="SMP 1 Tanjungsari" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SMP 1 Tanjungsari
-https://stream.gunungkidulkab.go.id:8888/d15446f5-d59f-47f0-b6d6-5828c28dfc6b/index.m3u8
-#EXTINF:-1 tvg-name="Terminal Semin" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Terminal Semin
-https://stream.gunungkidulkab.go.id:8888/f4e65d43-ff9a-4603-b035-b2bb778fc9d1/index.m3u8
-#EXTINF:-1 tvg-name="Gor Siyono" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Gor Siyono
-https://stream.gunungkidulkab.go.id:8888/186ad348-fa92-4011-a296-4dfeae227a13/index.m3u8
-#EXTINF:-1 tvg-name="HBOMAX PREMIERE 3" tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="Lainnya",HBOMAX PREMIERE 3
-http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757577&extension=ts&play_token=GZMXGUfy2Z
-#EXTINF:-1 tvg-name="HBOMAX PREMIERE 4" tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="Lainnya",HBOMAX PREMIERE 4
-http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757578&extension=ts&play_token=vEd6MoAXmo
-#EXTINF:-1 tvg-name="SD Pucung" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SD Pucung
-https://stream.gunungkidulkab.go.id:8888/407a2a57-0202-4303-8314-114e635549c2/index.m3u8
-#EXTINF:-1 tvg-name="SPOR TV 7" tvg-logo="https://i.imgur.com/Vcz8G0u.jpeg" group-title="Lainnya",SPOR TV 7
-http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959364&extension=ts&play_token=7zjNDQV97a
-#EXTINF:-1 tvg-name="HBOMAX PREMIERE 2" tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="Lainnya",HBOMAX PREMIERE 2
-http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757576&extension=ts&play_token=IVAtEIN9zO
-#EXTINF:-1 tvg-name="HBOMAX PREMIERE 1" tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="Lainnya",HBOMAX PREMIERE 1
-http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757575&extension=ts&play_token=mQrh4fFom7
-#EXTINF:-1 tvg-name="SD Trowono 1" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SD Trowono 1
-https://stream.gunungkidulkab.go.id:8888/076df88c-ce65-47f4-8d4e-4872c430eee8/index.m3u8
-#EXTINF:-1 tvg-name="BPP Playen" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",BPP Playen
-https://stream.gunungkidulkab.go.id:8888/40c44e72-0ef8-42b5-9410-8c88ad2d062d/index.m3u8
-#EXTINF:-1 tvg-name="SD Logantung 2 Semin" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SD Logantung 2 Semin
-https://stream.gunungkidulkab.go.id:8888/17d519d4-ba98-446e-bfe7-369372ac834b/index.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Sambirejo" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Sambirejo
-https://stream.gunungkidulkab.go.id:8888/a4bed595-2ed8-46f5-a802-fc450bdf67e9/index.m3u8
-#EXTINF:-1 tvg-name="HBOMAX PREMIERE 10" tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="Lainnya",HBOMAX PREMIERE 10
-http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757584&extension=ts&play_token=CoEcrMgOai
-#EXTINF:-1 tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Lainnya",Dance TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayaxenkoda.dens.tv/f6d75069-1137-446f-9062-2f010e794b6c/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
-#EXTINF:-1 tvg-name="SPOR TV 3" tvg-logo="https://i.imgur.com/Vcz8G0u.jpeg" group-title="Lainnya",SPOR TV 3
-http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959349&extension=ts&play_token=cKNVG3Hg7M
-#EXTINF:-1 tvg-name="SPOR TV 5" tvg-logo="https://i.imgur.com/Vcz8G0u.jpeg" group-title="Lainnya",SPOR TV 5
-http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959357&extension=ts&play_token=A1oWctcBpr
-#EXTINF:-1 tvg-name="GTV" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="Lainnya",GTV
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=3
-#EXTINF:-1 tvg-name="HBOMAX PREMIERE 5" tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="Lainnya",HBOMAX PREMIERE 5
-http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757579&extension=ts&play_token=YNUFVcWvqn
-#EXTINF:-1 tvg-name="┃RX┃ RELAX VIETNAM 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX VIETNAM 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809424.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX NATURE RELAXATION 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX NATURE RELAXATION 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809419.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX ITALY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX ITALY 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809427.m3u8
-#EXTINF:-1 tvg-name="S3 Gading Selatan" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S3 Gading Selatan
-https://stream.gunungkidulkab.go.id:8888/c5bea4c6-a2e4-4c9d-b731-ea5a1b5bd39c/index.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX AUSTRALIA 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX AUSTRALIA 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809428.m3u8
+#EXTINF:-1 tvg-name="Cafe TV24" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOb4HwKh7QRNeOgcM4k8Xs1xOiRzgLcrqGw&s" group-title="Lainnya",Cafe TV24
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://tv.garden/
+https://srvx1.selftv.video/cafe/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Catholic TV" tvg-logo="https://e7.pngegg.com/pngimages/243/547/png-clipart-catholictv-television-religious-broadcasting-logo-brand-woodlawn-cemetery-tampa-catholictv-television.png" group-title="Lainnya",Catholic TV
+https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/playlist_4.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX MOROCCO 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX MOROCCO 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809431.m3u8
 #EXTINF:-1 tvg-name="┃RX┃ RELAX EARTH NATURE 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX EARTH NATURE 4K
 http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809418.m3u8
-#EXTINF:-1 tvg-name="S4 Budegan Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Budegan Barat
-https://stream.gunungkidulkab.go.id:8888/d2bfd3f8-2969-47c1-a246-d5467a8e1efe/index.m3u8
-#EXTINF:-1 tvg-name="S4 Ngalang Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Ngalang Barat
-https://stream.gunungkidulkab.go.id:8888/ae3ead60-bed5-4f71-8613-bd4161d51aaf/index.m3u8
-#EXTINF:-1 tvg-name="Simpang 4 RSUD PTZ" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Simpang 4 RSUD PTZ
-https://stream.gunungkidulkab.go.id:8888/00817fc1-25e9-469f-a5c5-c371bdd55f07/index.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX THE OCEAN 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX THE OCEAN 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809413.m3u8
-#EXTINF:-1 tvg-name="S4 Karangmojo Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Karangmojo Barat
-https://stream.gunungkidulkab.go.id:8888/1a72b20b-83a2-44e3-b2cb-34754ec25d7d/index.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX FLOWER 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FLOWER 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809417.m3u8
-#EXTINF:-1 tvg-name="S4 Munggi Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Munggi Barat
-https://stream.gunungkidulkab.go.id:8888/95e43424-6406-45d5-9ea8-6c137e40e9fa/index.m3u8
-#EXTINF:-1 tvg-name="Lapangan Pemda Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Lapangan Pemda Barat
-https://stream.gunungkidulkab.go.id:8888/618a774c-186e-4ab2-9d9c-e4f59d09ab66/index.m3u8
-#EXTINF:-1 tvg-name="SPOR TV 6" tvg-logo="https://i.imgur.com/Vcz8G0u.jpeg" group-title="Lainnya",SPOR TV 6
-http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959361&extension=ts&play_token=MZ10TjUtsd
-#EXTINF:-1 tvg-name="S4 Selang Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Selang Barat
-https://stream.gunungkidulkab.go.id:8888/6e214a3b-bc51-47c2-be71-3079b4155595/index.m3u8
-#EXTINF:-1 tvg-name="S4 Munggi Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Munggi Timur
-https://stream.gunungkidulkab.go.id:8888/d1f423b6-2276-4dcf-ae65-f966a870a9e4/index.m3u8
-#EXTINF:-1 tvg-name="Pantai Wediombo" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pantai Wediombo
-https://stream.gunungkidulkab.go.id:8888/3f008260-e48f-4dc2-bec4-93d7ec42dcb9/index.m3u8
-#EXTINF:-1 tvg-name="S4 Karangmojo Utara" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Karangmojo Utara
-https://stream.gunungkidulkab.go.id:8888/80040ab9-0b70-4d40-991d-33e3850d4115/index.m3u8
-#EXTINF:-1 tvg-name="BPP Semanu Barat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",BPP Semanu Barat
-https://stream.gunungkidulkab.go.id:8888/27c0b2c4-a1bf-4ed9-95ca-9d88f046c754/index.m3u8
-#EXTINF:-1 tvg-name="BPP Semanu Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",BPP Semanu Timur
-https://stream.gunungkidulkab.go.id:8888/bc790186-e5cc-4552-80e2-b715305ee997/index.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX TURKEY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX TURKEY 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809425.m3u8
-#EXTINF:-1 tvg-name="S4 Ngalang Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Ngalang Timur
-https://stream.gunungkidulkab.go.id:8888/6d0d6159-4ddc-4ef6-a430-ee4ac9731e83/index.m3u8
 #EXTINF:-1 tvg-name="┃RX┃ RELAX FOREST 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FOREST 4K
 http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809416.m3u8
-#EXTINF:-1 tvg-id="tvg-url=" tvg-name="LINGKAR TV" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="Lainnya",LINGKAR TV
-https://lingkartv.my.id/hls/lingkartv.m3u8
-#EXTINF:-1 tvg-name="Kawanua TV" tvg-logo="https://kawanua.tv/wp/wp-content/themes/kawanua-tv/assets/img/ktv-color.png" group-title="Lainnya",Kawanua TV
-https://live.kontoltv.my.id/play/kawanuatv.m3u8
-#EXTINF:-1 tvg-name="S4 Selang Timur" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",S4 Selang Timur
-https://stream.gunungkidulkab.go.id:8888/35d50759-f2c6-4f2b-a11e-7a94a6bcaa7c/index.m3u8
-#EXTINF:-1 tvg-name="TV9 HD" group-title="Lainnya",TV9 HD
-https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
-#EXTINF:-1 tvg-name="Banten TV" tvg-logo="https://iili.io/JbtnwkQ.png" group-title="Lainnya",Banten TV
-https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
-#EXTINF:-1 tvg-name="Kilisuci TV Kediri" tvg-logo="https://wiki.edunitas.com/_sepakbola/_baca_image.php?td=21&kodegb=200px-Kilisuci_TV.png" group-title="Lainnya",Kilisuci TV Kediri
-https://5bf7b725107e5.streamlock.net:443/kstv/kstv/playlist.m3u8
-#EXTINF:-1 tvg-name="IMTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWF5iy7pz8qWStADdt3lRs1bQb465KYE7Yg&s" group-title="Lainnya",IMTV
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Tabalong" tvg-logo="https://tvtabalong.com/wp-content/uploads/2022/03/logo-tv-tabalong.png" group-title="Lainnya",TV Tabalong
-https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
-#EXTINF:-1 tvg-name="BMS TV" tvg-logo="https://iili.io/JbtnSCF.png" group-title="Lainnya",BMS TV
-https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
-#EXTINF:-1 tvg-name="Bungo TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f1/Bungo_TV.png" group-title="Lainnya",Bungo TV
-https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
-#EXTINF:-1 tvg-id="------" tvg-name="101 Jak FM" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lainnya",101 Jak FM
-https://wz.mari.co.id:1936/web_jakfm/jakfm/chunklist_w1610616570.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX STARDUST 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX STARDUST 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809414.m3u8
 #EXTINF:-1 tvg-name="┃RX┃ RELAX SNOW WINTER 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX SNOW WINTER 4K
 http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809415.m3u8
 #EXTINF:-1 tvg-name="┃RX┃ RELAX TROPICAL BEACH 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX TROPICAL BEACH 4K
 http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809412.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX MOROCCO 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX MOROCCO 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809431.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX EUROPE TOWNS 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX EUROPE TOWNS 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809422.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX FLOWER 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FLOWER 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809417.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX ICELAND 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX ICELAND 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809430.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX FOREST AMERICAN 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FOREST AMERICAN 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809423.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX NATURE RELAXATION 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX NATURE RELAXATION 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809419.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX SWITZERLAND 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX SWITZERLAND 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809426.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX TURKEY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX TURKEY 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809425.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX MORNING RELAXING 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX MORNING RELAXING 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809420.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX NORWAY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX NORWAY 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809429.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX ITALY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX ITALY 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809427.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX STARDUST 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX STARDUST 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809414.m3u8
 #EXTINF:-1 tvg-name="┃RX┃ RELAX INSPIRATIONAL MOTIVATIONAL 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX INSPIRATIONAL MOTIVATIONAL 4K
 http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809421.m3u8
-#EXTINF:-1 tvg-name="SPOR TV 4" tvg-logo="https://i.imgur.com/Vcz8G0u.jpeg" group-title="Lainnya",SPOR TV 4
-http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959353&extension=ts&play_token=UlwEujF53f
 #EXTINF:-1 tvg-name="flix" tvg-logo="https://raw.githubusercontent.com/zokerpunk/logo/main/movie/flix.jpeg" group-title="Lainnya",flix
 #EXTGRP:🔴PREMIUM MOVIE
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -485,442 +74,14 @@ http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959353&exte
 ##KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=79698301a95740009531b1d53e3ad5fe:7240a4a29a54e6089b108fbcb95cb265
 http://013tv.com:8080/F33848/cbd9779b/165095
-#EXTINF:-1 tvg-name="┃RX┃ RELAX SWITZERLAND 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX SWITZERLAND 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809426.m3u8
-#EXTINF:-1 tvg-name="A SPOR" tvg-logo="https://i.ibb.co/xSjB51j/aspor.png" group-title="Lainnya",A SPOR
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8
-#EXTINF:-1 tvg-name="ANTV" tvg-logo="https://images.indihometv.com/logo_antvnew_big.png" group-title="Lainnya",ANTV
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://beetv.my.id/jabingan/vd.m3u8?ch=antv
-#EXTINF:-1 tvg-name="┃RX┃ RELAX FOREST AMERICAN 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX FOREST AMERICAN 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809423.m3u8
-#EXTINF:-1 tvg-name="SPOR TV 2" tvg-logo="https://i.imgur.com/Vcz8G0u.jpeg" group-title="Lainnya",SPOR TV 2
-http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959345&extension=ts&play_token=u4V8K1HNvP
-#EXTINF:-1 tvg-name="Indosiar" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="Lainnya",Indosiar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-origin=https://teagan.mvksstick9uq6cprotection.cfd
-#EXTVLCOPT:http-referrer=https://teagan.mvksstick9uq6cprotection.cfd/
-https://beetv.my.id/rbtv/indosiar.m3u
-#EXTINF:-1 tvg-name="SPOR TV 1" tvg-logo="https://i.imgur.com/Vcz8G0u.jpeg" group-title="Lainnya",SPOR TV 1
-http://main.light-ott.net/play/live.php?mac=A0:BB:3E:02:3D:A8&stream=959341&extension=ts&play_token=3PARzZHqYn
-#EXTINF:-1 tvg-name="┃RX┃ RELAX MORNING RELAXING 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX MORNING RELAXING 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809420.m3u8
-#EXTINF:-1 tvg-name="GARUDA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="Lainnya",GARUDA TV
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
-#EXTINF:-1 tvg-name="Puskeswan Putat" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Puskeswan Putat
-https://stream.gunungkidulkab.go.id:8888/cec79cf1-852c-412a-b206-906b5daddbcc/index.m3u8
-#EXTINF:-1 tvg-name="Kelurahan Rejosari" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kelurahan Rejosari
-https://stream.gunungkidulkab.go.id:8888/a8b41e1f-51ae-4f3c-b61f-3d3485714fee/index.m3u8
-#EXTINF:-1 tvg-name="MOJI TV (1)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-KHgtWRC3U7RcddGKP6aZpqIswK4ftinKhA&s" group-title="Lainnya",MOJI TV (1)
-https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
-#EXTINF:-1 tvg-name="TV ONE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHrRRqImnkd9qU4rJ9HNFuEWskwvRD0hOZdg&s" group-title="Lainnya",TV ONE
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8
-#EXTINF:-1 tvg-name="Jogja TV" tvg-logo="https://iili.io/Jbto3jS.png" group-title="Lainnya",Jogja TV
-https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX ICELAND 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX ICELAND 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809430.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX NORWAY 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX NORWAY 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809429.m3u8
-#EXTINF:-1 tvg-name="Bunderan PLN" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Bunderan PLN
-https://stream.gunungkidulkab.go.id:8888/ef7bc11d-8e05-4414-8e25-edeb78929cf0/index.m3u8
-#EXTINF:-1 tvg-name="SD Baran 2" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SD Baran 2
-https://stream.gunungkidulkab.go.id:8888/18dd12e5-6f91-4ba9-8bec-3f25ddd5f68d/index.m3u8
-#EXTINF:-1 tvg-name="xinjiang tv 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOAL2W3kq9G1iRRMWvgMZZh1NAxRt65nDrQ&s" group-title="Lainnya",xinjiang tv 3
-https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8
-#EXTINF:-1 tvg-id="ono2tv" tvg-name="ON O2TV" tvg-logo="https://i.imgur.com/nqwVkmM.png" group-title="Lainnya",ON O2TV
-https://live.kontoltv.my.id/play/ono2tv.m3u8
-#EXTINF:-1 tvg-id="FGTV.kr" tvg-name="FGTV" tvg-logo="https://i.ibb.co/crxz0fd/yfgc-hearder-logo.png" group-title="Lainnya",FGTV
-https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Tugu Selamat Datang Patuk" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Tugu Selamat Datang Patuk
-https://stream.gunungkidulkab.go.id:8888/472ac01d-84a3-40bd-b8a4-d7de2262f65b/index.m3u8
-#EXTINF:-1 tvg-name="Puskesmas Ngawen II" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Puskesmas Ngawen II
-https://stream.gunungkidulkab.go.id:8888/8193c0b3-0d34-43a1-9185-a534f6ffa303/index.m3u8
-#EXTINF:-1 tvg-id="GugakTV.kr" tvg-name="GUGAK TV" tvg-logo="https://i.imgur.com/Ey7Htm8.png" group-title="Lainnya",GUGAK TV
-https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Bunderan Siyono Fix" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Bunderan Siyono Fix
-https://stream.gunungkidulkab.go.id:8888/447f180a-3aa6-41af-a905-4f5567b84f1b/index.m3u8
-#EXTINF:-1 tvg-id="ontrending" tvg-name="ON Trending TV" tvg-logo="https://i.imgur.com/hHYzxmS.png" group-title="Lainnya",ON Trending TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/ontrendingtv.m3u8
-#EXTINF:-1 tvg-id="onstyle" tvg-name="ON Style TV" tvg-logo="https://i.imgur.com/6LQ0Z1O.png" group-title="Lainnya",ON Style TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onstyletv.m3u8
-#EXTINF:-1 tvg-name="BBS TV 불교" tvg-logo="https://i.imgur.com/Iotkspd.png" group-title="Lainnya",BBS TV 불교
-http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Ngingrong Mulo" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Ngingrong Mulo
-https://stream.gunungkidulkab.go.id:8888/bbc05db8-09ae-44d1-a049-3d22bd18962b/index.m3u8
-#EXTINF:-1 tvg-name="Alun-alun Wonosari Fix" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Alun-alun Wonosari Fix
-https://stream.gunungkidulkab.go.id:8888/c066fe94-69d3-487b-990a-f0bdb24fa9e9/index.m3u8
-#EXTINF:-1 tvg-name="Pertigaan Pasar Playen" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pertigaan Pasar Playen
-https://stream.gunungkidulkab.go.id:8888/3cdd4d3d-123f-4fdd-9600-5afce882d8e5/index.m3u8
-#EXTINF:-1 tvg-name="SPIRIT TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDgISmgY9Nx1XWHO567adwvD0rbZWE-mOYw&s" group-title="Lainnya",SPIRIT TV
-https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
-#EXTINF:-1 tvg-name="SMP 3 Wonosari" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SMP 3 Wonosari
-https://stream.gunungkidulkab.go.id:8888/f156c1d9-9381-45f5-a20f-cd323fb3a639/index.m3u8
-#EXTINF:-1 tvg-id="onlife" tvg-name="On Life" tvg-logo="https://i.ibb.co/QXk7C6G/On-life.jpg" group-title="Lainnya",On Life
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onlife.m3u8
-#EXTINF:-1 tvg-id="onbibi" tvg-name="ON BiBi" tvg-logo="https://i.imgur.com/YFmPo7l.png" group-title="Lainnya",ON BiBi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onbibi.m3u8
-#EXTINF:-1 tvg-name="Perempatan Patuk" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Perempatan Patuk
-https://stream.gunungkidulkab.go.id:8888/d237c46b-f15b-490c-869c-b5375df3a020/index.m3u8
-#EXTINF:-1 tvg-id="onvfamily" tvg-name="ON VFamily" tvg-logo="https://i.imgur.com/R82M53x.png" group-title="Lainnya",ON VFamily
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.kontoltv.my.id/play/onvfamily.m3u8
-#EXTINF:-1 tvg-id="onviedramas" tvg-name="ON Vie DRAMAS" tvg-logo="https://i.imgur.com/n7QICK7.png" group-title="Lainnya",ON Vie DRAMAS
-https://live.kontoltv.my.id/play/onviedramas.m3u8
-#EXTINF:-1 tvg-name="SD Karangrejek 2" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SD Karangrejek 2
-https://stream.gunungkidulkab.go.id:8888/97561df3-c774-495a-b4d6-e5654108ac43/index.m3u8
-#EXTINF:-1 tvg-name="SMP 1 Playen" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",SMP 1 Playen
-https://stream.gunungkidulkab.go.id:8888/c43d6c28-d03d-4aab-a589-7410b655908d/index.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Planjan - Fix" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Planjan - Fix
-https://stream.gunungkidulkab.go.id:8888/5858ca16-f730-49d1-a494-9d20a82b9b55/index.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX EUROPE TOWNS 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX EUROPE TOWNS 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809422.m3u8
-#EXTINF:-1 tvg-name="Pantai Baron" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pantai Baron
-https://stream.gunungkidulkab.go.id:8888/630843dd-4488-4360-8f86-b23f3e67980d/index.m3u8
-#EXTINF:-1 tvg-name="Pantai Kukup" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pantai Kukup
-https://stream.gunungkidulkab.go.id:8888/53fa897a-dc59-435b-841b-ce544d559a20/index.m3u8
-#EXTINF:-1 tvg-name="Pertigaan Bunder" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Pertigaan Bunder
-https://stream.gunungkidulkab.go.id:8888/cdb69448-349b-460e-ac6c-545199e93599/index.m3u8
-#EXTINF:-1 tvg-name="Kalurahan Getas" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="Lainnya",Kalurahan Getas
-https://stream.gunungkidulkab.go.id:8888/097ef287-a064-4730-8b65-0fdfad75f327/index.m3u8
-#EXTINF:-1 tvg-name="BTN" tvg-logo="https://imgur.com/sOoS7RQ" group-title="Lainnya",BTN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://tv.garden/
-https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8
-#EXTINF:-1 tvg-id="onviegiaitri" tvg-name="ON Vie Giải Trí" tvg-logo="https://i.imgur.com/7GSKm46.png" group-title="Lainnya",ON Vie Giải Trí
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onviegiitr.m3u8
-#EXTINF:-1 tvg-id="tvbvn" tvg-name="TVB VIỆT NAM" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/TVB%20Vietnam%20Banner_Side.jpg" group-title="Lainnya",TVB VIỆT NAM
-https://live.kontoltv.my.id/play/tvbvitnam.m3u8
-#EXTINF:-1 tvg-name="Hard Rock FM Bali" tvg-logo="https://cdn6.aptoide.com/imgs/6/c/e/6ce08d99cf108744c63e6ba72aa941a3_icon.png" group-title="Lainnya",Hard Rock FM Bali
-http://stream.radiojar.com/9k28wsbu5k8uv
-#EXTINF:-1 tvg-name="Hard Rock FM Surabaya" tvg-logo="https://cdn6.aptoide.com/imgs/6/c/e/6ce08d99cf108744c63e6ba72aa941a3_icon.png" group-title="Lainnya",Hard Rock FM Surabaya
-http://stream.radiojar.com/yg8ne2v80k8uv
-#EXTINF:-1 tvg-name="Pro 2 RRI Atambua" tvg-logo="https://iili.io/JmSloYX.png" group-title="Lainnya",Pro 2 RRI Atambua
-https://stream-node1.rri.co.id/streaming/25/9225/rriatambuapro2.mp3
-#EXTINF:-1 tvg-id="------" tvg-name="Suara Surabaya" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lainnya",Suara Surabaya
-https://c5.siar.us/proxy/ssfm/stream
-#EXTINF:-1 tvg-name="Pro 1 RRI Makassar" tvg-logo="https://iili.io/JmSaoPI.png" group-title="Lainnya",Pro 1 RRI Makassar
-https://stream-node0.rri.co.id/streaming/22/9022/rrimakasarpro1.mp3
-#EXTINF:-1 tvg-id="------" tvg-name="Gajahmada FM" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lainnya",Gajahmada FM
-https://server.radioimeldafm.co.id:8040/gajahmadafm
-#EXTINF:-1 tvg-id="------" tvg-name="Imelda FM" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lainnya",Imelda FM
-https://server.radioimeldafm.co.id:8030/imeldafm
-#EXTINF:-1 tvg-name="Pro 1 RRI Manado" tvg-logo="https://iili.io/JmSazFt.png" group-title="Lainnya",Pro 1 RRI Manado
-https://stream-node1.rri.co.id/streaming/40/9040/rrimanadopro1.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Bandung" tvg-logo="https://iili.io/JmS08U7.png" group-title="Lainnya",Pro 4 RRI Bandung
-https://stream-node0.rri.co.id/streaming/15/9015/rribandungpro4.mp3
-#EXTINF:-1 tvg-id="------" tvg-name="AT-Taqwa FM" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lainnya",AT-Taqwa FM
-https://i.klikhost.com/8840/;
-#EXTINF:-1 tvg-name="Pro 1 RRI Jakarta" tvg-logo="https://iili.io/JmSafwv.png" group-title="Lainnya",Pro 1 RRI Jakarta
-https://stream-node1.rri.co.id/streaming/25/9025/rrijakartapro1.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Manado" tvg-logo="https://iili.io/JmSl5Cl.png" group-title="Lainnya",Pro 2 RRI Manado
-https://stream-node1.rri.co.id/streaming/40/9040/rrimanadopro2.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Surabaya" tvg-logo="https://iili.io/JmS0vlS.png" group-title="Lainnya",Pro 4 RRI Surabaya
-https://stream-node0.rri.co.id/streaming/18/9018/rrisurabayapro4.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Surabaya" tvg-logo="https://iili.io/JmSadcF.png" group-title="Lainnya",Pro 1 RRI Surabaya
-https://stream-node0.rri.co.id/streaming/18/9018/rrisurabayapro1.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Ende" tvg-logo="https://iili.io/JmSlB4I.png" group-title="Lainnya",Pro 2 RRI Ende
-https://stream-node1.rri.co.id/streaming/23/9223/rriendepro2.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Manado" tvg-logo="https://iili.io/JmS0iWx.png" group-title="Lainnya",Pro 4 RRI Manado
-https://stream-node1.rri.co.id/streaming/40/9040/rrimanadopro4.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Bandung" tvg-logo="https://iili.io/JmSln2t.png" group-title="Lainnya",Pro 2 RRI Bandung
-https://stream-node0.rri.co.id/streaming/15/9015/rribandungpro2.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Surabaya" tvg-logo="https://iili.io/JmSlxvn.png" group-title="Lainnya",Pro 2 RRI Surabaya
-https://stream-node0.rri.co.id/streaming/18/9018/rrisurabayapro2.mp3
-#EXTINF:-1 tvg-name="Pro 3 RRI" tvg-logo="https://iili.io/JmS5das.png" group-title="Lainnya",Pro 3 RRI
-https://stream-node0.rri.co.id/streaming/14/9014/kbrn.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Bandung" tvg-logo="https://iili.io/JmSaJF1.png" group-title="Lainnya",Pro 1 RRI Bandung
-https://stream-node0.rri.co.id/streaming/15/9015/rribandungpro1.mp3
-#EXTINF:-1 tvg-id="------" tvg-name="AL IMAN" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lainnya",AL IMAN
-https://radioislamindonesia.com/aliman.mp3?_=1
-#EXTINF:-1 tvg-name="Pro 5 RRI Surabaya" tvg-logo="https://iili.io/JmS5oP9.png" group-title="Lainnya",Pro 5 RRI Surabaya
-https://stream-node1.rri.co.id/streaming/41/8941/chlima.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Atambua" tvg-logo="https://iili.io/JmSa28g.png" group-title="Lainnya",Pro 1 RRI Atambua
-https://stream-node1.rri.co.id/streaming/25/9225/rriatambuapro1.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Ende" tvg-logo="https://iili.io/JmSaF9a.png" group-title="Lainnya",Pro 1 RRI Ende
-https://stream-node1.rri.co.id/streaming/23/9223/rriendepro1.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Jakarta" tvg-logo="https://iili.io/JmS0UJ9.png" group-title="Lainnya",Pro 4 RRI Jakarta
-https://stream-node1.rri.co.id/streaming/25/9025/rrijakartapro4.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Jayapura" tvg-logo="https://iili.io/JmS0rOu.png" group-title="Lainnya",Pro 4 RRI Jayapura
-https://stream-node0.rri.co.id/streaming/23/9023/rrijayapurapro4.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Jakarta" tvg-logo="https://iili.io/JmSlzps.png" group-title="Lainnya",Pro 2 RRI Jakarta
-https://stream-node1.rri.co.id/streaming/25/9025/rrijakartapro2.mp3
-#EXTINF:-1 tvg-id="------" tvg-name="Unimma FM" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lainnya",Unimma FM
-https://ssg.streamingmurah.com:8048/stream
-#EXTINF:-1 tvg-name="Pro 4 RRI Kupang" tvg-logo="https://iili.io/JmS0gRe.png" group-title="Lainnya",Pro 4 RRI Kupang
-https://stream-node2.rri.co.id/streaming/13/9213/rrikupangpro4.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Malang" tvg-logo="https://iili.io/JmS04Db.png" group-title="Lainnya",Pro 4 RRI Malang
-https://stream-node2.rri.co.id/streaming/18/9218/rrimalangpro4.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Kupang" tvg-logo="https://iili.io/JmSlTTG.png" group-title="Lainnya",Pro 2 RRI Kupang
-https://stream-node2.rri.co.id/streaming/13/9213/rrikupangpro2.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Sumba" tvg-logo="https://iili.io/JmSaTSn.png" group-title="Lainnya",Pro 1 RRI Sumba
-https://stream-node0.rri.co.id/streaming/41/9041/rrisumbapro1.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Labuan Bajo" tvg-logo="https://iili.io/JmSaCnp.png" group-title="Lainnya",Pro 1 RRI Labuan Bajo
-https://stream-node2.rri.co.id/streaming/37/9337/rrilabuanbajopro1.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Makassar" tvg-logo="https://iili.io/JmSlujf.png" group-title="Lainnya",Pro 2 RRI Makassar
-https://stream-node0.rri.co.id/streaming/22/9022/rrimakasarpro2.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Alor" tvg-logo="https://iili.io/JmSanMN.png" group-title="Lainnya",Pro 1 RRI Alor
-https://stream-node0.rri.co.id/streaming/41/9041/rrialorpro1.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Rote" tvg-logo="https://iili.io/JmSaA9s.png" group-title="Lainnya",Pro 1 RRI Rote
-https://stream-node0.rri.co.id/streaming/20/9120/rrirotepro1.mp3
-#EXTINF:-1 tvg-name="Pro 2 RRI Malang" tvg-logo="https://iili.io/JmSlAQ4.png" group-title="Lainnya",Pro 2 RRI Malang
-https://stream-node2.rri.co.id/streaming/18/9218/rrimalangpro2.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Malang" tvg-logo="https://iili.io/JmSaIcX.png" group-title="Lainnya",Pro 1 RRI Malang
-https://stream-node2.rri.co.id/streaming/18/9218/rrimalangpro1.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Makassar" tvg-logo="https://iili.io/JmS0Pxj.png" group-title="Lainnya",Pro 4 RRI Makassar
-https://stream-node0.rri.co.id/streaming/22/9022/rrimakasarpro4.mp3
-#EXTINF:-1 tvg-name="Pro 1 RRI Kupang" tvg-logo="https://iili.io/JmSaqtR.png" group-title="Lainnya",Pro 1 RRI Kupang
-https://stream-node2.rri.co.id/streaming/13/9213/rrikupangpro1.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Denpasar" tvg-logo="https://iili.io/JmS0Oil.png" group-title="Lainnya",Pro 4 RRI Denpasar
-https://stream-node0.rri.co.id/streaming/21/9021/rridenpasarpro4.mp3
-#EXTINF:-1 tvg-name="Pro 4 RRI Ambon" tvg-logo="https://iili.io/JmS0kf2.png" group-title="Lainnya",Pro 4 RRI Ambon
-https://stream-node2.rri.co.id/streaming/15/9315/rriambonpro4.mp3
-#EXTINF:-1 tvg-name="DGS 2" tvg-logo="https://iili.io/KfT7PJ2.jpg" group-title="Lainnya",DGS 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://kuruk1.xn--okq6e.shop/000/
-https://kuruk1.xn--okq6e.shop/kuk2/usergendx0ul1ltsDx9lgcdwqrnd.m3u8
-#EXTINF:-1 tvg-name="DGS 3" tvg-logo="https://iili.io/KfT7PJ2.jpg" group-title="Lainnya",DGS 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/kuk3/usergendxt1v7slq2rnd.m3u8
-#EXTINF:-1 tvg-name="DGS 4" tvg-logo="https://iili.io/KfT7PJ2.jpg" group-title="Lainnya",DGS 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/kuk4/usergendk9g3ks42t3n.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX THE OCEAN 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Lainnya",┃RX┃ RELAX THE OCEAN 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809413.m3u8
 #EXTINF:-1 tvg-name="PPV 2" tvg-logo="https://iili.io/KfT7PJ2.jpg" group-title="Lainnya",PPV 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=hhttps://pulse1.sanseny001.shop/000/
 https://pulse1.sanseny001.shop/puki2/usergendxpk2s6utg0l.m3u8
-#EXTINF:-1 tvg-name="01:00 WIB Al Shabab vs Al-Ahli" tvg-logo="https://shorter.me/3gy7g" group-title="Lainnya",01:00 WIB Al Shabab vs Al-Ahli
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
-#EXTINF:-1 tvg-name="DGS 1" tvg-logo="https://iili.io/KfT7PJ2.jpg" group-title="Lainnya",DGS 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://kuruk1.xn--okq6e.shop/000/
-https://kuruk1.xn--okq6e.shop/kuk1/usergendx419snx12kdgwqrnd.m3u8
-#EXTINF:-1 tvg-name="PPV 1" tvg-logo="https://iili.io/KfT7PJ2.jpg" group-title="Lainnya",PPV 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puki1/usergendx6kal0r2bsm.m3u8
-#EXTINF:-1 tvg-name="02:30 WIB Elversberg vs Mainz 05" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg" group-title="Lainnya",02:30 WIB Elversberg vs Mainz 05
-#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8
 #EXTINF:-1 tvg-name="001 TRAKTIR KOPI" tvg-logo="https://iili.io/KxLFPLJ.md.png" group-title="Lainnya",001 TRAKTIR KOPI
 https://drive.google.com/uc?export=download&id=1GXT2ntc4zPZPQtiotFTTvhkwrdHVrQMy&usp
-#EXTINF:-1 tvg-name="TENNIS 2 FHD" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png" group-title="Lainnya",TENNIS 2 FHD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/tennis2fhd.mpd
-#EXTINF:-1 tvg-name="MNX HD" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.CX3qZjx5VWWAZSrPwmEcFwAAAA?pid=Api&P=0&h=220" group-title="Lainnya",MNX HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/mnxhd.mpd
-#EXTINF:-1 tvg-id="ActionMAX.HD.us2" tvg-name="ACTION MAX EAST" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/Cinemax_Action_2025.svg/revision/latest?cb=20250904230311" group-title="Lainnya",ACTION MAX EAST
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/995zvakyej/out/v1/3fa049c0afea4a83bb5f508f1859f160/cenc.mpd
-#EXTINF:-1 tvg-id="HBO2" tvg-name="HBO 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ac/HBO_2_2016.svg/revision/latest?cb=20171217110043" group-title="Lainnya",HBO 2
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/zilmviiwo5/out/v1/fe78320a319045d99299fb05208d90af/cenc.mpd
-#EXTINF:-1 tvg-name="Fancode 1" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Fancode.png" group-title="Lainnya",Fancode 1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/fancode1.mpd
-#EXTINF:-1 tvg-name="F1 TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/stand-by/main/f1_tv-removebg-preview.png" group-title="Lainnya",F1 TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=505616380de706936e493fdd1c25d0b6:5b313f49c63c682236eab3357400e216
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/f1tv.mpd
-#EXTINF:-1 tvg-id="MGM+.HD.us2" tvg-name="MGM+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7d/MGM%2B.svg/revision/latest?cb=20230123102734" group-title="Lainnya",MGM+
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ck8h9qqlfr/out/v1/34a373fb214d4e1590a3ab397b2d7af1/cenc.mpd
-#EXTINF:-1 tvg-name="HISTORY US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/HistoryHD_Logo_2015_4C_Black_type.png" group-title="Lainnya",HISTORY US
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a598d133e3ea508a29255f58e09758bf:ad64ce2c7864315dfd293f454f54bea0
-https://live.kontoltv.my.id/play/historyus.mpd
-#EXTINF:-1 tvg-id="HBO.Movies.us2" tvg-name="HBO 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c1/HBO.svg/revision/latest?cb=20250930051253" group-title="Lainnya",HBO 1
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/xrs2ntety1/out/v1/31355dd2ffc64c9dae72ac6fc37dde5a/cenc.mpd
-#EXTINF:-1 tvg-name="TES INDOSIAR" group-title="Lainnya",TES INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7a2268056cf045ccb48ee0bdaad06b13:047e0e08f866f2965cba1807746c8e5d
-https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
-#EXTINF:-1 tvg-id="mjh-abc-wa" tvg-name="2. ABC TV (WA)" tvg-logo="example.png" group-title="Lainnya",2. ABC TV (WA)
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7e669169adbc4069b9df666cb5d63a17:35a62e565513d53e4f4b1a630b971178
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/2abctvwa.mpd
-#EXTINF:-1 tvg-name="CAZE TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFVJGATy70KVBZ0txjIVDSVXTQUCSykt_5A&s" group-title="Lainnya",CAZE TV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
-#EXTINF:-1 tvg-id="SPOTV 2" tvg-name="SpoTV 2 (Vision+)" tvg-logo="https://www.visionplus.id/images/repository/960/49960-SNAPSHOT-l.png" group-title="Lainnya",SpoTV 2 (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/spotv2vision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/spotv2vision.mpd
-#EXTINF:-1 tvg-id="Suria" tvg-name="Suria" tvg-logo="https://poster.starhubgo.com/Linear_channels2/104_1920x1080_HTV.png" group-title="Lainnya",Suria
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/suria.mpd
-#EXTINF:-1 tvg-name="TV2 HD" tvg-logo="https://raw.githubusercontent.com/Iqbalbala/CHANNEL/refs/heads/main/tv2my.png" group-title="Lainnya",TV2 HD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/tv2hd.mpd
-#EXTINF:-1 tvg-id="mjh-abc-tv-plus" tvg-name="22. ABC Family (7.30pm-4.00am AEST)" tvg-logo="example.png" group-title="Lainnya",22. ABC Family (7.30pm-4.00am AEST)
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=561611703c4b4749973a73e7bb1d0af2:f90bd049ac3734d46fe66f89f02f1f0f
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/22abcfamily730pm400amaest.mpd
-#EXTINF:-1 tvg-name="OKEY" tvg-logo="https://raw.githubusercontent.com/Iqbalbala/CHANNEL/refs/heads/main/okeytv.png" group-title="Lainnya",OKEY
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/okey.mpd
-#EXTINF:-1 tvg-name="UNIQUES HD V+" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_6.png" group-title="Lainnya",UNIQUES HD V+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5a6668f3a5d64338bce13307e5c570be:d0c76237c5ee38e7a420e9c83323023e
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
-#EXTINF:-1 tvg-name="TES TRANS 7" group-title="Lainnya",TES TRANS 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b9d52a1149a64b2a8d948f50da1e008a:9ab956f87a9f2c4ce9c74eedf70b0669
-https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
-#EXTINF:-1 tvg-name="SUPERRIX HD V+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt4qfmMVZCcNFzqLxH5Ya8PglY7v_hZ71sRg&s" group-title="Lainnya",SUPERRIX HD V+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1dc30f49888c4652897d9c998aa2cac1:8ccb6857157c1a01c5a47eb853f51aa2
-https://d2tjypxxy769fn.cloudfront.net/out/v1/782400332c96440598260730a864bc6f/index.mpd
-#EXTINF:-1 tvg-id="Vasantham" tvg-name="Vasantham" tvg-logo="https://poster.starhubgo.com/Linear_channels2/105_1920x1080_HTV.png" group-title="Lainnya",Vasantham
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/vasantham.mpd
-#EXTINF:-1 tvg-name="2DF" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-EdNL0HK4h1CkQi4LP2EodHM_-DTKYlsxbetpSsI1Q&s=10" group-title="Lainnya",2DF
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=81a05c9af07e15f59dcac568090956f9:d73ce54718de20d57e87d81c95d50b0a
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ge6gonv7cy/out/v1/a2186ce553fb4a08b286aad3237d5328/cenc.mpd
-#EXTINF:-1 tvg-name="THRILL V+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qMarslHjBHlOjzDjVZqs75LTP7NW1zpKbw&s" group-title="Lainnya",THRILL V+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3ffab3471a994535bdf7fc663792f08b:6e82876474df025c39ae804ba738ff17
-https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/index.mpd
-#EXTINF:-1 tvg-name="MN+ HD" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.5Y_MlJiwfqD7ZwI3JEZD8gAAAA?pid=Api&P=0&h=220" group-title="Lainnya",MN+ HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/mnhd.mpd
-#EXTINF:-1 tvg-name="ORIGINALS HD V+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg69GbyuzOLYEdyZEQeS0mcpW3q7KAAIUT-g&s" group-title="Lainnya",ORIGINALS HD V+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=33333f38930949b1af65b3361ad80d1d:b159847f9af0500738b01e91cf023e30
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/index.mpd
-#EXTINF:-1 tvg-name="Hanacaraka TV" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hanacaraka-tv-id.png" group-title="Lainnya",Hanacaraka TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0de1f882d278465abdba73a8b4cb2bda:7061f5e1115d6ef504726c3faa8bf146
-https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
-#EXTINF:-1 tvg-id="MegaPix" tvg-name="MEGAPIX" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/Megapix_2015.svg/revision/latest?cb=20220425151703" group-title="Lainnya",MEGAPIX
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/21ilsertww/out/v1/124c84cbafc745b6b2c47fc9be606727/cenc.mpd
-#EXTINF:-1 tvg-name="SpoTV" tvg-logo="https://www.visionplus.id/images/repository/957/49957-SNAPSHOT-l.png" group-title="Lainnya",SpoTV
-#EXTVLCOPT:http-referer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=119
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
-#EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-name="Anhui TV (Vision+)" tvg-logo="https://www.visionplus.id/images/repository/681/681-LOGO-m.png" group-title="Lainnya",Anhui TV (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/anhuitvvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/anhuitvvision.mpd
-#EXTINF:-1 tvg-id="104" tvg-name="History" tvg-logo="https://www.visionplus.id/images/repository/650/650-LOGO-m.png" group-title="Lainnya",History
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/history
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/history.mpd
-#EXTINF:-1 tvg-id="26" tvg-name="Bali TV" tvg-logo="https://www.visionplus.id/images/repository/700/700-LOGO-m.png" group-title="Lainnya",Bali TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/balitv
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/balitv.mpd
-#EXTINF:-1 tvg-name="DMI TV" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_DMITV-88-WARNA_2025_07_23_10_09_34.png" group-title="Lainnya",DMI TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/dmitv
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/{{DRM_ID}}
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/dmitv.mpd
-#EXTINF:-1 tvg-id="KIX.hk@SD" tvg-name="KIX (Vision+)" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/21/KIX_HD.png/revision/latest?cb=20220216043203&path-prefix=vi" group-title="Lainnya",KIX (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/kixvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/kixvision.mpd
-#EXTINF:-1 tvg-id="24" tvg-name="JTV" tvg-logo="https://www.visionplus.id/images/repository/856/856-LOGO-m.png" group-title="Lainnya",JTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/jtv
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/jtv.mpd
-#EXTINF:-1 tvg-id="00000000000000000201" tvg-name="RCTI World (Vision+)" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Lainnya",RCTI World (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/rctiworldvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/rctiworldvision.mpd
-#EXTINF:-1 tvg-name="TV9 NU" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_TV9_2025_03_17_15_01_34.png" group-title="Lainnya",TV9 NU
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tv9nu
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/{{DRM_ID}}
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/tv9nu.mpd
-#EXTINF:-1 tvg-id="Thrill.hk@SD" tvg-name="Thriil (Vision+)" tvg-logo="https://www.mncvision.id/userfiles/image/channel/thrill_150x150px.jpg" group-title="Lainnya",Thriil (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/thriilvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/thriilvision.mpd
-#EXTINF:-1 tvg-id="EWTN" tvg-name="EWTN" tvg-logo="https://i.tracxn.com/logo/company/cdcdssdg_1584952615093.png" group-title="Lainnya",EWTN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/ewtn
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/ewtn.mpd
-#EXTINF:-1 tvg-id="NAT_GEO_SHARKS" tvg-name="Nat Geo Sharks" group-title="Lainnya",Nat Geo Sharks
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7800bfe7a7b4f5c983c9dc3c500b0357:2be6d286bb03f70e43e4019f9d7c1d34
-https://live.kontoltv.my.id/play/natgeosharks.mpd
-#EXTINF:-1 tvg-id="00000000000000000202" tvg-name="Global TV World (Vision+)" tvg-logo="https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Lainnya",Global TV World (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/globaltvworldvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/globaltvworldvision.mpd
 #EXTINF:-1 tvg-name="03:00 WIB Sheffield United vs Wrexham" tvg-logo="https://shorter.me/UXCX0" group-title="Lainnya",03:00 WIB Sheffield United vs Wrexham
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -928,96 +89,36 @@ https://live.kontoltv.my.id/play/globaltvworldvision.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1 tvg-id="67" tvg-name="Dreamworks" tvg-logo="https://www.visionplus.id/images/repository/630/630-LOGO-m.png" group-title="Lainnya",Dreamworks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/dreamworks
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/dreamworks.mpd
-#EXTINF:-1 tvg-id="138" tvg-name="Life" tvg-logo="https://www.visionplus.id/images/repository/665/665-LOGO-m.png" group-title="Lainnya",Life
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/life
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/life.mpd
-#EXTINF:-1 tvg-id="103" tvg-name="Global Trekker" tvg-logo="https://www.visionplus.id/images/repository/649/649-LOGO-m.png" group-title="Lainnya",Global Trekker
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/globaltrekker
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/globaltrekker.mpd
-#EXTINF:-1 tvg-name="FANCODE TV 2" tvg-logo="https://shorter.me/Xydc0" group-title="Lainnya",FANCODE TV 2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-id="00000000000000000203" tvg-name="MNC TV World (Vision+)" tvg-logo="https://thumbor.prod.vidiocdn.com/H-nyot3OCOIHY7qtKmguKyIUeBw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png" group-title="Lainnya",MNC TV World (Vision+)
+#EXTINF:-1 tvg-name="TVMu" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_TVMU_2025_03_17_15_03_28.png" group-title="Lainnya",TVMu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/mnctvworldvision
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tvmu
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/{{DRM_ID}}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/mnctvworldvision.mpd
+https://live.kontoltv.my.id/play/tvmu.mpd
 #EXTINF:-1 tvg-name="16:00 WIB Brisbane Roar vs Auckland" tvg-logo="https://shorter.me/K67vG" group-title="Lainnya",16:00 WIB Brisbane Roar vs Auckland
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-id="HunanTV.cn@SD" tvg-name="Hunan TV (Vision+)" tvg-logo="https://www.visionplus.id/images/repository/853/853-LOGO-m.png" group-title="Lainnya",Hunan TV (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/hunantvvision
+#EXTINF:-1 tvg-id="Mono29.th" tvg-name="Monomax 29" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/monomax.png" group-title="Lainnya",Monomax 29
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/hunantvvision.mpd
-#EXTINF:-1 tvg-id="TV5MondeAsia.fr@SD" tvg-name="TV5 Monde (Vision+)" tvg-logo="https://w7.pngwing.com/pngs/573/795/png-transparent-france-tv5monde-television-channel-streaming-media-france-television-blue-text.png" group-title="Lainnya",TV5 Monde (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/tv5mondevision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/tv5mondevision.mpd
-#EXTINF:-1 tvg-id="158" tvg-name="Xing Kong TV" tvg-logo="https://www.visionplus.id/images/repository/858/858-LOGO-m.png" group-title="Lainnya",Xing Kong TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/xingkongtv
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/xingkongtv.mpd
-#EXTINF:-1 tvg-name="CBS GOLAZO NETWORK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbg1X87Pr6ZA5h3RrpIZT64OP042i72WmEJW5hkRcmsQ&s=10" group-title="Lainnya",CBS GOLAZO NETWORK
+https://live2.kontoltv.my.id/play/mono29.mpd
+#EXTINF:-1 tvg-name="03:00 WIB Villarreal vs Espanyol" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s" group-title="Lainnya",03:00 WIB Villarreal vs Espanyol
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
-#EXTINF:-1 tvg-name="TSN 1" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Tsn.png" group-title="Lainnya",TSN 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/tsn1.mpd
-#EXTINF:-1 tvg-name="FANCODE TV 1" tvg-logo="https://shorter.me/Xydc0" group-title="Lainnya",FANCODE TV 1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 #EXTINF:-1 tvg-id="Italia 1 HD.it" tvg-name="Italia 1" tvg-logo="https://iili.io/d93wOtS.png" group-title="Lainnya",Italia 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
 https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd
-#EXTINF:-1 tvg-id="Ch U" tvg-name="Channel U" tvg-logo="https://poster.starhubgo.com/Linear_channels2/107_1920x1080_HTV.png" group-title="Lainnya",Channel U
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/channelu.mpd
-#EXTINF:-1 tvg-name="Tastemade" group-title="Lainnya",Tastemade
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=9a149d8edbd85136248129dd3bbabc5f:45b4f449b8583890ad0b5a50694b16a3
-https://live.kontoltv.my.id/play/tastemade.mpd
 #EXTINF:-1 tvg-name="01:00 WIB Le Havre vs PSG" tvg-logo="https://iili.io/FDOiPI4.jpg" group-title="Lainnya",01:00 WIB Le Havre vs PSG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
@@ -1026,229 +127,9 @@ https://live.kontoltv.my.id/play/tastemade.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
-#EXTINF:-1 tvg-name="Ajwa TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/ajwatv.png" group-title="Lainnya",Ajwa TV
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/ajwatv.mpd
-#EXTINF:-1 tvg-id="zee-bollywood" tvg-name="Zee Bollywood" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/EqDlflgi.png" group-title="Lainnya",Zee Bollywood
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 #EXTINF:-1 tvg-id="Canale 5 HD.it" tvg-name="Canale 5" tvg-logo="https://iili.io/d93woZP.png" group-title="Lainnya",Canale 5
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
 https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
-#EXTINF:-1 tvg-name="03:00 WIB Villarreal vs Espanyol" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s" group-title="Lainnya",03:00 WIB Villarreal vs Espanyol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-name="Lawak Sentral" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sooka_Lawak_Sentral.png/640px-Sooka_Lawak_Sentral.png" group-title="Lainnya",Lawak Sentral
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_3/dash.mpd
-#EXTINF:-1 tvg-id="Ch 8" tvg-name="Channel 8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mediacorp_Channel_8_2023.svg/960px-Mediacorp_Channel_8_2023.svg.png" group-title="Lainnya",Channel 8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/channel8.mpd
-#EXTINF:-1 tvg-name="Drama Hebat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/48/Sooka_Drama_Hebat.png" group-title="Lainnya",Drama Hebat
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_1/dash.mpd
-#EXTINF:-1 tvg-id="&Pictures HD" tvg-name="&PICTURES HD" tvg-logo="https://i.ibb.co.com/0cCnnT4/andpictures.png" group-title="Lainnya",&PICTURES HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
-#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=de8045e9f0fb4d03845dcc4a8bd7712a:6807bd09bda34ada83152908192af6d6
-https://live.kontoltv.my.id/play/pictureshd.mpd
-#EXTINF:-1 tvg-name="M Live 2" group-title="Lainnya",M Live 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
-https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
-#EXTINF:-1 tvg-id="axn" tvg-name="AXN" tvg-logo="https://freem3u.xyz/static/images/global/axn.png" group-title="Lainnya",AXN
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9d29f87efdec3c9fab368f724a62ad0e:6f1c09c035eab36323d60d1454db3d20
-https://live.kontoltv.my.id/play/axn.mpd
-#EXTINF:-1 tvg-name="Oh My Ceria!" tvg-logo="https://aqfadtv.xyz/logos/OhMyCeria.png" group-title="Lainnya",Oh My Ceria!
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_7/dash.mpd
-#EXTINF:-1 tvg-id="animal-planet" tvg-name="Animal-planet" tvg-logo="https://freem3u.xyz/static/images/global/animal-planet.png" group-title="Lainnya",Animal-planet
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875
-https://live.kontoltv.my.id/play/animalplanet.mpd
-#EXTINF:-1 tvg-name="CH3 HD" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/33.png" group-title="Lainnya",CH3 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9d76aea451d441a4913d4d70c4e586ab:051027a6ff54494b949ba792928e9008
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/33/33.mpd
-#EXTINF:-1 tvg-id="dmax" tvg-name="Dmax" tvg-logo="https://freem3u.xyz/static/images/global/dmax.png" group-title="Lainnya",Dmax
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=53b26f904ae03a20b56477cfb9c5dca2:0c64ccfb978e7390bd33344075492aec
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"DGTM+5eOc5C9MzRAdUkq7A","kid":"U7JvkErgOiC1ZHfPucXcog"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/dmax.mpd
-#EXTINF:-1 tvg-name="M Live 6" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDv3Px_63rhHZ1c_9cJy8_Ou7uJuaEVWBAQ&s" group-title="Lainnya",M Live 6
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d418f733ed224f9bb9c2b1589db22a20:6ed6fe26daa4b926810869ff60254ebb
-https://ls-mp02stg.eo-edgefunctions7.com/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
-#EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://s7774.cdn.mytvnet.vn/vimages/6b/ba/a3/36/60/0a/6ba36-pwarnerhd-channel-unkn.png" group-title="Lainnya",Warner TV
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"NPGQjP4uBe4GAEbUDxSuyQ","kid":"CG0JpAv/OgCqbdTbr5wTsg"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/warnertv_3.mpd
-#EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="https://freem3u.xyz/static/images/global/hbo.png" group-title="Lainnya",HBO
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=09ddfe3d63863cafaeb79d0546b098ab:3de0f38dcf014827dfd5bec38743c6a2
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"PeDzjc8BSCff1b7Dh0PGog","kid":"Cd3+PWOGPK+ut50FRrCYqw"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/hbo.mpd
-#EXTINF:-1 tvg-id="019" tvg-name="Mentari TV" tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_mentaritv.png" group-title="Lainnya",Mentari TV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-http://nextgenz.my.id/event/pidio/play.mpd?id=8237&type=dash
-#EXTINF:-1 tvg-name="Romedy Now" tvg-logo="https://tse4.mm.bing.net/th/id/OIP.7bnanpw5pwiD9QHrtALJYgAAAA?pid=Api&P=0&h=220" group-title="Lainnya",Romedy Now
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/romedynow.mpd
-#EXTINF:-1 tvg-name="Filem Mantap" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/Sooka_Filem_Mantap.png" group-title="Lainnya",Filem Mantap
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_2/dash.mpd
-#EXTINF:-1 tvg-name="ONE31 HD" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/31.png" group-title="Lainnya",ONE31 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6529c8cd99db4489bd237f616f37124b:b9d299ba9ea94fd2ac4a77e8966dd91e
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/31/31.mpd
-#EXTINF:-1 tvg-name="Drama Hotpot" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Sooka_Drama_Hotpot.png" group-title="Lainnya",Drama Hotpot
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_4/dash.mpd
-#EXTINF:-1 tvg-name="SpoTV 1 PH" tvg-logo="https://www.visionplus.id/images/repository/957/49957-SNAPSHOT-l.png" group-title="Lainnya",SpoTV 1 PH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
-https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
-#EXTINF:-1 tvg-name="And Pictures" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/HivVrdof.png" group-title="Lainnya",And Pictures
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd
-#EXTINF:-1 tvg-name="MONO29 HD" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/29.png" group-title="Lainnya",MONO29 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=96a14b36335645b391bbbb48c424fec7:e6971b27837a4822832d8215156bb516
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
-#EXTINF:-1 tvg-name="9MCOT HD" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/30.png" group-title="Lainnya",9MCOT HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=edef8ba979d64acea3c827dcd51d21ed:1c9f0222e49da66fc785376c0645d86d
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/30/30.mpd
-#EXTINF:-1 tvg-name="MONO29 PLUS+" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/109.png" group-title="Lainnya",MONO29 PLUS+
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=072eeb02f6744f838fcc8f0ef36b312e:b797c12f2dd64728aae23fd3c8ef275c
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/109/109.mpd
-#EXTINF:-1 tvg-name="CH8" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/27.png" group-title="Lainnya",CH8
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4a0a9dd380b4409c8dad910691283a0d:1447c104caa244d9a367549534e0b807
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/27/27.mpd
-#EXTINF:-1 tvg-id="National.Geographic.Wild.HD.us2" tvg-name="Nat Geo Wild" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/natgeo.png" group-title="Lainnya",Nat Geo Wild
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=76f4714902e048e481eb4224d1cf0e66:ea1d9b76cf4425d20513f8d660ee69e4
-https://live2.kontoltv.my.id/play/natgeowild.mpd
-#EXTINF:-1 tvg-name="GMM25" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/25.png" group-title="Lainnya",GMM25
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae986b6dd3d84b2bb868c8765c604815:89bf3c85580249d5bac4d3edaec019ec
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/25/25.mpd
-#EXTINF:-1 tvg-name="CH7 HD" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/35.png" group-title="Lainnya",CH7 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4d4426a505f64382a9841155d721cee6:0f4770219ccb4be5836a7517057e51c3
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/35/35.mpd
-#EXTINF:-1 tvg-name="True4U" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/24.png" group-title="Lainnya",True4U
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4eabd5db684248a98c5124fbb0687bde:d2f7a6f45b3c48678ca69c91d7823c25
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/24/24.mpd
-#EXTINF:-1 tvg-name="NationTV" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/22.png" group-title="Lainnya",NationTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=88b44b9be186449ca5322053d975aa4c:b95b471541994278a1960fd4f85a7ee2
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/22/22.mpd
-#EXTINF:-1 tvg-name="WorkpointTV" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/23.png" group-title="Lainnya",WorkpointTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8e66726c1191403588f95c0757613ff1:67c26ba7f9b84024944808e01bbe6f47
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/23/23.mpd
-#EXTINF:-1 tvg-name="CH5 HD" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/5.png" group-title="Lainnya",CH5 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=87db4361f7894655a4656e9c8b935a02:b025a4b950df41158a87cfc8d6f2ac34
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/5/5.mpd
-#EXTINF:-1 tvg-name="TPTV" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/10.png" group-title="Lainnya",TPTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5da46688fd1e4ed5b085a12519b9dc4e:fd07bcf33823447180f53f6540f74ccb
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/10/10.mpd
-#EXTINF:-1 tvg-name="TNN16" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/16.png" group-title="Lainnya",TNN16
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9ebedc957e934d2b9023e4e60b97af73:7bcb4363df74457bbafedec1a864e6b6
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/16/16.mpd
-#EXTINF:-1 tvg-name="Asian-Hits" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/101.png" group-title="Lainnya",Asian-Hits
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=dac6cbd9d17a451bb76386f52469e0e9:2e2ac52cadf843459915eaa1a9b95e48
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/101/101.mpd
-#EXTINF:-1 tvg-name="AmarinTV HD" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/34.png" group-title="Lainnya",AmarinTV HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b898bb9530b4b0a97e444d1e1f8960e:dab1a7c035d94287ac64417ef809ed3b
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/34/34.mpd
-#EXTINF:-1 tvg-name="HBO Family" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/106.png" group-title="Lainnya",HBO Family
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=07b138f30ad3441ca5a2f476e550af25:826ee4deef4b45cfafd5f79a591b15c6
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/106/106.mpd
-#EXTINF:-1 tvg-name="SpoTV 2 PH" tvg-logo="https://www.visionplus.id/images/repository/960/49960-SNAPSHOT-l.png" group-title="Lainnya",SpoTV 2 PH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
-#EXTINF:-1 tvg-id="Mono29.th" tvg-name="Monomax 29" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/monomax.png" group-title="Lainnya",Monomax 29
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/mono29.mpd
-#EXTINF:-1 tvg-name="ANTV 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-8ZOCCFoPNA9ms_SLoPbTfiivrl_7xyCxg&s" group-title="Lainnya",ANTV 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
-#EXTINF:-1 tvg-id="discoveryasia" tvg-name="Discovery Asia" tvg-logo="https://freem3u.xyz/static/images/global/discovery-asia.png" group-title="Lainnya",Discovery Asia
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=934907b134be3963a6263a453846924c:788e2835fb98568aed2f47bbdc091515
-https://live.kontoltv.my.id/play/discoveryasia.mpd
-#EXTINF:-1 tvg-name="INDOSIAR 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="Lainnya",INDOSIAR 2
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
-#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery" tvg-logo="https://freem3u.xyz/static/images/global/discovery-channel.png" group-title="Lainnya",Discovery
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eb4160ea553a321d899553e4e796fec2:bea5a07157e0c4d17b11ab399517f952
-https://live.kontoltv.my.id/play/discovery.mpd
-#EXTINF:-1 tvg-id="!nsert" tvg-name="!nsert" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/insert.png" group-title="Lainnya",!nsert
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/nsert.mpd

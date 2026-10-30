@@ -5,650 +5,344 @@ https://ammedia.siar.us/ammedia/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Salira TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 https://live.salira.tv/p/3870/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="TVRI Sulawesi Barat" tvg-logo="https://iili.io/JmF1PLb.png" group-title="Lokal",TVRI Sulawesi Barat
+https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8
+#EXTINF:-1 tvg-name="TVRI Sulawesi Tengah" tvg-logo="https://iili.io/JmF1t2V.png" group-title="Lokal",TVRI Sulawesi Tengah
+https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8
+#EXTINF:-1 tvg-name="TVRI Sumatera Selatan" tvg-logo="https://iili.io/JmF12JS.png" group-title="Lokal",TVRI Sumatera Selatan
+https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
 #EXTINF:-1 tvg-name="Jambi TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/Jambi_TV.png" group-title="Lokal",Jambi TV
 #EXTVLCOPT:http-user-agent=android-R+
 https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8
-#EXTINF:-1 tvg-name="TVRI Sumatera Selatan" tvg-logo="https://iili.io/JmF12JS.png" group-title="Lokal",TVRI Sumatera Selatan
-https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
-#EXTINF:-1 tvg-name="JTV (720p)" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV (720p)
+#EXTINF:-1 tvg-name="TVRI Sumatera Utara" tvg-logo="https://iili.io/JmF1oqx.png" group-title="Lokal",TVRI Sumatera Utara
+https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8
+#EXTINF:-1 tvg-name="Kawanua TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_kawanua_tv.png" group-title="Lokal",Kawanua TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
+http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="DAAI TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501817_tvchannels_v1.jpg" group-title="Lokal",DAAI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8?app_type=web&userid=lite&chname=DAAI_TV
+#EXTINF:-1 tvg-name="Jawa Pos TV Jakarta (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jawa_Pos_TV_2024.svg/960px-Jawa_Pos_TV_2024.svg.png" group-title="Lokal",Jawa Pos TV Jakarta (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="PONTV" tvg-logo="https://i.imgur.com/P5erWzm.png" group-title="Lokal",PONTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Padang TV" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Riau TV" tvg-logo="https://i.imgur.com/1g8FtJi.png" group-title="Lokal",Riau TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Balikpapan TV (720p)" tvg-logo="https://i.imgur.com/P3whqna.png" group-title="Lokal",Balikpapan TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Lokal",Fajar TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-name="JTV (720p)" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="STV (720p) [Not 24/7]" tvg-logo="https://i.ibb.co/C3fdPYGs/Alcarrizo.jpg" group-title="Lokal",STV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="RTV" tvg-logo="https://images.indihometv.com/logo_rtv_big1.png" group-title="Lokal",RTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
-#EXTINF:-1 tvg-name="TVRI NTB" tvg-logo="https://iili.io/JmF1e14.png" group-title="Lokal",TVRI NTB
-https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8
-#EXTINF:-1 tvg-name="TVRI NTT" tvg-logo="https://iili.io/JmF1gp9.png" group-title="Lokal",TVRI NTT
-https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8
-#EXTINF:-1 tvg-name="TVRI Sulawesi Tengah" tvg-logo="https://iili.io/JmF1t2V.png" group-title="Lokal",TVRI Sulawesi Tengah
-https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8
-#EXTINF:-1 tvg-name="TVRI Sulawesi Tenggara" tvg-logo="https://iili.io/JmF1Kbe.png" group-title="Lokal",TVRI Sulawesi Tenggara
-https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8
-#EXTINF:-1 tvg-name="Jawa Pos TV Jakarta (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jawa_Pos_TV_2024.svg/960px-Jawa_Pos_TV_2024.svg.png" group-title="Lokal",Jawa Pos TV Jakarta (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Batam TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Lokal",Batam TV (480p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
+http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Madiun" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Madiun
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Malang" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Malang
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Kawanua TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_kawanua_tv.png" group-title="Lokal",Kawanua TV (720p)
+#EXTINF:-1 tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Lokal",Fajar TV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="TVRI Kalimantan Tengah" tvg-logo="https://iili.io/JmF1hIn.png" group-title="Lokal",TVRI Kalimantan Tengah
-https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8
-#EXTINF:-1 tvg-name="TVRI Sumatera Barat" tvg-logo="https://iili.io/JmF1357.png" group-title="Lokal",TVRI Sumatera Barat
-https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8
-#EXTINF:-1 tvg-name="Riau TV" tvg-logo="https://i.imgur.com/1g8FtJi.png" group-title="Lokal",Riau TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="TVRI Jawa Barat" tvg-logo="https://iili.io/JmF1YXa.png" group-title="Lokal",TVRI Jawa Barat
-https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
-#EXTINF:-1 tvg-name="TVRI Jawa Tengah" tvg-logo="https://iili.io/JmF1GdN.png" group-title="Lokal",TVRI Jawa Tengah
-https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8
-#EXTINF:-1 tvg-name="Magna Channel" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501720_tvchannels_v1.jpg" group-title="Lokal",Magna Channel
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="STV (720p) [Not 24/7]" tvg-logo="https://i.ibb.co/C3fdPYGs/Alcarrizo.jpg" group-title="Lokal",STV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Batam TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Lokal",Batam TV (480p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="TVRI Sulawesi Tenggara" tvg-logo="https://iili.io/JmF1Kbe.png" group-title="Lokal",TVRI Sulawesi Tenggara
+https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8
+#EXTINF:-1 tvg-name="TVRI Bengkulu" tvg-logo="https://iili.io/JmF1TdB.png" group-title="Lokal",TVRI Bengkulu
+https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8
+#EXTINF:-1 tvg-name="Nusantara TV (NTV)" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1728448171_tvchannels_v1.jpg" group-title="Lokal",Nusantara TV (NTV)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8?app_type=web&userid=lite&chname=Magna_Channel
-#EXTINF:-1 tvg-name="TVRI" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501756_tvchannels_v1.jpg" group-title="Lokal",TVRI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
-#EXTINF:-1 tvg-name="RodjaTV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501810_tvchannels_v1.jpg" group-title="Lokal",RodjaTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8?app_type=web&userid=lite&chname=RodjaTV
+https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8?app_type=web&userid=lite&chname=Nusantara_TV_NTV-
 #EXTINF:-1 tvg-name="Jek TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/wh75d1f.png" group-title="Lokal",Jek TV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=http://jektv.co.id/livestreaming/
 http://27.124.81.245:1935/jektv/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Jowo Channel" tvg-logo="https://beetv.my.id/logo/jowoch.png" group-title="Lokal",Jowo Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h208/02.m3u8
 #EXTINF:-1 tvg-name="Crema TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701422037_tvchannels_v1.jpg" group-title="Lokal",Crema TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8?app_type=web&userid=lite&chname=Crema_TV
-#EXTINF:-1 tvg-name="TVRI Yogyakarta" tvg-logo="https://iili.io/JmF1Csj.png" group-title="Lokal",TVRI Yogyakarta
-https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
-#EXTINF:-1 tvg-name="Sunna TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504962_tvchannels_v1.jpg" group-title="Lokal",Sunna TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h38/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV
-#EXTINF:-1 tvg-name="Radar Tasikmalaya TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar Tasikmalaya TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
-#EXTINF:-1 tvg-name="NUSANTARA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbak_MpWEim44NWEDJsGjDHEHSfm_FlfvjQ&s" group-title="Lokal",NUSANTARA TV
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8
-#EXTINF:-1 tvg-name="Stara TV Bandung (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Bandung (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://bandung.staratv.id/
-https://bandung.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="TVRI Aceh" tvg-logo="https://iili.io/JmF1BWb.png" group-title="Lokal",TVRI Aceh
-https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
-#EXTINF:-1 tvg-id="NET TV - [Channel 116].id" tvg-name="MDTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Bi5u4yWMQMEy0iD7X7h6rp2jh49GnPeRIC_VdRNp8ovcVUR-2xOk4Ro&s=10" group-title="Lokal",MDTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
-#EXTINF:-1 tvg-name="Rodja TV (720p)" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:-1 tvg-name="Stara TV Jakarta (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Jakarta (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://jakarta.staratv.id/
-https://jakarta.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="SMTV.id@SD" tvg-name="SMTV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal",SMTV (720p)
-#EXTVLCOPT:http-referrer=https://smtv.digital/
-https://e.siar.us/live/smtv.m3u8
-#EXTINF:-1 tvg-name="Stara TV Parahyangan (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Parahyangan (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://parahyangan.staratv.id/
-https://parahyangan.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="DMI TV (576i)" tvg-logo="https://static.promediateknologi.id/promedia/network/1167/desktop/images/logo.png" group-title="Lokal",DMI TV (576i)
-#EXTVLCOPT:http-user-agent=android-R+
-https://tvstreamcast.com/tawaftv.m3u8
-#EXTINF:-1 tvg-name="TVRI Papua" tvg-logo="https://iili.io/JmF1822.png" group-title="Lokal",TVRI Papua
-https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8
-#EXTINF:-1 tvg-name="RCTV" tvg-logo="https://iili.io/JbtnILX.png" group-title="Lokal",RCTV
-https://v10.siar.us/rctv/live/playlist.m3u8
-#EXTINF:-1 tvg-name="TVRI Papua Barat" tvg-logo="https://iili.io/d9HAivV.png" group-title="Lokal",TVRI Papua Barat
-https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
-#EXTINF:-1 tvg-name="Puja TV Aceh (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/0TqABCL.png" group-title="Lokal",Puja TV Aceh (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.pujatvaceh.com/
-https://pujatv.siar.us/live/pujatv.m3u8
-#EXTINF:-1 tvg-name="RRI Net (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RRI_NET_2023.svg/960px-RRI_NET_2023.svg.png" group-title="Lokal",RRI Net (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
-#EXTINF:-1 tvg-name="TVRI Kalimantan Barat" tvg-logo="https://iili.io/JmF1M7I.png" group-title="Lokal",TVRI Kalimantan Barat
-https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8
-#EXTINF:-1 tvg-name="TVRI Maluku" tvg-logo="https://iili.io/JmF1wLG.png" group-title="Lokal",TVRI Maluku
-https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
-#EXTINF:-1 tvg-name="Efarina TV (720p)" tvg-logo="https://i.imgur.com/iYTimXh.png" group-title="Lokal",Efarina TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://live.efarinatv.net/
-https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
-#EXTINF:-1 tvg-id="SelaparangTV.id@SD" tvg-name="Selaparang TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/c/ce/Logo_Selaparang_TV.png" group-title="Lokal",Selaparang TV (720p) [Not 24/7]
-#EXTVLCOPT:http-referrer=selaparangtv.net
-https://selaparangtv.siar.us/live/selaparangtv.m3u8
-#EXTINF:-1 tvg-name="TVRI Kalimantan Selatan" tvg-logo="https://iili.io/JmF1WmX.png" group-title="Lokal",TVRI Kalimantan Selatan
-https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8
-#EXTINF:-1 tvg-name="BTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwOOXHzTEMbDw1YdQG5v5Gp5AU-Z9GuVV8eA&s" group-title="Lokal",BTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://op-flashcon-digdayahd-1.dens.tv/h/h313/S2/mnf.m3u8?app_type=web&userid=lite&chname=BTV
-#EXTINF:-1 tvg-name="Sampit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/8cFJa8G.png" group-title="Lokal",Sampit TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://sampit-tv.siar.us/live/sampit-tv.m3u8
-#EXTINF:-1 tvg-name="MAGNA TV" tvg-logo="https://i.imgur.com/01YAHgw.png" group-title="Lokal",MAGNA TV
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8
-#EXTINF:-1 tvg-name="TVRI Bengkulu" tvg-logo="https://iili.io/JmF1TdB.png" group-title="Lokal",TVRI Bengkulu
-https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8
-#EXTINF:-1 tvg-name="TVRI Jawa Timur" tvg-logo="https://iili.io/JmF101R.png" group-title="Lokal",TVRI Jawa Timur
-https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
-#EXTINF:-1 tvg-name="TVRI Kalimantan Timur" tvg-logo="https://iili.io/JmF1jXs.png" group-title="Lokal",TVRI Kalimantan Timur
-https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8
-#EXTINF:-1 tvg-name="MGSTV (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/MYU7dsZ.png" group-title="Lokal",MGSTV (360p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://mgstv.co.id/live-streaming/
-https://mgstv.siar.us/live/mgstv.m3u8
-#EXTINF:-1 tvg-name="TVRI Gorontalo" tvg-logo="https://iili.io/JmF1Ae1.png" group-title="Lokal",TVRI Gorontalo
-https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8
-#EXTINF:-1 tvg-name="MBG TV (1080p)" tvg-logo="https://i.imgur.com/t7GsFJN.jpeg" group-title="Lokal",MBG TV (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Sangaji TV (720p)" tvg-logo="https://i.imgur.com/4rTNT8F.png" group-title="Lokal",Sangaji TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://sangajitv.co.id/
-https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
-#EXTINF:-1 tvg-name="DIM TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1712205651_tvchannels_v1.jpg" group-title="Lokal",DIM TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h232/index2.m3u8?app_type=web&userid=lite&chname=DIM_TV
-#EXTINF:-1 tvg-name="Sriwijaya TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=sriwijayatv.tv
-https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
-#EXTINF:-1 tvg-name="Stara TV Malang (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Malang (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://malang.staratv.id/
-https://malang.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="DAAI TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsESlZzrBmSfJgLESkGisoFXxwQRGlqzIDDA&s" group-title="Lokal",DAAI TV
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8
-#EXTINF:-1 tvg-name="TVRI Sulawesi Selatan" tvg-logo="https://iili.io/JmF16hu.png" group-title="Lokal",TVRI Sulawesi Selatan
-https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8
 #EXTINF:-1 tvg-name="Stara TV Cianjur (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Cianjur (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://cianjur.staratv.id/
 https://cianjur.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="SalamTV.id@SD" tvg-name="Salam TV (720p)" tvg-logo="https://i.imgur.com/00Ifzgo.png" group-title="Lokal",Salam TV (720p)
-#EXTVLCOPT:http-referrer=salamtelevisi.com
-https://live.salamtelevisi.com/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="UGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/UGTV_Indonesia.png" group-title="Lokal",UGTV
-https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv_high.m3u8
-#EXTINF:-1 tvg-name="Ashiil TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal",Ashiil TV (480p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://ashiil.tv/
-https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8
-#EXTINF:-1 tvg-name="BRTV (720p)" tvg-logo="https://i.imgur.com/PcTDZ8e.png" group-title="Lokal",BRTV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
-#EXTINF:-1 tvg-id="AsthaTV.id@HD" tvg-name="Astha TV (1080p)" tvg-logo="https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png" group-title="Lokal",Astha TV (1080p)
-#EXTVLCOPT:http-referrer=https://asthatv.com/
-https://hgmtv.com:2020/hls/asthalive/asthalive.m3u8
-#EXTINF:-1 tvg-name="Radar Lampung TV (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/4/42/Logo_RadarTV_Lampung.png" group-title="Lokal",Radar Lampung TV (480p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://radartvnews.com/live-streaming/
-https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-name="The Indonesia Channel (1080p)" tvg-logo="https://i.imgur.com/jAAPgpV.png" group-title="Lokal",The Indonesia Channel (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
-#EXTINF:-1 tvg-id="TVRIWorld.id" tvg-name="TVRI World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/TVRI-World.svg/2560px-TVRI-World.svg.png" group-title="Lokal",TVRI World
-https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
-#EXTINF:-1 tvg-id="MetroTV.id@SD" tvg-name="MetroTV (DensTV)" tvg-logo="https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="Lokal",MetroTV (DensTV)
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
-https://live.kontoltv.my.id/play/metrotvdenstv.m3u8
-#EXTINF:-1 tvg-name="TVRI Sulawesi Barat" tvg-logo="https://iili.io/JmF1PLb.png" group-title="Lokal",TVRI Sulawesi Barat
-https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8
-#EXTINF:-1 tvg-name="TATV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/1f0EC7t.png" group-title="Lokal",TATV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://v2.siar.us/tatv/live.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="Stara TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://stream.staratv.id/
-https://stream.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="MQTV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/d8dQo6E.png" group-title="Lokal",MQTV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
-#EXTINF:-1 tvg-id="USMTV.id@SD" tvg-name="USM TV (1080p)" tvg-logo="https://usmtv.id/wp-content/uploads/2024/01/logo-large-1.png" group-title="Lokal",USM TV (1080p)
-#EXTVLCOPT:http-referrer=https://usmtv.id/live-tv/
-https://play.fsa-stream.my.id/hls/siaran.m3u8
-#EXTINF:-1 tvg-name="PKTV (480p)" tvg-logo="https://i.imgur.com/mldv8Sf.png" group-title="Lokal",PKTV (480p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://pktvkaltim.com/acara/live-content/?noamp=mobile
-https://streaming.id18.tunnel.my.id/hls/stream.m3u8
-#EXTINF:-1 tvg-name="Kilisuci TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/e4/Kilisuci_TV_NEW_LOGO_2016.png" group-title="Lokal",Kilisuci TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8
-#EXTINF:-1 tvg-id="btv.id" tvg-name="BTV | BTV Dens TV" tvg-logo="https://www.visionplus.id/images/repository/357/273357-LOGO-m.png" group-title="Lokal",BTV | BTV Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/btvbtvdenstv.m3u8
-#EXTINF:-1 tvg-name="Ficom Channel (720p)" tvg-logo="https://i.imgur.com/KMEf0Cc.png" group-title="Lokal",Ficom Channel (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://v3.siar.us/ficomchannel/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Caruban TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" group-title="Lokal",Caruban TV (1080p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://stream.carubantv.id
-https://stream.carubantv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="TVRI Lampung" tvg-logo="https://iili.io/JmF1krl.png" group-title="Lokal",TVRI Lampung
-https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8
-#EXTINF:-1 tvg-name="AKTV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/DUY5WXf.png" group-title="Lokal",AKTV (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://aktvuhfdigital.tv/Livestream/aktv
-https://akativi.siar.us/live/akativi.m3u8
-#EXTINF:-1 tvg-name="Elshinta TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501688_tvchannels_v1.jpg" group-title="Lokal",Elshinta TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h228/index.m3u8?app_type=web&userid=lite&chname=Elshinta_TV
 #EXTINF:-1 tvg-name="Channel Jowo" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1725851535_tvchannels_v1.jpg" group-title="Lokal",Channel Jowo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h208/index.m3u8?app_type=web&userid=lite&chname=Channel_Jowo
-#EXTINF:-1 tvg-name="I Am Channel (576p)" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Lokal",I Am Channel (576p)
+#EXTINF:-1 tvg-name="DMI TV (576i)" tvg-logo="https://static.promediateknologi.id/promedia/network/1167/desktop/images/logo.png" group-title="Lokal",DMI TV (576i)
 #EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://iamchannel.org/
-https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
-#EXTINF:-1 tvg-id="VTV.id" tvg-name="VTV HD | VTV HD Feed" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/stand-by/main/vtv-removebg-preview.png" group-title="Lokal",VTV HD | VTV HD Feed
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-https://live2.kontoltv.my.id/play/vtvhdvtvhdfeed.m3u8
-#EXTINF:-1 tvg-name="TVRI Bali" tvg-logo="https://iili.io/JmF1x0Q.png" group-title="Lokal",TVRI Bali
-https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8
-#EXTINF:-1 tvg-name="TVRI Jambi" tvg-logo="https://iili.io/JmF1RmF.png" group-title="Lokal",TVRI Jambi
-https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8
-#EXTINF:-1 tvg-name="TVRI Sumatera Utara" tvg-logo="https://iili.io/JmF1oqx.png" group-title="Lokal",TVRI Sumatera Utara
-https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8
-#EXTINF:-1 tvg-id="DFC.id" tvg-name="DFC" tvg-logo="https://www.visionplus.id/images/repository/711/112711-LOGO-m.png" group-title="Lokal",DFC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live2.kontoltv.my.id/play/dfc.m3u8
-#EXTINF:-1 tvg-name="TVRI Bangka Belitung" tvg-logo="https://iili.io/JmF1zgV.png" group-title="Lokal",TVRI Bangka Belitung
-https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8
-#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji | Moji Dens TV" tvg-logo="https://www.visionplus.id/images/repository/072/569072-LOGO-m.png" group-title="Lokal",Moji | Moji Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/mojimojidenstv.m3u8
-#EXTINF:-1 tvg-id="GARUDATV.id" tvg-name="Garuda TV HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmNB9OGzinChxmzFzLV0VlS6qsNMtGsO5hTGVYjn4Sf_zB2M6UF8neicI&s=10" group-title="Lokal",Garuda TV HD
-https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
-#EXTINF:-1 tvg-name="TVRI Riau" tvg-logo="https://iili.io/JmF1S7S.png" group-title="Lokal",TVRI Riau
-https://ott-balancer.tvri.go.id/live/eds/Riau/hlstl/Riau.m3u8
-#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI | RCTI R+ 1" tvg-logo="https://www.visionplus.id/images/repository/720/507720-LOGO-m.png" group-title="Lokal",RCTI | RCTI R+ 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://embed.rctiplus.com/live/rcti/sindonews
-https://live2.kontoltv.my.id/play/rctirctir1.m3u8
-#EXTINF:-1 tvg-id="KompasTV.id@SD" tvg-name="KompasTV (DensTV)" tvg-logo="https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Lokal",KompasTV (DensTV)
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
-https://live.kontoltv.my.id/play/kompastvdenstv.m3u8
-#EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV | GTV R+ 2" tvg-logo="https://www.visionplus.id/images/repository/735/507735-LOGO-m.png" group-title="Lokal",GTV | GTV R+ 2
+https://tvstreamcast.com/tawaftv.m3u8
+#EXTINF:-1 tvg-name="Madu TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/a/a8/Logo_Madu_TV_2021.png" group-title="Lokal",Madu TV
+https://re1.siar.us/madutv/hd720/playlist.m3u8
+#EXTINF:-1 tvg-name="TVRI NTT" tvg-logo="https://iili.io/JmF1gp9.png" group-title="Lokal",TVRI NTT
+https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8
+#EXTINF:-1 tvg-name="TVRI Maluku" tvg-logo="https://iili.io/JmF1wLG.png" group-title="Lokal",TVRI Maluku
+https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
+#EXTINF:-1 tvg-name="TVRI Yogyakarta" tvg-logo="https://iili.io/JmF1Csj.png" group-title="Lokal",TVRI Yogyakarta
+https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
+#EXTINF:-1 tvg-name="Rodja TV (720p)" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://live2.kontoltv.my.id/play/gtvgtvr2.m3u8
-#EXTINF:-1 tvg-name="E International Asia (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1659328/media/1058391c8059a0d092426e145d55951b.png" group-title="Lokal",E International Asia (576p)
+https://rodjatv.com/rodjatv/live.m3u8
+#EXTINF:-1 tvg-name="Stara TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
-https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV | MNCTV R+ 2" tvg-logo="https://www.visionplus.id/images/repository/750/507750-LOGO-m.png" group-title="Lokal",MNCTV | MNCTV R+ 2
+#EXTVLCOPT:http-referrer=https://stream.staratv.id/
+https://stream.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Radar Tasikmalaya TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar Tasikmalaya TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Stara TV Jakarta (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Jakarta (1080p)
 #EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://live2.kontoltv.my.id/play/mnctvmnctvr2.m3u8
-#EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV | GTV R+ 1" tvg-logo="https://www.visionplus.id/images/repository/735/507735-LOGO-m.png" group-title="Lokal",GTV | GTV R+ 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://embed.rctiplus.com/live/inews/sindonews
-https://live2.kontoltv.my.id/play/gtvgtvr1.m3u8
-#EXTINF:-1 tvg-name="TBN" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504946_tvchannels_v1.jpg" group-title="Lokal",TBN
+#EXTVLCOPT:http-referrer=https://jakarta.staratv.id/
+https://jakarta.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="TVRI Kalimantan Timur" tvg-logo="https://iili.io/JmF1jXs.png" group-title="Lokal",TVRI Kalimantan Timur
+https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8
+#EXTINF:-1 tvg-name="RCTV" tvg-logo="https://iili.io/JbtnILX.png" group-title="Lokal",RCTV
+https://v10.siar.us/rctv/live/playlist.m3u8
+#EXTINF:-1 tvg-name="AKTV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/DUY5WXf.png" group-title="Lokal",AKTV (1080p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://aktvuhfdigital.tv/Livestream/aktv
+https://akativi.siar.us/live/akativi.m3u8
+#EXTINF:-1 tvg-name="Stara TV Parahyangan (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Parahyangan (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://parahyangan.staratv.id/
+https://parahyangan.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="TVRI Papua" tvg-logo="https://iili.io/JmF1822.png" group-title="Lokal",TVRI Papua
+https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8
+#EXTINF:-1 tvg-name="TVRI Sumatera Barat" tvg-logo="https://iili.io/JmF1357.png" group-title="Lokal",TVRI Sumatera Barat
+https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8
+#EXTINF:-1 tvg-name="TVRI Gorontalo" tvg-logo="https://iili.io/JmF1Ae1.png" group-title="Lokal",TVRI Gorontalo
+https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8
+#EXTINF:-1 tvg-name="TVRI Lampung" tvg-logo="https://iili.io/JmF1krl.png" group-title="Lokal",TVRI Lampung
+https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8
+#EXTINF:-1 tvg-name="RTV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501653_tvchannels_v1.jpg" group-title="Lokal",RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/s/s39/index.m3u8?app_type=web&userid=lite&chname=TBN
-#EXTINF:-1 tvg-id="bnchannel.id" tvg-name="BN Channel (ChannelFeed)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal",BN Channel (ChannelFeed)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:contentlookup=false
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-https://live.kontoltv.my.id/play/bnchannelchannelfeed.m3u8
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=RTV
+#EXTINF:-1 tvg-name="TVRI Jambi" tvg-logo="https://iili.io/JmF1RmF.png" group-title="Lokal",TVRI Jambi
+https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8
+#EXTINF:-1 tvg-name="TVRI Jawa Barat" tvg-logo="https://iili.io/JmF1YXa.png" group-title="Lokal",TVRI Jawa Barat
+https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
+#EXTINF:-1 tvg-name="BTV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1735687940_tvchannels_v1.jpeg" group-title="Lokal",BTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayaxenkoda.dens.tv/e6550891-6bef-42e1-bab9-13bf4af739ce/stream.m3u8?app_type=web&userid=lite&chname=BTV
 #EXTINF:-1 tvg-name="Jak tv" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501805_tvchannels_v1.jpg" group-title="Lokal",Jak tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
-#EXTINF:-1 tvg-name="TVRI Sulawesi Utara" tvg-logo="https://iili.io/JmF1Fe9.png" group-title="Lokal",TVRI Sulawesi Utara
-https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8
-#EXTINF:-1 tvg-id="SinPoTV.id@HD" tvg-name="SIN PO TV" tvg-logo="https://thumbor.prod.vidiocdn.com/wZs8Xxf9gMUStqOa3fM3rznnDWM=/640x198/filters:quality(70)/vidio-web-prod-user/uploads/user/cover/187019218/ProfileBannerSinPoTV-a703fecf7ac03ff6.png" group-title="Lokal",SIN PO TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://live.kontoltv.my.id/play/sinpotv.m3u8
+#EXTINF:-1 tvg-name="Sampit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/8cFJa8G.png" group-title="Lokal",Sampit TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://sampit-tv.siar.us/live/sampit-tv.m3u8
+#EXTINF:-1 tvg-name="MBG TV (1080p)" tvg-logo="https://i.imgur.com/t7GsFJN.jpeg" group-title="Lokal",MBG TV (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="MGSTV (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/MYU7dsZ.png" group-title="Lokal",MGSTV (360p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://mgstv.co.id/live-streaming/
+https://mgstv.siar.us/live/mgstv.m3u8
+#EXTINF:-1 tvg-name="TVRI Jawa Tengah" tvg-logo="https://iili.io/JmF1GdN.png" group-title="Lokal",TVRI Jawa Tengah
+https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8
+#EXTINF:-1 tvg-name="Stara TV Malang (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Malang (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://malang.staratv.id/
+https://malang.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Ficom Channel (720p)" tvg-logo="https://i.imgur.com/KMEf0Cc.png" group-title="Lokal",Ficom Channel (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://v3.siar.us/ficomchannel/live/playlist.m3u8
+#EXTINF:-1 tvg-name="RRI Net (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RRI_NET_2023.svg/960px-RRI_NET_2023.svg.png" group-title="Lokal",RRI Net (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
+#EXTINF:-1 tvg-name="Sriwijaya TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=sriwijayatv.tv
+https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
+#EXTINF:-1 tvg-name="Efarina TV (720p)" tvg-logo="https://i.imgur.com/iYTimXh.png" group-title="Lokal",Efarina TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://live.efarinatv.net/
+https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
+#EXTINF:-1 tvg-name="TATV" tvg-logo="https://iili.io/Jbtnakl.png" group-title="Lokal",TATV
+https://tatv.siar.us/tatv/live.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="UGTV.id@SD" tvg-name="UGTV (720p)" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="Lokal",UGTV (720p)
+https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
+#EXTINF:-1 tvg-name="Sangaji TV (720p)" tvg-logo="https://i.imgur.com/4rTNT8F.png" group-title="Lokal",Sangaji TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://sangajitv.co.id/
+https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
 #EXTINF:-1 tvg-name="TVRI Jakarta" tvg-logo="https://iili.io/JmF17zg.png" group-title="Lokal",TVRI Jakarta
 https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8
+#EXTINF:-1 tvg-id="SMTV.id@SD" tvg-name="SMTV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal",SMTV (720p)
+#EXTVLCOPT:http-referrer=https://smtv.digital/
+https://e.siar.us/live/smtv.m3u8
+#EXTINF:-1 tvg-name="TVRI Riau" tvg-logo="https://iili.io/JmF1S7S.png" group-title="Lokal",TVRI Riau
+https://ott-balancer.tvri.go.id/live/eds/Riau/hlstl/Riau.m3u8
+#EXTINF:-1 tvg-name="Caruban TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" group-title="Lokal",Caruban TV (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://stream.carubantv.id
+https://stream.carubantv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="BMS TV" tvg-logo="https://iili.io/JbtnSCF.png" group-title="Lokal",BMS TV
+https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
+#EXTINF:-1 tvg-name="Jogja TV" tvg-logo="https://iili.io/Jbto3jS.png" group-title="Lokal",Jogja TV
+https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
+#EXTINF:-1 tvg-name="TVRI Kalimantan Barat" tvg-logo="https://iili.io/JmF1M7I.png" group-title="Lokal",TVRI Kalimantan Barat
+https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8
+#EXTINF:-1 tvg-name="Ashiil TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal",Ashiil TV (480p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://ashiil.tv/
+https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8
+#EXTINF:-1 tvg-name="MQTV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/d8dQo6E.png" group-title="Lokal",MQTV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+#EXTINF:-1 tvg-name="BRTV (720p)" tvg-logo="https://i.imgur.com/PcTDZ8e.png" group-title="Lokal",BRTV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
+#EXTINF:-1 tvg-id="SalamTV.id@SD" tvg-name="Salam TV (720p)" tvg-logo="https://i.imgur.com/00Ifzgo.png" group-title="Lokal",Salam TV (720p)
+#EXTVLCOPT:http-referrer=salamtelevisi.com
+https://live.salamtelevisi.com/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="AsthaTV.id@HD" tvg-name="Astha TV (1080p)" tvg-logo="https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png" group-title="Lokal",Astha TV (1080p)
+#EXTVLCOPT:http-referrer=https://asthatv.com/
+https://hgmtv.com:2020/hls/asthalive/asthalive.m3u8
+#EXTINF:-1 tvg-id="SelaparangTV.id@SD" tvg-name="Selaparang TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/c/ce/Logo_Selaparang_TV.png" group-title="Lokal",Selaparang TV (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=selaparangtv.net
+https://selaparangtv.siar.us/live/selaparangtv.m3u8
+#EXTINF:-1 tvg-name="Ahsan TV" tvg-logo="https://i.imgur.com/dZdUbYd.png" group-title="Lokal",Ahsan TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8
+#EXTINF:-1 tvg-name="Kilisuci TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/e4/Kilisuci_TV_NEW_LOGO_2016.png" group-title="Lokal",Kilisuci TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8
+#EXTINF:-1 tvg-name="The Indonesia Channel (1080p)" tvg-logo="https://i.imgur.com/jAAPgpV.png" group-title="Lokal",The Indonesia Channel (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
+#EXTINF:-1 tvg-id="tvg-url=" tvg-name="LINGKAR TV" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="Lokal",LINGKAR TV
+https://lingkartv.my.id/hls/lingkartv.m3u8
+#EXTINF:-1 tvg-name="TVRI Sulawesi Utara" tvg-logo="https://iili.io/JmF1Fe9.png" group-title="Lokal",TVRI Sulawesi Utara
+https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8
+#EXTINF:-1 tvg-name="TVRI Jawa Timur" tvg-logo="https://iili.io/JmF101R.png" group-title="Lokal",TVRI Jawa Timur
+https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
+#EXTINF:-1 tvg-name="RodjaTV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501810_tvchannels_v1.jpg" group-title="Lokal",RodjaTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8?app_type=web&userid=lite&chname=RodjaTV
+#EXTINF:-1 tvg-name="Banten TV" tvg-logo="https://iili.io/JbtnwkQ.png" group-title="Lokal",Banten TV
+https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
+#EXTINF:-1 tvg-name="Dhoho TV- Kediri" tvg-logo="https://upload.wikimedia.org/wikipedia/id/8/86/DhohoTV.png" group-title="Lokal",Dhoho TV- Kediri
+https://dhohotv.siar.us/dhohotv/live/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-name="TVRI Kalimantan Tengah" tvg-logo="https://iili.io/JmF1hIn.png" group-title="Lokal",TVRI Kalimantan Tengah
+https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8
+#EXTINF:-1 tvg-name="TV Tabalong" tvg-logo="https://tvtabalong.com/wp-content/uploads/2022/03/logo-tv-tabalong.png" group-title="Lokal",TV Tabalong
+https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
+#EXTINF:-1 tvg-name="Kilisuci TV Kediri" tvg-logo="https://wiki.edunitas.com/_sepakbola/_baca_image.php?td=21&kodegb=200px-Kilisuci_TV.png" group-title="Lokal",Kilisuci TV Kediri
+https://5bf7b725107e5.streamlock.net:443/kstv/kstv/playlist.m3u8
+#EXTINF:-1 tvg-name="Bandung TV" tvg-logo="https://iili.io/Jbtnh2j.png" group-title="Lokal",Bandung TV
+http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
+#EXTINF:-1 tvg-name="Stara TV Bandung (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV Bandung (1080p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://bandung.staratv.id/
+https://bandung.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="TVRI NTB" tvg-logo="https://iili.io/JmF1e14.png" group-title="Lokal",TVRI NTB
+https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8
+#EXTINF:-1 tvg-name="Dhamma TV" tvg-logo="https://iili.io/JbtnPvR.png" group-title="Lokal",Dhamma TV
+https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
+#EXTINF:-1 tvg-name="Bungo TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f1/Bungo_TV.png" group-title="Lokal",Bungo TV
+https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
+#EXTINF:-1 tvg-name="Sunna TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504962_tvchannels_v1.jpg" group-title="Lokal",Sunna TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h38/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV
+#EXTINF:-1 tvg-name="Puja TV Aceh (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/0TqABCL.png" group-title="Lokal",Puja TV Aceh (1080p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.pujatvaceh.com/
+https://pujatv.siar.us/live/pujatv.m3u8
+#EXTINF:-1 tvg-name="Magna Channel" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501720_tvchannels_v1.jpg" group-title="Lokal",Magna Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8?app_type=web&userid=lite&chname=Magna_Channel
+#EXTINF:-1 tvg-name="DIM TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1712205651_tvchannels_v1.jpg" group-title="Lokal",DIM TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h232/index2.m3u8?app_type=web&userid=lite&chname=DIM_TV
+#EXTINF:-1 tvg-name="TBN" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504946_tvchannels_v1.jpg" group-title="Lokal",TBN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/s/s39/index.m3u8?app_type=web&userid=lite&chname=TBN
+#EXTINF:-1 tvg-name="Banjar TV" tvg-logo="https://iili.io/JbtnNpV.png" group-title="Lokal",Banjar TV
+https://banjartv.siar.us/banjartv/live/playlist.m3u8
+#EXTINF:-1 tvg-name="TVRI Bali" tvg-logo="https://iili.io/JmF1x0Q.png" group-title="Lokal",TVRI Bali
+https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8
+#EXTINF:-1 tvg-name="Elshinta TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501688_tvchannels_v1.jpg" group-title="Lokal",Elshinta TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h228/index.m3u8?app_type=web&userid=lite&chname=Elshinta_TV
+#EXTINF:-1 tvg-id="USMTV.id@SD" tvg-name="USM TV (1080p)" tvg-logo="https://usmtv.id/wp-content/uploads/2024/01/logo-large-1.png" group-title="Lokal",USM TV (1080p)
+#EXTVLCOPT:http-referrer=https://usmtv.id/live-tv/
+https://play.fsa-stream.my.id/hls/siaran.m3u8
+#EXTINF:-1 tvg-name="TVRI Sulawesi Selatan" tvg-logo="https://iili.io/JmF16hu.png" group-title="Lokal",TVRI Sulawesi Selatan
+https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8
+#EXTINF:-1 tvg-name="I Am Channel (576p)" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Lokal",I Am Channel (576p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://iamchannel.org/
+https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
+#EXTINF:-1 tvg-name="TVRI Papua Barat" tvg-logo="https://iili.io/d9HAivV.png" group-title="Lokal",TVRI Papua Barat
+https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
+#EXTINF:-1 tvg-name="TVRI Bangka Belitung" tvg-logo="https://iili.io/JmF1zgV.png" group-title="Lokal",TVRI Bangka Belitung
+https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8
+#EXTINF:-1 tvg-name="Rinjani TV" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal",Rinjani TV
+#EXTVLCOPT:http-user-agent=android-R+
+https://rinjanitv.cloud/hls/tvkabel.m3u8
+#EXTINF:-1 tvg-name="TVRI Kalimantan Selatan" tvg-logo="https://iili.io/JmF1WmX.png" group-title="Lokal",TVRI Kalimantan Selatan
+https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8
+#EXTINF:-1 tvg-name="Groovia Kanal (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1657983/media/e1b4737ec68d96b27f713c034543d472.png" group-title="Lokal",Groovia Kanal (576p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8
+#EXTINF:-1 tvg-name="E International Asia (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1659328/media/1058391c8059a0d092426e145d55951b.png" group-title="Lokal",E International Asia (576p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8
+#EXTINF:-1 tvg-name="TVRI" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501756_tvchannels_v1.jpg" group-title="Lokal",TVRI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
+#EXTINF:-1 tvg-name="PKTV (480p)" tvg-logo="https://i.imgur.com/mldv8Sf.png" group-title="Lokal",PKTV (480p)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://pktvkaltim.com/acara/live-content/?noamp=mobile
+https://streaming.id18.tunnel.my.id/hls/stream.m3u8
+#EXTINF:-1 tvg-name="TVRI Aceh" tvg-logo="https://iili.io/JmF1BWb.png" group-title="Lokal",TVRI Aceh
+https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
 #EXTINF:-1 tvg-name="CLTV36" group-title="Lokal",CLTV36
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv.garden/
 https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
-#EXTINF:-1 tvg-id="oxygentv.id" tvg-name="Oxygen TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/oxygentv.png" group-title="Lokal",Oxygen TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/oxygentv.m3u8
-#EXTINF:-1 tvg-name="Rajawali TV" group-title="Lokal",Rajawali TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
-#EXTINF:-1 tvg-id="Tv9.Nu.id" tvg-name="TV9 NU" tvg-logo="https://www.visionplus.id/images/repository/601/601-LOGO-m.png" group-title="Lokal",TV9 NU
-https://live2.kontoltv.my.id/play/tv9nu.m3u8
-#EXTINF:-1 tvg-id="Moji.id@SD" tvg-name="Moji TV (DensTV)" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal",Moji TV (DensTV)
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
-https://live.kontoltv.my.id/play/mojitvdenstv.m3u8
-#EXTINF:-1 tvg-id="Mdtv.id" tvg-name="MDTV | MDTV Dens TV" tvg-logo="https://www.visionplus.id/images/repository/752/507752-LOGO-m.png" group-title="Lokal",MDTV | MDTV Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/mdtvmdtvdenstv.m3u8
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV | MNCTV R+ 1" tvg-logo="https://www.visionplus.id/images/repository/750/507750-LOGO-m.png" group-title="Lokal",MNCTV | MNCTV R+ 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://embed.rctiplus.com/live/mnctv/sindonews
-https://live2.kontoltv.my.id/play/mnctvmnctvr1.m3u8
-#EXTINF:-1 tvg-id="tvOne.id" tvg-name="TV One | TV One Dens TV" tvg-logo="https://www.visionplus.id/images/repository/822/513822-LOGO-m.png" group-title="Lokal",TV One | TV One Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/tvonetvonedenstv.m3u8
-#EXTINF:-1 tvg-id="bnchannel.id" tvg-name="BN Channel | BN Channel Dens TV" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/bnch.png" group-title="Lokal",BN Channel | BN Channel Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/bnchannelbnchanneldenstv.m3u8
-#EXTINF:-1 tvg-id="Tvri.Nasional.id" tvg-name="TVRI | TVRI Dens TV" tvg-logo="https://www.visionplus.id/images/repository/593/593-LOGO-m.png" group-title="Lokal",TVRI | TVRI Dens TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/tvritvridenstv.m3u8
-#EXTINF:-1 tvg-name="Nabawi TV (720p)" tvg-logo="https://i.imgur.com/O8WONFB.png" group-title="Lokal",Nabawi TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-http://202.150.161.117:8000/play/NabawiTV
-#EXTINF:-1 tvg-id="animal-planet.id" tvg-name="Animal Planet | Animal Planet Taiwan" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/AniPlanet.png" group-title="Lokal",Animal Planet | Animal Planet Taiwan
-https://live2.kontoltv.my.id/play/animalplanetanimalplanettaiwan.m3u8
-#EXTINF:-1 tvg-name="ABN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPBKtRRhL1UqJcIv-eKXsBM7PL-8sEQlVLyQ&s" group-title="Lokal",ABN TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://tv.garden/
-https://vod2.abn.co.kr/IPHONE/abn.m3u8
-#EXTINF:-1 tvg-id="UChannel.id@SD" tvg-name="U Channel" tvg-logo="https://i.imgur.com/qxkb0cy.png" group-title="Lokal",U Channel
-#EXTVLCOPT:http-referrer=https://www.u-channel.tv
-https://srs.u-channel.tv/live/uchannel-tv.m3u8
-#EXTINF:-1 tvg-name="MNCTV" tvg-logo="https://images.indihometv.com/assets/logo_mnc_hd.png" group-title="Lokal",MNCTV
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=2
-#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI | RCTI R+ 2" tvg-logo="https://www.visionplus.id/images/repository/720/507720-LOGO-m.png" group-title="Lokal",RCTI | RCTI R+ 2
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://live2.kontoltv.my.id/play/rctirctir2.m3u8
-#EXTINF:-1 tvg-name="SCTV" tvg-logo="https://images.indihometv.com/logo_sctv_ver2.png" group-title="Lokal",SCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-https://beetv.my.id/jabingan/vd.m3u8?ch=sctv
-#EXTINF:-1 tvg-name="Madani TV (720p)" tvg-logo="https://i.imgur.com/8aonQ0v.png" group-title="Lokal",Madani TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="E International Europe (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1659328/media/1058391c8059a0d092426e145d55951b.png" group-title="Lokal",E International Europe (576p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp120.510.450:6060.m3u8
-#EXTINF:-1 tvg-name="Groovia Kanal (576p)" tvg-logo="https://hosting.renderforestsites.com/35126779/1657983/media/e1b4737ec68d96b27f713c034543d472.png" group-title="Lokal",Groovia Kanal (576p)
+#EXTINF:-1 tvg-id="UChannel.id@SD" tvg-name="U Channel" tvg-logo="https://i.imgur.com/qxkb0cy.png" group-title="Lokal",U Channel
+#EXTVLCOPT:http-referrer=https://www.u-channel.tv
+https://srs.u-channel.tv/live/uchannel-tv.m3u8
+#EXTINF:-1 tvg-name="Rajawali TV" group-title="Lokal",Rajawali TV
 #EXTVLCOPT:http-user-agent=android-R+
-https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8
-#EXTINF:-1 tvg-id="------" tvg-name="Rodja" tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg" group-title="Lokal",Rodja
-https://radioislamindonesia.com/rodja.mp3?_=2
-#EXTINF:-1 tvg-id="TransTV.id@SD" tvg-name="TransTV (Detik)" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal",TransTV (Detik)
-#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
-#EXTVLCOPT:http-origin=https://20.detik.com
+https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
+#EXTINF:-1 tvg-name="Nabawi TV (720p)" tvg-logo="https://i.imgur.com/O8WONFB.png" group-title="Lokal",Nabawi TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+http://202.150.161.117:8000/play/NabawiTV
+#EXTINF:-1 tvg-name="Madani TV (720p)" tvg-logo="https://i.imgur.com/8aonQ0v.png" group-title="Lokal",Madani TV (720p)
+#EXTVLCOPT:http-user-agent=android-R+
+https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Hanacaraka TV" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hanacaraka-tv-id.png" group-title="Lokal",Hanacaraka TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://live.kontoltv.my.id/play/transtvdetik.m3u8
-#EXTINF:-1 tvg-id="Trans7.id@SD" tvg-name="Trans7 HD (Detik)" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal",Trans7 HD (Detik)
-#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
-#EXTVLCOPT:http-origin=https://20.detik.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://live.kontoltv.my.id/play/trans7hddetik.m3u8
-#EXTINF:-1 tvg-id="tvOne.id" tvg-name="TV One | TV One Youtube" tvg-logo="https://www.visionplus.id/images/repository/822/513822-LOGO-m.png" group-title="Lokal",TV One | TV One Youtube
-https://live2.kontoltv.my.id/play/tvonetvoneyoutube.ts
-#EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans 7 | Trans 7 Transmedia 2" tvg-logo="https://www.visionplus.id/images/repository/207/514207-LOGO-m.png" group-title="Lokal",Trans 7 | Trans 7 Transmedia 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/trans7trans7transmedia2.m3u8
-#EXTINF:-1 tvg-id="Trans.TV.id" tvg-name="Trans TV | Trans TV Transmedia 2" tvg-logo="https://www.visionplus.id/images/repository/209/514209-LOGO-m.png" group-title="Lokal",Trans TV | Trans TV Transmedia 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://live2.kontoltv.my.id/play/transtvtranstvtransmedia2.m3u8
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar | Indosiar Vidio 2" tvg-logo="https://www.visionplus.id/images/repository/068/569068-LOGO-m.png" group-title="Lokal",Indosiar | Indosiar Vidio 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/indosiarindosiarvidio2.mpd
-#EXTINF:-1 tvg-id="Studio.Universal.id" tvg-name="Studio Universal" tvg-logo="https://www.visionplus.id/images/repository/114/345114-LOGO-m.png" group-title="Lokal",Studio Universal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/studiouniversal
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/studiouniversal.mpd
-#EXTINF:-1 tvg-id="Mentari.TV.id" tvg-name="Mentari TV | Mentari TV Vision+" tvg-logo="https://www.visionplus.id/images/repository/074/569074-LOGO-m.png" group-title="Lokal",Mentari TV | Mentari TV Vision+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/mentaritvmentaritvvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/mentaritvmentaritvvision.mpd
-#EXTINF:-1 tvg-id="VisionPrime.id@SD" tvg-name="Vision Prime (Vision+)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/VisionPrime.png/revision/latest/scale-to-width-down/300?cb=20200225175642&path-prefix=es" group-title="Lokal",Vision Prime (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/visionprimevision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/visionprimevision.mpd
-#EXTINF:-1 tvg-id="abctv.id" tvg-name="ABC TV | ABC Vision+" tvg-logo="https://www.visionplus.id/images/repository/689/689-LOGO-m.png" group-title="Lokal",ABC TV | ABC Vision+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/abctvabcvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/abctvabcvision.mpd
-#EXTINF:-1 tvg-id="SPOTV.id" tvg-name="SPOTV | SPOTV Cignal" tvg-logo="https://www.visionplus.id/images/repository/856/522856-LOGO-m.png" group-title="Lokal",SPOTV | SPOTV Cignal
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
-https://live2.kontoltv.my.id/play/spotv.mpd
-#EXTINF:-1 tvg-id="rtv.id" tvg-name="RTV | RTV Vision+" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/RTV.png" group-title="Lokal",RTV | RTV Vision+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/rtvrtvvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/rtvrtvvision.mpd
-#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV | ANTV Vidio 2" tvg-logo="https://www.visionplus.id/images/repository/820/513820-LOGO-m.png" group-title="Lokal",ANTV | ANTV Vidio 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/antvantvvidio2.mpd
-#EXTINF:-1 tvg-id="LIFETIME.id" tvg-name="LIFETIME" tvg-logo="https://www.visionplus.id/images/repository/639/639-LOGO-m.png" group-title="Lokal",LIFETIME
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/lifetime
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/lifetime.mpd
-#EXTINF:-1 tvg-id="IDXChannel.id@SD" tvg-name="IDX (Vision+)" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg" group-title="Lokal",IDX (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/idxvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/idxvision.mpd
-#EXTINF:-1 tvg-id="Galaxy.Premium.id" tvg-name="Galaxy Premium" tvg-logo="https://www.visionplus.id/images/repository/616/616-LOGO-m.png" group-title="Lokal",Galaxy Premium
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/galaxypremium
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/galaxypremium.mpd
-#EXTINF:-1 tvg-id="buddystar.id" tvg-name="Buddy Star" tvg-logo="https://www.visionplus.id/images/repository/392/273392-LOGO-m.png" group-title="Lokal",Buddy Star
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/buddystar
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/buddystar.mpd
-#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV | ANTV Vision+" tvg-logo="https://www.visionplus.id/images/repository/820/513820-LOGO-m.png" group-title="Lokal",ANTV | ANTV Vision+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/antvantvvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/antvantvvision.mpd
-#EXTINF:-1 tvg-id="SPOTV.2.id" tvg-name="SPOTV 2 | SPOTV 2 Cignal" tvg-logo="https://www.visionplus.id/images/repository/366/525366-LOGO-m.png" group-title="Lokal",SPOTV 2 | SPOTV 2 Cignal
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
-https://live2.kontoltv.my.id/play/spotv2.mpd
-#EXTINF:-1 tvg-id="ANTV.id@SD" tvg-name="ANTV HD (Vision+)" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal",ANTV HD (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/antvhdvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/antvhdvision.mpd
-#EXTINF:-1 tvg-id="CelestialClassicMovies.id@SD" tvg-name="CCM (Vision+)" tvg-logo="https://www.visionplus.id/images/repository/613/613-LOGO-m.png" group-title="Lokal",CCM (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/ccmvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/ccmvision.mpd
-#EXTINF:-1 tvg-id="animax.id" tvg-name="Animax" tvg-logo="https://www.visionplus.id/images/repository/628/628-LOGO-m.png" group-title="Lokal",Animax
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/animax
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/animax.mpd
-#EXTINF:-1 tvg-id="Hanacaraka.Tv.id" tvg-name="Hanacaraka Tv" tvg-logo="https://www.visionplus.id/images/repository/705/243705-LOGO-m.png" group-title="Lokal",Hanacaraka Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/hanacarakatv
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/hanacarakatv.mpd
-#EXTINF:-1 tvg-id="Rock.Action.id" tvg-name="Rock Action" tvg-logo="https://www.visionplus.id/images/repository/645/645-LOGO-m.png" group-title="Lokal",Rock Action
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/rockaction
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/rockaction.mpd
-#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV | SCTV Vidio 2" tvg-logo="https://www.visionplus.id/images/repository/064/569064-LOGO-m.png" group-title="Lokal",SCTV | SCTV Vidio 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/sctvsctvvidio2.mpd
-#EXTINF:-1 tvg-id="Entertainment.id" tvg-name="ENT" tvg-logo="https://www.visionplus.id/images/repository/632/632-LOGO-m.png" group-title="Lokal",ENT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/ent
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/ent.mpd
-#EXTINF:-1 tvg-name="SCTV 2" tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Lokal",SCTV 2
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-https://nextgenz.my.id/event/pidio/play.mpd?id=204&type=dash
-#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV | ANTV Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/820/513820-LOGO-m.png" group-title="Lokal",ANTV | ANTV Vidio 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/antvantvvidio1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/antvantvvidio1.mpd
-#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji | Moji Vidio" tvg-logo="https://www.visionplus.id/images/repository/072/569072-LOGO-m.png" group-title="Lokal",Moji | Moji Vidio
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/mojimojividio
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/mojimojividio.mpd
-#EXTINF:-1 tvg-id="rtv.id" tvg-name="RTV | RTV Vidio 2" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/RTV.png" group-title="Lokal",RTV | RTV Vidio 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/rtvrtvvidio2.mpd
-#EXTINF:-1 tvg-id="MentariTV.id@SD" tvg-name="Mentari TV (Vision+)" tvg-logo="https://thumbor.prod.vidiocdn.com/59CZO-IVdps6hUK6gEQqn-w-bCw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8237/18585d.png" group-title="Lokal",Mentari TV (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/mentaritvvision
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/mentaritvvision.mpd
-#EXTINF:-1 tvg-id="idx.id" tvg-name="IDX Channel" tvg-logo="https://www.visionplus.id/images/repository/659/659-LOGO-m.png" group-title="Lokal",IDX Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/idxchannel
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/idxchannel.mpd
-#EXTINF:-1 tvg-id="fancode2.idn" tvg-name="Fancode 2" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/Fancode.png" group-title="Lokal",Fancode 2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/fancode2.mpd
-#EXTINF:-1 tvg-id="Tvri.Nasional.id" tvg-name="TVRI | TVRI Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/593/593-LOGO-m.png" group-title="Lokal",TVRI | TVRI Vidio 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/tvritvrividio1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/tvritvrividio1.mpd
-#EXTINF:-1 tvg-id="animal-planet.id" tvg-name="Animal Planet | Animal Planet Vietnam" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/AniPlanet.png" group-title="Lokal",Animal Planet | Animal Planet Vietnam
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875
-https://live2.kontoltv.my.id/play/animalplanetanimalplanetvietnam.mpd
-#EXTINF:-1 tvg-id="abctv.id" tvg-name="ABC TV | ABC TV Cubmu" tvg-logo="https://www.visionplus.id/images/repository/689/689-LOGO-m.png" group-title="Lokal",ABC TV | ABC TV Cubmu
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/abctvabctvcubmu.mpd
+#KODIPROP:inputstream.adaptive.license_key=0de1f882d278465abdba73a8b4cb2bda:7061f5e1115d6ef504726c3faa8bf146
+https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
 #EXTINF:-1 tvg-id="LIFE.id" tvg-name="LIFE (Vision+)" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_91.png" group-title="Lokal",LIFE (Vision+)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -656,45 +350,10 @@ https://live2.kontoltv.my.id/play/abctvabctvcubmu.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/lifevision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://live.kontoltv.my.id/play/lifevision.mpd
-#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV | SCTV Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/064/569064-LOGO-m.png" group-title="Lokal",SCTV | SCTV Vidio 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
+#EXTINF:-1 tvg-id="25" tvg-name="JAKTV" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" group-title="Lokal",JAKTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/sctvsctvvidio1
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/jaktv
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/sctvsctvvidio1.mpd
-#EXTINF:-1 tvg-id="rtv.id" tvg-name="RTV | RTV Vidio 1" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/RTV.png" group-title="Lokal",RTV | RTV Vidio 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/rtvrtvvidio1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/rtvrtvvidio1.mpd
-#EXTINF:-1 tvg-id="Tvri.Nasional.id" tvg-name="TVRI | TVRI Vidio 2" tvg-logo="https://www.visionplus.id/images/repository/593/593-LOGO-m.png" group-title="Lokal",TVRI | TVRI Vidio 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/tvritvrividio2.mpd
-#EXTINF:-1 tvg-id="tvOne.id" tvg-name="TV One | TV One Vidio 2" tvg-logo="https://www.visionplus.id/images/repository/822/513822-LOGO-m.png" group-title="Lokal",TV One | TV One Vidio 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/tvonetvonevidio2.mpd
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar | Indosiar Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/068/569068-LOGO-m.png" group-title="Lokal",Indosiar | Indosiar Vidio 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/indosiarindosiarvidio1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/indosiarindosiarvidio1.mpd
-#EXTINF:-1 tvg-id="tvOne.id" tvg-name="TV One | TV One Vidio 1" tvg-logo="https://www.visionplus.id/images/repository/822/513822-LOGO-m.png" group-title="Lokal",TV One | TV One Vidio 1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live2.kontoltv.my.id/drm/tvonetvonevidio1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/tvonetvonevidio1.mpd
-#EXTINF:-1 tvg-id="Mentari.TV.id" tvg-name="Mentari TV | Mentari TV Vidio 2" tvg-logo="https://www.visionplus.id/images/repository/074/569074-LOGO-m.png" group-title="Lokal",Mentari TV | Mentari TV Vidio 2
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-origin=https://m.vidio.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live2.kontoltv.my.id/play/mentaritvmentaritvvidio2.mpd
+https://live.kontoltv.my.id/play/jaktv.mpd

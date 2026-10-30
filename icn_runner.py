@@ -171,14 +171,16 @@ def build_master(cfg, srcs):
 
 
 def _inject_group(extinf, grp):
-    """Rebuild the #EXTINF line so a comma inside an attribute cannot corrupt
-    the channel name (use the LAST comma: the name is everything after it)."""
-    name = extinf.rsplit(",", 1)[-1].strip() if "," in extinf else ""
-    name = re.sub(r'["\r\n]+', "", name)
-    head = extinf.rsplit(",", 1)[0] if "," in extinf else extinf
-    if "group-title=" in head:
-        head = re.sub(r'group-title="[^"]*"', f'group-title="{grp}"', head, count=1)
-    else:
+    """Sanitise the channel name (last comma) but PRESERVE an existing
+    group-title. Only inject `grp` when the line has no group at all —
+    otherwise every channel would collapse into the source name (LIVE-TV2, …)
+    and lose its real category.
+    """
+    head, sep, name = extinf.rpartition(",")
+    if not sep:                      # malformed: no comma at all
+        head, name = extinf, ""
+    name = re.sub(r'["\r\n]+', "", name).strip()
+    if "group-title=" not in head:
         m = re.match(r"^(#EXTINF:[^\s,]+)", head)
         if m:
             head = m.group(1) + f' group-title="{grp}"' + head[len(m.group(1)):]

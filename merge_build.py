@@ -51,6 +51,14 @@ CAT_RULES = [
     (("kbs", "sbs", "ebs", "mbc", "tvn", "jtbc", "ytn", "mbn", "onstyle",
       "on cine", "on info", "on e channel", "gcn", "cj ", "korea"), "Korea"),
     (("dltv", "thai"), "Thailand"),
+    (("china", "cctv-", "chinese", "中国"), "China"),
+    (("vietnam", "vn ", "viet"), "Vietnam"),
+    (("japan", "japanese", "nhk"), "Japan"),
+    (("india", "indian"), "India"),
+    (("philippin", "filipino"), "Philippines"),
+    (("taiwan", "hong kong", "hongkong"), "Asia"),
+    (("australia", "aussie"), "Australia"),
+    (("arab", "uae", "saudi", "qatar", "egypt"), "Arab"),
     (("lokal", "local", "daerah", "city"), "Lokal"),
     (("malaysia", "malays"), "Malaysia"),
     (("singapor", "singapur"), "Singapore"),
@@ -72,7 +80,9 @@ INTL_BRANDS = ("wion", "cna", "nhk world", "ntd", "cgtn", "trt", "rtb",
                "euronews", "channel news asia", "abc australia")
 CAT_ORDER = ["Indonesia", "Lokal", "Sports", "Kids", "Movies", "Music", "Radio",
              "Muslim", "News", "Knowledge & Lifestyle", "Entertainment",
-             "Shopping", "CCTV", "Malaysia", "Singapore", "Korea", "Thailand",
+             "Shopping", "CCTV", "China", "Vietnam", "Japan", "India",
+             "Philippines", "Asia", "Australia", "Arab",
+             "Malaysia", "Singapore", "Korea", "Thailand",
              "International", "Lainnya"]
 RANK = {"hls": 0, "ts": 0, "audio": 1, "other": 2, "dash": 3}
 
