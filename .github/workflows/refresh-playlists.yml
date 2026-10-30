@@ -8,6 +8,7 @@ on:
       - "icn_runner.py"
       - "config.json"
       - "health_check.py"
+      - "merge_build.py"
   schedule:
     # Every 6 hours. GitHub may delay scheduled runs under platform load.
     - cron: "20 */6 * * *"

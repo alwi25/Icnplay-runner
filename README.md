@@ -107,6 +107,36 @@ Dari 750 entri: 42 URL ganda + 19 nama ganda dibuang → 689 unik → **481 hidu
 Kategori mentah yang berantakan (`SPORTS 2`, `LOKAL` vs `Lokal`, `ENTERTAIMENT`)
 sudah dinormalkan.
 
+## Playlist gabungan (utama) — `ICNPLAY.m3u`
+`merge_build.py` menyatukan **tujuh sumber**, membuang duplikat, mem-probe semua
+channel, membuang yang mati, lalu menyusun ulang kategori:
+
+| Sumber | Peran |
+|---|---|
+| iCN Play (hasil `icn_runner.py`) | channel Indonesia + live TV |
+| `tivora/MASTER.m3u` (aspaltvpasti) | sports, murattal, lokal |
+| iptv-org `countries/id` | channel Indonesia terkurasi |
+| iptv-org `countries/my`, `countries/sg` | Malaysia, Singapura |
+| iptv-org `categories/kids` | channel anak |
+| iptv-org `categories/sports` | sport internasional |
+
+Hasil: 3.311 entri mentah → 2.157 URL unik → **1.727 channel hidup**, 19 kategori.
+
+| Kategori | Ch | Kategori | Ch |
+|---|---|---|---|
+| Sports | 502 | Movies | 71 |
+| Kids | 309 | Radio | 60 |
+| Muslim | 140 | Lainnya | 60 |
+| Lokal | 120 | Knowledge & Lifestyle | 42 |
+| Indonesia | 118 | Thailand | 40 |
+| CCTV | 110 | Music | 35 |
+| Korea | 30 | News | 28 |
+| Malaysia | 28 | Entertainment | 27 |
+| Singapore | 6 | Shopping | 1 |
+
+File kategori ada di `categories/*.m3u`; master di `ICNPLAY.m3u`;
+tanpa filter di `ICNPLAY_full.m3u`; `DRM_Clearkey.m3u` untuk Kodi.
+
 ## Cara load di player
 | Player | Cara pakai |
 |---|---|

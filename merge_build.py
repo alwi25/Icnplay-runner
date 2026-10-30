@@ -12,6 +12,7 @@ Sumber:
 Alur: parse -> dedupe URL -> probe -> buang mati -> dedupe nama -> kategori
       -> urut tercepat (HLS/TS, audio, lalu DASH) -> tulis per kategori.
 """
+# Dedup rules: URL first, then (category, normalised name) preferring HLS.
 import json, os, re, sys, time, urllib.request
 from collections import Counter, OrderedDict
 import health_check as hc
