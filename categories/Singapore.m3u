@@ -1,23 +1,33 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="hbosignatureasia.sg" tvg-name="HBO Signature Taiwan" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/HBO.png" group-title="Singapore",HBO Signature Taiwan
-https://live2.kontoltv.my.id/play/hbosignaturetaiwan.m3u8
-#EXTINF:-1 tvg-id="hbofamilyasia.sg" tvg-name="HBO Family Taiwan" tvg-logo="https://raw.githubusercontent.com/hwijaya2025-spec/logotv/main/HBO.png" group-title="Singapore",HBO Family Taiwan
-https://live2.kontoltv.my.id/play/hbofamilytaiwan.m3u8
 #EXTINF:-1 tvg-id="hbofamilyasia.sg" tvg-name="HBO family" tvg-logo="https://dl.dropbox.com/scl/fi/huvb654fboyfnebvnzghn/hbo_family.png?rlkey=sr0deor1pxp0bxgm3x6wve1cz&dl=0" group-title="Singapore",HBO family
 http://013tv.com:8080/F33848/cbd9779b/197972
-#EXTINF:-1 tvg-id="hboasia.sg" tvg-name="HBO" tvg-logo="https://dl.dropbox.com/scl/fi/11cogq3f6ewil4xavwnh3/hbo.png?rlkey=2qd8p4fzhaxy4mnk9vkn5v41c&dl=0" group-title="Singapore",HBO
-http://013tv.com:8080/F33848/cbd9779b/306484
-#EXTINF:-1 tvg-id="hbohitsasia.sg" tvg-name="HBO Hits" tvg-logo="https://dl.dropbox.com/scl/fi/n7pewdemieoz3zbs39tbx/hbohits.png?rlkey=e748k2slpje7h5xy2q9pos5a3&dl=0" group-title="Singapore",HBO Hits
-http://013tv.com:8080/F33848/cbd9779b/306486
 #EXTINF:-1 tvg-id="hbosignatureasia.sg" tvg-name="HBO Signature" tvg-logo="https://dl.dropbox.com/scl/fi/rpfe8l6bizfcn3hkvkow6/hbo-signature.png?rlkey=dano4jnm0214i6163flo4akb6&dl=0" group-title="Singapore",HBO Signature
 http://013tv.com:8080/F33848/cbd9779b/306483
-#EXTINF:-1 tvg-id="AnimaxAsia.sg@SD" tvg-name="Animax (Vision+)" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_animax.png" group-title="Singapore",Animax (Vision+)
+#EXTINF:-1 tvg-id="hbohitsasia.sg" tvg-name="HBO Hits" tvg-logo="https://dl.dropbox.com/scl/fi/n7pewdemieoz3zbs39tbx/hbohits.png?rlkey=e748k2slpje7h5xy2q9pos5a3&dl=0" group-title="Singapore",HBO Hits
+http://013tv.com:8080/F33848/cbd9779b/306486
+#EXTINF:-1 tvg-id="hboasia.sg" tvg-name="HBO" tvg-logo="https://dl.dropbox.com/scl/fi/11cogq3f6ewil4xavwnh3/hbo.png?rlkey=2qd8p4fzhaxy4mnk9vkn5v41c&dl=0" group-title="Singapore",HBO
+http://013tv.com:8080/F33848/cbd9779b/306484
+#EXTINF:-1 tvg-id="GlobalTrekker.sg@SD" tvg-name="Global Trekker (Vision+)" tvg-logo="https://images.squarespace-cdn.com/content/v1/616632df4479e534656ecf49/2017e527-15ce-4a89-acb0-6ad018d314fb/Global-Trekker_logo_primary.png" group-title="Singapore",Global Trekker (Vision+)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/animaxvision
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/globaltrekkervision
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://live.kontoltv.my.id/play/animaxvision.mpd
+https://live.kontoltv.my.id/play/globaltrekkervision.mpd
+#EXTINF:-1 tvg-id="ZooMoo.sg@SD" tvg-name="ZooMoo (Vision+)" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_39.png" group-title="Singapore",ZooMoo (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/zoomoovision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/zoomoovision.mpd
+#EXTINF:-1 tvg-id="AXNAsia.sg@Indonesia" tvg-name="AXN (Vision+)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="Singapore",AXN (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://live.kontoltv.my.id/drm/axnvision
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.kontoltv.my.id/play/axnvision.mpd
 #EXTINF:-1 tvg-id="TLCSoutheastAsia.sg@SD" tvg-name="TLC HD" tvg-logo="https://www.clipartmax.com/png/middle/474-4741241_tlc-logo-transparent-tlc-png.png" group-title="Singapore",TLC HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d

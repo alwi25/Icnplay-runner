@@ -160,8 +160,6 @@ https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=205
 https://op-flashcon-digdayasd-1.dens.tv/h/h215/stream.m3u8?app_type=web&userid=lite&chname=Channel_Jowo
 #EXTINF:-1 tvg-id="JTV.id@Kediri" tvg-name="JTV Kediri (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Indonesia",JTV Kediri (1080p) [Not 24/7]
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="JTV.id@Madura" tvg-name="JTV Madura (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Indonesia",JTV Madura (480p) [Not 24/7]
-http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="KOMPAS TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/kompas-tv-id.png" group-title="Indonesia",KOMPAS TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
 http://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
@@ -783,6 +781,9 @@ http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Madiun" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Madiun
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="JTV Madura (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Madura (480p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=android-R+
+http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JTV Malang" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Lokal",JTV Malang
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8
@@ -4085,6 +4086,8 @@ http://38.65.175.84:8000/play/a0an/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 https://live.kontoltv.my.id/play/h4stm2i.mpd
+#EXTINF:-1 tvg-id="Disney.Channel.branden" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Kids",Disney Channel
+http://212.5.144.156/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel (Bulgaria) (576i)" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="Kids",Disney Channel (Bulgaria) (576i)
 http://87.120.179.187:8000/play/a010
 #EXTINF:-1 tvg-id="DisneyChannel.cz@SD" tvg-name="Disney Channel (Czech Republic)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel (Czech Republic)
@@ -4779,6 +4782,8 @@ https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlis
 http://92.114.85.72:8000/play/a08p
 #EXTINF:-1 tvg-id="TNTKidsTV.ba@SD" tvg-name="TNT Kids TV (288p)" tvg-logo="https://i.imgur.com/irTDbpn.png" group-title="Kids",TNT Kids TV (288p)
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
+#EXTINF:-1 tvg-name="Tom & Jerry" tvg-logo="https://pngimg.com/uploads/tom_and_jerry/tom_and_jerry_PNG42.png" group-title="Kids",Tom & Jerry
+http://pira.diamonds:80/play/OG0HGQlp5eMcXY5hodyppmUx1TRYzulW_E7IhrSJdr4WonlMdl_jlSDVO0q_FIv7Rs8eID-J8z9lbIyIjNPLWQ
 #EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-name="Tom And Jerry (720p)" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" group-title="Kids",Tom And Jerry (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-id="Tooku.ru@SD" tvg-name="Tooku (1080p)" tvg-logo="https://tooku.ru/wp-content/uploads/2024/11/tooku-kanal-logo.png" group-title="Kids",Tooku (1080p)
@@ -5179,8 +5184,6 @@ https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-name="ZOOM TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmuyjtVph0Ep3V-k2MVdUGfVKPw1u4pl1yRKGSzq3LQ&s=10" group-title="Music",ZOOM TV
 https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
-#EXTINF:-1 tvg-name="Шансон ТВ" group-title="Music",Шансон ТВ
-https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Ardan Radio Bandung" tvg-logo="https://ardanradio.com/storage/logo/Logo%20Ardan.png" group-title="Radio",Ardan Radio Bandung
 https://live.kontoltv.my.id/play/ardanradiobandung.ts
 #EXTINF:-1 tvg-name="Arirang Radio" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyPS2HfHVb4Sr1DIRtyxyvQlkYVTj4ZMG4ow&s" group-title="Radio",Arirang Radio
@@ -6343,6 +6346,9 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 #EXTINF:-1 tvg-id="RTMParlimenDewanRakyat.my@SD" tvg-name="RTM Parlimen Dewan Rakyat [Geo-blocked]" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Malaysia",RTM Parlimen Dewan Rakyat [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
+#EXTINF:-1 tvg-name="SG OKEY my2" tvg-logo="https://rtm.glueapi.io/v3/content/3/image/960x540/images.title" group-title="Malaysia",SG OKEY my2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+http://iptv12k.com:35461/m260807923420398/111111/13616
 #EXTINF:-1 tvg-name="SUKAN RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",SUKAN RTM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://mana2.my/channel/sukan-rtm
@@ -7899,10 +7905,14 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/1880fc1b32d3449196e80345f6cd5918/ind
 https://live.kontoltv.my.id/play/lifetimevision.mpd
 #EXTINF:-1 tvg-id="tvg-url=" tvg-name="LINGKAR TV" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="Lainnya",LINGKAR TV
 https://lingkartv.my.id/hls/lingkartv.m3u8
-#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE
+#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE 2" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://tg0j1gr4ugmtwgczdqcbqgr5dgmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel2/playlist.m3u8?wsSecret=981259c4ef0420a5e6149495c06e382d&wsABSTime=1793319624&wsSession=b93dcef1517110ac9cffefbe-179327644853302&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1168312122851561605
+https://tg0k6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel8/playlist.m3u8?wsSecret=7ac0c684fa8551bee7ac4f4c47b87a26&wsABSTime=1793392036&wsSession=6dd14f121b8de95ed02b3ec0-179334883821875&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1168024215084673054
+#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE 3" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
+https://tg0k0gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel9/playlist.m3u8?wsSecret=fdd04e3ec820b4317ce0deaa675a2223&wsABSTime=1793392085&wsSession=c8833e2307ac85f5b909cadb-179334888725444&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1177046549500337104
 #EXTINF:-1 tvg-id="SkySportsGPIT" tvg-name="Live Event #1" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="Lainnya",Live Event #1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dlhd.iclik.workers.dev/?channel=TSN1&play=1
