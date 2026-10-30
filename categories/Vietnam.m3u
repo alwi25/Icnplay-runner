@@ -1,60 +1,67 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="tvbvn" tvg-name="TVB VIỆT NAM" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/TVB%20Vietnam%20Banner_Side.jpg" group-title="Vietnam",TVB VIỆT NAM
-https://live.kontoltv.my.id/play/tvbvitnam.m3u8
-#EXTINF:-1 tvg-name="┃RX┃ RELAX VIETNAM 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Vietnam",┃RX┃ RELAX VIETNAM 4K
-http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809424.m3u8
-#EXTINF:-1 tvg-id="ono2tv" tvg-name="ON O2TV" tvg-logo="https://i.imgur.com/nqwVkmM.png" group-title="Vietnam",ON O2TV
-https://live.kontoltv.my.id/play/ono2tv.m3u8
-#EXTINF:-1 tvg-id="onmusic" tvg-name="ON Music" tvg-logo="https://i.imgur.com/45BXPY3.png" group-title="Vietnam",ON Music
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onmusic.m3u8
-#EXTINF:-1 tvg-id="onviedramas" tvg-name="ON Vie DRAMAS" tvg-logo="https://i.imgur.com/n7QICK7.png" group-title="Vietnam",ON Vie DRAMAS
-https://live.kontoltv.my.id/play/onviedramas.m3u8
-#EXTINF:-1 tvg-id="onbibi" tvg-name="ON BiBi" tvg-logo="https://i.imgur.com/YFmPo7l.png" group-title="Vietnam",ON BiBi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onbibi.m3u8
-#EXTINF:-1 tvg-id="onmovies" tvg-name="ON Movies" tvg-logo="https://i.imgur.com/765Y3jw.png" group-title="Vietnam",ON Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onmovies.m3u8
-#EXTINF:-1 tvg-id="onechannel" tvg-name="ON E Channel" tvg-logo="https://i.imgur.com/87JEXEQ.png" group-title="Vietnam",ON E Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onechannel.m3u8
-#EXTINF:-1 tvg-id="onlife" tvg-name="On Life" tvg-logo="https://i.ibb.co/QXk7C6G/On-life.jpg" group-title="Vietnam",On Life
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onlife.m3u8
-#EXTINF:-1 tvg-id="onvfamily" tvg-name="ON VFamily" tvg-logo="https://i.imgur.com/R82M53x.png" group-title="Vietnam",ON VFamily
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.kontoltv.my.id/play/onvfamily.m3u8
-#EXTINF:-1 tvg-id="onstyle" tvg-name="ON Style TV" tvg-logo="https://i.imgur.com/6LQ0Z1O.png" group-title="Vietnam",ON Style TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onstyletv.m3u8
-#EXTINF:-1 tvg-id="oninfotv" tvg-name="ON Info TV" tvg-logo="https://i.imgur.com/jp57P0v.png" group-title="Vietnam",ON Info TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/oninfotv.m3u8
-#EXTINF:-1 tvg-id="onviegiaitri" tvg-name="ON Vie Giải Trí" tvg-logo="https://i.imgur.com/7GSKm46.png" group-title="Vietnam",ON Vie Giải Trí
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-https://live.kontoltv.my.id/play/onviegiitr.m3u8
 #EXTINF:-1 tvg-id="onkids" tvg-name="ON KIDS" tvg-logo="https://i.ibb.co/mq65M0Y/On-kids.jpg" group-title="Vietnam",ON KIDS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
 https://live.kontoltv.my.id/play/onkids.m3u8
+#EXTINF:-1 tvg-id="onvfamily" tvg-name="ON VFamily" tvg-logo="https://i.imgur.com/R82M53x.png" group-title="Vietnam",ON VFamily
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://live.kontoltv.my.id/play/onvfamily.m3u8
+#EXTINF:-1 tvg-id="oninfotv" tvg-name="ON Info TV" tvg-logo="https://i.imgur.com/jp57P0v.png" group-title="Vietnam",ON Info TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/oninfotv.m3u8
+#EXTINF:-1 tvg-id="onviedramas" tvg-name="ON Vie DRAMAS" tvg-logo="https://i.imgur.com/n7QICK7.png" group-title="Vietnam",ON Vie DRAMAS
+https://live.kontoltv.my.id/play/onviedramas.m3u8
+#EXTINF:-1 tvg-id="tvbvn" tvg-name="TVB VIỆT NAM" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/TVB%20Vietnam%20Banner_Side.jpg" group-title="Vietnam",TVB VIỆT NAM
+https://live.kontoltv.my.id/play/tvbvitnam.m3u8
+#EXTINF:-1 tvg-id="onstyle" tvg-name="ON Style TV" tvg-logo="https://i.imgur.com/6LQ0Z1O.png" group-title="Vietnam",ON Style TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onstyletv.m3u8
+#EXTINF:-1 tvg-id="onviegiaitri" tvg-name="ON Vie Giải Trí" tvg-logo="https://i.imgur.com/7GSKm46.png" group-title="Vietnam",ON Vie Giải Trí
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onviegiitr.m3u8
+#EXTINF:-1 tvg-id="ono2tv" tvg-name="ON O2TV" tvg-logo="https://i.imgur.com/nqwVkmM.png" group-title="Vietnam",ON O2TV
+https://live.kontoltv.my.id/play/ono2tv.m3u8
+#EXTINF:-1 tvg-id="onmovies" tvg-name="ON Movies" tvg-logo="https://i.imgur.com/765Y3jw.png" group-title="Vietnam",ON Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onmovies.m3u8
+#EXTINF:-1 tvg-id="onlife" tvg-name="On Life" tvg-logo="https://i.ibb.co/QXk7C6G/On-life.jpg" group-title="Vietnam",On Life
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onlife.m3u8
+#EXTINF:-1 tvg-name="┃RX┃ RELAX VIETNAM 4K" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Relax%20TV.png" group-title="Vietnam",┃RX┃ RELAX VIETNAM 4K
+http://mag.tiger-ott.net:80/live/KEBD2U/7F8W2T/809424.m3u8
+#EXTINF:-1 tvg-id="onmusic" tvg-name="ON Music" tvg-logo="https://i.imgur.com/45BXPY3.png" group-title="Vietnam",ON Music
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onmusic.m3u8
 #EXTINF:-1 tvg-id="ontrending" tvg-name="ON Trending TV" tvg-logo="https://i.imgur.com/hHYzxmS.png" group-title="Vietnam",ON Trending TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
 https://live.kontoltv.my.id/play/ontrendingtv.m3u8
 #EXTINF:-1 tvg-id="oncine" tvg-name="ON Cine" tvg-logo="https://i.imgur.com/6f9ngwY.png" group-title="Vietnam",ON Cine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
 https://live.kontoltv.my.id/play/oncine.m3u8
-#EXTINF:-1 tvg-id="bbcnews" tvg-name="BBC World News" tvg-logo="https://freem3u.xyz/static/images/global/bbc-news.png" group-title="Vietnam",BBC World News
+#EXTINF:-1 tvg-id="onechannel" tvg-name="ON E Channel" tvg-logo="https://i.imgur.com/87JEXEQ.png" group-title="Vietnam",ON E Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onechannel.m3u8
+#EXTINF:-1 tvg-id="onbibi" tvg-name="ON BiBi" tvg-logo="https://i.imgur.com/YFmPo7l.png" group-title="Vietnam",ON BiBi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
+https://live.kontoltv.my.id/play/onbibi.m3u8
+#EXTINF:-1 tvg-id="bbcearth" tvg-name="BBC Earth" tvg-logo="https://freem3u.xyz/static/images/global/bbc-earth.png" group-title="Vietnam",BBC Earth
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c7ba46086dda345a929e29bf155e459c:d374b8f39904bf572689ea347ae86591
-https://live.kontoltv.my.id/play/bbcworldnews.mpd
-#EXTINF:-1 tvg-id="animal-planet" tvg-name="Animal-planet" tvg-logo="https://freem3u.xyz/static/images/global/animal-planet.png" group-title="Vietnam",Animal-planet
+#KODIPROP:inputstream.adaptive.license_key=5014941a2c42379880b5edf72304c165:f3fa0fe3cd39a52f4eefd36ff7161e89
+https://live.kontoltv.my.id/play/bbcearth.mpd
+#EXTINF:-1 tvg-id="dreamworks" tvg-name="Dreamworks" tvg-logo="https://freem3u.xyz/static/images/global/dreamworks.png" group-title="Vietnam",Dreamworks
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875
-https://live.kontoltv.my.id/play/animalplanet.mpd
+#KODIPROP:inputstream.adaptive.license_key=67dae20527c63dadaaae609aa91577cb:59328f621d56767bc5ff9404a8940683
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"WTKPYh1WdnvF/5QEqJQGgw","kid":"Z9riBSfGPa2qrmCaqRV3yw"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/dreamworks.mpd
+#EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://s7774.cdn.mytvnet.vn/vimages/6b/ba/a3/36/60/0a/6ba36-pwarnerhd-channel-unkn.png" group-title="Vietnam",Warner TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"NPGQjP4uBe4GAEbUDxSuyQ","kid":"CG0JpAv/OgCqbdTbr5wTsg"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/warnertv_3.mpd
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" tvg-logo="https://freem3u.xyz/static/images/global/bbc-lifestyle.png" group-title="Vietnam",BBC Lifestyle
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -67,52 +74,6 @@ https://live.kontoltv.my.id/play/bbclifestyle_2.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=714cc8ed05a03abb9ac61bd4bbd1d8a0:1acf58ff8d4cd87c2d3c12d22248efb1
 https://live.kontoltv.my.id/play/cnn.mpd
-#EXTINF:-1 tvg-id="cartoonito" tvg-name="Cartoonito" tvg-logo="https://freem3u.xyz/static/images/global/cartoonito.png" group-title="Vietnam",Cartoonito
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b1f0d759e914369db388b3b0dc815971:5678d317e17007a88a9b9539e4526512
-https://live.kontoltv.my.id/play/cartoonito.mpd
-#EXTINF:-1 tvg-id="dreamworks" tvg-name="Dreamworks" tvg-logo="https://freem3u.xyz/static/images/global/dreamworks.png" group-title="Vietnam",Dreamworks
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=67dae20527c63dadaaae609aa91577cb:59328f621d56767bc5ff9404a8940683
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"WTKPYh1WdnvF/5QEqJQGgw","kid":"Z9riBSfGPa2qrmCaqRV3yw"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/dreamworks.mpd
-#EXTINF:-1 tvg-id="cartoonnetwork" tvg-name="Cartoon Network" tvg-logo="https://freem3u.xyz/static/images/global/cartoon-network.png" group-title="Vietnam",Cartoon Network
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3c20166660a93a75ac77db81567389f7:3cc1add43aecce3fe31c9c6a2a5b8c21
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"PMGt1Drszj/jHJxqKluMIQ","kid":"PCAWZmCpOnWsd9uBVnOJ9w"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/cartoonnetwork.mpd
-#EXTINF:-1 tvg-id="cinemax" tvg-name="Cinemax" tvg-logo="https://freem3u.xyz/static/images/global/cinemax.png" group-title="Vietnam",Cinemax
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=acb4c23471063327adc732e283c0847f:e9868f5f473d0fd8699ede48d531c2b0
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"6YaPX0c9D9hpnt5I1THCsA","kid":"rLTCNHEGMyetxzLig8CEfw"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/cinemax.mpd
-#EXTINF:-1 tvg-id="cinemaworld" tvg-name="CinemaWorld" tvg-logo="https://freem3u.xyz/static/images/global/cinemaworld.png" group-title="Vietnam",CinemaWorld
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ee7915564d7439d09bd3556ffccc87a4:b35e12a75a42a6f9184723a90ff42d9c
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"s14Sp1pCpvkYRyOpD/QtnA","kid":"7nkVVk10OdCb01Vv/MyHpA"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/cinemaworld.mpd
-#EXTINF:-1 tvg-id="bloomberg" tvg-name="Bloomberg" tvg-logo="https://freem3u.xyz/static/images/global/bloomberg.png" group-title="Vietnam",Bloomberg
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1071393f8fc237f3a9a28028142110f7:7a0f8c3c72e0ffff811d534c929c57c2
-https://live.kontoltv.my.id/play/bloomberg.mpd
-#EXTINF:-1 tvg-id="tlc" tvg-name="Travel Living Channel" tvg-logo="https://freem3u.xyz/static/images/global/tlc.png" group-title="Vietnam",Travel Living Channel
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d
-https://live.kontoltv.my.id/play/travellivingchannel.mpd
 #EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="https://freem3u.xyz/static/images/global/hbo.png" group-title="Vietnam",HBO
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -120,12 +81,30 @@ https://live.kontoltv.my.id/play/travellivingchannel.mpd
 #KODIPROP:inputstream.adaptive.license_key=09ddfe3d63863cafaeb79d0546b098ab:3de0f38dcf014827dfd5bec38743c6a2
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"PeDzjc8BSCff1b7Dh0PGog","kid":"Cd3+PWOGPK+ut50FRrCYqw"}],"type":"temporary"}
 https://live.kontoltv.my.id/play/hbo.mpd
-#EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://s7774.cdn.mytvnet.vn/vimages/6b/ba/a3/36/60/0a/6ba36-pwarnerhd-channel-unkn.png" group-title="Vietnam",Warner TV
+#EXTINF:-1 tvg-id="discoveryasia" tvg-name="Discovery Asia" tvg-logo="https://freem3u.xyz/static/images/global/discovery-asia.png" group-title="Vietnam",Discovery Asia
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"NPGQjP4uBe4GAEbUDxSuyQ","kid":"CG0JpAv/OgCqbdTbr5wTsg"}],"type":"temporary"}
-https://live.kontoltv.my.id/play/warnertv_3.mpd
+#KODIPROP:inputstream.adaptive.license_key=934907b134be3963a6263a453846924c:788e2835fb98568aed2f47bbdc091515
+https://live.kontoltv.my.id/play/discoveryasia.mpd
+#EXTINF:-1 tvg-id="animal-planet" tvg-name="Animal-planet" tvg-logo="https://freem3u.xyz/static/images/global/animal-planet.png" group-title="Vietnam",Animal-planet
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875
+https://live.kontoltv.my.id/play/animalplanet.mpd
+#EXTINF:-1 tvg-id="cartoonito" tvg-name="Cartoonito" tvg-logo="https://freem3u.xyz/static/images/global/cartoonito.png" group-title="Vietnam",Cartoonito
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b1f0d759e914369db388b3b0dc815971:5678d317e17007a88a9b9539e4526512
+https://live.kontoltv.my.id/play/cartoonito.mpd
+#EXTINF:-1 tvg-id="bbcnews" tvg-name="BBC World News" tvg-logo="https://freem3u.xyz/static/images/global/bbc-news.png" group-title="Vietnam",BBC World News
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c7ba46086dda345a929e29bf155e459c:d374b8f39904bf572689ea347ae86591
+https://live.kontoltv.my.id/play/bbcworldnews.mpd
 #EXTINF:-1 tvg-id="dmax" tvg-name="Dmax" tvg-logo="https://freem3u.xyz/static/images/global/dmax.png" group-title="Vietnam",Dmax
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -133,36 +112,39 @@ https://live.kontoltv.my.id/play/warnertv_3.mpd
 #KODIPROP:inputstream.adaptive.license_key=53b26f904ae03a20b56477cfb9c5dca2:0c64ccfb978e7390bd33344075492aec
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"DGTM+5eOc5C9MzRAdUkq7A","kid":"U7JvkErgOiC1ZHfPucXcog"}],"type":"temporary"}
 https://live.kontoltv.my.id/play/dmax.mpd
-#EXTINF:-1 tvg-id="bbcearth" tvg-name="BBC Earth" tvg-logo="https://freem3u.xyz/static/images/global/bbc-earth.png" group-title="Vietnam",BBC Earth
+#EXTINF:-1 tvg-id="cinemax" tvg-name="Cinemax" tvg-logo="https://freem3u.xyz/static/images/global/cinemax.png" group-title="Vietnam",Cinemax
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5014941a2c42379880b5edf72304c165:f3fa0fe3cd39a52f4eefd36ff7161e89
-https://live.kontoltv.my.id/play/bbcearth.mpd
-#EXTINF:-1 tvg-id="axn" tvg-name="AXN" tvg-logo="https://freem3u.xyz/static/images/global/axn.png" group-title="Vietnam",AXN
+#KODIPROP:inputstream.adaptive.license_key=acb4c23471063327adc732e283c0847f:e9868f5f473d0fd8699ede48d531c2b0
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"6YaPX0c9D9hpnt5I1THCsA","kid":"rLTCNHEGMyetxzLig8CEfw"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/cinemax.mpd
+#EXTINF:-1 tvg-id="bloomberg" tvg-name="Bloomberg" tvg-logo="https://freem3u.xyz/static/images/global/bloomberg.png" group-title="Vietnam",Bloomberg
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9d29f87efdec3c9fab368f724a62ad0e:6f1c09c035eab36323d60d1454db3d20
-https://live.kontoltv.my.id/play/axn.mpd
+#KODIPROP:inputstream.adaptive.license_key=1071393f8fc237f3a9a28028142110f7:7a0f8c3c72e0ffff811d534c929c57c2
+https://live.kontoltv.my.id/play/bloomberg.mpd
+#EXTINF:-1 tvg-id="cartoonnetwork" tvg-name="Cartoon Network" tvg-logo="https://freem3u.xyz/static/images/global/cartoon-network.png" group-title="Vietnam",Cartoon Network
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3c20166660a93a75ac77db81567389f7:3cc1add43aecce3fe31c9c6a2a5b8c21
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"PMGt1Drszj/jHJxqKluMIQ","kid":"PCAWZmCpOnWsd9uBVnOJ9w"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/cartoonnetwork.mpd
 #EXTINF:-1 tvg-id="fashiontv" tvg-name="Fashion TV" tvg-logo="https://freem3u.xyz/static/images/global/fashiontv.png" group-title="Vietnam",Fashion TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c1d9f25701023508bfa6737e3a8c7001:30c3613e9b06e0f7cc201014f31bf5d8
 https://live.kontoltv.my.id/play/fashiontv.mpd
-#EXTINF:-1 tvg-id="discoveryasia" tvg-name="Discovery Asia" tvg-logo="https://freem3u.xyz/static/images/global/discovery-asia.png" group-title="Vietnam",Discovery Asia
+#EXTINF:-1 tvg-id="cinemaworld" tvg-name="CinemaWorld" tvg-logo="https://freem3u.xyz/static/images/global/cinemaworld.png" group-title="Vietnam",CinemaWorld
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=934907b134be3963a6263a453846924c:788e2835fb98568aed2f47bbdc091515
-https://live.kontoltv.my.id/play/discoveryasia.mpd
-#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery" tvg-logo="https://freem3u.xyz/static/images/global/discovery-channel.png" group-title="Vietnam",Discovery
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eb4160ea553a321d899553e4e796fec2:bea5a07157e0c4d17b11ab399517f952
-https://live.kontoltv.my.id/play/discovery.mpd
+#KODIPROP:inputstream.adaptive.license_key=ee7915564d7439d09bd3556ffccc87a4:b35e12a75a42a6f9184723a90ff42d9c
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"s14Sp1pCpvkYRyOpD/QtnA","kid":"7nkVVk10OdCb01Vv/MyHpA"}],"type":"temporary"}
+https://live.kontoltv.my.id/play/cinemaworld.mpd
 #EXTINF:-1 tvg-id="bbc-cbeebies" tvg-name="BBC Cbeebies" tvg-logo="https://freem3u.xyz/static/images/global/bbc-cbeebies.png" group-title="Vietnam",BBC Cbeebies
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -170,3 +152,21 @@ https://live.kontoltv.my.id/play/discovery.mpd
 #KODIPROP:inputstream.adaptive.license_key=cca73a006b4b39a595207ceb5ed9ca0a:b833d1f40c261ef78896f97e06f80cdc
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"uDPR9AwmHveIlvl+BvgM3A","kid":"zKc6AGtLOaWVIHzrXtnKCg"}],"type":"temporary"}
 https://live.kontoltv.my.id/play/bbccbeebies.mpd
+#EXTINF:-1 tvg-id="axn" tvg-name="AXN" tvg-logo="https://freem3u.xyz/static/images/global/axn.png" group-title="Vietnam",AXN
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9d29f87efdec3c9fab368f724a62ad0e:6f1c09c035eab36323d60d1454db3d20
+https://live.kontoltv.my.id/play/axn.mpd
+#EXTINF:-1 tvg-id="tlc" tvg-name="Travel Living Channel" tvg-logo="https://freem3u.xyz/static/images/global/tlc.png" group-title="Vietnam",Travel Living Channel
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d
+https://live.kontoltv.my.id/play/travellivingchannel.mpd
+#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery" tvg-logo="https://freem3u.xyz/static/images/global/discovery-channel.png" group-title="Vietnam",Discovery
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb4160ea553a321d899553e4e796fec2:bea5a07157e0c4d17b11ab399517f952
+https://live.kontoltv.my.id/play/discovery.mpd

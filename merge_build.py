@@ -31,6 +31,7 @@ SOURCES = [
     ("org-id",  "https://iptv-org.github.io/iptv/countries/id.m3u"),
     ("org-my",  "https://iptv-org.github.io/iptv/countries/my.m3u"),
     ("org-sg",  "https://iptv-org.github.io/iptv/countries/sg.m3u"),
+    ("sabu",    "https://sabutv.com/playlist.php", None),
     ("org-kids","https://iptv-org.github.io/iptv/categories/kids.m3u"),
     ("org-sport","https://iptv-org.github.io/iptv/categories/sports.m3u"),
 ]
@@ -85,6 +86,11 @@ CAT_ORDER = ["Indonesia", "Lokal", "Sports", "Kids", "Movies", "Music", "Radio",
              "Malaysia", "Singapore", "Korea", "Thailand",
              "International", "Lainnya"]
 RANK = {"hls": 0, "ts": 0, "audio": 1, "other": 2, "dash": 3}
+
+PREMIUM_RE = re.compile(
+    r"premium|hbo|cinemax|axn|warner|thrill|celestial|hits movies|star movies|"
+    r"rock action|kix|sony|zee|colors|mola|bioskop|imax|galaxy|dazn|bein|spotv|"
+    r"premier sports|fox sports|eurospot|fight sports|motogp|\bf1\b|nba|nfl", re.I)
 
 
 def categorise(group, name, tvgid=""):
@@ -154,6 +160,13 @@ def parse(text, src):
     for e in ents:
         e["cat"] = categorise(e["raw_group"], e["name"], e.get("tvgid", ""))
         e["key"] = norm_name(e["name"])
+        # 0 = channel Indonesia (naik ke paling atas di master), 1 = lainnya
+        rg = (e["raw_group"] or "").lower()
+        tid = (e.get("tvgid") or "").lower()
+        e["idp"] = 0 if (e["cat"] in ("Indonesia", "Lokal")
+                         or tid.endswith(".id") or tid.endswith(".id@sd")
+                         or ".id@" in tid
+                         or "indonesia" in rg or "nasional" in rg) else 1
     return ents
 
 
@@ -206,6 +219,7 @@ def publish():
     """Salin hasil merge ke tata letak repo yang dipakai player."""
     import shutil
     pairs = [("ALL.m3u", "ICNPLAY.m3u"),
+             ("PREMIUM.m3u", "PREMIUM.m3u"),
              ("FULL.m3u", "ICNPLAY_full.m3u"),
              ("kids.m3u", "kids.m3u"),
              ("DRM_Clearkey.m3u", "DRM_Clearkey.m3u")]
@@ -220,7 +234,7 @@ def publish():
     for f in sorted(os.listdir(OUT)):
         if not f.endswith(".m3u"):
             continue
-        if f in ("ALL.m3u", "FULL.m3u", "kids.m3u", "DRM_Clearkey.m3u") or f.startswith("_"):
+        if f in ("ALL.m3u", "FULL.m3u", "kids.m3u", "DRM_Clearkey.m3u", "PREMIUM.m3u") or f.startswith("_"):
             continue
         shutil.copyfile(os.path.join(OUT, f), os.path.join(catdir, f))
         n += 1
@@ -306,9 +320,11 @@ def main():
     final = list(best.values())
     print(f"[=] setelah dedupe nama: {len(final)} (buang {len(alive)-len(final)})")
 
-    final.sort(key=lambda e: (CAT_ORDER.index(e["cat"]) if e["cat"] in CAT_ORDER else 99,
+    final.sort(key=lambda e: (e.get("idp", 1),
+                              CAT_ORDER.index(e["cat"]) if e["cat"] in CAT_ORDER else 99,
                               RANK.get(e["kind"], 4), e["ms"]))
-    emit(os.path.join(OUT, "ALL.m3u"), final, "semua channel hidup")
+    n_id = sum(1 for e in final if e.get("idp") == 0)
+    emit(os.path.join(OUT, "ALL.m3u"), final, f"semua channel hidup ({n_id} Indonesia di atas)")
     # FULL = semua URL unik tanpa filter (arsip / pilih manual)
     full = sorted(uniq, key=lambda e: (CAT_ORDER.index(e["cat"]) if e["cat"] in CAT_ORDER else 99,
                                        e["name"].lower()))
@@ -322,6 +338,13 @@ def main():
         slug = re.sub(r"[^A-Za-z0-9]+", "_", cat).strip("_")
         emit(os.path.join(OUT, slug + ".m3u"), by[cat], cat)
 
+    # PREMIUM: channel premium yang benar-benar hidup. Yang DRM-nya 403
+    # (HBO/Cinemax/Transvision) tidak masuk — manifest-nya sendiri diblokir.
+    prem = [e for e in final
+            if PREMIUM_RE.search(e["name"]) or "premium" in (e["raw_group"] or "").lower()]
+    prem.sort(key=lambda e: (e.get("idp", 1), RANK.get(e["kind"], 4), e["ms"]))
+    emit(os.path.join(OUT, "PREMIUM.m3u"), prem, "channel premium yang hidup")
+
     kids = [e for e in final if e["cat"] == "Kids"]
     emit(os.path.join(OUT, "kids.m3u"), kids, "khusus anak")
     drm_ck.sort(key=lambda e: (RANK.get(e["kind"], 4), e["ms"]))
@@ -331,6 +354,8 @@ def main():
            "raw": len(allents), "unique_url": len(uniq), "alive": len(alive),
            "final": len(final), "drm_clearkey": len(drm_ck),
            "counts": report["counts"],
+           "indonesia_first": sum(1 for e in final if e.get("idp") == 0),
+           "premium": len(prem),
            "categories": {c: len(v) for c, v in by.items()},
            "kinds": dict(Counter(e["kind"] for e in final)),
            "by_source": dict(Counter(e["src"] for e in final))}
