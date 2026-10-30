@@ -58,18 +58,38 @@ def fetch_sources(cfg):
 
 
 def download_source(s, cfg):
+    """Download one source playlist. On failure, KEEP the previous copy on disk
+    instead of dropping a whole source just because a host hiccupped — a stale
+    playlist still serves thousands of working channels."""
     url  = s["path"].strip()
     ua   = (s.get("ua") or cfg.get("default_ua", "Mozilla/5.0")).strip()
     name = (s.get("name") or "src").replace("/", "_")
     dest = os.path.join(PL_DIR, f"{name}.m3u")
-    body, ct = http_get(url, ua)
-    n = body.count("#EXTINF")
-    with open(dest, "w") as f:
-        f.write(body)
-    s["_file"]   = os.path.relpath(dest, HERE)
-    s["_count"]  = n
-    s["_live"]   = ("#EXTM3U" in body or "#EXTINF" in body)
-    print(f"  {name:9} -> HTTP 200  {n:5d} ch   {s['_file']}")
+    try:
+        body, ct = http_get(url, ua)
+        if "#EXTM3U" not in body and "#EXTINF" not in body:
+            raise ValueError(f"bukan playlist (content-type={ct})")
+        with open(dest, "w") as f:
+            f.write(body)
+        n = body.count("#EXTINF")
+        s["_file"]  = os.path.relpath(dest, HERE)
+        s["_count"] = n
+        s["_live"]  = True
+        s["_stale"] = False
+        print(f"  {name:9} -> HTTP 200  {n:5d} ch   {s['_file']}")
+    except Exception as e:                                  # noqa: BLE001
+        # Fallback: reuse the last good copy already committed in the repo.
+        if os.path.exists(dest):
+            n = open(dest, errors="replace").read().count("#EXTINF")
+            s["_file"]  = os.path.relpath(dest, HERE)
+            s["_count"] = n
+            s["_live"]  = n > 0
+            s["_stale"] = True
+            print(f"  {name:9} -> GAGAL ({e}) — pakai salinan lama ({n} ch)")
+        else:
+            s["_live"]  = False
+            s["_stale"] = True
+            print(f"  {name:9} -> GAGAL ({e}) — tidak ada salinan lama")
 
 
 def build_master(cfg, srcs):
@@ -126,12 +146,17 @@ def build_master(cfg, srcs):
         f.write("\n".join(blocks) + "\n")
     print(f"[+] master playlist : {os.path.relpath(master, HERE)}  ({n_total} channels, flat, {n_orphan} orphan dropped)")
 
-    # Also write the root-level ICNPLAY.m3u — this is the file published on
-    # GitHub and the one players consume via raw.githubusercontent.com.
+    # Root-level files published on GitHub.
+    #   ICNPLAY.m3u      -> channels that passed the health check (players use this)
+    #   ICNPLAY_full.m3u -> every channel, unfiltered (fallback / manual pick)
     root_master = os.path.join(HERE, "ICNPLAY.m3u")
-    with open(root_master, "w") as f:
-        f.write("\n".join(blocks) + "\n")
+    root_full   = os.path.join(HERE, "ICNPLAY_full.m3u")
+    payload = "\n".join(blocks) + "\n"
+    for target in (root_master, root_full):
+        with open(target, "w") as f:
+            f.write(payload)
     print(f"[+] player playlist : {os.path.relpath(root_master, HERE)}  ({n_total} channels, flat)")
+    print(f"[+] full playlist   : {os.path.relpath(root_full, HERE)}  ({n_total} channels, unfiltered)")
 
 
 def _inject_group(extinf, grp):
@@ -188,20 +213,42 @@ def filter_blocks(blocks, drop_urls):
     return out, removed
 
 
-def apply_health_check(cfg, drop_dead=True):
-    """Probe ICNPLAY.m3u and rewrite it (+ MASTER) without DEAD channels."""
+def apply_health_check(cfg, drop_dead=True, workers=None, retries=None, max_drop_ratio=0.40):
+    """Probe ICNPLAY.m3u and rewrite it (+ MASTER) without DEAD channels.
+
+    Safety guard: if the probe wants to drop more than `max_drop_ratio` of all
+    channels, something is wrong on OUR side (CI network outage, DNS failure),
+    not the playlist. In that case nothing is dropped — a bad probe must never
+    wipe the published playlist.
+    """
     import health_check
     root = os.path.join(HERE, "ICNPLAY.m3u")
     if not os.path.exists(root):
         print("[!] health check skipped: ICNPLAY.m3u not found")
         return None
-    results, counts = health_check.run(root, os.path.join(HERE, "health.json"))
-    if not drop_dead:
+
+    kw = {}
+    if workers:
+        kw["workers"] = workers
+    if retries is not None:
+        kw["retries"] = retries
+    report = health_check.run(root, os.path.join(HERE, "health.json"), **kw)
+    counts = report["counts"]
+    total = report["total"] or 1
+    dead = health_check.classify(report)
+    n_dead = len(dead)
+
+    if not drop_dead or n_dead == 0:
+        print("[+] health check: nothing to drop")
         return counts
-    dead = health_check.classify(results)
-    if not dead:
-        print("[+] health check: no DEAD channels, nothing dropped")
+
+    ratio = n_dead / total
+    if ratio > max_drop_ratio:
+        print(f"[!] ABORT drop: {n_dead}/{total} ({ratio:.0%}) flagged DEAD — "
+              f"melebihi batas aman {max_drop_ratio:.0%}. Playlist dibiarkan utuh "
+              f"(kemungkinan gangguan jaringan saat probe).")
         return counts
+
     for target in (root, os.path.join(PL_DIR, "MASTER.m3u")):
         if not os.path.exists(target):
             continue
@@ -223,15 +270,19 @@ def build_manifest(cfg, srcs, probe):
         "sources": [
             {"name": s.get("name"), "path": s.get("path"), "ua": s.get("ua", ""),
              "channels": s.get("_count", 0), "live": s.get("_live", False),
+             "stale": s.get("_stale", False),
              "local_file": s.get("_file", "")}
             for s in srcs
         ],
         "total_channels": sum(s.get("_count", 0) for s in srcs),
+        "stale_sources": [s.get("name") for s in srcs if s.get("_stale")],
         "stream_probe": probe,
     }
     with open(os.path.join(HERE, "manifest.json"), "w") as f:
         json.dump(man, f, indent=2)
-    print(f"[+] manifest        : manifest.json")
+    stale = man["stale_sources"]
+    print(f"[+] manifest        : manifest.json"
+          + (f"  (STALE: {', '.join(stale)})" if stale else ""))
     return man
 
 
@@ -257,12 +308,17 @@ def verify_against_apk(apk_path, cfg):
 
 def main():
     ap = argparse.ArgumentParser(description="iCN Play playlist runner")
-    ap.add_argument("--no-probe", action="store_true")
+    ap.add_argument("--no-probe", action="store_true",
+                    help="skip the quick sample probe")
     ap.add_argument("--list-only", action="store_true")
     ap.add_argument("--check", action="store_true",
                     help="probe every channel, drop DEAD ones, write health.json")
     ap.add_argument("--check-only", action="store_true",
                     help="only run the health check on the existing ICNPLAY.m3u")
+    ap.add_argument("--workers", type=int, default=None,
+                    help="parallel probes for --check (default 32)")
+    ap.add_argument("--retries", type=int, default=None,
+                    help="extra attempts for FLAKY channels (default 2)")
     ap.add_argument("--apk", help="APK path to re-verify constants against")
     a = ap.parse_args()
 
@@ -270,8 +326,14 @@ def main():
     if a.apk:
         verify_against_apk(a.apk, cfg)
 
+    hckw = {}
+    if a.workers:
+        hckw["workers"] = a.workers
+    if a.retries is not None:
+        hckw["retries"] = a.retries
+
     if a.check_only:
-        counts = apply_health_check(cfg)
+        counts = apply_health_check(cfg, **hckw)
         print(f"[+] health counts: {counts}")
         return
 
@@ -283,11 +345,7 @@ def main():
         return
 
     for s in srcs:
-        try:
-            download_source(s, cfg)
-        except Exception as e:
-            s["_live"] = False
-            print(f"  {s.get('name'):9} -> FAIL {e}")
+        download_source(s, cfg)
 
     probe = None
     if not a.no_probe:
@@ -296,13 +354,15 @@ def main():
     build_master(cfg, srcs)
     if a.check:
         print("\n[*] running health check (drop DEAD only)...")
-        counts = apply_health_check(cfg)
+        counts = apply_health_check(cfg, **hckw)
         man["health"] = counts
         with open(os.path.join(HERE, "manifest.json"), "w") as f:
             json.dump(man, f, indent=2)
     print("\n=== READY ===")
-    print(f"Total channels: {man['total_channels']}")
-    print("Use playlist/MASTER.m3u in VLC / OTT Navigator / Tivimate.")
+    print(f"Total channels (unfiltered): {man['total_channels']}")
+    if man.get("stale_sources"):
+        print(f"Stale sources (pakai salinan lama): {', '.join(man['stale_sources'])}")
+    print("Player playlist: ICNPLAY.m3u (health-checked) + ICNPLAY_full.m3u")
 
 
 if __name__ == "__main__":

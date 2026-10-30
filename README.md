@@ -1,78 +1,86 @@
-# iCN Play — Playlist Runner + Master M3U (GitHub-ready)
+# iCN Play — Playlist Runner + Auto-Checked M3U (GitHub-ready)
 
-Repo portabel, **stdlib-only Python** (tanpa dependency). Re-derive endpoint
-dari obfuscation app `com.icnplay.id` (iCN Play v1.1 build 17), unduh 6 source
-M3U, susun **MASTER.m3u flat** (siap di-load Tivimate / IPTV-org / VLC / OTT Navigator).
+Repo portabel, **stdlib-only Python** (tanpa dependency). Re-derive endpoint dari
+obfuscation app `com.icnplay.id` (iCN Play v1.1 build 17), unduh semua source,
+susun **playlist flat** yang siap di-load Tivimate / IPTV-org / VLC / OTT Navigator,
+lalu **auto-check** tiap channel dan buang hanya yang benar-benar mati.
+
+## Link player (langsung pakai)
+```
+https://raw.githubusercontent.com/alwi25/Icnplay-runner/main/ICNPLAY.m3u
+```
+Cadangan bila raw kena cache CDN:
+```
+https://cdn.jsdelivr.net/gh/alwi25/Icnplay-runner@main/ICNPLAY.m3u
+```
+Playlist lengkap tanpa filter: `ICNPLAY_full.m3u`.
 
 ## Isi repo
 ```
-icnplay-runner/
 ├── icn_runner.py                 # pipeline utama
+├── health_check.py               # prober + klasifikasi channel
 ├── config.json                   # endpoint + kunci + UA + provenance decode
-├── requirements.txt              # (kosong — stdlib only)
-├── playlist/
-│   ├── MASTER.m3u                # ★ flat playable, 1520 stream, 70+ grup
-│   ├── LIVE-TV.m3u … RELAX.m3u   # 6 playlist mentah
-├── manifest.json                 # metadata hasil run
-└── .github/workflows/refresh-playlists.yml   # auto-refresh daily
+├── ICNPLAY.m3u                   # ★ playlist hasil health-check (dipakai player)
+├── ICNPLAY_full.m3u              # semua channel, tanpa filter (fallback)
+├── playlist/                     # copy per-source + MASTER.m3u
+├── manifest.json                 # metadata run (source, stale, health)
+├── health.json                   # laporan probe per channel + per grup
+└── .github/workflows/refresh-playlists.yml   # auto-refresh tiap 6 jam
 ```
 
-## Cara menjalankan (lokal / server)
+## Cara menjalankan
 ```bash
-python3 icn_runner.py            # fetch + download + build MASTER flat
-python3 icn_runner.py --check    # + auto-check stream, buang yang DEAD
-python3 icn_runner.py --check-only # cek ulang ICNPLAY.m3u yang ada saja
-python3 icn_runner.py --no-probe # tanpa probe cepat (lebih cepat)
-python3 icn_runner.py --list-only # hanya cetak daftar source hidup
+python3 icn_runner.py                    # fetch + build playlist (tanpa probe penuh)
+python3 icn_runner.py --check            # + auto-check, buang DEAD
+python3 icn_runner.py --check --workers 48 --retries 2
+python3 icn_runner.py --check-only       # cek ulang ICNPLAY.m3u yang ada
+python3 icn_runner.py --list-only        # cetak daftar source
 python3 health_check.py ICNPLAY.m3u --json health.json   # laporan saja
 ```
 
-## Auto-check stream (health_check.py)
-Probe tiap channel dengan header `#EXTVLCOPT` yang dipakai player, klasifikasi:
+## Auto-check stream
+Probe tiap channel **dengan header `#EXTVLCOPT` yang dipakai player** (UA +
+referrer), lalu validasi isi respons benar-benar manifest — bukan halaman HTML error.
 
 | Status | Arti | Aksi |
 |---|---|---|
-| `LIVE` / `LIVE?` | HTTP 200 + body manifest (m3u8/MPD/TS) | disimpan |
-| `DRM` | 401/403 **tapi** ada `license_key` clearkey | **disimpan** (player bisa putar) |
+| `LIVE` | 200 + manifest valid (HLS `#EXT-X-` / DASH `<MPD` / MPEG-TS `0x47`) | disimpan |
+| `LIVE?` | 200 tapi isi tidak bisa dipastikan | disimpan |
+| `DRM` | 401/403 **dan** ada `license_key` clearkey | **disimpan** — player putar pakai clearkey |
 | `AUTH` | 401/403 tanpa license | disimpan, ditandai |
-| `FLAKY` | reset/TLS/timeout | disimpan (host bisa pulih) |
-| `DEAD` | 404/410/DNS | **dibuang** |
+| `FLAKY` | reset/TLS/timeout (sudah di-retry 2x) | disimpan — host bisa pulih |
+| `DEAD` | 404/410/400/DNS | **dibuang** |
 
-Hanya `DEAD` yang dibuang — channel DRM tidak dipangkas hanya karena probe
-urllib kosong dapat 403 (player mengirim handshake clearkey dan tetap jalan).
-Laporan lengkap tersimpan di `health.json` (per channel + status).
+**Hanya `DEAD` yang dibuang.** Channel DRM kerap balas 403 ke probe urllib kosong
+tapi tetap jalan di player karena handshake clearkey — memangkasnya akan
+menghapus ratusan channel sehat.
 
-## Cara load di player (raw URL MASTER.m3u)
-Setelah repo di-push & **public**, raw URL-nya:
-```
-https://raw.githubusercontent.com/<USER>/<REPO>/main/playlist/MASTER.m3u
-```
+### Pengaman (supaya tidak pernah merusak playlist)
+1. **Batas aman 40%** — kalau probe menandai >40% channel mati, pemangkasan
+   **dibatalkan**. Itu tanda jaringan probe-nya yang bermasalah, bukan playlist.
+2. **Retry FLAKY** 2x dengan backoff, jadi timeout sesaat tidak dihitung mati.
+3. **Fallback source** — kalau satu host gagal diunduh, runner memakai salinan
+   terakhir yang sudah ada di repo (dicatat `stale: true` di `manifest.json`),
+   bukan membuang seluruh source.
+4. **CI verifikasi** lewat GitHub API (bukan raw URL yang kena cache CDN) dan
+   memastikan `EXTINF == jumlah URL`.
+
+## Cara load di player
 | Player | Cara pakai |
 |---|---|
-| **Tivimate / IPTV-org / OTT Navigator** | Add Playlist → ketik raw URL di atas |
-| **VLC** | Media → Open Network Stream → raw URL, set UA `iCNPL4Y` |
-| **Stalkware / KODI (inputstream)** | raw URL, channel pakai clearkey (lihat `#KODIPROP` di playlist) |
-| **Download lokal** | `curl -o MASTER.m3u <raw URL>` lalu import |
+| **Tivimate / IPTV-org / OTT Navigator** | Add Playlist → tempel URL `ICNPLAY.m3u` |
+| **VLC** | Media → Open Network Stream → URL tersebut |
+| **KODI / Stalkware (inputstream)** | URL yang sama; channel Vision+ pakai clearkey bawaan `#KODIPROP` |
+| **Lokal** | `curl -o ICNPLAY.m3u <url>` lalu import |
 
-> Catatan: stream Vision+ (CloudFront `.mpd`) butuh **clearkey** yang sudah
-> terbawa di `#KODIPROP:inputstream.adaptive.license_key` — player KODI/OTT
-> otomatis pakai; player yang cuma HLS polos mungkin tidak bisa decode.
+> Stream Vision+ (CloudFront `.mpd`) butuh **clearkey** yang sudah terbawa di
+> `#KODIPROP:inputstream.adaptive.license_key` — KODI/OTT otomatis pakai;
+> player HLS polos mungkin tidak bisa decode.
 
-## Langkah upload ke GitHub
-```bash
-cd icnplay-runner
-git init
-git add .
-git commit -m "iCN Play playlist runner + flat MASTER"
-git branch -M main
-git remote add origin https://github.com/<USER>/<REPO>.git
-git push -u origin main
-```
-Repo **public** → raw URL MASTER.m3u bisa langsung di-load semua player.
-
-## Otomatis
-`.github/workflows/refresh-playlists.yml` men-commit ulang playlist + manifest
-tiap hari (04:15 UTC) + selasa/jumat siang, jadi raw URL selalu fresh.
+## Jadwal
+Workflow jalan tiap **6 jam** (`20 */6 * * *`), bisa manual dari tab Actions.
+Setiap run: refresh → health-check → commit `ICNPLAY.m3u`, `ICNPLAY_full.m3u`,
+`health.json`, `manifest.json`.
 
 ## Provenance / rahasia (untuk audit)
 | Item | Nilai |
@@ -81,10 +89,10 @@ tiap hari (04:15 UTC) + selasa/jumat siang, jadi raw URL selalu fresh.
 | XOR key | `1CNPL4Y_CNL86` (bytes di `config.json.decoded_from`) |
 | Endpoint | `https://my.idetimur.id/icnplay` |
 | App UA | `iCNPL4Y` |
-| Kunci | `Panca86` (di redirect `?kunci=`) |
+| Kunci | `Panca86` (muncul di redirect `?kunci=`) |
 | Verifikasi ulang dari APK | `python3 icn_runner.py --apk /path/icnplay.apk` |
 
 ## Keandalan
-Channel count & status di atas hasil tool nyata (HTTP 200 + hitung `#EXTINF`).
-Stream individu flapping normal untuk agregator — playlist hidup ≠ semua channel
-nyala di jam yang sama.
+Semua angka (jumlah channel, status, health) berasal dari request nyata.
+Stream agregator memang flapping: playlist hidup ≠ semua channel nyala di jam
+yang sama. `health.json` menyimpan hasil per-channel supaya bisa diaudit.

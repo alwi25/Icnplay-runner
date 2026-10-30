@@ -9,20 +9,20 @@ on:
       - "config.json"
       - "health_check.py"
   schedule:
-    - cron: "15 4 * * *"          # daily at 04:15 UTC
-    - cron: "0 10 * * 1,4"        # extra: Tue & Fri midday
+    # Every 6 hours. GitHub may delay scheduled runs under platform load.
+    - cron: "20 */6 * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: refresh-playlists
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,45 +31,61 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Fetch all 6 sources, rebuild the flat master, then auto-check every
-      # channel and drop ONLY the hard-dead ones (404/DNS/timeout).
-      # DRM/AUTH/FLAKY channels are kept: the player sends the clearkey
-      # handshake and plays them fine, so dropping them on a bare probe
-      # would destroy working channels.
+      # Fetch all sources (falls back to the committed copy when a host is
+      # down), rebuild the flat playlists, then probe every channel and drop
+      # ONLY the hard-dead ones (404/410/DNS). DRM/AUTH/FLAKY are kept on
+      # purpose: the player performs the clearkey handshake, so a bare 403
+      # from urllib must never delete a working channel.
       - name: Refresh + auto-check streams
-        run: python3 icn_runner.py --check
+        run: python3 icn_runner.py --check --workers 48 --retries 2
 
-      - name: Show health summary
+      - name: Health summary
         if: always()
         run: |
-          if [ -f health.json ]; then
-            python3 - <<'PY'
-          import json
+          python3 - <<'PY'
+          import json, os
+          if not os.path.exists("health.json"):
+              print("health.json tidak ada (runner gagal sebelum probe)")
+              raise SystemExit(0)
           d = json.load(open("health.json"))
-          print("total:", d.get("total"))
+          print(f"total : {d['total']}")
+          print(f"kept  : {d['kept']}")
           for k, v in sorted(d.get("counts", {}).items(), key=lambda x: -x[1]):
               print(f"  {k:7} {v}")
+          print("\ngrup terbesar:")
+          for name, s in sorted(d.get("groups", {}).items(),
+                                key=lambda kv: -kv[1]["total"])[:10]:
+              print(f"  {name[:38]:40} {s['live']:4}/{s['total']:<4} live")
           PY
-          fi
 
-      - name: Commit updated playlists + manifest + health
+      - name: Commit playlists + manifest + health
         run: |
           git config user.name  "gh-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # IMPORTANT: ICNPLAY.m3u (root) is the file players load via raw URL.
-          # health.json records the probe result so the drop is auditable.
-          git add playlist/ manifest.json ICNPLAY.m3u health.json
+          # ICNPLAY.m3u      = health-checked playlist used by players
+          # ICNPLAY_full.m3u = unfiltered fallback (every channel)
+          git add playlist/ manifest.json health.json ICNPLAY.m3u ICNPLAY_full.m3u
           if git diff --cached --quiet; then
             echo "No changes, nothing to commit."
           else
-            git commit -m "auto: refresh + health check $(date -u +%Y-%m-%d)"
+            git commit -m "auto: refresh + health $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
 
-      - name: Verify published playlist is reachable
+      - name: Verify published playlist (API, not CDN cache)
         run: |
-          sleep 8
-          curl -sS -m 30 -o /tmp/icn.m3u -w "HTTP %{http_code}\n" \
-            "https://raw.githubusercontent.com/alwi25/Icnplay-runner/main/ICNPLAY.m3u"
-          echo "EXTINF count: $(grep -c '#EXTINF' /tmp/icn.m3u)"
-          echo "stream urls : $(grep -c '^http' /tmp/icn.m3u)"
+          for i in 1 2 3 4 5; do
+            sleep 6
+            code=$(curl -sS -m 30 -H "Accept: application/vnd.github.raw" \
+              -o /tmp/icn.m3u -w "%{http_code}" \
+              "https://api.github.com/repos/${{ github.repository }}/contents/ICNPLAY.m3u?ref=main")
+            ext=$(grep -c '#EXTINF' /tmp/icn.m3u 2>/dev/null || echo 0)
+            url=$(grep -c '^http' /tmp/icn.m3u 2>/dev/null || echo 0)
+            echo "percobaan $i: HTTP $code | EXTINF=$ext | urls=$url"
+            if [ "$code" = "200" ] && [ "$ext" -gt 0 ] && [ "$ext" = "$url" ]; then
+              echo "OK: playlist valid (EXTINF == URL)"
+              exit 0
+            fi
+          done
+          echo "GAGAL: playlist tidak valid setelah 5 percobaan"
+          exit 1
