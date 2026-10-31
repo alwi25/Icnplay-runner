@@ -9,6 +9,9 @@ https://afbtv.siar.us/live/afbtv.m3u8
 https://vidio123.mikrofast.web.id/vidio/7464/index.mpd
 #EXTINF:-1 tvg-id="AjwaTV.id@SD" tvg-name="Ajwa TV (1080p)" tvg-logo="https://i.imgur.com/JXjbUhB.png" group-title="Indonesia",Ajwa TV (1080p)
 http://ikitv.sqn.at:8000/play/a00j/index.m3u8
+#EXTINF:-1 tvg-id="AKTV.id@SD" tvg-name="AKTV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/DUY5WXf.png" group-title="Indonesia",AKTV (1080p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://aktvuhfdigital.tv/Livestream/aktv
+https://akativi.siar.us/live/akativi.m3u8
 #EXTINF:-1 tvg-name="Al-Bahjah TV (1080p)" tvg-logo="https://buyayahya.org/wp-content/uploads/2018/01/AL-BAHJAH-TV-OK-3-1024x1024.png" group-title="Indonesia",Al-Bahjah TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36
 http://202.150.161.117:8000/play/AlBahjahTV
@@ -49,6 +52,8 @@ https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=782
 https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AwesomeTV.my@SD" tvg-name="Awesome TV [Geo-blocked]" tvg-logo="https://i.imgur.com/x90U1Bf.png" group-title="Indonesia",Awesome TV [Geo-blocked]
 https://488b9e074624.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.533267421985.channel.B7bB1wHJRCnw.m3u8
+#EXTINF:-1 tvg-id="BatamTV.id@SD" tvg-name="Batam TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Indonesia",Batam TV (480p) [Not 24/7]
+http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Berita Satu" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/86edd2be-b5c2-4c9b-8ac9-1a6ee5c3b94e.png" group-title="Indonesia",Berita Satu
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -282,6 +287,9 @@ https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32
 https://op-flashcon-digdayahd-1.dens.tv/s/s123/S4/mnf.m3u8
 #EXTINF:-1 tvg-name="Jawa Pos TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/3/3b/Logo_Jawapos_TV.png/150px-Logo_Jawapos_TV.png" group-title="Indonesia",Jawa Pos TV
 https://cdnbal1.indihometv.com/atm/DASH/jawapos/jawapos-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-id="JekTV.id@SD" tvg-name="Jek TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/wh75d1f.png" group-title="Indonesia",Jek TV (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=http://jektv.co.id/livestreaming/
+http://27.124.81.245:1935/jektv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JITV" tvg-logo="https://beetv.my.id/logo/jitv.png" group-title="Indonesia",JITV
 #EXTVLCOPT:http-user-agent=Oxygen TV/5.9.240610 (Linux;Android 10) ExoPlayerLib/2.18.1
 http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
@@ -477,6 +485,8 @@ http://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&amp;jmnuser
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
+#EXTINF:-1 tvg-id="SampitTV.id@SD" tvg-name="Sampit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/8cFJa8G.png" group-title="Indonesia",Sampit TV (720p) [Not 24/7]
+https://sampit-tv.siar.us/live/sampit-tv.m3u8
 #EXTINF:-1 tvg-name="SCTV" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/d9cafe05-1183-4b33-a315-51a1fb42b2bc.png" group-title="Indonesia",SCTV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -618,23 +628,15 @@ https://ott-balancer.tvri.go.id/live/eds/Riau/hls/Riau.m3u8
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #EXTINF:-1 tvg-name="UGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/UGTV_Indonesia.png" group-title="Indonesia",UGTV
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv_high.m3u8
-#EXTINF:-1 tvg-name="19:30 WIB Stoke City vs Preston North End" tvg-logo="https://shorter.me/UXCX0" group-title="Lokal",19:30 WIB Stoke City vs Preston North End
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 tvg-name="22:00 WIB Coventry City vs Sunderland" tvg-logo="https://iili.io/FtSr5Mb.jpg" group-title="Lokal",22:00 WIB Coventry City vs Sunderland
+https://www.rtmpcdn.com/live/aec8dc57-0ff6-4027-9c6f-c982e5970a59.m3u8
+#EXTINF:-1 tvg-name="22:00 WIB Hull City vs Ipswich Town" tvg-logo="https://iili.io/FtSr5Mb.jpg" group-title="Lokal",22:00 WIB Hull City vs Ipswich Town
+https://www.rtmpcdn.com/live/6576aa15-9785-471a-925a-fce1dee8e20a.m3u8
+#EXTINF:-1 tvg-name="22:00 WIB Manchester City vs Brighton & Hove Albion" tvg-logo="https://iili.io/FtSr5Mb.jpg" group-title="Lokal",22:00 WIB Manchester City vs Brighton & Hove Albion
+https://www.rtmpcdn.com/live/31a40533-90c4-4912-8e9d-24579f4c24ae.m3u8
 #EXTINF:-1 tvg-name="Ahsan TV" tvg-logo="https://i.imgur.com/dZdUbYd.png" group-title="Lokal",Ahsan TV
 #EXTVLCOPT:http-user-agent=android-R+
 https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8
-#EXTINF:-1 tvg-name="AKTV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/DUY5WXf.png" group-title="Lokal",AKTV (1080p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://aktvuhfdigital.tv/Livestream/aktv
-https://akativi.siar.us/live/akativi.m3u8
-#EXTINF:-1 tvg-name="Al-Iman TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png" group-title="Lokal",Al-Iman TV (720p)
-#EXTVLCOPT:http-user-agent=android-R+
-https://tv.aliman.id/aliman/live.m3u8
 #EXTINF:-1 tvg-name="Alwafa Tarim TV (Am Media) (720p)" group-title="Lokal",Alwafa Tarim TV (Am Media) (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://ammedia.siar.us/ammedia/live/playlist.m3u8
@@ -660,9 +662,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f16b53f0d5ed459da208c459049c9bb0/in
 https://banjartv.siar.us/banjartv/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Banten TV" tvg-logo="https://iili.io/JbtnwkQ.png" group-title="Lokal",Banten TV
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
-#EXTINF:-1 tvg-name="Batam TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Lokal",Batam TV (480p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="BETV" tvg-logo="https://iili.io/Jbtn43J.png" group-title="Lokal",BETV
 #EXTVLCOPT:http-user-agent=YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3
 https://flv.intechmedia.net/live/ch58.m3u8
@@ -746,9 +745,6 @@ http://op-group2-swiftservesd-1.dens.tv/s/s12/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h228/index.m3u8?app_type=web&userid=lite&chname=Elshinta_TV
-#EXTINF:-1 tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Lokal",Fajar TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Ficom Channel (720p)" tvg-logo="https://i.imgur.com/KMEf0Cc.png" group-title="Lokal",Ficom Channel (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://v3.siar.us/ficomchannel/live/playlist.m3u8
@@ -761,10 +757,6 @@ https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0de1f882d278465abdba73a8b4cb2bda:7061f5e1115d6ef504726c3faa8bf146
 https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
-#EXTINF:-1 tvg-name="I Am Channel (576p)" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Lokal",I Am Channel (576p)
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://iamchannel.org/
-https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
 #EXTINF:-1 tvg-name="Jak tv" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501805_tvchannels_v1.jpg" group-title="Lokal",Jak tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -784,10 +776,6 @@ https://jawapostv.siar.us/jawapostv/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Jaya TV" tvg-logo="https://iili.io/Jbto9af.png" group-title="Lokal",Jaya TV
 #EXTVLCOPT:http-user-agent=YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3
 https://flv.intechmedia.net/live/ch52.m3u8
-#EXTINF:-1 tvg-name="Jek TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/wh75d1f.png" group-title="Lokal",Jek TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=http://jektv.co.id/livestreaming/
-http://27.124.81.245:1935/jektv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="JITV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpHeeejMBNPU0qFoo-J9Vg8IaaceROkNndrg&s" group-title="Lokal",JITV
 https://mam.jogjaprov.go.id:1937/tv/jitv/chunklist_w163357330.m3u8
 #EXTINF:-1 tvg-name="JITV Jogja" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpHeeejMBNPU0qFoo-J9Vg8IaaceROkNndrg&s" group-title="Lokal",JITV Jogja
@@ -917,9 +905,6 @@ https://live.salira.tv/p/3870/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="Salira TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 https://live.salira.tv:3870/stream/play.m3u8
-#EXTINF:-1 tvg-name="Sampit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/8cFJa8G.png" group-title="Lokal",Sampit TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
-https://sampit-tv.siar.us/live/sampit-tv.m3u8
 #EXTINF:-1 tvg-name="Sangaji TV (720p)" tvg-logo="https://i.imgur.com/4rTNT8F.png" group-title="Lokal",Sangaji TV (720p)
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://sangajitv.co.id/
@@ -936,8 +921,7 @@ http://122.248.43.242:1935/SIMPANG5TV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="SMTV.id@SD" tvg-name="SMTV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal",SMTV (720p)
 #EXTVLCOPT:http-referrer=https://smtv.digital/
 https://e.siar.us/live/smtv.m3u8
-#EXTINF:-1 tvg-name="Sriwijaya TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya TV (720p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=android-R+
+#EXTINF:-1 tvg-id="SriwijayaTV.id@SD" tvg-name="Sriwijaya TV (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya TV (720p) [Not 24/7]
 #EXTVLCOPT:http-referrer=sriwijayatv.tv
 https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 tvg-name="Stara TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara TV (720p)
@@ -1074,9 +1058,9 @@ https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
 #EXTVLCOPT:http-referrer=https://usmtv.id/live-tv/
 https://play.fsa-stream.my.id/hls/siaran.m3u8
 #EXTINF:-1 tvg-name="19:00 WIB HYLO Open 2026 HYLO Open 2026" tvg-logo="https://shorter.me/oFx-D" group-title="Sports",19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel60.m3u8
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel68.m3u8
 #EXTINF:-1 tvg-name="19:00 WIB HYLO Open 2026 HYLO Open 2026" tvg-logo="https://shorter.me/oFx-D" group-title="Sports",19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel61.m3u8
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel69.m3u8
 #EXTINF:-1 tvg-name="19:00 WIB HYLO Open 2026 HYLO Open 2026" tvg-logo="https://shorter.me/oFx-D" group-title="Sports",19:00 WIB HYLO Open 2026 HYLO Open 2026
 https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel62.m3u8
 #EXTINF:-1 tvg-name="2DF" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-EdNL0HK4h1CkQi4LP2EodHM_-DTKYlsxbetpSsI1Q&s=10" group-title="Sports",2DF
@@ -2614,6 +2598,11 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991341/hls/master.m3u8?includeAsset
 #EXTINF:-1 tvg-name="TNT SPORTS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFLukYBSLHmGfu6GoC68z95_NM9Rnte7bGHEhXfiaqleltngR-hpWh47uv&s=10" group-title="Sports",TNT SPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
 http://168.196.127.137:6001/play/a05t/index.m3u8
+#EXTINF:-1 tvg-id="TNT 1" tvg-name="TNT SPORTS 1" tvg-logo="https://i.ibb.co.com/7dNPfNGB/Tntsports1.png" group-title="Sports",TNT SPORTS 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
 #EXTINF:-1 tvg-id="TNT 1" tvg-name="TNT SPORTS 1" tvg-logo="https://i.ibb.co.com/7dNPfNGB/Tntsports1.png" group-title="Sports",TNT SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4465,6 +4454,8 @@ https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/49.mp3
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/104.mp3
 #EXTINF:-1 tvg-name="AL-IKHLAS" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-IKHLAS
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/112.mp3
+#EXTINF:-1 tvg-id="AlImanTV.id@SD" tvg-name="Al-Iman TV (Indonesia) (720p)" tvg-logo="https://i.imgur.com/Qj1EFf1.png" group-title="Muslim",Al-Iman TV (Indonesia) (720p)
+https://tv.aliman.id/aliman/live.m3u8
 #EXTINF:-1 tvg-name="AL-IMRAN" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-IMRAN
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/3.mp3
 #EXTINF:-1 tvg-name="AL-INFITAR" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",AL-INFITAR
@@ -4604,6 +4595,8 @@ https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/ra
 #EXTINF:-1 tvg-name="DUA SAUDARA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSys42bn-broK54h806GyvnJENEO0K5bHXikXCSubxi2w&s=10" group-title="Muslim",DUA SAUDARA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCYDSbtuzcNpO7Scca1Du4UQ
+#EXTINF:-1 tvg-id="FajarTV.id@SD" tvg-name="Fajar TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/mkuXxRK.png" group-title="Muslim",Fajar TV (720p) [Not 24/7]
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="FATIMAH SHOLAWAT" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU4YfmSS0tzKpILbwNjH_yHBly5yzGugjAUWltYpYpPrYZzzGp8HEiAfZXL4d_Vx7SU4EcXK86Gm0CC9u_GQ-rkiUmMdjTS-bQARctN3Y7olqFWoi-9VdBOuX1KTauoMbSZV6IWGf-YxdZldmiOH7xu4LtGWYtpfQvwyxJ8CmV_7xRASEqhwMcQa32ZywR/s700/FATIMAH%20SHOLAWAT.png" group-title="Muslim",FATIMAH SHOLAWAT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCNBC6thzP9nlQjYPDBGTmQw
@@ -4618,6 +4611,9 @@ https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/40.mp3
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UC_KYVOU2lpXpuSsQ5JI6xvg
 #EXTINF:-1 tvg-name="HUD" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",HUD
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/11.mp3
+#EXTINF:-1 tvg-id="IAmChannel.id@SD" tvg-name="I Am Channel (576p)" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Muslim",I Am Channel (576p)
+#EXTVLCOPT:http-referrer=https://iamchannel.org/
+https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
 #EXTINF:-1 tvg-name="IBRAHIM" tvg-logo="https://freesvg.org/img/1617121917logo%20quran%20islamic.png" group-title="Muslim",IBRAHIM
 https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/14.mp3
 #EXTINF:-1 tvg-name="JOM NGAJI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sooka_Jom_Ngaji.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Muslim",JOM NGAJI
@@ -5535,6 +5531,9 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 #EXTINF:-1 tvg-id="RTMParlimenDewanRakyat.my@SD" tvg-name="RTM Parlimen Dewan Rakyat [Geo-blocked]" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Malaysia",RTM Parlimen Dewan Rakyat [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
+#EXTINF:-1 tvg-name="SG OKEY my2" tvg-logo="https://rtm.glueapi.io/v3/content/3/image/960x540/images.title" group-title="Malaysia",SG OKEY my2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+http://iptv12k.com:35461/m260807923420398/111111/13616
 #EXTINF:-1 tvg-name="SNAP" tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/SNAP_CHANNEL.jpg" group-title="Malaysia",SNAP
 https://d1sq2slp9afh7o.cloudfront.net/smil:snap/chunklist_b2596000_slENG.m3u8
 #EXTINF:-1 tvg-name="SUKAN RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",SUKAN RTM
@@ -5819,38 +5818,28 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8?app_type=web&userid=li
 https://op-flashcon-digdayaxenkoda.dens.tv/4797e82c-d14e-453e-b8d6-3e2427ad09a9/stream.m3u8?app_type=web&userid=lite&chname=WION
 #EXTINF:-1 tvg-name="001 TRAKTIR KOPI" tvg-logo="https://iili.io/KxLFPLJ.md.png" group-title="Lainnya",001 TRAKTIR KOPI
 https://drive.google.com/uc?export=download&id=1GXT2ntc4zPZPQtiotFTTvhkwrdHVrQMy&usp
-#EXTINF:-1 tvg-id="LIVE" tvg-name="085333640016" tvg-logo="https://i.postimg.cc/XNKPdJJf/images.jpg" group-title="Lainnya",085333640016
-#KODIPROP:inputstream.adaptive.license_type=widevine
-#KODIPROP:inputstream.adaptive.license_key=https://ptv2026.com/wvmax?editId=8e59605c-9093-4b0f-a379-161a08d53705
-https://ptv2026.com/get_max.mpd?username=vip_3klp0es8&password=wg3piwEs&editId=8e59605c-9093-4b0f-a379-161a08d53705&sub=t2
-#EXTINF:-1 tvg-name="15:30 WIB Arema vs Bali United" tvg-logo="https://shorter.me/_bDcr" group-title="Lainnya",15:30 WIB Arema vs Bali United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel7.m3u8
-#EXTINF:-1 tvg-name="15:30 WIB Persik Kediri vs Persita" tvg-logo="https://shorter.me/_bDcr" group-title="Lainnya",15:30 WIB Persik Kediri vs Persita
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel10.m3u8
-#EXTINF:-1 tvg-name="15:30 WIB PSM vs Madura United" tvg-logo="https://shorter.me/_bDcr" group-title="Lainnya",15:30 WIB PSM vs Madura United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel20.m3u8
-#EXTINF:-1 tvg-name="19:00 WIB Dewa United vs Persija" tvg-logo="https://shorter.me/_bDcr" group-title="Lainnya",19:00 WIB Dewa United vs Persija
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel7.flv
-#EXTINF:-1 tvg-name="19:30 WIB Chelsea vs Manchester United" tvg-logo="https://iili.io/FtSr5Mb.jpg" group-title="Lainnya",19:30 WIB Chelsea vs Manchester United
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-name="20:00 WIB Levante vs Atlético Madrid" tvg-logo="https://iili.io/FtSMHX9.jpg" group-title="Lainnya",20:00 WIB Levante vs Atlético Madrid
+#EXTINF:-1 tvg-name="00:00 WIB Udinese vs Roma" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s" group-title="Lainnya",00:00 WIB Udinese vs Roma
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+#EXTINF:-1 tvg-name="00:30 WIB Real Betis vs Málaga" tvg-logo="https://iili.io/FtSMHX9.jpg" group-title="Lainnya",00:30 WIB Real Betis vs Málaga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
+#EXTINF:-1 tvg-name="03:00 WIB Barcelona vs Deportivo Alavés" tvg-logo="https://iili.io/FtSMHX9.jpg" group-title="Lainnya",03:00 WIB Barcelona vs Deportivo Alavés
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 tvg-id="LIVE" tvg-name="085333640016" tvg-logo="https://i.postimg.cc/XNKPdJJf/images.jpg" group-title="Lainnya",085333640016
+#KODIPROP:inputstream.adaptive.license_type=widevine
+#KODIPROP:inputstream.adaptive.license_key=https://ptv2026.com/wvmax?editId=8e59605c-9093-4b0f-a379-161a08d53705
+https://ptv2026.com/get_max.mpd?username=vip_3klp0es8&password=wg3piwEs&editId=8e59605c-9093-4b0f-a379-161a08d53705&sub=t2
 #EXTINF:-1 tvg-name="21:00 WIB Bologna vs Monza" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s" group-title="Lainnya",21:00 WIB Bologna vs Monza
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
@@ -5859,10 +5848,10 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
-#EXTINF:-1 tvg-name="21:30 WIB Bayer Leverkusen vs Stuttgart" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg" group-title="Lainnya",21:30 WIB Bayer Leverkusen vs Stuttgart
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
+#EXTINF:-1 tvg-name="22:00 WIB AFC Bournemouth vs Leeds United" tvg-logo="https://iili.io/FtSr5Mb.jpg" group-title="Lainnya",22:00 WIB AFC Bournemouth vs Leeds United
+https://www.rtmpcdn.com/live/926e38d6-2c1f-415b-866c-34ae2d587f35.m3u8
+#EXTINF:-1 tvg-name="22:00 WIB Brentford vs Nottingham Forest" tvg-logo="https://iili.io/FtSr5Mb.jpg" group-title="Lainnya",22:00 WIB Brentford vs Nottingham Forest
+https://www.rtmpcdn.com/live/41dea22f-ac04-49b5-91f4-880b98e3c5c2.m3u8
 #EXTINF:-1 tvg-name="22:15 WIB Rayo Vallecano vs Celta de Vigo" tvg-logo="https://iili.io/FtSMHX9.jpg" group-title="Lainnya",22:15 WIB Rayo Vallecano vs Celta de Vigo
 #EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
@@ -5987,18 +5976,6 @@ https://cdnbal1.indihometv.com/atm/DASH/hbosignature/hbosignature-avc1_2500000=7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
 https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd
-#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-19.m3u8?auth_key=3000001793362124-0-0-3b34871ccb0afce9e8df2df4ede3a071
-#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE 2" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://tg0k0gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel9/playlist.m3u8?wsSecret=61645bf05c4088d9bf5f6300a3a53e6a&wsABSTime=1793405451&wsSession=c8833e2307ac85f5b909cadb-179336225339701&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1177046549500337104
-#EXTINF:-1 tvg-id="LIVE" tvg-name="LIVE 3" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="Lainnya",LIVE 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://tg0k6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=9f04b5d35398251963ed4b538cf32d5d&wsABSTime=1793405530&wsSession=74c849d2acc2a7faf8c8f8c5-179336237761610&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=19560480166232750
 #EXTINF:-1 tvg-id="SkySportsGPIT" tvg-name="Live Event #1" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="Lainnya",Live Event #1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dlhd.iclik.workers.dev/?channel=TSN1&play=1

@@ -20,45 +20,33 @@ https://drive.google.com/uc?export=download&id=1GXT2ntc4zPZPQtiotFTTvhkwrdHVrQMy
 #https://drive.google.com/uc?export=download&id=14oMEit0QyJY5u5bGXRz9nMeFmcpnPlP-&usp
 <================>
 <=================== EVENT 1 =============================>
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/_bDcr", 15:30 WIB Persik Kediri vs Persita
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel10.m3u8
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/_bDcr", 15:30 WIB PSM vs Madura United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel20.m3u8
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/_bDcr", 15:30 WIB Arema vs Bali United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel7.m3u8
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/_bDcr", 19:00 WIB Dewa United vs Persija
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel7.flv
 <================================================>
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg", 19:30 WIB Chelsea vs Manchester United
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg", 22:00 WIB Coventry City vs Sunderland
+https://www.rtmpcdn.com/live/aec8dc57-0ff6-4027-9c6f-c982e5970a59.m3u8
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg", 22:00 WIB Brentford vs Nottingham Forest
+https://www.rtmpcdn.com/live/41dea22f-ac04-49b5-91f4-880b98e3c5c2.m3u8
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg", 22:00 WIB Hull City vs Ipswich Town
+https://www.rtmpcdn.com/live/6576aa15-9785-471a-925a-fce1dee8e20a.m3u8
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg", 22:00 WIB Manchester City vs Brighton & Hove Albion
+https://www.rtmpcdn.com/live/31a40533-90c4-4912-8e9d-24579f4c24ae.m3u8
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg", 22:00 WIB AFC Bournemouth vs Leeds United
+https://www.rtmpcdn.com/live/926e38d6-2c1f-415b-866c-34ae2d587f35.m3u8
 <================>
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg", 20:00 WIB Levante vs Atlético Madrid
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg", 22:15 WIB Rayo Vallecano vs Celta de Vigo
 #EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg", 00:30 WIB Real Betis vs Málaga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg", 03:00 WIB Barcelona vs Deportivo Alavés
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 <================>
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s", 21:00 WIB Bologna vs Monza
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -68,12 +56,28 @@ https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s", 00:00 WIB Udinese vs Roma
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s", 02:45 WIB Milan vs Internazionale
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 <================>
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg", 21:30 WIB Bayer Leverkusen vs Stuttgart
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg", 21:30 WIB Schalke 04 vs RB Leipzig
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg", 00:30 WIB Bayern München vs Borussia Dortmund
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 <================>
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/87PxH", 22:30 WIB Feyenoord vs Fortuna Sittard
 #KODIPROP:inputstream=inputstream.adaptive
@@ -81,14 +85,13 @@ https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
-<================>
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/UXCX0", 19:30 WIB Stoke City vs Preston North End
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://shorter.me/87PxH", 03:00 WIB Ajax vs AZ
+#KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+<================>
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/UXCX0", 22:00 WIB Millwall vs Derby County
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -2129,14 +2132,13 @@ https://bintangstreaming.my.id/1sultan1/dailymotion.php/.m3u8?id=x8en87f
 <=================== Badminton =============================>
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/oFx-D", 14:30 WIB HYLO Open 2026 HYLO Open 2026
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D", 19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel60.m3u8
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel68.m3u8
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D", 19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel61.m3u8
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel69.m3u8
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D", 19:00 WIB HYLO Open 2026 HYLO Open 2026
 https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel62.m3u8
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://iili.io/KfT7PJ2.jpg", TES
 <================================================>
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/yDHTs", 14:00 WIB GS Caltex Seoul KIXX (W) vs Korea Expressway (W)
 <!DOCTYPE html>
 <html dir='ltr' lang='id'>
 <head>
@@ -4574,7 +4576,7 @@ display: none;
 @media (min-width: 1201px) { .bg-photo {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=1hCfLZuvAMTaPFcYWfwMqSUvHQ40WoSRINV1LYkgf4RuUOJ_E3-iX-hl2rlpon2quJCUu&options=w1600);}}
   </style>
 <script async='async' src='https://www.gstatic.com/external_hosted/clipboardjs/clipboard.min.js'></script>
-<link href='https://www.blogger.com/dyncss/436801060851426483/authorization.css?zx=ebb962ea-b5f9-40ff-ac89-067d91927ee8' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyncss/436801060851426483/authorization.css?zx=ebb962ea-b5f9-40ff-ac89-067d91927ee8' rel='stylesheet'/></noscript>
+<link href='https://www.blogger.com/dyncss/436801060851426483/authorization.css?zx=88db6e62-5760-4473-a15b-4ac0fdff0850' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyncss/436801060851426483/authorization.css?zx=88db6e62-5760-4473-a15b-4ac0fdff0850' rel='stylesheet'/></noscript>
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
 </head>
@@ -4661,7 +4663,7 @@ livestream
     "@id": "https://pengembarahitam555.blogspot.com/2026/07/blog-post.html"
   },
   "headline": "pengembara hitam pro","description": "\t   \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d...","datePublished": "2026-07-01T19:00:00-07:00",
-  "dateModified": "2026-10-30T05:13:58-07:00","image": {
+  "dateModified": "2026-10-31T08:12:51-07:00","image": {
     "@type": "ImageObject","url": "https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/w1200/",
     "height": 348,
     "width": 1200},"publisher": {
@@ -4776,18 +4778,15 @@ Juli 01, 2026
 #KODIPROP:inputstream.adaptive.license_key=https://ptv2026.com/wvmax?editId=8e59605c-9093-4b0f-a379-161a08d53705
 https://ptv2026.com/get_max.mpd?username=vip_3klp0es8&password=wg3piwEs&editId=8e59605c-9093-4b0f-a379-161a08d53705&sub=t2
   -----------------------------
-#EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="🔴LIVE", LIVE
+#EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="🔴LIVE", AREMA FC vs BALI UTD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-19.m3u8?auth_key=3000001793362124-0-0-3b34871ccb0afce9e8df2df4ede3a071
-#EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="🔴LIVE", LIVE 2
+#EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="🔴LIVE", PSM MAKASSAR vs MADURA UTD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://tg0k0gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel9/playlist.m3u8?wsSecret=61645bf05c4088d9bf5f6300a3a53e6a&wsABSTime=1793405451&wsSession=c8833e2307ac85f5b909cadb-179336225339701&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1177046549500337104
 #EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="🔴LIVE", LIVE 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://tg0k6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=9f04b5d35398251963ed4b538cf32d5d&wsABSTime=1793405530&wsSession=74c849d2acc2a7faf8c8f8c5-179336237761610&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=19560480166232750
   ==========PLAYLIST IPTV PRO BY ZACK===========
 #EXTINF:-1 group-title="🔴NASIONAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN5reR_YAbbtGqawoaCyr1EMcDnthW8l2D3w&s", MNCTV 
 #EXTVLCOPT:http-user-agent=android-R+
@@ -5606,7 +5605,7 @@ Laporkan Penyalahgunaan
 <script type="text/javascript" src="https://resources.blogblog.com/blogblog/data/res/3679062693-indie_compiled.js" async="true"></script>
 <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/207833187-widgets.js"></script>
 <script type='text/javascript'>
-window['__wavt'] = 'AKZvMzu40vk0ByYCUFqiKInyECdM:1793365394391';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d436801060851426483','//pengembarahitam555.blogspot.com/2026/07/blog-post.html','436801060851426483');
+window['__wavt'] = 'AKZvMzsXctWoZopvfSx1vt4XGvV7:1793483033142';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d436801060851426483','//pengembarahitam555.blogspot.com/2026/07/blog-post.html','436801060851426483');
 _WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '436801060851426483', 'title': 'livestream', 'url': 'https://pengembarahitam555.blogspot.com/2026/07/blog-post.html', 'canonicalUrl': 'https://pengembarahitam555.blogspot.com/2026/07/blog-post.html', 'homepageUrl': 'https://pengembarahitam555.blogspot.com/', 'searchUrl': 'https://pengembarahitam555.blogspot.com/search', 'canonicalHomepageUrl': 'https://pengembarahitam555.blogspot.com/', 'blogspotFaviconUrl': 'https://pengembarahitam555.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'id', 'localeUnderscoreDelimited': 'id', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22livestream - Atom\x22 href\x3d\x22https://pengembarahitam555.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22livestream - RSS\x22 href\x3d\x22https://pengembarahitam555.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22livestream - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/436801060851426483/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22livestream - Atom\x22 href\x3d\x22https://pengembarahitam555.blogspot.com/feeds/4329275435642450489/comments/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'boqCommentIframeForm': true, 'loginRedirectParam': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/de67cdcffbc8a898', 'plusOneApiSrc': 'https://apis.google.com/js/platform.js', 'disableGComments': true, 'interstitialAccepted': false, 'sharing': {'platforms': [{'name': 'Dapatkan link', 'key': 'link', 'shareMessage': 'Dapatkan link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Bagikan ke Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'X', 'key': 'twitter', 'shareMessage': 'Bagikan ke X', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Bagikan ke Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 0, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27id\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Baca selengkapnya', 'pageType': 'item', 'postId': '4329275435642450489', 'pageName': 'pengembara hitam pro', 'pageTitle': 'livestream: pengembara hitam pro'}}, {'name': 'features', 'data': {}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Tautan disalin ke papan klip!', 'ok': 'Oke', 'postLink': 'Tautan Pos'}}, {'name': 'template', 'data': {'name': 'Contempo', 'localizedName': 'Contempo', 'isResponsive': true, 'isAlternateRendering': false, 'isCustom': false, 'variant': 'indie_light', 'variantId': 'indie_light'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'pengembara hitam pro', 'description': '    \t   \x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d\x3d...', 'url': 'https://pengembarahitam555.blogspot.com/2026/07/blog-post.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'postId': 4329275435642450489}}, {'name': 'widgets', 'data': [{'title': 'Cari Blog Ini', 'type': 'BlogSearch', 'sectionId': 'search_top', 'id': 'BlogSearch1'}, {'title': 'livestream (Header)', 'type': 'Header', 'sectionId': 'header', 'id': 'Header1'}, {'title': '', 'type': 'FeaturedPost', 'sectionId': 'page_body', 'id': 'FeaturedPost1', 'postId': '6223242621251298139'}, {'title': 'Postingan Blog', 'type': 'Blog', 'sectionId': 'page_body', 'id': 'Blog1', 'posts': [{'id': '4329275435642450489', 'title': 'pengembara hitam pro', 'showInlineAds': true}], 'headerByline': {'regionName': 'header1', 'items': [{'name': 'share', 'label': ''}, {'name': 'timestamp', 'label': ''}]}, 'footerBylines': [{'regionName': 'footer1', 'items': [{'name': 'comments', 'label': 'komentar'}, {'name': 'icons', 'label': ''}]}, {'regionName': 'footer2', 'items': [{'name': 'labels', 'label': ''}]}, {'regionName': 'footer3', 'items': [{'name': 'location', 'label': 'Lokasi:'}]}], 'allBylineItems': [{'name': 'share', 'label': ''}, {'name': 'timestamp', 'label': ''}, {'name': 'comments', 'label': 'komentar'}, {'name': 'icons', 'label': ''}, {'name': 'labels', 'label': ''}, {'name': 'location', 'label': 'Lokasi:'}]}, {'title': '', 'type': 'PopularPosts', 'sectionId': 'page_body', 'id': 'PopularPosts1', 'posts': [{'title': 'pengembara hitam pro', 'id': 4329275435642450489}, {'title': '', 'id': 6223242621251298139}]}, {'type': 'Attribution', 'sectionId': 'footer', 'id': 'Attribution1'}, {'type': 'BlogArchive', 'sectionId': 'sidebar_bottom', 'id': 'BlogArchive1'}, {'title': '', 'type': 'ReportAbuse', 'sectionId': 'sidebar_bottom', 'id': 'ReportAbuse1'}]}]);
 _WidgetManager._RegisterWidget('_BlogSearchView', new _WidgetInfo('BlogSearch1', 'search_top', document.getElementById('BlogSearch1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));

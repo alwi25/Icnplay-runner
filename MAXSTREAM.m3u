@@ -61,8 +61,9 @@ https://beetv.my.id/jabingan/rcti.m3u8?id=4
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
 #EXTINF:-1 tvg-id="0_keojjla6" tvg-name="MDTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_keojjla6/banner_hdpi.webp" group-title="Lokal",MDTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
 #EXTINF:-1 tvg-id="0_2jt2oz81" tvg-name="Metro TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_2jt2oz81/banner_hdpi.webp" group-title="Lokal",Metro TV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
@@ -191,7 +192,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8?app_type=web&userid=lit
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8?app_type=web&userid=lite&chname=CCTV-4
 #EXTINF:-1 tvg-id="0_1lrqq4s0" tvg-name="Cartoon Network" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_1lrqq4s0/banner_hdpi.webp" group-title="Kids",Cartoon Network
-http://176.65.153.40:6002/play/a013/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 tvg-id="0_gv023ysj" tvg-name="BTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_gv023ysj/banner_hdpi.webp" group-title="Lokal",BTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV

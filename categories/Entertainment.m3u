@@ -1,43 +1,43 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-name="Channel U (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="Entertainment",Channel U (720p)
-https://cdn.qd.je/163189/chu
 #EXTINF:-1 tvg-name="ARIRANG" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0cqd-JrliSDG0kvFFKk8IDV7UBJDgP9KDjg&s" group-title="Entertainment",ARIRANG
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
 #EXTINF:-1 tvg-name="ABC AUSTRALIA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcd3GsIkKpllr-1eZlRKQvmX78Nw88nI6Bsw&s" group-title="Entertainment",ABC AUSTRALIA
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
-#EXTINF:-1 tvg-name="TV5 Monde Style" tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2015/03/14121037/TV5_Style_HD.jpg" group-title="Entertainment",TV5 Monde Style
-https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
-#EXTINF:-1 tvg-name="RTBF TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AZPzU4bZSWTAeWg87EAgNqIZr7UICZFr6a_2VBd1yw&s" group-title="Entertainment",RTBF TV
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8
-#EXTINF:-1 tvg-name="Dens Life & Style" tvg-logo="http://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg" group-title="Entertainment",Dens Life & Style
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8
-#EXTINF:-1 tvg-name="Dens ShowBiz" tvg-logo="https://e7.pngegg.com/pngimages/893/782/png-clipart-competitive-dance-competition-award-talent-show-award-love-television.png" group-title="Entertainment",Dens ShowBiz
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8
-#EXTINF:-1 tvg-name="Dens Food Channel" tvg-logo="https://picture.dens.tv/wp/img/whatson_v2/1280x720/Logo%20DFC.png" group-title="Entertainment",Dens Food Channel
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8
-#EXTINF:-1 tvg-id="130" tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Entertainment",Dance TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-origin=https://www.dens.tv
-https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
+#EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-name="Channel U (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="Entertainment",Channel U (720p)
+https://cdn.qd.je/163189/chu
 #EXTINF:-1 tvg-id="143" tvg-name="Qwest TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1763699104_tvchannels_v1.jpg" group-title="Entertainment",Qwest TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV
+#EXTINF:-1 tvg-name="Dens Life & Style" tvg-logo="http://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg" group-title="Entertainment",Dens Life & Style
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8
+#EXTINF:-1 tvg-id="130" tvg-name="Dance TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg" group-title="Entertainment",Dance TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
+#EXTINF:-1 tvg-name="Dens Food Channel" tvg-logo="https://picture.dens.tv/wp/img/whatson_v2/1280x720/Logo%20DFC.png" group-title="Entertainment",Dens Food Channel
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8
+#EXTINF:-1 tvg-name="RTBF TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AZPzU4bZSWTAeWg87EAgNqIZr7UICZFr6a_2VBd1yw&s" group-title="Entertainment",RTBF TV
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8
+#EXTINF:-1 tvg-name="Dens ShowBiz" tvg-logo="https://e7.pngegg.com/pngimages/893/782/png-clipart-competitive-dance-competition-award-talent-show-award-love-television.png" group-title="Entertainment",Dens ShowBiz
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8
 #EXTINF:-1 tvg-id="128" tvg-name="Stingray Classica" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423611_tvchannels_v1.jpg" group-title="Entertainment",Stingray Classica
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica
+#EXTINF:-1 tvg-name="TV5 Monde Style" tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2015/03/14121037/TV5_Style_HD.jpg" group-title="Entertainment",TV5 Monde Style
+https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
 #EXTINF:-1 tvg-id="72" tvg-name="Ent" tvg-logo="https://www.visionplus.id/images/repository/632/632-LOGO-m.png" group-title="Entertainment",Ent
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -49,14 +49,14 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=l
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=72
 #EXTINF:-1 tvg-id="8TV.my@SD" tvg-name="8TV" tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="Entertainment",8TV
 http://cdn6.163189.xyz/163189/8tv
+#EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-name="meWATCH LIVE 1 (1080p)" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="Entertainment",meWATCH LIVE 1 (1080p)
+https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-name="FOOD TRAVEL V+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq8LJnwEAaskUNDQwjI6TTw-P7-gjvJ9JyHw&s" group-title="Entertainment",FOOD TRAVEL V+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c263b43be6b94fb682b1d701e0aaf847:83491ecbe2968e91ed563ce2c41428dc
 https://d2gr3zenqo3tg4.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
-#EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-name="meWATCH LIVE 1 (1080p)" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="Entertainment",meWATCH LIVE 1 (1080p)
-https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-id="87" tvg-name="Vision Prime" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_1.png" group-title="Entertainment",Vision Prime
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash

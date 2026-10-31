@@ -304,34 +304,21 @@ https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32
 https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/QU5UVg/dash/Q0dUTiBEb2N1bWVudGFyeQ/manifest.mpd
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/KxLFPLJ.md.png",001 TRAKTIR KOPI
 https://drive.google.com/uc?export=download&id=1GXT2ntc4zPZPQtiotFTTvhkwrdHVrQMy&usp
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/_bDcr",15:30 WIB Persik Kediri vs Persita
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel10.m3u8
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/_bDcr",15:30 WIB PSM vs Madura United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel20.m3u8
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/_bDcr",15:30 WIB Arema vs Bali United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel7.m3u8
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg",19:30 WIB Chelsea vs Manchester United
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg",20:00 WIB Levante vs Atlético Madrid
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg",22:15 WIB Rayo Vallecano vs Celta de Vigo
 #EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg",00:30 WIB Real Betis vs Málaga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://iili.io/FtSMHX9.jpg",03:00 WIB Barcelona vs Deportivo Alavés
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s",21:00 WIB Bologna vs Monza
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
@@ -340,23 +327,19 @@ https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg",21:30 WIB Bayer Leverkusen vs Stuttgart
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s",00:00 WIB Udinese vs Roma
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 #EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/87PxH",22:30 WIB Feyenoord vs Fortuna Sittard
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
-#EXTINF:-1 group-title="EVENT 031/OKTOBER/2026" tvg-logo="https://shorter.me/UXCX0",19:30 WIB Stoke City vs Preston North End
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://iili.io/KfT7PJ2.jpg",DGS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://kuruk1.xn--okq6e.shop/000/
@@ -706,6 +689,11 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8bcec6b31cc9edcb6768ab26548e22c3:e3c5b07328894c33734a4de6ae55a87f
 https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd
+#EXTINF:-1 tvg-id="TNT 1" tvg-logo="https://i.ibb.co.com/7dNPfNGB/Tntsports1.png" group-title="Sports",TNT SPORTS 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
 #EXTINF:-1 tvg-id="TNT 2" tvg-logo="https://i.ibb.co.com/Q3V8tDNL/Tntsports2.png" group-title="Sports",TNT SPORTS 2
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1106,10 +1094,6 @@ https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manife
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
 https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd
-#EXTINF:-1 group-title="FILIPINA" tvg-logo="",CLTV36
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://tv.garden/
-https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
 #EXTINF:-1 group-title="China" tvg-name="" tvg-country="ID" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Jiangsu_Broadcasting_Corporation.svg/800px-Jiangsu_Broadcasting_Corporation.svg.png",Jiangsu TV
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/ccc51c0317284496b6cde9f7bd670b80/index.mpd
 #EXTINF:-1 group-title="China" tvg-name="" tvg-country="ID" tvg-logo="https://e7.pngegg.com/pngimages/184/708/png-clipart-hunan-television-television-channel-mango-tv-stale-television-angle.png",Hunan TV
@@ -1548,8 +1532,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f16b53f0d5ed459da208c459049c9bb0/in
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group2-swiftservesd-1.dens.tv/s/s12/index.m3u8
-#EXTINF:-1 tvg-logo="https://iili.io/Jbto3jS.png" group-title="TV LOKAL",Jogja TV
-https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnA1s.png" group-title="TV LOKAL",Semarang TV
 http://116.254.112.74:80/hls/cakralive.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnNpV.png" group-title="TV LOKAL",Banjar TV
@@ -1564,6 +1546,8 @@ https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
 https://5bf7b725107e5.streamlock.net:443/kstv/kstv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnILX.png" group-title="TV LOKAL",RCTV
 https://v10.siar.us/rctv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="tvg-url="tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="TV LOKAL",LINGKAR TV
+https://lingkartv.my.id/hls/lingkartv.m3u8
 #EXTINF:-1 group-title="TV LOKAL" tvg-id="Bali TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium4.xml" tvg-logo="https://static.mncnow.id/images/channel/cda6a457/7e41_r32.jpg",Bali TV V+
 https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd
 #EXTINF:-1 group-title="TV LOKAL" tvg-logo="https://static.mncnow.id/images/channel/9e658daa/252e_r32.jpg",JTV
@@ -1577,8 +1561,6 @@ https://mam.jogjaprov.go.id:1937/tv/jitv_720p/chunklist_w850229424.m3u8
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="" tvg-logo="https://tvtabalong.com/wp-content/uploads/2022/03/logo-tv-tabalong.png" group-title="TV LOKAL",TV Tabalong
 https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f1/Bungo_TV.png" group-title="TV LOKAL",Bungo TV
-https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmF1BWb.png" group-title="TVRI Daerah",TVRI Aceh
 https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmF1x0Q.png" group-title="TVRI Daerah",TVRI Bali
@@ -1653,9 +1635,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/MTV90sHD/mediampd/MTV90sHD.mpd
 https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
 #EXTINF:-1 group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/9/95/LogoBahanaFMJKT.png/250px-LogoBahanaFMJKT.png",BAHANA RADIO MUSIC
 https://5bf7b725107e5.streamlock.net/bahanaradio/bahanaradio/playlist.m3u8
-#EXTINF:-1 group-title="Music" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWF5iy7pz8qWStADdt3lRs1bQb465KYE7Yg&s",IMTV
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDgISmgY9Nx1XWHO567adwvD0rbZWE-mOYw&s" group-title="Music",SPIRIT TV
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7NcEh8p4tABtq9Vc5824eoIy3IFsmuX4Y9A&s",24H K-POP TV
@@ -1713,6 +1692,8 @@ https://stream.radiojar.com/4ywdgup3bnzuv
 https://c5.siar.us/proxy/ssfm/stream
 #EXTINF:-1 tvg-id="------" group-title="RADIO" group-logo="RADIO"  tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg",Imelda FM
 https://server.radioimeldafm.co.id:8030/imeldafm
+#EXTINF:-1 tvg-id="------" group-title="RADIO" group-logo="RADIO"  tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg",Gajahmada FM
+https://server.radioimeldafm.co.id:8040/gajahmadafm
 #EXTINF:-1 tvg-id="------" group-title="RADIO" group-logo="RADIO"  tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg",Radio Kita Cirebon
 https://sunnah.radio.yufid.com/;stream.mp3
 #EXTINF:-1 tvg-id="------" group-title="RADIO" group-logo="RADIO"  tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg",101 Jak FM
@@ -1848,23 +1829,15 @@ https://bintangstreaming.my.id/1sultan1/dailymotion.php/.m3u8?id=x985jmm
 #EXTINF:-1 type="movie" group-title="MOVIES/SERIES KBTRTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHq_W-x3VOn-o4kS-mkqoIo0qqnfV14ao-Zw&s",Guru-Guru Gokil (2020)
 https://bintangstreaming.my.id/1sultan1/dailymotion.php/.m3u8?id=x8en87f
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D",19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel60.m3u8
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel68.m3u8
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D",19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel61.m3u8
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel69.m3u8
 #EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D",19:00 WIB HYLO Open 2026 HYLO Open 2026
 https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel62.m3u8
 #EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.postimg.cc/XNKPdJJf/images.jpg" group-title="🔴WHATSAPP",085333640016
 #KODIPROP:inputstream.adaptive.license_type=widevine
 #KODIPROP:inputstream.adaptive.license_key=https://ptv2026.com/wvmax?editId=8e59605c-9093-4b0f-a379-161a08d53705
 https://ptv2026.com/get_max.mpd?username=vip_3klp0es8&password=wg3piwEs&editId=8e59605c-9093-4b0f-a379-161a08d53705&sub=t2
-#EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="🔴LIVE",LIVE 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://tg0k0gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel9/playlist.m3u8?wsSecret=61645bf05c4088d9bf5f6300a3a53e6a&wsABSTime=1793405451&wsSession=c8833e2307ac85f5b909cadb-179336225339701&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=1177046549500337104
-#EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.imgur.com/gktNVB9.jpeg" group-title="🔴LIVE",LIVE 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/
-https://tg0k6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=9f04b5d35398251963ed4b538cf32d5d&wsABSTime=1793405530&wsSession=74c849d2acc2a7faf8c8f8c5-179336237761610&wsIPSercert=f02ab771a11314ccf70994aed4bacb11&wsBindIP=2&wsserid=19560480166232750
 #EXTINF:-1 group-title="🔴NASIONAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrLlsooVB274zIGMEQ1kquZCBAK4cnLgnF0d3oRiJV4yM2pTDH8WeKDVE&s=10",iNews
 #EXTVLCOPT:http-user-agent=android-R+
 #KODIPROP:inputstream=inputstream.adaptive
@@ -2059,10 +2032,14 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU/31693/index.m3u8
 #EXTINF:-1 group-title="🔴PREMIUM MOVIE" tvg-id="hboasia.sg" tvg-logo="https://dl.dropbox.com/scl/fi/11cogq3f6ewil4xavwnh3/hbo.png?rlkey=2qd8p4fzhaxy4mnk9vkn5v41c&dl=0",HBO
 http://013tv.com:8080/F33848/cbd9779b/306484
+#EXTINF:-1 group-title="🔴PREMIUM MOVIE" tvg-id="hbohitsasia.sg" tvg-logo="https://dl.dropbox.com/scl/fi/n7pewdemieoz3zbs39tbx/hbohits.png?rlkey=e748k2slpje7h5xy2q9pos5a3&dl=0",HBO Hits
+http://013tv.com:8080/F33848/cbd9779b/306486
 #EXTINF:-1 group-title="🔴PREMIUM MOVIE" tvg-id="hbofamilyasia.sg" tvg-logo="https://dl.dropbox.com/scl/fi/huvb654fboyfnebvnzghn/hbo_family.png?rlkey=sr0deor1pxp0bxgm3x6wve1cz&dl=0",HBO family
 http://013tv.com:8080/F33848/cbd9779b/197972
 #EXTINF:-1 group-title="🔴PREMIUM MOVIE" tvg-id="hbosignatureasia.sg" tvg-logo="https://dl.dropbox.com/scl/fi/rpfe8l6bizfcn3hkvkow6/hbo-signature.png?rlkey=dano4jnm0214i6163flo4akb6&dl=0",HBO Signature
 http://013tv.com:8080/F33848/cbd9779b/306483
+#EXTINF:-1 group-title="🔴PREMIUM MOVIE" tvg-id="cinemaxasia.sg" tvg-logo="https://dl.dropbox.com/scl/fi/zsbacg5t7lorej9vx5lsa/Cinemax-hometv.png?rlkey=pe3s86fk2p7k4q9w0eoij7jzl&dl=0",CINEMAX
+http://013tv.com:8080/F33848/cbd9779b/197964
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="🔴PREMIUM MOVIE",HBOMAX PREMIERE 1
 http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757575&extension=ts&play_token=mQrh4fFom7
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="🔴PREMIUM MOVIE",HBOMAX PREMIERE 2
@@ -2075,10 +2052,6 @@ http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757578&e
 http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757579&extension=ts&play_token=YNUFVcWvqn
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/Poland/PL OD HBO MAX/OD HBO MAX.png" group-title="🔴PREMIUM MOVIE",HBOMAX PREMIERE 10
 http://nexusconnects.org:80/play/live.php?mac=A0:BB:3E:03:BA:6C&stream=1757584&extension=ts&play_token=CoEcrMgOai
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://get.perfecttv.net/logo/mnplus.png" group-title="🔴PREMIUM MOVIE",MN Plus
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
-https://get.perfecttv.net/dashVision.mpd?username=vip_sgnep6z9&password=dBlA1nxq&channel=mnplus
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://get.perfecttv.net/logo/mnx.png" group-title="🔴PREMIUM MOVIE",MNX HD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2446,10 +2419,16 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8?app_type=web&userid=lit
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h38/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pantai Baron
+https://stream.gunungkidulkab.go.id:8888/630843dd-4488-4360-8f86-b23f3e67980d/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pantai Kukup
+https://stream.gunungkidulkab.go.id:8888/53fa897a-dc59-435b-841b-ce544d559a20/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Getas
 https://stream.gunungkidulkab.go.id:8888/097ef287-a064-4730-8b65-0fdfad75f327/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pertigaan Bunder
 https://stream.gunungkidulkab.go.id:8888/cdb69448-349b-460e-ac6c-545199e93599/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Planjan - Fix
+https://stream.gunungkidulkab.go.id:8888/5858ca16-f730-49d1-a494-9d20a82b9b55/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SMP 1 Playen
 https://stream.gunungkidulkab.go.id:8888/c43d6c28-d03d-4aab-a589-7410b655908d/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SD Karangrejek 2
@@ -2484,14 +2463,28 @@ https://stream.gunungkidulkab.go.id:8888/a4bed595-2ed8-46f5-a802-fc450bdf67e9/in
 https://stream.gunungkidulkab.go.id:8888/17d519d4-ba98-446e-bfe7-369372ac834b/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",BPP Playen
 https://stream.gunungkidulkab.go.id:8888/40c44e72-0ef8-42b5-9410-8c88ad2d062d/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SD Trowono 1
+https://stream.gunungkidulkab.go.id:8888/076df88c-ce65-47f4-8d4e-4872c430eee8/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Terminal Semin
 https://stream.gunungkidulkab.go.id:8888/f4e65d43-ff9a-4603-b035-b2bb778fc9d1/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SD Pucung
+https://stream.gunungkidulkab.go.id:8888/407a2a57-0202-4303-8314-114e635549c2/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pertigaan Kemadang
+https://stream.gunungkidulkab.go.id:8888/72f5464f-8741-4449-9727-c75db9a1169f/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SMP 1 Tanjungsari
+https://stream.gunungkidulkab.go.id:8888/d15446f5-d59f-47f0-b6d6-5828c28dfc6b/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pancuran FIX
 https://stream.gunungkidulkab.go.id:8888/e875884e-745b-4870-a9d6-bc8783dd43a5/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Gor Siyono
 https://stream.gunungkidulkab.go.id:8888/186ad348-fa92-4011-a296-4dfeae227a13/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",TPR Pantai Baron
+https://stream.gunungkidulkab.go.id:8888/f6314dd1-a8ea-40a9-8a97-e0f2f8dc4bdd/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Tugu Selamat Datang Patuk 2
 https://stream.gunungkidulkab.go.id:8888/58328653-bae9-4e69-82d0-b83d500040b1/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan Siyono Barat
+https://stream.gunungkidulkab.go.id:8888/99b61615-0e73-4b44-b7d9-775301c11b94/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan Siyono Timur
+https://stream.gunungkidulkab.go.id:8888/365d3972-8e24-4b8e-a9bd-2db5cbcbfee8/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pemda Gunungkidul
 https://stream.gunungkidulkab.go.id:8888/d41813e2-fafb-42a4-a7b9-5e713c0e9606/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Nglipar Timur
@@ -2500,6 +2493,8 @@ https://stream.gunungkidulkab.go.id:8888/5bb010f8-71fd-449c-99b2-294d35af77fd/in
 https://stream.gunungkidulkab.go.id:8888/31de9dc7-dfaa-4274-b353-49d350e5b8d8/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Simpang 4 RSUD FIX
 https://stream.gunungkidulkab.go.id:8888/2b304ee7-49a4-4283-a64d-538de7fb6ad1/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SD Trowono 3
+https://stream.gunungkidulkab.go.id:8888/0416e020-1e28-4066-aa3f-5083cdb4cdc2/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Simpang 3 Amigo
 https://stream.gunungkidulkab.go.id:8888/bf8e74bf-ab2e-4eda-8a59-f06a31f028e5/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Tegalsari Barat
@@ -2542,14 +2537,26 @@ https://stream.gunungkidulkab.go.id:8888/3f008260-e48f-4dc2-bec4-93d7ec42dcb9/in
 https://stream.gunungkidulkab.go.id:8888/618a774c-186e-4ab2-9d9c-e4f59d09ab66/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Budegan Barat
 https://stream.gunungkidulkab.go.id:8888/d2bfd3f8-2969-47c1-a246-d5467a8e1efe/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S3 Gading Selatan
+https://stream.gunungkidulkab.go.id:8888/c5bea4c6-a2e4-4c9d-b731-ea5a1b5bd39c/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Gading Dome
+https://stream.gunungkidulkab.go.id:8888/af4d2a14-e0b3-43f4-ade8-d73465ef2258/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Gading Selatan
 https://stream.gunungkidulkab.go.id:8888/1f8dbee5-c3d8-40a6-a377-6c8b547cb90a/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",S4 Gading Utara
 https://stream.gunungkidulkab.go.id:8888/ee587917-0cca-403d-855f-d8cee27721da/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pintu Masuk Baron Barat 1
+https://stream.gunungkidulkab.go.id:8888/cb67a758-08c4-43b8-b5cc-23bc4b83829a/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Rongkop Timur
 https://stream.gunungkidulkab.go.id:8888/5bc413f9-0eae-4334-9b7b-e13bf155c8dd/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",TPR Pantai Baron 1
+https://stream.gunungkidulkab.go.id:8888/9582f7dc-118c-4e4d-a676-65f8f145d13e/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",TPR Pantai Baron 2
+https://stream.gunungkidulkab.go.id:8888/9cca7e74-e0b0-49b1-9d62-effbb8589555/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kapanewon Rongkop Barat
 https://stream.gunungkidulkab.go.id:8888/b344fc06-e8e9-40b2-ad80-d996918ec595/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan Kodim
+https://stream.gunungkidulkab.go.id:8888/e91760d5-95b8-4907-a49d-f46885390291/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kodim Gunungkidul
 https://stream.gunungkidulkab.go.id:8888/33edb24d-088c-4f49-ac90-f90a73a995ab/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Lapangan Kesatrian
@@ -2572,6 +2579,8 @@ https://stream.gunungkidulkab.go.id:8888/a4c43c14-cd50-4621-8f85-94086283e461/in
 https://stream.gunungkidulkab.go.id:8888/6d5acbc9-33cf-4d3a-8671-a26933f1868d/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Jetis - PTZ
 https://stream.gunungkidulkab.go.id:8888/61947637-427d-48ad-a59e-916edc063354/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Planjan - PTZ
+https://stream.gunungkidulkab.go.id:8888/d4ead1b7-f1ec-49be-8946-ee73987411d7/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Parkiran Embung Nglanggeran
 https://stream.gunungkidulkab.go.id:8888/0386d0d8-c1a6-429a-9996-def5e2079644/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Embung Nglanggeran PTZ
@@ -2580,12 +2589,18 @@ https://stream.gunungkidulkab.go.id:8888/1bea2c47-343d-408e-adf5-ad5eaf6faeec/in
 https://stream.gunungkidulkab.go.id:8888/00817fc1-25e9-469f-a5c5-c371bdd55f07/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan Siyono PTZ
 https://stream.gunungkidulkab.go.id:8888/c02bf2b6-834c-4c9b-9be6-f2980d859bb8/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pantai Kukup PTZ
+https://stream.gunungkidulkab.go.id:8888/dfdcfa82-c168-4265-abc8-f786bb7f0313/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Pertigaan Pasar Playen PTZ
 https://stream.gunungkidulkab.go.id:8888/14d99ef0-eb77-4450-9fc9-eb7545a9ac16/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Simpang 4 Pancuran PTZ
 https://stream.gunungkidulkab.go.id:8888/d0e1549c-170b-499e-8dee-4ec2fef57f4d/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Bunderan PLN PTZ
 https://stream.gunungkidulkab.go.id:8888/de774241-aaec-4937-a43a-ab59b7525dd0/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SMP 2 Patuk Barat
+https://stream.gunungkidulkab.go.id:8888/32588258-06cb-4628-987e-1f0748e6604e/index.m3u8
+#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SMP 2 Patuk Timur
+https://stream.gunungkidulkab.go.id:8888/e903344a-4303-4dbb-954c-1ba2eac82c10/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",SIMPANG 4 GADING
 https://stream.gunungkidulkab.go.id:8888/e08a568b-111c-43ce-88bc-503f4a3cc348/index.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Kalurahan Nglanggeran 1
