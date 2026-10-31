@@ -1,6 +1,6 @@
 {
   "app": "com.icnplay.id (iCN Play v1.1 build 17)",
-  "generated": "2026-10-30 22:29:44",
+  "generated": "2026-10-31 05:56:24",
   "server_endpoint": "https://my.idetimur.id/icnplay",
   "app_user_agent": "iCNPL4Y",
   "kunci": "Panca86",
@@ -18,7 +18,7 @@
       "name": "LIVE-TV2",
       "path": "https://banyak.c86.workers.dev",
       "ua": "OTT Navigator/1.6.9.4 (Linux; Android 14; Raspberry Pi 5 Build/UP1A.231005.007)",
-      "channels": 800,
+      "channels": 811,
       "live": true,
       "stale": false,
       "local_file": "playlist/LIVE-TV2.m3u"
@@ -42,7 +42,7 @@
       "local_file": "playlist/RELAX.m3u"
     }
   ],
-  "total_channels": 1117,
+  "total_channels": 1128,
   "stale_sources": [
     "LIVE-TV"
   ],
@@ -51,15 +51,15 @@
     3
   ],
   "health": {
-    "LIVE": 606,
+    "LIVE": 575,
     "DRM": 89,
-    "AUTH": 83,
     "LIVE?": 17,
-    "DEAD": 55,
-    "FLAKY": 94
+    "AUTH": 94,
+    "DEAD": 78,
+    "FLAKY": 92
   },
   "variants": {
-    "fast": 615,
+    "fast": 578,
     "kids": 9
   }
 }
