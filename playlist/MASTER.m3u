@@ -1500,6 +1500,8 @@ http://op-group1-swiftservesd-1.dens.tv/s/s28/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTajg7WlbiXuj2CvNtHRJNzOnsQ16MsVyd3A&s" group-title="RELIGI",LIVE MADINAH 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group1-swiftservesd-1.dens.tv/s/s27/index.m3u8
+#EXTINF:-1 group-title="RELIGI"  tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/0/0d/TV_MUI.png/640px-TV_MUI.png",TV MUI
+https://mui.siar.us/mui/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="RELIGI" ,TV 10 HD
 https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="RELIGI" ,TV9 HD
@@ -1536,12 +1538,16 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f16b53f0d5ed459da208c459049c9bb0/in
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group2-swiftservesd-1.dens.tv/s/s12/index.m3u8
+#EXTINF:-1 tvg-logo="https://iili.io/Jbtnakl.png" group-title="TV LOKAL",TATV
+https://tatv.siar.us/tatv/live.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/Jbto3jS.png" group-title="TV LOKAL",Jogja TV
 https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnA1s.png" group-title="TV LOKAL",Semarang TV
 http://116.254.112.74:80/hls/cakralive.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnNpV.png" group-title="TV LOKAL",Banjar TV
 https://banjartv.siar.us/banjartv/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iili.io/JbtoTuV.png" group-title="TV LOKAL",Prima TV
+https://primatv.siar.us/primatv/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnSCF.png" group-title="TV LOKAL",BMS TV
 https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JbtnPvR.png" group-title="TV LOKAL",Dhamma TV
@@ -1712,6 +1718,8 @@ https://streaming.radiomuslim.com/;stream/1
 https://stream.radiounisia.com/stream/1/
 #EXTINF:-1 tvg-id="------" group-title="RADIO" group-logo="RADIO"  tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg",Unimma FM
 https://ssg.streamingmurah.com:8048/stream
+#EXTINF:-1 tvg-id="------" group-title="RADIO" group-logo="RADIO"  tvg-logo="https://st4.depositphotos.com/1024345/39496/v/450/depositphotos_394960768-stock-illustration-vector-illustration-button-online-radio.jpg",Radio Blambangan FM
+https://radio.banyuwangikab.go.id/live
 #EXTINF:-1  tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="http://p2k.unkris.ac.id/_sepakbola/_baca_image.php?td=12&kodegb=SSFM_Logo.png" group-title="RADIO",Suara Surabaya FM
 https://ssfm.siar.us/ssfm/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iradiofm.com/wp-content/uploads/2022/06/IRADIO-LOGO-BAWAH-2022-WEB.png" group-title="RADIO",i-Radio Jakarta
@@ -1750,10 +1758,14 @@ https://stream-node0.rri.co.id/streaming/18/9018/rrisurabayapro1.mp3
 https://stream-node0.rri.co.id/streaming/18/9018/rrisurabayapro2.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSanMN.png" group-title="RADIO",Pro 1 RRI Alor
 https://stream-node0.rri.co.id/streaming/41/9041/rrialorpro1.mp3
+#EXTINF:-1 tvg-logo="https://iili.io/JmSa28g.png" group-title="RADIO",Pro 1 RRI Atambua
+https://stream-node1.rri.co.id/streaming/25/9225/rriatambuapro1.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSaJF1.png" group-title="RADIO",Pro 1 RRI Bandung
 https://stream-node0.rri.co.id/streaming/15/9015/rribandungpro1.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSafwv.png" group-title="RADIO",Pro 1 RRI Jakarta
 https://stream-node1.rri.co.id/streaming/25/9025/rrijakartapro1.mp3
+#EXTINF:-1 tvg-logo="https://iili.io/JmSaCnp.png" group-title="RADIO",Pro 1 RRI Labuan Bajo
+https://stream-node2.rri.co.id/streaming/37/9337/rrilabuanbajopro1.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSaoPI.png" group-title="RADIO",Pro 1 RRI Makassar
 https://stream-node0.rri.co.id/streaming/22/9022/rrimakasarpro1.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSaIcX.png" group-title="RADIO",Pro 1 RRI Malang
@@ -1764,6 +1776,8 @@ https://stream-node1.rri.co.id/streaming/40/9040/rrimanadopro1.mp3
 https://stream-node0.rri.co.id/streaming/20/9120/rrirotepro1.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSaTSn.png" group-title="RADIO",Pro 1 RRI Sumba
 https://stream-node0.rri.co.id/streaming/41/9041/rrisumbapro1.mp3
+#EXTINF:-1 tvg-logo="https://iili.io/JmSloYX.png" group-title="RADIO",Pro 2 RRI Atambua
+https://stream-node1.rri.co.id/streaming/25/9225/rriatambuapro2.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSln2t.png" group-title="RADIO",Pro 2 RRI Bandung
 https://stream-node0.rri.co.id/streaming/15/9015/rribandungpro2.mp3
 #EXTINF:-1 tvg-logo="https://iili.io/JmSlB4I.png" group-title="RADIO",Pro 2 RRI Ende
