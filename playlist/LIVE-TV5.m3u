@@ -144,24 +144,12 @@ https://dlhd.iclik.workers.dev/?channel=SkySportsF1&play=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
 
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/motogp.png" group-title="⚽ Olahraga", MOTOGP #2
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://beetv.my.id/hls/dlhd.php?id=575&redirect=1
 
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="⚽ Olahraga", Live Event #1
+#EXTINF:-1 tvg-id="rbtv+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="RBTV+", Kepetttt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dlhd.iclik.workers.dev/?channel=TSN1&play=1
-
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="⚽ Olahraga", Live Event #2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
-
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="⚽ Olahraga", Live Event #3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dlhd.iclik.workers.dev/?channel=TSN4&play=1
-
+#EXTVLCOPT:http-origin=https://lola85.30nqt3mainfkyl16mirror.cfd
+#EXTVLCOPT:http-referrer=https://lola85.30nqt3mainfkyl16mirror.cfd/
+https://beetv.my.id/rbtv/live1.m3u
 
 #EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745228970_tvchannels_v1.jpg", Live Streaming 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36

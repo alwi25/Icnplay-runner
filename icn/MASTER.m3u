@@ -304,23 +304,6 @@ https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32
 https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/QU5UVg/dash/Q0dUTiBEb2N1bWVudGFyeQ/manifest.mpd
 #EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://iili.io/KxLFPLJ.md.png",001 TRAKTIR KOPI
 https://drive.google.com/uc?export=download&id=1GXT2ntc4zPZPQtiotFTTvhkwrdHVrQMy&usp
-#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://iili.io/3cSp4Lu.md.png",13:15 WIB MotoGP Race: PETRONAS Grand Prix of Malaysia - MotoGP 2026 Round 19
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://shorter.me/_bDcr",15:30 WIB Persib vs Adhyaksa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel16.m3u8
-#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://shorter.me/_bDcr",15:30 WIB PSIM Yogyakarta vs Borneo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel4.m3u8
-#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://shorter.me/_bDcr",19:00 WIB Garudayaksa vs PSS Sleman
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
 #EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://iili.io/FtSr5Mb.jpg",23:30 WIB Liverpool vs Arsenal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
@@ -338,17 +321,17 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s",18:30 WIB Como vs Venezia
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s",21:00 WIB Frosinone vs Torino
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8
+#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s",21:00 WIB Lazio vs Cagliari
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq0OJbv9jEWF9eTy9B5C4IVkfWVJ1A3bqIw&s",21:00 WIB Frosinone vs Torino
-#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8
 #EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg",23:30 WIB Eintracht Frankfurt vs Hamburger SV
 #EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
@@ -713,6 +696,11 @@ https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playl
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=84077d18bcf234a42de3745be106a87f:aee3069c062ec8ee6bfdd32985f287ef
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/2jbycgm3g3/out/v1/066dd9325648468c9ecdc8b272370931/cenc.mpd
+#EXTINF:-1 group-title="Sports" tvg-logo="https://shorter.me/Xydc0" ,FANCODE TV 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
 #EXTINF:-1 group-title="Sports" tvg-logo="https://shorter.me/Xydc0" ,FANCODE TV 2
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1929,14 +1917,10 @@ https://bintangstreaming.my.id/1sultan1/dailymotion.php/.m3u8?id=x9kg0yi
 https://bintangstreaming.my.id/1sultan1/dailymotion.php/.m3u8?id=x985jmm
 #EXTINF:-1 type="movie" group-title="MOVIES/SERIES KBTRTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHq_W-x3VOn-o4kS-mkqoIo0qqnfV14ao-Zw&s",Guru-Guru Gokil (2020)
 https://bintangstreaming.my.id/1sultan1/dailymotion.php/.m3u8?id=x8en87f
-#EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D",19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel68.m3u8
-#EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D",19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel69.m3u8
-#EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D",19:00 WIB HYLO Open 2026 HYLO Open 2026
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel62.m3u8
-#EXTINF:-1 group-title="EVENT 01/NOVEMBER/2026" tvg-logo="https://shorter.me/yDHTs",12:00 WIB Uijeongbu KB Insurance Stars vs Daejeon Bluefangs
-https://nvelop-livecloud.pstatic.net/chzzk/lip2_kr/cflexnmss2u0005/c4d7p0ki2mjwfqtqcqyt0zv2v3jqleaggds3/awiyq0e45rkv7xekyqsror13jqleagg910_hls_playlist.m3u8?hdnts=st=1793509254~exp=1793570464~acl=*/c4d7p0ki2mjwfqtqcqyt0zv2v3jqleaggds3/*~hmac=2ee11612b16faebcc79c8c38359c575258f88a7f5677ef7e839a2b12bbab4286
+#EXTINF:-1 group-title="CADANGAN EVENT" tvg-logo="https://shorter.me/oFx-D",21:00 WIB HYLO Open 2026 HYLO Open 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel65.m3u8?wsSecret=422e11bfe80ee8cf6427cd02d20916e5&wsABSTime=1793586440
 #EXTINF:-1 tvg-id="LIVE" tvg-logo="https://i.postimg.cc/XNKPdJJf/images.jpg" group-title="🔴WHATSAPP",085333640016
 #KODIPROP:inputstream.adaptive.license_type=widevine
 #KODIPROP:inputstream.adaptive.license_key=https://ptv2026.com/wvmax?editId=8e59605c-9093-4b0f-a379-161a08d53705
@@ -2364,20 +2348,11 @@ https://dlhd.iclik.workers.dev/?channel=SkySportsF1&play=1
 #EXTINF:-1 tvg-id="AstroPremierLeague" tvg-logo="https://beetv.my.id/logo/astrosupersport3.png" group-title="⚽ Olahraga",Anteman
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/motogp.png" group-title="⚽ Olahraga",MOTOGP #2
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTINF:-1 tvg-id="rbtv+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="RBTV+",Kepetttt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://beetv.my.id/hls/dlhd.php?id=575&redirect=1
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="⚽ Olahraga",Live Event #1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dlhd.iclik.workers.dev/?channel=TSN1&play=1
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="⚽ Olahraga",Live Event #2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
-#EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="⚽ Olahraga",Live Event #3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dlhd.iclik.workers.dev/?channel=TSN4&play=1
+#EXTVLCOPT:http-origin=https://lola85.30nqt3mainfkyl16mirror.cfd
+#EXTVLCOPT:http-referrer=https://lola85.30nqt3mainfkyl16mirror.cfd/
+https://beetv.my.id/rbtv/live1.m3u
 #EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745228970_tvchannels_v1.jpg",Live Streaming 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
