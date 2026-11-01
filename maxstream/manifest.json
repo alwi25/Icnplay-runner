@@ -1,8 +1,8 @@
 {
   "source_list": "https://maxstream.rustynail.workers.dev/?type=live&source=cache",
   "maxstream_total": 117,
-  "matched": 65,
-  "missing": 52,
+  "matched": 63,
+  "missing": 54,
   "missing_names": [
     "CinemaWorld",
     "TVRI Nusa Tenggara Timur",
@@ -48,6 +48,8 @@
     "IDX Channel",
     "HITS MOVIES",
     "HGTV",
+    "HBO Signature",
+    "HBO Hits",
     "Fashion TV",
     "Discovery Asia",
     "Curiosity Channel",

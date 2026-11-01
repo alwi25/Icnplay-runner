@@ -54,16 +54,18 @@ http://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=li
 https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDY3MzQzMjExMiJ9.WACYETOZxZYmZHRpxwRrATxVZQBdSoeaWdfhtLKx1kI/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="0_fn0qos3d" tvg-name="Inews" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_fn0qos3d/banner_hdpi.webp" group-title="Lokal",Inews
 #EXTVLCOPT:http-user-agent=android-R+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:contentlookup=false
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=4
+https://bintangstreaming.my.id/000/rcti.php/.m3u8?id=inewstv
 #EXTINF:-1 tvg-id="0_rkv5gee2" tvg-name="JAK TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_rkv5gee2/banner_hdpi.webp" group-title="Lokal",JAK TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
 #EXTINF:-1 tvg-id="0_keojjla6" tvg-name="MDTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_keojjla6/banner_hdpi.webp" group-title="Lokal",MDTV
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
 #EXTINF:-1 tvg-id="0_2jt2oz81" tvg-name="Metro TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_2jt2oz81/banner_hdpi.webp" group-title="Lokal",Metro TV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
@@ -122,9 +124,9 @@ https://live.cnnindonesia.com/trans7/smil:trans7/chunklist_w2685575259_b744100_s
 #KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=119
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 tvg-id="0_hii9fpgx" tvg-name="RTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_hii9fpgx/banner_hdpi.webp" group-title="Lokal",RTV
-#EXTVLCOPT:http-referer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
-http://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&amp;jmnuserid=lite&amp;chname=RTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
 #EXTINF:-1 tvg-id="0_9km1pl2v" tvg-name="Rodja TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_9km1pl2v/banner_hdpi.webp" group-title="Indonesia",Rodja TV
 #EXTVLCOPT:http-user-agent=android-R+
 https://rodjatv.com/rodjatv/live.m3u8
@@ -140,22 +142,18 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h23/index.m3u8?app_type=web&userid=lit
 #EXTVLCOPT:http-user-agent=android-R+
 http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="0_hd1c30bo" tvg-name="HITS" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_hd1c30bo/banner_hdpi.webp" group-title="Indonesia",HITS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-origin=https://www.visionplus.id
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=77
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=77
-#EXTINF:-1 tvg-id="0_s6bo567h" tvg-name="HBO Signature" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_s6bo567h/banner_hdpi.webp" group-title="Movies",HBO Signature
-http://013tv.com:8080/F33848/cbd9779b/306483
-#EXTINF:-1 tvg-id="0_k7eh4erk" tvg-name="HBO Hits" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_k7eh4erk/banner_hdpi.webp" group-title="Movies",HBO Hits
-http://013tv.com:8080/F33848/cbd9779b/306486
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dac6cbd9d17a451bb76386f52469e0e9:2e2ac52cadf843459915eaa1a9b95e48
+https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/101/101.mpd
 #EXTINF:-1 tvg-id="0_qqui53si" tvg-name="HBO Family" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_qqui53si/banner_hdpi.webp" group-title="Movies",HBO Family
-http://013tv.com:8080/F33848/cbd9779b/197972
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=07b138f30ad3441ca5a2f476e550af25:826ee4deef4b45cfafd5f79a591b15c6
+https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/106/106.mpd
 #EXTINF:-1 tvg-id="0_xgdr0qbd" tvg-name="HBO" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_xgdr0qbd/banner_hdpi.webp" group-title="Movies",HBO
-http://013tv.com:8080/F33848/cbd9779b/306484
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a4b2fe10c9d62d32220e8ea2dceda6f9:e6e1173c892f7fbd60a37a76a78935cb
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/9a6uh9e0rz/out/v1/4ca8071b437142ffb1bea21340b0ba05/cenc.mpd
 #EXTINF:-1 tvg-id="0_p7vlqu2a" tvg-name="GTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_p7vlqu2a/banner_hdpi.webp" group-title="Lokal",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -174,15 +172,21 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h213/index.m3u8?app_type=web&userid=li
 #EXTVLCOPT:http-user-agent=android-R+
 https://tvstreamcast.com/tawaftv.m3u8
 #EXTINF:-1 tvg-id="0_wfgm77pv" tvg-name="DAAI TV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_wfgm77pv/banner_hdpi.webp" group-title="Lokal",DAAI TV
-#EXTVLCOPT:http-user-agent=android-R+
-https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8
 #EXTINF:-1 tvg-id="0_cavdcfwq" tvg-name="CNN Indonesia" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_cavdcfwq/banner_hdpi.webp" group-title="Lokal",CNN Indonesia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://video.detik.com/livecnn/smil:cnntv/chunklist_w2073324730_b384000_sleng.m3u8
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://video.detik.com/
+https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
 #EXTINF:-1 tvg-id="0_xi5ysa4r" tvg-name="Channel News Asia" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_xi5ysa4r/banner_hdpi.webp" group-title="Indonesia",Channel News Asia
 https://tglmp03.akamaized.net/out/v1/43856347987b4da3890360b0d18b5dc5/manifest.mpd
 #EXTINF:-1 tvg-id="0_7vx2webw" tvg-name="Cinemax" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_7vx2webw/banner_hdpi.webp" group-title="Movies",Cinemax
-http://013tv.com:8080/F33848/cbd9779b/197964
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f48caba466394e93b50780f21798787a:9a074a10db4342e7937076b3e52f6029
+https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/107/107.mpd
 #EXTINF:-1 tvg-id="0_ypi11pce" tvg-name="CGTN Documentary" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_ypi11pce/banner_hdpi.webp" group-title="Indonesia",CGTN Documentary
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -192,7 +196,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8?app_type=web&userid=lit
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8?app_type=web&userid=lite&chname=CCTV-4
 #EXTINF:-1 tvg-id="0_1lrqq4s0" tvg-name="Cartoon Network" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_1lrqq4s0/banner_hdpi.webp" group-title="Kids",Cartoon Network
-https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
+http://176.65.153.40:6002/play/a013/index.m3u8
 #EXTINF:-1 tvg-id="0_gv023ysj" tvg-name="BTV" tvg-logo="https://vmp-cms.telkomsel.com/sites/default/files/entry/0_gv023ysj/banner_hdpi.webp" group-title="Lokal",BTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV
